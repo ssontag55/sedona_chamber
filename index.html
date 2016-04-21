@@ -3,110 +3,33 @@
 <head>
 <meta charset=utf-8 />
 <title>Sedona Art Walk Map</title>
-
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <link rel="shortcut icon" href="assets/sedona.ico" type="image/x-icon" />
 
 <script src='app/js/mapbox.js'></script>
 <script src='app/js/date.js'></script>
-<script src='app/js/leaflet.markercluster.js'></script>
-<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.min.js'></script>
+<!-- <script src='app/js/leaflet.markercluster.js'></script> -->
+<script src='app/js/L.Control.Locate.min.js'></script>
+<script src='app/js/mapbox.directions_min.js'></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js'></script>
+<script src='app/app.js'></script>
 <link href='app/css/mapbox.css' rel='stylesheet' />
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.mapbox.css' rel='stylesheet' />
-<link href='app/css/MarkerCluster.css' rel='stylesheet' />
-<link href='app/css/MarkerCluster.Default.css' rel='stylesheet' />
-<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/css/font-awesome.min.css' rel='stylesheet' />
-
-<style>
-  body { margin:0; padding:0; }
-  #map { position:absolute; top:0; bottom:0; width:100%; }
-
-  .img-control {
-      background-image: url('assets/sedona_grey.jpg');
-        width: 394px;
-        height: 60px;
-        margin-bottom:1px !important;
-        margin-right:1px !important;
-    }
-</style>
-</head>
-<body>
+<!-- <link href='app/css/MarkerCluster.css' rel='stylesheet' />
+<link href='app/css/MarkerCluster.Default.css' rel='stylesheet' /> -->
+<link href='app/css/font-awesome.min.css' rel='stylesheet' />
+<link href='app.min.css' rel='stylesheet' />
 
 <script src="app/js/vex.combined.min.js"></script>
 <script>vex.defaultOptions.className = 'vex-theme-os';</script>
 <link rel="stylesheet" href="app/css/vex.css" />
 <link rel="stylesheet" href="app/css/vex-theme-os.css" />
+</head>
+<body>
 
 <div id='map'></div>
-
 <script>
-L.mapbox.accessToken = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
-
-var map = L.mapbox.map('map').setView([34.86394, -111.764860], 16).addControl(L.mapbox.shareControl()).addControl(L.mapbox.geocoderControl('mapbox.places'));
-
-L.mapbox.featureLayer('sedonachamber.pmj9fija').addTo(map);
-
-L.control.locate({follow: true}).addTo(map);
-
-L.control.layers({
-    'Streets': L.mapbox.tileLayer('mapbox.streets'),
-    'Imagery': L.mapbox.tileLayer('mapbox.satellite'),
-    'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {}),
-    'Outside': L.mapbox.tileLayer('mapbox.run-bike-hike'),
-    'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {}),
-    'Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {}).addTo(map),
-    'Light': L.mapbox.tileLayer('mapbox.light')
-}, {
-    //'Bike Stations': L.mapbox.tileLayer('examples.bike-locations'),
-    //'Bike Lanes': L.mapbox.tileLayer('examples.bike-lanes')
-}).addTo(map);
-
-
-//cluster
-// L.mapbox.featureLayer('sedonachamber.pmj9fija').on('ready', function(e) {
-//     // The clusterGroup gets each marker in the group added to it
-//     // once loaded, and then is added to the map
-//     var clusterGroup = new L.MarkerClusterGroup();
-//     e.target.eachLayer(function(layer) {
-//         clusterGroup.addLayer(layer);
-//     });
-//     map.addLayer(clusterGroup);
-// });
-
-var imagecontrol = L.Control.extend({
-    options: {
-      position: 'bottomright'
-    },
-    onAdd: function (map) {
-      // create the control container with a particular class name
-      // ** you can add the image to the div as a background image using css
-      var container = L.DomUtil.create('div', 'img-control');
-
-      // ... initialize other DOM elements, add listeners, etc.
-      return container;
-    }
-});
-map.addControl(new imagecontrol());
-
-
-vex.dialog.buttons.YES.text = 'Start Here';
-vex.dialog.buttons.NO.text = 'Browse Map';
-
-var todayDateString;
-var d = new Date(); 
-todayDateString = new Date().toString("dddd, MMMM dd, yyyy h:mm tt");
-
-vex.dialog.confirm({
-  message: 'Welcome to the Sedona ArtWalk Map!<br><br>'+todayDateString+"<br><br><img src='assets/red_sedona.jpg' style='margin-left: 29%'></><br>",
-  
-  callback: function(value) {
-    return console.log(value);
-  }
-});
-
+startup();
 </script>
-
 </body>
 </html>
