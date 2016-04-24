@@ -4,21 +4,23 @@
 <meta charset=utf-8 />
 <title>Sedona Art Walk Map</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<link rel="shortcut icon" href="assets/sedona.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://mapblender.com/artwalk/assets/sedona.ico" type="image/x-icon" />
 
 <script src='app/js/mapbox.js'></script>
 <script src='app/js/date.js'></script>
 <!-- <script src='app/js/leaflet.markercluster.js'></script> -->
 <script src='app/js/L.Control.Locate.min.js'></script>
 <script src='app/js/mapbox.directions_min.js'></script>
+<script src='app/js/leaflet.geometryutil.js'></script>
+<script src='app/js/bowser.min.js'></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js'></script>
+<!-- <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v1.3.0/turf.min.js'></script> -->
 <script src='app/app.min.js'></script>
 <link href='app/css/mapbox.css' rel='stylesheet' />
 <!-- <link href='app/css/MarkerCluster.css' rel='stylesheet' />
 <link href='app/css/MarkerCluster.Default.css' rel='stylesheet' /> -->
 <link href='app/css/font-awesome.min.css' rel='stylesheet' />
-<link href='app.min.css' rel='stylesheet' />
+<link href='app/css/app.min.css' rel='stylesheet' />
 
 <script src="app/js/vex.combined.min.js"></script>
 <script>vex.defaultOptions.className = 'vex-theme-os';</script>
@@ -27,7 +29,8 @@
 </head>
 <body>
 
-<div id='map'></div>
+<div class='custom-popup' id='map'></div>
+<div id='loader'><span class='message'></span></div>
 <script>
 startup();
 </script>
