@@ -14,14 +14,19 @@ body { margin:0; padding:0; }
     margin-bottom:0px !important;
     margin-right:1px !important;
 }
+/*#99520e
+background: #7A1800 !important;
+blue 4bc1b9*/
 .vex.vex-theme-os .vex-dialog-button.vex-dialog-button-primary {
-  	background: #7A1800 !important;
+  	background: #4bc1b9 !important;
 }
+/*#99520e
+border-top: 20px solid #58595B !important;*/
 .vex.vex-theme-os .vex-content {
-    border-top: 20px solid #58595B !important;
+    border-top: 20px solid #99520e !important;
     line-height: 1em !important;
     width: 370px !important;
-    border-top: 20px solid #7C4A35!important;
+    border-top: 20px solid #99520e!important;
 }
 .vex-dialog-button-primary{
   background: #7C4A35!important;
