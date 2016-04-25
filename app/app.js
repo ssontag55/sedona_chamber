@@ -31,13 +31,36 @@ function startup(){
 	  		that.gotoloc = [e.layer.feature.geometry.coordinates[1],e.layer.feature.geometry.coordinates[0]];	
 	  	}
 
-		$("#direc" ).click(function(e) {
+		$("#direc" ).on('click', function (e) {
 			e.preventDefault();
 			that.loader.className = '';
 		  	//get direction same
 		  	that.map.stopLocate();
 		    that.map.locate();
 		});
+	});
+	points.on('click', function (e) {
+	  	e.layer.openPopup();
+	  	
+	  	//make sure it doesn't take a line type
+	  	if(e.layer.feature.geometry.type == 'Point'){
+	  		that.gotoloc = [e.layer.feature.geometry.coordinates[1],e.layer.feature.geometry.coordinates[0]];	
+	  	}
+
+		$("#direc" ).on('click', function (e) {
+			e.preventDefault();
+			that.loader.className = '';
+		  	//get direction same
+		  	that.map.stopLocate();
+		    that.map.locate();
+		});
+		// $("#direc" ).on('touchstart', function (e) {
+		// 	e.preventDefault();
+		// 	that.loader.className = '';
+		//   	//get direction same
+		//   	that.map.stopLocate();
+		//     that.map.locate();
+		// });
 	});
 	
 	var mylocIcon = L.icon({
@@ -299,7 +322,8 @@ function getdirections(start,end){
 
 			//zoom to
 			var bounds = that.directionlayer.getBounds();
-			map.fitBounds(bounds);
+			//that.map.fitBounds(bounds,{padding: [5,5]});
+			that.map.zoomOut(1);
 		}
 		else{
 			vex.dialog.alert({
