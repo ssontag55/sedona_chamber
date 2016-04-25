@@ -62,6 +62,17 @@ function startup(){
 		//     that.map.locate();
 		// });
 	});
+
+
+	//set mobile version 
+	if(bowser.android||bowser.ios){
+			map.on('popupopen', function(e) {
+		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
+		    px.y -= e.popup._container.clientHeight/2 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
+		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
+		});
+	}
+	
 	
 	var mylocIcon = L.icon({
 	     iconUrl: 'app/css/ripple.gif',
@@ -152,8 +163,6 @@ function startup(){
             }
         };
 
-        that.currentloc = loc;
-
         //for locate option
         if(that.gotoloc.length==0){
         	var jsonpoints = points.getGeoJSON();
@@ -171,12 +180,15 @@ function startup(){
 	        //points.setGeoJSON(jsonpoints);
 	        //points._geojson.features.concat(nearestpoint);
 	        
-	        points.eachLayer(function (layer) {
-			    if (layer.feature.properties.title === nearestpoint.layer.feature.properties.title) {
-			      	//var tomarker = layer.toGeoJSON();
-			      	layer.openPopup();
-			    };
-			 });
+	        if(!bowser.android&&!bowser.ios){
+				points.eachLayer(function (layer) {
+				    if (layer.feature.properties.title === nearestpoint.layer.feature.properties.title) {
+				      	//var tomarker = layer.toGeoJSON();
+				      	layer.openPopup();
+				    };
+				 });
+	        }
+	        
 
 	        vex.dialog.buttons.YES.text = 'Get Directions';
 	        vex.dialog.alert({
@@ -204,6 +216,9 @@ function startup(){
         }
         
         that.map.stopLocate();
+
+        //that.currentloc = loc;
+        that.map.panTo(t.latlng);
         //lc.stop(); 
 	}));
 
@@ -316,14 +331,25 @@ function getdirections(start,end){
 
 			that.directionlayer = L.geoJson(directions,dirStyle).bindPopup(customPopup).addTo(that.map);
 			
-			that.directionlayer.eachLayer(function(m) {
-			  m.openPopup();
-			});
-
 			//zoom to
 			var bounds = that.directionlayer.getBounds();
-			//that.map.fitBounds(bounds,{padding: [5,5]});
-			that.map.zoomOut(1);
+			if(bowser.android||bowser.ios){
+				//that.map.setView(start);
+				//that.map.zoomOut(1);
+				
+				that.directionlayer.eachLayer(function(m) {
+				  	m.openPopup();
+				  	//that.map.setView(start);
+				  	//that.map.fitBounds(bounds,{padding: [5,5]});
+				});
+				that.map.fitBounds(bounds,{padding: [100,100]});
+			}
+			else{
+				that.map.fitBounds(bounds,{padding: [5,5]});
+				that.directionlayer.eachLayer(function(m) {
+				  	m.openPopup();
+				});
+			}
 		}
 		else{
 			vex.dialog.alert({

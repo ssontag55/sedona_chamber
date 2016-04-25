@@ -43,6 +43,12 @@ border-top: 20px solid #58595B !important;*/
 .vex-dialog-message{
   font-size: 15px !important;
 }
+.leaflet-top,
+.leaflet-bottom {
+  position: absolute !important;
+  z-index: 499 !important; /* was 1000 */
+  pointer-events: none !important;
+  }
 
 /* Compatible with Leaflet 0.7 */
 .leaflet-touch .leaflet-bar-part-single {
