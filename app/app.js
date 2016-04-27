@@ -61,6 +61,8 @@ function startup(){
 		//   	that.map.stopLocate();
 		//     that.map.locate();
 		// });
+		//ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue], [fieldsObject]);
+		ga('send', 'event', 'marker', 'click', e.layer.feature.properties.title);
 	});
 
 
@@ -68,7 +70,7 @@ function startup(){
 	if(bowser.android||bowser.ios){
 			map.on('popupopen', function(e) {
 		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
-		    px.y -= e.popup._container.clientHeight/2 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
+		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
 		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
 		});
 	}
@@ -173,7 +175,8 @@ function startup(){
 	          }
 	        }
 	        
-	        var nearestpoint = L.GeometryUtil.closestLayer(that.map,points,t.latlng);
+	        var nolineslayer = L.geoJson(jsonpoints);
+	        var nearestpoint = L.GeometryUtil.closestLayer(that.map,nolineslayer,t.latlng);
 	        //var nearestpoint = turf.nearest(loc, jsonpoints);
 	        //nearestpoint.properties['marker-color'] = '#58595B';
 	        //nearestpoint.properties['marker-size'] = 'large';
@@ -189,6 +192,7 @@ function startup(){
 				 });
 	        }
 	        
+        	that.map.setView(t.latlng,16);
 
 	        vex.dialog.buttons.YES.text = 'Get Directions';
 	        vex.dialog.alert({
@@ -215,10 +219,8 @@ function startup(){
         	
         }
         
-        that.map.stopLocate();
-
         //that.currentloc = loc;
-        that.map.panTo(t.latlng);
+        that.map.stopLocate();
         //lc.stop(); 
 	}));
 
@@ -284,7 +286,6 @@ function getdirections(start,end){
 	//duration in seconds/60 more because its cycling
 	//distance in meters/3.28084 ft
 	//distance in meters/0.000621371 miles
-
 	if(that.directionlayer){
 		that.map.removeLayer(that.directionlayer)
 	}
@@ -295,14 +296,14 @@ function getdirections(start,end){
 		that.map.removeLayer(that.from)
 	}
 	
-	that.to = L.circle(end, 23,{
+	that.to = L.circle(end, 26,{
 		    color: '#fff',
 		    fillColor: '#9E2C2E',
 		    fillOpacity: 0.7
 	   }).addTo(map);  
 
 	//from 
-	that.from = L.circle(start, 23,{
+	that.from = L.circle(start, 26,{
 		    color: '#fff',
 		    fillColor: '#A1D490',
 		    fillOpacity: 0.7
@@ -336,16 +337,15 @@ function getdirections(start,end){
 			if(bowser.android||bowser.ios){
 				//that.map.setView(start);
 				//that.map.zoomOut(1);
-				
+				that.map.fitBounds(bounds,{padding: [73,73]});
+
 				that.directionlayer.eachLayer(function(m) {
 				  	m.openPopup();
 				  	//that.map.setView(start);
-				  	//that.map.fitBounds(bounds,{padding: [5,5]});
 				});
-				that.map.fitBounds(bounds,{padding: [100,100]});
 			}
 			else{
-				that.map.fitBounds(bounds,{padding: [5,5]});
+				that.map.fitBounds(bounds,{padding: [15,15]});
 				that.directionlayer.eachLayer(function(m) {
 				  	m.openPopup();
 				});
