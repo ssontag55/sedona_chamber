@@ -3,7 +3,6 @@ Main App for Sedona Chambers Map App
 Mapblender
 2016
 */
-
 function startup(){
 	that = this;
 	that.token = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
@@ -23,7 +22,7 @@ function startup(){
 	
 	var points = L.mapbox.featureLayer('sedonachamber.pmj9fija').addTo(map);
 
-	points.on('mouseover', function (e) {
+	/*points.on('mouseover', function (e) {
 	  	e.layer.openPopup();
 	  	
 	  	//make sure it doesn't take a line type
@@ -38,7 +37,7 @@ function startup(){
 		  	that.map.stopLocate();
 		    that.map.locate();
 		});
-	});
+	});*/
 	points.on('click', function (e) {
 	  	e.layer.openPopup();
 	  	
@@ -65,7 +64,6 @@ function startup(){
 		ga('send', 'event', 'marker', 'click', e.layer.feature.properties.title);
 	});
 
-
 	//set mobile version 
 	if(bowser.android||bowser.ios){
 			map.on('popupopen', function(e) {
@@ -73,8 +71,7 @@ function startup(){
 		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
 		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
 		});
-	}
-	
+	}	
 	
 	var mylocIcon = L.icon({
 	     iconUrl: 'app/css/ripple.gif',
@@ -168,14 +165,17 @@ function startup(){
         //for locate option
         if(that.gotoloc.length==0){
         	var jsonpoints = points.getGeoJSON();
+        	var newlistpoints = {};
+        	newlistpoints['type'] = "FeatureCollection";
+        	newlistpoints['features']=[];
 	        ///filter out points
 	        for (var i = 0; i < jsonpoints.features.length; i++) {
-	          if(jsonpoints.features[i].geometry.type != 'Point'){
-	            jsonpoints.features.splice(i, 1);
+	          if(jsonpoints.features[i].geometry.type == 'Point' && jsonpoints.features[i].properties['marker-symbol']!="bus"&& jsonpoints.features[i].properties['marker-symbol']!="parking"){
+	            newlistpoints['features'].push(jsonpoints.features[i]);
 	          }
 	        }
 	        
-	        var nolineslayer = L.geoJson(jsonpoints);
+	        var nolineslayer = L.geoJson(newlistpoints);
 	        var nearestpoint = L.GeometryUtil.closestLayer(that.map,nolineslayer,t.latlng);
 	        //var nearestpoint = turf.nearest(loc, jsonpoints);
 	        //nearestpoint.properties['marker-color'] = '#58595B';
@@ -191,21 +191,31 @@ function startup(){
 				    };
 				 });
 	        }
-	        
-        	that.map.setView(t.latlng,16);
 
-	        vex.dialog.buttons.YES.text = 'Get Directions';
-	        vex.dialog.alert({
-	            message: "You are here!<br><br><i>"+nearestpoint.layer.feature.properties.title+"</i> is closest to you.<br>",
-	            callback: function(value) {
-	              //get directions  
-	              //to
-	              var tocoords=[nearestpoint.layer.feature.geometry.coordinates[1],nearestpoint.layer.feature.geometry.coordinates[0]];
-	              
-				  that.loader.className = '';
-				  that.getdirections(t.latlng,tocoords);
-	            }
-	        });
+			if(t.accuracy >550){
+				that.map.setView(t.latlng,14);
+				vex.dialog.buttons.YES.text = 'OK';
+		  		
+		  		vex.dialog.alert({
+		            message: "Your computer says you are over "+Number(t.accuracy/3.28084).toFixed(0)+" feet from here<br><br><br><b>Please enable wifi or use your phone to locate you."
+		        });
+			}
+			else{
+				that.map.setView(t.latlng,16);
+
+		        vex.dialog.buttons.YES.text = 'Get Directions';
+		        vex.dialog.alert({
+		            message: "You are within " +Number(t.accuracy/3.28084).toFixed(0) +" feet here!<br><br><i>"+nearestpoint.layer.feature.properties.title+"</i> is closest to you.<br>",
+		            callback: function(value) {
+		              //get directions  
+		              //to
+		              var tocoords=[nearestpoint.layer.feature.geometry.coordinates[1],nearestpoint.layer.feature.geometry.coordinates[0]];
+		              
+					  that.loader.className = '';
+					  that.getdirections(t.latlng,tocoords);
+		            }
+		        });
+			}
         }
         //for regular directions
         else{
@@ -216,7 +226,6 @@ function startup(){
         	else{
         		that.getdirections(t.latlng,that.gotoloc);		
         	}
-        	
         }
         
         //that.currentloc = loc;
@@ -249,7 +258,6 @@ function startup(){
 	$('.img-control').click(function() {
 	  window.open('http://visitsedona.com/','_blank')
 	});
-
 	//map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 
 	vex.dialog.buttons.YES.text = 'Start Here';
@@ -257,11 +265,9 @@ function startup(){
 
 	if(d.getDay() == 5&&d.getDate()<7){
 	  todayDateString= todayDateString+'<br><br><a target="_blank" style="color:#7A1800" href="http://sedonagalleryassociation.com/?page_id=236">First Friday Art Walk. Click here for more information.</a></i>'
-	  
 	}
 	else if(d.getDay() == 4&&d.getDate()<7){
 	  todayDateString= todayDateString+'<br><br><a target="_blank" style="color:#7A1800" href="http://sedonagalleryassociation.com/?page_id=236">First Friday Art Walk is tomorrow. Click here for more information.</a></i>'
-	  
 	}
 	else if(d.getHours()>18||d.getHours()<8){
 	  todayDateString= todayDateString+'<br><br><i>Galleries may be closed in the evening.</i>'
@@ -307,7 +313,7 @@ function getdirections(start,end){
 		    color: '#fff',
 		    fillColor: '#A1D490',
 		    fillOpacity: 0.7
-	   }).addTo(map).bringToFront();
+	}).addTo(map).bindPopup("You are here.").bringToFront();
 	
 	//using cycling because walking doesn't give adequate directions
 	var dir_url = "https://api.tiles.mapbox.com/v4/directions/mapbox.cycling/"+start.lng+','+start.lat+";"+end[1]+','+end[0]+".json?instructions=json&geometry=line&access_token="+that.token
@@ -321,7 +327,7 @@ function getdirections(start,end){
 		    directions.properties = {};
 		    
 		    //directions.properties.popupContent		    
-		    var customPopup= "<i>Walking Time: "+Number(data.routes[0].duration/19).toPrecision(3)+" minutes<br><br>Walking Distance: "+Number(data.routes[0].distance*0.000621371).toPrecision(2)+" miles";
+		    var customPopup= "<i>Walking Time: "+Number(data.routes[0].duration/19).toFixed(0)+" minutes<br><br>Walking Distance: "+Number(data.routes[0].distance*0.000621371).toFixed(0)+" miles";
 			
 			var dirStyle = {
 			    "color": "#61C5BE",
@@ -356,7 +362,6 @@ function getdirections(start,end){
 	            message: "No Current Directions, please try again."
 	        });
 		}	
-
 		that.gotoloc = [];  
 		that.loader.className = 'hide';
 	});
