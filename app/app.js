@@ -274,7 +274,7 @@ function startup(){
 	}
 
 	vex.dialog.confirm({
-	  message: "Welcome to the Sedona Art Walk Map!<br><br><a target='_blank' href='http://www.sedonachamber.com/'><img src='assets/red_sedona.jpg' style='padding-bottom:20px !important;padding-right:32px !important;'></></a><a target='_blank' href='http://sedonagalleryassociation.com/'><img src='assets/sga-logo-web.jpg' style=''></></a><br><br>"+todayDateString,
+	  message: "Welcome to the Sedona Art Walk Map!<br><br><a target='_blank' href='http://visitsedona.com/'><img src='assets/red_sedona.jpg' style='padding-bottom:20px !important;padding-right:32px !important;'></></a><a target='_blank' href='http://sedonagalleryassociation.com/'><img src='assets/sga-logo-web.jpg' style=''></></a><br><br>"+todayDateString,
 	  callback: function(value) {
 	    //locate for directions
 	    if(value == true){
