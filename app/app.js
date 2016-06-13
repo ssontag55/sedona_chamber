@@ -53,6 +53,12 @@ function startup(){
 		  	that.map.stopLocate();
 		    that.map.locate();
 		});
+
+		that.layertitle = e.layer.feature.properties.title;
+		//add event for event click for 
+		$('#linksite').on('click', function (e) {
+			ga('send', 'event', 'linksite', 'click', that.layertitle);
+		});
 		// $("#direc" ).on('touchstart', function (e) {
 		// 	e.preventDefault();
 		// 	that.loader.className = '';
