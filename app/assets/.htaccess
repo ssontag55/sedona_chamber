@@ -1,7 +1,10 @@
+Options +FollowSymLinks
 RewriteEngine On
+
+#RewriteRule ^green/(.*)$ /$1 [R=301,NC,L]
+
 RewriteCond %{HTTPS} off
 RewriteRule (.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
 
 
 authname www.mapblender.COM
@@ -33,4 +36,5 @@ order deny,allow
 deny from all
 
 </Limit>
+
 
