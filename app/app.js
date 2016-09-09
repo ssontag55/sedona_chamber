@@ -60,6 +60,18 @@ function startup(){
     	recyclingpts.addTo(map);
     	addMouseClickListener(recyclingpts);	
     }
+    else if(window.location.href.indexOf("publicart") > -1){
+    	$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', ['pubart']);
+    	publicartpts.addTo(map);	
+    	addMouseClickListener(publicartpts);	
+    	if(that.browsertype == 'mobile'){
+			$('#pubartCarouselmobile').show();
+		}
+		else{
+			$('#pubartCarousel').show();	
+		}
+    }
     else if(window.location.href.indexOf("art") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
@@ -79,18 +91,6 @@ function startup(){
     	buspts.addTo(map);
     	walkingfeatures.addTo(map);	
     	addMouseClickListener(artpts);	
-    }
-    else if(window.location.href.indexOf("publicart") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['pubart']);
-    	publicartpts.addTo(map);	
-    	addMouseClickListener(publicartpts);	
-    	if(that.browsertype == 'mobile'){
-			$('#pubartCarouselmobile').show();
-		}
-		else{
-			$('#pubartCarousel').show();	
-		}
     }
     else{
 		restaurantpts.addTo(map);
