@@ -11,9 +11,10 @@ function startup(){
 	that.gotoloc = [];
 	that.loader = document.getElementById('loader');
 	that.points = L.geoJson();
-	
+	that.browsertype = 'desktop';
+
 	$('#search-bar').selectpicker({liveSearchPlaceholder:"Filter Locations...",noneSelectedText:"Find Locations...",header:"Select Location Types"});
-	//data-live-search="true" for searching
+	$('#search-bar').show();
 
 	that.token = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
 	
@@ -29,6 +30,7 @@ function startup(){
 	var parkingpts = L.mapbox.featureLayer('data/parking.json');
 	var walkingfeatures = L.mapbox.featureLayer('data/walking.json');
 	var museumpts = L.mapbox.featureLayer('data/museum.json');
+	var publicartpts = L.mapbox.featureLayer('data/publicart.json');
 
 	//zoom usually [34.86394, -111.764860], 14 [34.81394, -111.764860], 12
 	var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl()).addControl(L.mapbox.geocoderControl('mapbox.places'));
@@ -44,6 +46,7 @@ function startup(){
 	artpts.on('ready',  processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
 	buspts.on('ready',  processLayerGeo);
+	publicartpts.on('ready',  processLayerGeo);
 
 	if(window.location.href.indexOf("restaurants") > -1) {
 		$('#search-bar').selectpicker('deselectAll');
@@ -77,6 +80,18 @@ function startup(){
     	walkingfeatures.addTo(map);	
     	addMouseClickListener(artpts);	
     }
+    else if(window.location.href.indexOf("publicart") > -1){
+    	$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', ['pubart']);
+    	publicartpts.addTo(map);	
+    	addMouseClickListener(publicartpts);	
+    	if(that.browsertype == 'mobile'){
+			$('#pubartCarouselmobile').show();
+		}
+		else{
+			$('#pubartCarousel').show();	
+		}
+    }
     else{
 		restaurantpts.addTo(map);
 		theatrepts.addTo(map);
@@ -105,9 +120,11 @@ function startup(){
 		map.removeLayer(artpts);	
 		map.removeLayer(buspts);	
 		map.removeLayer(walkingfeatures);
+		map.removeLayer(publicartpts);
 
 		that.points = L.geoJson();
 
+		var showcarasal = false;
 		if(selectedLayers){
 			
 			for (var l = 0; l < selectedLayers.length; l++) {
@@ -135,6 +152,12 @@ function startup(){
 					parkingpts.addTo(map);	
 					addMouseClickListener(parkingpts);
 				}
+				else if(selectedLayers[l] == 'pubart'){
+					publicartpts.addTo(map);	
+					processLayer2Geo(publicartpts);
+					addMouseClickListener(publicartpts);
+					showcarasal = true;
+				}
 				else if(selectedLayers[l] == 'recycling'){
 					recyclingpts.addTo(map);	
 					processLayer2Geo(recyclingpts);
@@ -150,17 +173,28 @@ function startup(){
 				}
     		} 
 		}
-		    
+		if(showcarasal == true){
+			if(that.browsertype == 'mobile'){
+				$('#pubartCarouselmobile').show();
+			}
+			else{
+				$('#pubartCarousel').show();	
+			}
+		}
+		else{
+			$('#pubartCarousel').hide();
+			$('#pubartCarouselmobile').hide();
+		}
 	});
 	
 	var todayDateString;
 	var d = new Date(); 
-
 	todayDateString = d.toString("dddd, MMMM dd, yyyy h:mm tt");
 
-	//search for mobile version 
+  	//search for mobile version 
 	if(bowser.android||bowser.ios){
 		//$('#search-bar').selectpicker('mobile');
+		that.browsertype = 'mobile';
 
 		map.on('popupopen', function(e) {
 		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
@@ -168,8 +202,35 @@ function startup(){
 		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
 		});
 		//change header toolbar
-		$('#toolbar').css('padding-left','17%');		
+		$('#toolbar').css('padding-left','17%');
+		$('#pubartCarouselmobile').carousel({
+			interval: 88000
+		});		
+		$('#pubartCarouselmobile').on('slid.bs.carousel', function(t) {
+			var currentItemID = $(t.relatedTarget).find('.col-sm-3').find('.thumbnail').attr('id');
+			if(currentItemID){
+				publicartpts.eachLayer(function (layer) {
+				  if(layer.feature.id ==currentItemID){
+				  	layerpointclick(layer);
+				  }
+				});
+			}
+		 });
 	}	
+	else{
+		$('#pubartCarousel').carousel({
+			interval: 88000
+		});
+	}
+
+    $('.thumbnail').on('click', function(t) {
+    	var idimagery = this.id;
+    	publicartpts.eachLayer(function (layer) {
+		  if(layer.feature.id ==idimagery){
+		  	layerpointclick(layer);
+		  }
+		});
+	});
 	
 	var mylocIcon = L.icon({
 	     iconUrl: 'app/css/ripple.gif',
@@ -396,6 +457,31 @@ function startup(){
 	      lc.start();    
 	    }
 	  }
+	});
+}
+
+function layerpointclick(layr){
+	
+	layr.openPopup();	
+  	map.setView(layr._latlng, 17);
+  	if(that.browsertype == 'mobile'){
+  		//map.panBy([0, -130]);	
+  	}
+  	else{
+  		//map.panBy([0, -10]);
+  	}
+  	map.panBy([0, -130]);
+
+	if(layr.feature.geometry.type == 'Point'){
+  		that.gotoloc = [layr.feature.geometry.coordinates[1],layr.feature.geometry.coordinates[0]];	
+  	}
+
+	$("#direc").on('click', function (e) {
+		e.preventDefault();
+		that.loader.className = '';
+	  	//get direction same
+	  	that.map.stopLocate();
+	    that.map.locate();
 	});
 }
 
