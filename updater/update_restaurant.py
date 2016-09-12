@@ -27,9 +27,6 @@ import os
 jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
-jsonfile2 = open('/var/chroot/home/content/19/12215219/html/artwalk/data/restaurant.json', 'w');
-jsonfile2.write("""{"type": "FeatureCollection","features": [""");
-
 companyList = "";
 
 #cat  39 rest
@@ -115,22 +112,6 @@ for subcatid in subcat:
 					        ],"type": "Point"
 					      },"id": """+individualID+"""
 					    },""""");
-
-					jsonfile2.write("""{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-"""+individualID+"""",
-					        "title": \""""+companyName+"""\",
-					        "description": \""""+description+"""\",
-					        "marker-size": "medium",
-					        "marker-color": "#846355",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": ["""+
-					          gpslocation.split(',')[1]+""",
-					          """+gpslocation.split(',')[0]+"""
-					        ],"type": "Point"
-					      },"id": """+individualID+"""
-					    },""""");
 					
 					#switch coordindates
 					#gpslocation.split(',')[0];
@@ -142,10 +123,6 @@ for subcatid in subcat:
 jsonfile.seek(-1, os.SEEK_END)
 jsonfile.truncate()
 jsonfile.write("""],"id": "sedonachamber.restaurant"}""");
-
-jsonfile2.seek(-1, os.SEEK_END)
-jsonfile2.truncate()
-jsonfile2.write("""],"id": "sedonachamber.restaurant"}""");
 
 #send email
 import smtplib
@@ -180,6 +157,11 @@ except:
 #print companyList
 
 jsonfile.close()
-jsonfile2.close()
+
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//publicart//data//restaurant.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//green//data//restaurant.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//gallery//data//restaurant.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//art//data//restaurant.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//data//restaurant.json')
 
 sys.exit()
