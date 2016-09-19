@@ -160,9 +160,13 @@ except:
 jsonfile.close()
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/gallery.json', '////var//chroot//home//content//19//12215219//html//artwalk//publicart//data//gallery.json')
+
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/gallery.json', '////var//chroot//home//content//19//12215219//html//artwalk//green//data//gallery.json')
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/gallery.json', '////var//chroot//home//content//19//12215219//html//artwalk//gallery//data//gallery.json')
+
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/gallery.json', '////var//chroot//home//content//19//12215219//html//artwalk//galleries//data//gallery.json')
+
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/gallery.json', '////var//chroot//home//content//19//12215219//html//artwalk//art//data//gallery.json')
+
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/gallery.json', '////var//chroot//home//content//19//12215219//html//artwalk//data//gallery.json')
 
 sys.exit()
