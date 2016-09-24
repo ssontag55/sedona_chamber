@@ -11,30 +11,64 @@ function startup(){
 	that.gotoloc = [];
 	that.loader = document.getElementById('loader');
 	that.points = L.geoJson();
-	that.browsertype = 'desktop';
-
-	$('#search-bar').selectpicker({liveSearchPlaceholder:"Filter Locations...",noneSelectedText:"Find Locations...",header:"Select Location Types"});
-	$('#search-bar').show();
 
 	that.token = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
 	
 	L.mapbox.accessToken = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
 
-	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json');
-	
-	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json');
-	var recyclingpts = L.mapbox.featureLayer('data/recycling.json');
-	var artpts = L.mapbox.featureLayer('data/gallery.json');
-	var buspts = L.mapbox.featureLayer('data/bus.json');
-	var theatrepts = L.mapbox.featureLayer('data/theatre.json');
-	var parkingpts = L.mapbox.featureLayer('data/parking.json');
-	var walkingfeatures = L.mapbox.featureLayer('data/walking.json');
-	var museumpts = L.mapbox.featureLayer('data/museum.json');
-	var publicartpts = L.mapbox.featureLayer('data/publicart.json');
-
 	//zoom usually [34.86394, -111.764860], 14 [34.81394, -111.764860], 12
 	var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl()).addControl(L.mapbox.geocoderControl('mapbox.places'));
 	that.map = map;
+
+	that.browsertype = 'desktop';
+
+  	//search for mobile version 
+	if(bowser.android||bowser.ios){
+		//$('#search-bar').selectpicker('mobile');
+		that.browsertype = 'mobile';
+
+		map.on('popupopen', function(e) {
+		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
+		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
+		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
+		});
+		//change header toolbar
+		$('#toolbar').css('padding-left','17%');
+		$('#pubartCarouselmobile').carousel({
+			interval: 88000
+		});		
+		$('#pubartCarouselmobile').on('slid.bs.carousel', function(t) {
+			var currentItemID = $(t.relatedTarget).find('.col-sm-3').find('.thumbnail').attr('id');
+			if(currentItemID){
+				publicartpts.eachLayer(function (layer) {
+				  if(layer.feature.id ==currentItemID){
+				  	layerpointclick(layer);
+				  }
+				});
+			}
+		 });
+
+	}	
+	else{
+		$('#pubartCarousel').carousel({
+			interval: 88000
+		});
+	}
+
+	$('#search-bar').selectpicker({liveSearchPlaceholder:"Filter Locations...",noneSelectedText:"Find Locations...",header:"Select Location Types"});
+	$('#search-bar').show();
+
+	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
+	
+	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
+	var recyclingpts = L.mapbox.featureLayer('data/recycling.json',{popupOptions: { closeButton: true }});
+	var artpts = L.mapbox.featureLayer('data/gallery.json',{popupOptions: { closeButton: true }});
+	var buspts = L.mapbox.featureLayer('data/bus.json',{popupOptions: { closeButton: true }});
+	var theatrepts = L.mapbox.featureLayer('data/theatre.json',{popupOptions: { closeButton: true }});
+	var parkingpts = L.mapbox.featureLayer('data/parking.json',{popupOptions: { closeButton: true }});
+	var walkingfeatures = L.mapbox.featureLayer('data/walking.json',{popupOptions: { closeButton: true }});
+	var museumpts = L.mapbox.featureLayer('data/museum.json',{popupOptions: { closeButton: true }});
+	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
 
     basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
@@ -191,37 +225,6 @@ function startup(){
 	var d = new Date(); 
 	todayDateString = d.toString("dddd, MMMM dd, yyyy h:mm tt");
 
-  	//search for mobile version 
-	if(bowser.android||bowser.ios){
-		//$('#search-bar').selectpicker('mobile');
-		that.browsertype = 'mobile';
-
-		map.on('popupopen', function(e) {
-		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
-		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
-		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
-		});
-		//change header toolbar
-		$('#toolbar').css('padding-left','17%');
-		$('#pubartCarouselmobile').carousel({
-			interval: 88000
-		});		
-		$('#pubartCarouselmobile').on('slid.bs.carousel', function(t) {
-			var currentItemID = $(t.relatedTarget).find('.col-sm-3').find('.thumbnail').attr('id');
-			if(currentItemID){
-				publicartpts.eachLayer(function (layer) {
-				  if(layer.feature.id ==currentItemID){
-				  	layerpointclick(layer);
-				  }
-				});
-			}
-		 });
-	}	
-	else{
-		$('#pubartCarousel').carousel({
-			interval: 88000
-		});
-	}
 
     $('.thumbnail').on('click', function(t) {
     	var idimagery = this.id;
@@ -463,7 +466,7 @@ function startup(){
 function layerpointclick(layr){
 	
 	layr.openPopup();	
-  	map.setView(layr._latlng, 17);
+  	map.setView(layr._latlng, 15);
   	if(that.browsertype == 'mobile'){
   		//map.panBy([0, -130]);	
   	}
@@ -527,11 +530,11 @@ function addMouseClickListener(pts){
 			$.ajax({
 			     url: "https://walksedona.com/php/updatehit.php?idval="+that.id2send+"&d="+datestring,
 			 	 success : function (t){  
-			         console.log(t.status);  
+			         //console.log(t.status);  
 			     },
 			     error : function (xhr, ajaxOptions, thrownError){  
-			         console.log(xhr.status);          
-			         console.log(thrownError);
+			         //console.log(xhr.status);          
+			         //console.log(thrownError);
 			     } 
 		 	}); 
 		});
