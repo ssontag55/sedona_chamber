@@ -23,7 +23,7 @@ function startup(){
 	that.browsertype = 'desktop';
 
   	//search for mobile version 
-	if(bowser.android||bowser.ios){
+	if(bowser.android||bowser.ios||bowser.mobile){
 		//$('#search-bar').selectpicker('mobile');
 		that.browsertype = 'mobile';
 
