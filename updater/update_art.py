@@ -38,7 +38,7 @@ companyList = "";
 #cat  39 art
 cat = 23
 #subcat
-subcat = [124,125]
+subcat = [124,125,283]
 
 #simplview API url
 svurl = 'http://sedona.simpleviewcrm.com/webapi/listings/xml/listings.cfm'
