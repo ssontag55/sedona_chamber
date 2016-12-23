@@ -69,6 +69,7 @@ function startup(){
 	var walkingfeatures = L.mapbox.featureLayer('data/walking.json',{popupOptions: { closeButton: true }});
 	var museumpts = L.mapbox.featureLayer('data/museum.json',{popupOptions: { closeButton: true }});
 	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
+	var parkpts = L.mapbox.featureLayer('data/parks.json',{popupOptions: { closeButton: true }});
 
     basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
@@ -81,6 +82,7 @@ function startup(){
 	theatrepts.on('ready',  processLayerGeo);
 	buspts.on('ready',  processLayerGeo);
 	publicartpts.on('ready',  processLayerGeo);
+	parkpts.on('ready',  processLayerGeo);
 
 	if(window.location.href.indexOf("restaurants") > -1) {
 		$('#search-bar').selectpicker('deselectAll');
@@ -93,6 +95,12 @@ function startup(){
     	$('#search-bar').selectpicker('val', 'recycling');
     	recyclingpts.addTo(map);
     	addMouseClickListener(recyclingpts);	
+    }
+    else if(window.location.href.indexOf("parks") > -1){
+    	$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', 'parks');
+    	parkpts.addTo(map);
+    	addMouseClickListener(parkpts);	
     }
     else if(window.location.href.indexOf("publicart") > -1){
     	$('#search-bar').selectpicker('deselectAll');
@@ -133,8 +141,10 @@ function startup(){
 		museumpts.addTo(map);
 		artpts.addTo(map);	
 		buspts.addTo(map);	
+		parkpts.addTo(map);	
 		walkingfeatures.addTo(map);	
 		addMouseClickListener(artpts);
+		addMouseClickListener(parkpts);
 		addMouseClickListener(restaurantpts);
 		addMouseClickListener(theatrepts);
 		addMouseClickListener(parkingpts);
@@ -151,6 +161,7 @@ function startup(){
 		map.removeLayer(theatrepts);
 		map.removeLayer(parkingpts);
 		map.removeLayer(museumpts);
+		map.removeLayer(parkpts);
 		map.removeLayer(artpts);	
 		map.removeLayer(buspts);	
 		map.removeLayer(walkingfeatures);
@@ -185,6 +196,10 @@ function startup(){
 				else if(selectedLayers[l] == 'park'){
 					parkingpts.addTo(map);	
 					addMouseClickListener(parkingpts);
+				}
+				else if(selectedLayers[l] == 'parks'){
+					parkpts.addTo(map);	
+					addMouseClickListener(parkpts);
 				}
 				else if(selectedLayers[l] == 'pubart'){
 					publicartpts.addTo(map);	
