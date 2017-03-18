@@ -71,6 +71,8 @@ function startup(){
 	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
 	var parkpts = L.mapbox.featureLayer('data/parks.json',{popupOptions: { closeButton: true }});
 
+	var trafficLayer = L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20,zIndex:1000});
+
     basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
@@ -134,6 +136,15 @@ function startup(){
     	walkingfeatures.addTo(map);	
     	addMouseClickListener(artpts);	
     }
+    else if(window.location.href.indexOf("traffic") > -1){
+    	$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre','traffic']);
+    	trafficLayer.addTo(map);
+    	museumpts.addTo(map);
+    	artpts.addTo(map);
+    	buspts.addTo(map);
+    	addMouseClickListener(artpts);	
+    }
     else{
 		restaurantpts.addTo(map);
 		theatrepts.addTo(map);
@@ -143,6 +154,7 @@ function startup(){
 		buspts.addTo(map);	
 		parkpts.addTo(map);	
 		walkingfeatures.addTo(map);	
+		trafficLayer.addTo(map);
 		addMouseClickListener(artpts);
 		addMouseClickListener(parkpts);
 		addMouseClickListener(restaurantpts);
@@ -166,6 +178,7 @@ function startup(){
 		map.removeLayer(buspts);	
 		map.removeLayer(walkingfeatures);
 		map.removeLayer(publicartpts);
+		map.removeLayer(trafficLayer);
 
 		that.points = L.geoJson();
 
@@ -193,7 +206,7 @@ function startup(){
 	    			processLayer2Geo(museumpts);
 	    			addMouseClickListener(museumpts);
 	    		}
-				else if(selectedLayers[l] == 'park'){
+				else if(selectedLayers[l] == 'parking'){
 					parkingpts.addTo(map);	
 					addMouseClickListener(parkingpts);
 				}
@@ -219,6 +232,9 @@ function startup(){
 				else if(selectedLayers[l] == 'walk'){
 					walkingfeatures.addTo(map);	
 					addMouseClickListener(walkingfeatures);
+				}
+				else if(selectedLayers[l] == 'traffic'){
+					trafficLayer.addTo(map);	
 				}
     		} 
 		}
@@ -300,11 +316,9 @@ function startup(){
 		L.control.layers({
 		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
 		    'Imagery': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:20}),
-		    //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
 		    'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    'Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    //'Light': L.mapbox.tileLayer('mapbox.light'),
 		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
 		}).addTo(map);
 		//},layergroup).addTo(map);
@@ -316,13 +330,14 @@ function startup(){
 		    //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
 		    'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+		    //'Red': L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20}).addTo(map),
 		    'Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map),
 		    //'Light': L.mapbox.tileLayer('mapbox.light'),
 		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
 		//},layergroup).addTo(map);
 		}).addTo(map);
 	}
-	
+
 	that.loader.className = 'hide';
 	map.on('locationfound',(function(t) {
 
