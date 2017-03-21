@@ -142,7 +142,7 @@ function startup(){
     	trafficLayer.addTo(map);
     	parkingpts.addTo(map);
     	buspts.addTo(map);
-    	addMouseClickListener(artpts);	
+    	addMouseClickListener(parkingpts);	
     }
     else{
 		restaurantpts.addTo(map);
