@@ -138,10 +138,9 @@ function startup(){
     }
     else if(window.location.href.indexOf("traffic") > -1){
     	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre','traffic']);
+    	$('#search-bar').selectpicker('val', ['bus','parking','traffic']);
     	trafficLayer.addTo(map);
-    	museumpts.addTo(map);
-    	artpts.addTo(map);
+    	parkingpts.addTo(map);
     	buspts.addTo(map);
     	addMouseClickListener(artpts);	
     }
@@ -154,7 +153,7 @@ function startup(){
 		buspts.addTo(map);	
 		parkpts.addTo(map);	
 		walkingfeatures.addTo(map);	
-		trafficLayer.addTo(map);
+		//trafficLayer.addTo(map);
 		addMouseClickListener(artpts);
 		addMouseClickListener(parkpts);
 		addMouseClickListener(restaurantpts);
