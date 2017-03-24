@@ -5,6 +5,7 @@
 #walksedona.com
 
 #virtualenv -p /usr/local/bin/python2.7 ENV
+# local C:\Python27
 #source ENV/bin/activate
 
 
@@ -17,13 +18,14 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 from xml.etree import ElementTree
 
 import os
+
 #import time 
 #from dateutil.parser import parse
 #from datetime import datetime, timedelta
 
 
 #open jsonfile
-#jsonfile = open('data/restaurant.json', 'w')
+#jsonfile = open('restaurant.json', 'w')
 jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
@@ -80,13 +82,11 @@ for subcatid in subcat:
 					if(itemNode.find('NAME').text == 'GPS Coordinates'):
 						gpslocation= itemNode.find('VALUE').text;
 
-				
+
 				#create json node
 				if(gpslocation != '' and gpslocation != None and TBmember == 'Yes'):
 
-					print companyName
-					#print TBmember
-					#print gpslocation
+					#for unicode print companyName.encode("UTF-8")
 					
 					if(listingXML[0].find('LASTUPDATED').text != None):					
 						companyList += '\n'+companyName +", ("+listingXML[0].find('LASTUPDATED').text+")";
@@ -96,12 +96,11 @@ for subcatid in subcat:
 					else:
 						description = """<br><div id=\\"linksite\\"><a href=\\\""""""+websiteURL+"""\\" target=\\"_blank\\">Visit website for more info!</a></div><div id=\\"direc\\"><a target=\\"_blank\\">Get Directions!</a></div>""";
 					
-
 					jsonfile.write("""{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-"""+individualID+"""",
-					        "title": \""""+companyName+"""\",
+					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
@@ -112,10 +111,10 @@ for subcatid in subcat:
 					        ],"type": "Point"
 					      },"id": """+individualID+"""
 					    },""""");
-					
-					#switch coordindates
-					#gpslocation.split(',')[0];
-					#gpslocation.split(',')[1];
+						
+						#switch coordindates
+						#gpslocation.split(',')[0];
+						#gpslocation.split(',')[1];
 		except:
 			print "Error Accessing API.."
 				
@@ -147,7 +146,7 @@ try:
 	        "",
 	        "The following list has been processed\n"+companyList), "\r\n");
 
-	server.sendmail(fromaddr, toaddr, msg)
+	#server.sendmail(fromaddr, toaddr, msg)
 	server.quit()
 	print "Email Sent"
 

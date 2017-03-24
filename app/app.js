@@ -17,7 +17,7 @@ function startup(){
 	L.mapbox.accessToken = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
 
 	//zoom usually [34.86394, -111.764860], 14 [34.81394, -111.764860], 12
-	var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl()).addControl(L.mapbox.geocoderControl('mapbox.places'));
+	var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl()).addControl(L.mapbox.geocoderControl('mapbox.places',{autocomplete:true}));
 	that.map = map;
 
 	that.browsertype = 'desktop';
@@ -310,6 +310,7 @@ function startup(){
 	  	}
 	}).addTo(map);
 
+
 	//turn dark if at night
 	if(d.getHours()>19||d.getHours()<7){
 		L.control.layers({
@@ -579,7 +580,7 @@ function addMouseClickListener(pts){
 		ga('send', 'event', 'marker', 'click', e.layer.feature.properties.title);
 	});
 
-	/*points.on('mouseover', function (e) {
+	/*pts.on('mouseover', function (e) {
 	  	e.layer.openPopup();
 	  	
 	  	//make sure it doesn't take a line type
