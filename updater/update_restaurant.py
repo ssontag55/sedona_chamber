@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #loader and updator for mapbox dataset
 #simple view api to Geojson
 #sontag SUmmer 2016
@@ -87,7 +88,7 @@ for subcatid in subcat:
 				if(gpslocation != '' and gpslocation != None and TBmember == 'Yes'):
 
 					#for unicode print companyName.encode("UTF-8")
-					
+					print companyName.encode("UTF-8")
 					if(listingXML[0].find('LASTUPDATED').text != None):					
 						companyList += '\n'+companyName +", ("+listingXML[0].find('LASTUPDATED').text+")";
 
@@ -171,5 +172,7 @@ shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//parks//data//restaurant.json')
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//traffic//data//restaurant.json')
+
+print "Files Copied"
 
 sys.exit()
