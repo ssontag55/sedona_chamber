@@ -125,6 +125,7 @@ L.Control.customsearch = L.Control.extend({
 							map._layers[la].openPopup();
 						}
 					}
+					
 				}
 			}
 
@@ -291,10 +292,14 @@ L.Control.customsearch = L.Control.extend({
 					for (var la in map._layers) {
 						if(map._layers[la].feature){
 							var tt = map._layers[la].feature;
-							if(tt.properties.title.toLowerCase().search(v.toLowerCase())>-1 && this.options.results.length < 9 && tt.geometry.type == 'Point'){
-								this.options.results.push(map._layers[la].feature);
-								//this._geocode(true);
+
+							if(map._layers[la].feature.properties.title){
+								if(tt.properties.title.toLowerCase().search(v.toLowerCase())>-1 && this.options.results.length < 9 && tt.geometry.type == 'Point'){
+									this.options.results.push(map._layers[la].feature);
+									//this._geocode(true);
+								}
 							}
+							
 						}
 					}
 					if(this.options.results.length>0){
