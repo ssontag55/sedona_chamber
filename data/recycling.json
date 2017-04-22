@@ -1,1 +1,229 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"Drop-off Site":"Main Street ","Address":"Jerome, AZ","title":"Main Street ","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-112.116369,34.75105],"type":"Point"},"id":"172395d7da1d68da11f29751c66d910e"},{"type":"Feature","properties":{"Drop-off Site":"Cornville Market","Address":"9420 East Cornville Road, Cornville, AZ ","title":"Cornville Market","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.923465,34.718095],"type":"Point"},"id":"5cca286372c057f09d7e88d2a59b0413"},{"type":"Feature","properties":{"Drop-off Site":"Sedona Recycles","Address":"2280 Shelby Drive, Sedona, AZ","title":"Sedona Recycles","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.799579,34.854594],"type":"Point"},"id":"7aab54a6925db41cf734272e7971a462"},{"type":"Feature","properties":{"Drop-off Site":"Sedona Posse Grounds","Address":"525 Posse Ground Rd, Sedona, AZ","title":"Sedona Posse Grounds","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.786404,34.868768],"type":"Point"},"id":"9797544d8859260f0dec410095089d10"},{"type":"Feature","properties":{"Drop-off Site":"Rimrock / Lake Montezuma","Address":"3705 E Beaver Creek Rd, Lake Montezuma, AZ ","title":"Rimrock / Lake Montezuma","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.784816,34.645513],"type":"Point"},"id":"a1c87aa21fa671c7d22303230346c937"},{"type":"Feature","properties":{"Drop-off Site":"Outpost Mall","Address":"522 Finnie Flat Road, Camp Verde, AZ ","title":"Outpost Mall","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.864059,34.566143],"type":"Point"},"id":"a9cd574d17039f67ae53f3fe3b49a47f"},{"type":"Feature","properties":{"Drop-off Site":"Sedona Cultural Park","Address":"Cultural Park Place, Sedona, AZ, United States","title":"Sedona Cultural Park","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.830606,34.851495],"type":"Point"},"id":"bb7b855c4920ce432b90290e36ad79bf"},{"type":"Feature","properties":{"Drop-off Site":"Uptown Public Parking Lot","Address":"260 Schnebly Rd, Sedona, AZ","title":"Uptown Public Parking Lot","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.760336,34.872594],"type":"Point"},"id":"d1be39c190593eaf83fff7a098e92113"},{"type":"Feature","properties":{"Drop-off Site":"Oak Creek School","Address":"11490 East Purple Sage Road, Cornville, AZ ","title":"Oak Creek School","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.903648,34.738721],"type":"Point"},"id":"e07a0b7d7339ea26db49fd15109facf2"},{"type":"Feature","properties":{"Drop-off Site":"Verde Village Club House ","Address":"4885 E Broken Saddle Dr, Cottonwood, AZ, United States","title":"Verde Village Club House ","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.974285,34.703533],"type":"Point"},"id":"f4af65441cf1ba0280769228ba80bcfb"},{"type":"Feature","properties":{"Drop-off Site":"Clarkdale Jerome Elementary School","Address":"1615 Main St, Clarkdale, AZ ","title":"Clarkdale Jerome Elementary School","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-112.068679,34.766876],"type":"Point"},"id":"f55699005494a5a963f94c3459bd02dc"},{"type":"Feature","properties":{"Drop-off Site":"Camp Verde Heritage Pool","Address":"290 W Apache Trail, Camp Verde, AZ ","title":"Camp Verde Heritage Pool","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.859961,34.589764],"type":"Point"},"id":"f72d222fd64a3bbbc136980383a932a1"},{"type":"Feature","properties":{"Drop-off Site":"Mingus High School","Address":"Camino Real, Cottonwood, AZ","title":"Mingus High School","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-112.008888,34.715142],"type":"Point"},"id":"fa7966c20ffa3a66cbc5d7d1e6fe585a"},{"type":"Feature","properties":{"Drop-off Site":"Village of Oak Creek","Address":"100 Verde Valley School Road, Sedona, AZ 86351","title":"Village of Oak Creek","description":"Recycling Drop-off","marker-color":"#009446","marker-size":"","marker-symbol":"waste-basket"},"geometry":{"coordinates":[-111.765053,34.779038],"type":"Point"},"id":"fd3d8a5bd7992d13081c63dedc3bd090"}],"id":"sedonachamber.0np472o2"}
+{
+    "type": "FeatureCollection",
+    "features": [ {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Main Street ",
+            "Address": "Jerome, AZ",
+            "title": "Main Street ",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -112.116369, 34.75105 ],
+            "type": "Point"
+        },
+        "id": "172395d7da1d68da11f29751c66d910e"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Cornville Market",
+            "Address": "9420 East Cornville Road, Cornville, AZ ",
+            "title": "Cornville Market",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.923465, 34.718095 ],
+            "type": "Point"
+        },
+        "id": "5cca286372c057f09d7e88d2a59b0413"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Sedona Recycles",
+            "Address": "2280 Shelby Drive, Sedona, AZ",
+            "title": "Sedona Recycles",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.799579, 34.854594 ],
+            "type": "Point"
+        },
+        "id": "7aab54a6925db41cf734272e7971a462"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Sedona Posse Grounds",
+            "Address": "525 Posse Ground Rd, Sedona, AZ",
+            "title": "Sedona Posse Grounds",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.786404, 34.868768 ],
+            "type": "Point"
+        },
+        "id": "9797544d8859260f0dec410095089d10"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Rimrock / Lake Montezuma",
+            "Address": "3705 E Beaver Creek Rd, Lake Montezuma, AZ ",
+            "title": "Rimrock / Lake Montezuma",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.784816, 34.645513 ],
+            "type": "Point"
+        },
+        "id": "a1c87aa21fa671c7d22303230346c937"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Outpost Mall",
+            "Address": "522 Finnie Flat Road, Camp Verde, AZ ",
+            "title": "Outpost Mall",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.864059, 34.566143 ],
+            "type": "Point"
+        },
+        "id": "a9cd574d17039f67ae53f3fe3b49a47f"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Sedona Cultural Park",
+            "Address": "Cultural Park Place, Sedona, AZ, United States",
+            "title": "Sedona Cultural Park",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.830606, 34.851495 ],
+            "type": "Point"
+        },
+        "id": "bb7b855c4920ce432b90290e36ad79bf"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Uptown Public Parking Lot",
+            "Address": "260 Schnebly Rd, Sedona, AZ",
+            "title": "Uptown Public Parking Lot",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.760336, 34.872594 ],
+            "type": "Point"
+        },
+        "id": "d1be39c190593eaf83fff7a098e92113"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Oak Creek School",
+            "Address": "11490 East Purple Sage Road, Cornville, AZ ",
+            "title": "Oak Creek School",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.903648, 34.738721 ],
+            "type": "Point"
+        },
+        "id": "e07a0b7d7339ea26db49fd15109facf2"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Verde Village Club House ",
+            "Address": "4885 E Broken Saddle Dr, Cottonwood, AZ, United States",
+            "title": "Verde Village Club House ",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "icon": "recycling.png"
+        },
+        "geometry": {
+            "coordinates": [ -111.974285, 34.703533 ],
+            "type": "Point"
+        },
+        "id": "f4af65441cf1ba0280769228ba80bcfb"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Clarkdale Jerome Elementary School",
+            "Address": "1615 Main St, Clarkdale, AZ ",
+            "title": "Clarkdale Jerome Elementary School",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -112.068679, 34.766876 ],
+            "type": "Point"
+        },
+        "id": "f55699005494a5a963f94c3459bd02dc"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Camp Verde Heritage Pool",
+            "Address": "290 W Apache Trail, Camp Verde, AZ ",
+            "title": "Camp Verde Heritage Pool",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.859961, 34.589764 ],
+            "type": "Point"
+        },
+        "id": "f72d222fd64a3bbbc136980383a932a1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Mingus High School",
+            "Address": "Camino Real, Cottonwood, AZ",
+            "title": "Mingus High School",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -112.008888, 34.715142 ],
+            "type": "Point"
+        },
+        "id": "fa7966c20ffa3a66cbc5d7d1e6fe585a"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Drop-off Site": "Village of Oak Creek",
+            "Address": "100 Verde Valley School Road, Sedona, AZ 86351",
+            "title": "Village of Oak Creek",
+            "description": "Recycling Drop-off",
+            "marker-color": "#009446",
+            "marker-size": "",
+            "marker-symbol": "recycling"
+        },
+        "geometry": {
+            "coordinates": [ -111.765053, 34.779038 ],
+            "type": "Point"
+        },
+        "id": "fd3d8a5bd7992d13081c63dedc3bd090"
+    } ],
+    "id": "sedonachamber.0np472o2"
+}

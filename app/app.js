@@ -63,7 +63,6 @@ function startup(){
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	
 	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
-	var recyclingpts = L.mapbox.featureLayer('data/recycling.json',{popupOptions: { closeButton: true }});
 	var artpts = L.mapbox.featureLayer('data/gallery.json',{popupOptions: { closeButton: true }});
 	var buspts = L.mapbox.featureLayer('data/bus.json',{popupOptions: { closeButton: true }});
 	var theatrepts = L.mapbox.featureLayer('data/theatre.json',{popupOptions: { closeButton: true }});
@@ -71,6 +70,7 @@ function startup(){
 	var walkingfeatures = L.mapbox.featureLayer('data/walking.json',{popupOptions: { closeButton: true }});
 	var museumpts = L.mapbox.featureLayer('data/museum.json',{popupOptions: { closeButton: true }});
 	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
+	var recyclingpts = L.mapbox.featureLayer('data/recycling.json',{popupOptions: { closeButton: true }});
 	var parkpts = L.mapbox.featureLayer('data/parks.json',{popupOptions: { closeButton: true }});
 
 	var trafficLayer = L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20,zIndex:1000});

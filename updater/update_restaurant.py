@@ -147,7 +147,7 @@ try:
 	        "",
 	        "The following list has been processed\n"+companyList), "\r\n");
 
-	#server.sendmail(fromaddr, toaddr, msg)
+	server.sendmail(fromaddr, toaddr, msg)
 	server.quit()
 	print "Email Sent"
 

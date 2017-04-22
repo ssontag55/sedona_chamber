@@ -4,7 +4,7 @@
 @import url('mapbox.css');
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css');
-@import url('maki-min.css');
+@import url('maki.min.css');
 
 body { margin:0; padding:0; }
 

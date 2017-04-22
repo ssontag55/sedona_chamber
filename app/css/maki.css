@@ -677,3 +677,7 @@
 .maki-airfield:before {
     content: "\e671";
 }
+
+.maki-recycle:before {
+    content: "\e672";
+}
