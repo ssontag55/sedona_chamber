@@ -82,7 +82,7 @@
 			"properties": {
 				"id": "marker-ix0xr5c12",
 				"title": "Posse Grounds Park",
-				"description": "<br><i class='maki maki-toilets maki-lg'></i>  Public Restrooms<br>Dog Park Available  <br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+				"description": "<br><i class='maki maki-toilets maki-lg'></i>  Public Restrooms<br><i class='maki maki-dog-park maki-lg'></i>  Dog Park Available  <br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 				"marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park"
@@ -115,28 +115,39 @@
 			},
 			"id": "edff1f86cb9035133f41cee319f21c22"
 		},
-		{ "type": "Feature", "properties": { "marker-size": "medium",
+		{
+			"id": "edff1f86cb9035133f41cee319f21c22", 
+			"type": "Feature", 
+			"properties": 
+			{ "marker-size": "medium",
 				"marker-color": "#a3e46b",
-				"marker-symbol": "park", "description":"<br>MYSTIC TRAIL; PIG TAIL TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.76812997799999, 34.843634161000068 ] } },
-		{ "type": "Feature", "properties": { "marker-size": "medium",
+				"marker-symbol": "park", 
+				"description":"<br>MYSTIC TRAIL; PIG TAIL TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+				"title": "TRAIL HEAD" 
+			}, 
+				"geometry": { 
+				"type": "Point", "coordinates": [ -111.76812997799999, 34.843634161000068 ] 
+			} 
+		},
+		{"id": "edff1f86cb9035133f41cee319f21c22",  "type": "Feature", "properties": { "marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park", "description":"<br>PIG TAIL TRAIL; MYSTIC TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.76801810699999, 34.843695452000077 ] } },
-		{ "type": "Feature", "properties": { "marker-size": "medium",
+		{"id": "edff1f86cb9035133f41cee319f21c22",  "type": "Feature", "properties": { "marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park", "description":"<br>SUNSET TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.79539935799994, 34.85458853800003 ] } },
-		{ "type": "Feature", "properties": {  "marker-size": "medium",
+		{"id": "edff1f86cb9035133f41cee319f21c22",  "type": "Feature", "properties": {  "marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park", "description":"<br>SOLDIER PASS TRIAL; TEA CUP TRIAL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.78370862699995, 34.884387911000033 ] } },
-		{ "type": "Feature", "properties": {  "marker-size": "medium",
+		{"id": "edff1f86cb9035133f41cee319f21c22",  "type": "Feature", "properties": {  "marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park", "description":"<br>TEA CUP TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.79650595899994, 34.874455447000059 ] } },
-		{ "type": "Feature", "properties": {  "marker-size": "medium",
+		{"id": "edff1f86cb9035133f41cee319f21c22",  "type": "Feature", "properties": {  "marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park", "description":"<br>THUNDER MTN TRAIL; CHIMNEY ROCK TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.81230674499994, 34.872050775000048 ] } },
-		{ "type": "Feature", "properties": {  "marker-size": "medium",
+		{"id": "edff1f86cb9035133f41cee319f21c22",  "type": "Feature", "properties": {  "marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park", "description":"<br>GIRDNER TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.83161329199999, 34.852531083000031 ] } },
-		{ "type": "Feature", "properties": { "marker-size": "medium",
+		{"id": "edff1f86cb9035133f41cee319f21c22",  "type": "Feature", "properties": { "marker-size": "medium",
 				"marker-color": "#a3e46b",
 				"marker-symbol": "park", "description":"<br>DAWA TRAIL<br><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","TYPE": "TRAIL HEAD" }, "geometry": { "type": "Point", "coordinates": [ -111.83687428399998, 34.895768735000047 ] } },
 		{ "type": "Feature", "properties": {  "marker-size": "medium",

@@ -9,7 +9,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -112.116369, 34.75105 ],
@@ -25,7 +25,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.923465, 34.718095 ],
@@ -41,7 +41,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.799579, 34.854594 ],
@@ -57,7 +57,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.786404, 34.868768 ],
@@ -73,7 +73,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.784816, 34.645513 ],
@@ -89,7 +89,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.864059, 34.566143 ],
@@ -105,7 +105,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.830606, 34.851495 ],
@@ -121,7 +121,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.760336, 34.872594 ],
@@ -137,7 +137,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.903648, 34.738721 ],
@@ -153,7 +153,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "icon": "recycling.png"
+            "icon": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.974285, 34.703533 ],
@@ -169,7 +169,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -112.068679, 34.766876 ],
@@ -185,7 +185,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.859961, 34.589764 ],
@@ -201,7 +201,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -112.008888, 34.715142 ],
@@ -217,7 +217,7 @@
             "description": "Recycling Drop-off",
             "marker-color": "#009446",
             "marker-size": "",
-            "marker-symbol": "recycling"
+            "marker-symbol": "waste-basket"
         },
         "geometry": {
             "coordinates": [ -111.765053, 34.779038 ],
