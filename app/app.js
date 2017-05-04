@@ -106,6 +106,12 @@ function startup(){
     	parkpts.addTo(map);
     	addMouseClickListener(parkpts);	
     }
+    else if(window.location.href.indexOf("trails") > -1){
+    	$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', 'parks');
+    	parkpts.addTo(map);
+    	addMouseClickListener(parkpts);	
+    }
     else if(window.location.href.indexOf("publicart") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', ['pubart']);
@@ -121,9 +127,10 @@ function startup(){
     else if(window.location.href.indexOf("art") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
-    	//theatrepts.addTo(map);
+    	theatrepts.addTo(map);
     	museumpts.addTo(map);
     	parkingpts.addTo(map);
+    	buspts.addTo(map);
     	artpts.addTo(map);
     	walkingfeatures.addTo(map);	
     	addMouseClickListener(artpts);	
@@ -131,7 +138,7 @@ function startup(){
     else if(window.location.href.indexOf("galleries") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
-    	//theatrepts.addTo(map);
+    	theatrepts.addTo(map);
     	museumpts.addTo(map);
     	artpts.addTo(map);
     	buspts.addTo(map);
@@ -153,11 +160,11 @@ function startup(){
 		museumpts.addTo(map);
 		artpts.addTo(map);	
 		buspts.addTo(map);	
-		parkpts.addTo(map);	
+		//parkpts.addTo(map);	
 		walkingfeatures.addTo(map);	
 		//trafficLayer.addTo(map);
 		addMouseClickListener(artpts);
-		addMouseClickListener(parkpts);
+		//addMouseClickListener(parkpts);
 		addMouseClickListener(restaurantpts);
 		addMouseClickListener(theatrepts);
 		addMouseClickListener(parkingpts);
