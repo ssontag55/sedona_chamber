@@ -14,19 +14,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4064",
-					        "title": "Big E Steakhouse & Saloon",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.bigesteakhouse.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#846355",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -112.126132,
-					          35.973147
-					        ],"type": "Point"
-					      },"id": 4064
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-3937",
 					        "title": "Blazin' M Ranch Western Dinner Theater",
 					        "description": "<a href=\"http://www.blazinm.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/bmr-sedona-chamber00_0d3bb40d-5056-a36f-23277a6e3d85d5cd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.blazinm.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -72,8 +59,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.782196,
-					          34.862420
+					      },"geometry": {"coordinates": [ -111.789306,
+					          34.863795
 					        ],"type": "Point"
 					      },"id": 4855
 					    },{
@@ -124,21 +111,21 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.760786,
-					          34.869713
+					      },"geometry": {"coordinates": [ -111.761322,
+					          34.869697
 					        ],"type": "Point"
 					      },"id": 486
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-2671",
-					        "title": "Creekside Restaurant",
+					        "title": "Creekside American Bistro",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.creeksidesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763309,
-					          34.863537
+					      },"geometry": {"coordinates": [ -111.763407,
+					          34.863968
 					        ],"type": "Point"
 					      },"id": 2671
 					    },{
@@ -163,8 +150,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763477,
-					          34.774918
+					      },"geometry": {"coordinates": [ -111.764202,
+					          34.774799
 					        ],"type": "Point"
 					      },"id": 1746
 					    },{
@@ -193,6 +180,19 @@
 					          34.861813
 					        ],"type": "Point"
 					      },"id": 185
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2707",
+					        "title": "Elote Cafe",
+					        "description": "<a href=\"http://www.elotecafe.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Elote-Dining-800x600_0d5febf6-5056-a36f-231880ee961b7e54.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.elotecafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.763369,
+					          34.856883
+					        ],"type": "Point"
+					      },"id": 2707
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -235,14 +235,27 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-3867",
+					        "title": "Harry's Hideaway Restaurant",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.harryshideaway.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.905854,
+					          34.718823
+					        ],"type": "Point"
+					      },"id": 3867
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-4525",
 					        "title": "Hideaway House",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763595,
-					          34.864282
+					      },"geometry": {"coordinates": [ -111.763242,
+					          34.864510
 					        ],"type": "Point"
 					      },"id": 4525
 					    },{
@@ -261,14 +274,27 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-4731",
+					        "title": "Indian Gardens Cafe & Market",
+					        "description": "<a href=\"http://www.indiangardens.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/indian_gardens0-d013ccf65056a36_d013ce5d-5056-a36f-2325c77b8be3a62c.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.indiangardens.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.729048,
+					          34.910830
+					        ],"type": "Point"
+					      },"id": 4731
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-940",
 					        "title": "Javelina Cantina",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763230,
-					          34.858724
+					      },"geometry": {"coordinates": [ -111.762427,
+					          34.859180
 					        ],"type": "Point"
 					      },"id": 940
 					    },{
@@ -287,14 +313,27 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-5474",
+					        "title": "Los Rosales",
+					        "description": "<a href=\"https://www.losrosalessedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Los-Rosales-1-308fca125056a36_308fcbe4-5056-a36f-2381a55af93ad453.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.losrosalessedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.789124,
+					          34.863392
+					        ],"type": "Point"
+					      },"id": 5474
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-1024",
 					        "title": "Maria's Restaurant & Cantina",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.marias-restaurant.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.762593,
-					          34.780462
+					      },"geometry": {"coordinates": [ -111.763377,
+					          34.781757
 					        ],"type": "Point"
 					      },"id": 1024
 					    },{
@@ -306,8 +345,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.774812,
-					          34.866566
+					      },"geometry": {"coordinates": [ -111.774623,
+					          34.866369
 					        ],"type": "Point"
 					      },"id": 4771
 					    },{
@@ -326,6 +365,19 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-5560",
+					        "title": "Mr B's Sweet Tooth Cafe",
+					        "description": "<a href=\"http://www.sedonajeeptours.com/mr-bs-sweet-tooth-cafe\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Mr-Bs-Sweet-Tooth-Cafe---Inside-800x600-2c7fb5e65056a36_2c7fb6fe-5056-a36f-23b2c3b78746f181.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonajeeptours.com/mr-bs-sweet-tooth-cafe\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.759414,
+					          34.871102
+					        ],"type": "Point"
+					      },"id": 5560
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-4360",
 					        "title": "New York Bakery & Deli",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.nybakeryanddeli.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -341,12 +393,12 @@
 					      "properties": {
 					        "id": "marker-2292",
 					        "title": "Oak Creek Brewery & Grill",
-					        "description": "<a href=\"http://www.oakcreekpub.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/oak_creek_pub00_0d21d1cb-5056-a36f-236e3d741414d2c5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oakcreekpub.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.oakcreekgrill.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/oak_creek_pub00_0d21d1cb-5056-a36f-236e3d741414d2c5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oakcreekgrill.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763469,
-					          34.862228
+					      },"geometry": {"coordinates": [ -111.763186,
+					          34.862236
 					        ],"type": "Point"
 					      },"id": 2292
 					    },{
@@ -397,8 +449,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763858,
-					          34.865398
+					      },"geometry": {"coordinates": [ -111.763904,
+					          34.865128
 					        ],"type": "Point"
 					      },"id": 5186
 					    },{
@@ -410,8 +462,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.762378,
-					          34.780488
+					      },"geometry": {"coordinates": [ -111.763355,
+					          34.781742
 					        ],"type": "Point"
 					      },"id": 3616
 					    },{
@@ -436,8 +488,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.760822,
-					          34.868799
+					      },"geometry": {"coordinates": [ -111.761025,
+					          34.868766
 					        ],"type": "Point"
 					      },"id": 4123
 					    },{
@@ -449,10 +501,49 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.799188,
-					          34.863451
+					      },"geometry": {"coordinates": [ -111.799703,
+					          34.863074
 					        ],"type": "Point"
 					      },"id": 4471
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5722",
+					        "title": "Pump House Station",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://pumphousestation.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.762903,
+					          34.863285
+					        ],"type": "Point"
+					      },"id": 5722
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2967",
+					        "title": "Quality Kitchen & Bar",
+					        "description": "<a href=\"http://www.qualitykitchenandbar.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Barking-Frog-800x600_0d3d3b2a-5056-a36f-23ce0bdaf757fc03.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.qualitykitchenandbar.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.805713,
+					          34.862778
+					        ],"type": "Point"
+					      },"id": 2967
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3102",
+					        "title": "Red Rock Cafe",
+					        "description": "<a href=\"http://www.redrockcafeaz.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/FinalLogoRRCv2HQPrint-03-800x600_0d57a395-5056-a36f-2340264adf9e8560.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.redrockcafeaz.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.764442,
+					          34.779114
+					        ],"type": "Point"
+					      },"id": 3102
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -475,8 +566,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763580,
-					          34.862150
+					      },"geometry": {"coordinates": [ -111.763101,
+					          34.862165
 					        ],"type": "Point"
 					      },"id": 183
 					    },{
@@ -521,16 +612,16 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4715",
-					        "title": "Serenitie Restaurant & Burger Bar",
-					        "description": "<a href=\"http://www.serenitierestaurant.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Serenite-Bistro---Place-Setting-800x600-8437b3745056a36_8437b567-5056-a36f-23275cac287a378c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.serenitierestaurant.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-4186",
+					        "title": "Senor Bob's Hot Dogs",
+					        "description": "<a href=\"http://www.senorbobsdogsandburgers.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Senor-Bobs-website-interior-800x600-6aa879975056a36_6aa87b7a-5056-a36f-23c70bf4c6ce9cbe.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.senorbobsdogsandburgers.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.764486,
-					          34.773951
+					      },"geometry": {"coordinates": [ -111.795861,
+					          34.863413
 					        ],"type": "Point"
-					      },"id": 4715
+					      },"id": 4186
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -540,8 +631,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761748,
-					          34.867371
+					      },"geometry": {"coordinates": [ -111.762984,
+					          34.866679
 					        ],"type": "Point"
 					      },"id": 3976
 					    },{
@@ -586,27 +677,14 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-470",
-					        "title": "Takashi Japanese Restaurant",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.takashisedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#846355",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761465,
-					          34.873629
-					        ],"type": "Point"
-					      },"id": 470
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-3607",
 					        "title": "Thai Palace Uptown",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.thaipalacesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<br><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761202,
-					          34.869749
+					      },"geometry": {"coordinates": [ -111.761795,
+					          34.869733
 					        ],"type": "Point"
 					      },"id": 3607
 					    },{
@@ -657,8 +735,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.764425,
-					          34.861745
+					      },"geometry": {"coordinates": [ -111.764320,
+					          34.861374
 					        ],"type": "Point"
 					      },"id": 4863
 					    },{
@@ -696,10 +774,36 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761081,
-					          34.869465
+					      },"geometry": {"coordinates": [ -111.761425,
+					          34.869453
 					        ],"type": "Point"
 					      },"id": 937
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3868",
+					        "title": "Harry's Hideaway Restaurant",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.harryshideaway.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.905854,
+					          34.718823
+					        ],"type": "Point"
+					      },"id": 3868
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5559",
+					        "title": "Mr B's Sweet Tooth Cafe",
+					        "description": "<a href=\"http://www.sedonajeeptours.com/mr-bs-sweet-tooth-cafe\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Mr-Bs-Sweet-Tooth-Cafe---Inside-800x600-2c7fb5e65056a36_2c7fb6fe-5056-a36f-23b2c3b78746f181.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonajeeptours.com/mr-bs-sweet-tooth-cafe\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.759414,
+					          34.871102
+					        ],"type": "Point"
+					      },"id": 5559
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -713,19 +817,6 @@
 					          34.863377
 					        ],"type": "Point"
 					      },"id": 663
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-3919",
-					        "title": "Red Rock Fro-yo and Deli",
-					        "description": "<a href=\"http://www.redrockfroyoanddeli.com/\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Red-Rock-Fro-yo-and-Deli-Logo-800x600-181c94da5056a36_181cad35-5056-a36f-23711a342ee7b30a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.redrockfroyoanddeli.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#846355",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.795828,
-					          34.863415
-					        ],"type": "Point"
-					      },"id": 3919
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -748,8 +839,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761081,
-					          34.869465
+					      },"geometry": {"coordinates": [ -111.761425,
+					          34.869453
 					        ],"type": "Point"
 					      },"id": 2136
 					    },{
@@ -768,16 +859,42 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-5561",
+					        "title": "Mr B's Sweet Tooth Cafe",
+					        "description": "<a href=\"http://www.sedonajeeptours.com/mr-bs-sweet-tooth-cafe\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Mr-Bs-Sweet-Tooth-Cafe---Inside-800x600-2c7fb5e65056a36_2c7fb6fe-5056-a36f-23b2c3b78746f181.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonajeeptours.com/mr-bs-sweet-tooth-cafe\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.759414,
+					          34.871102
+					        ],"type": "Point"
+					      },"id": 5561
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-3374",
 					        "title": "Pink Java Cafe",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.pinkjeeptours.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.760822,
-					          34.868799
+					      },"geometry": {"coordinates": [ -111.761025,
+					          34.868766
 					        ],"type": "Point"
 					      },"id": 3374
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5721",
+					        "title": "Pump House Station",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://pumphousestation.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#846355",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.762903,
+					          34.863285
+					        ],"type": "Point"
+					      },"id": 5721
 					    },{
 					      "type": "Feature",
 					      "properties": {

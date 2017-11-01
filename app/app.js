@@ -63,6 +63,7 @@ function startup(){
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	
 	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
+	var snlpts = L.mapbox.featureLayer('data/snl.json',{popupOptions: { closeButton: true }});
 	var artpts = L.mapbox.featureLayer('data/gallery.json',{popupOptions: { closeButton: true }});
 	var buspts = L.mapbox.featureLayer('data/bus.json',{popupOptions: { closeButton: true }});
 	var theatrepts = L.mapbox.featureLayer('data/theatre.json',{popupOptions: { closeButton: true }});
@@ -87,6 +88,7 @@ function startup(){
 	buspts.on('ready',  processLayerGeo);
 	publicartpts.on('ready',  processLayerGeo);
 	parkpts.on('ready',  processLayerGeo);
+	snlpts.on('ready',  processLayerGeo);
 
 	if(window.location.href.indexOf("restaurants") > -1) {
 		$('#search-bar').selectpicker('deselectAll');
@@ -105,6 +107,14 @@ function startup(){
     	$('#search-bar').selectpicker('val', 'parks');
     	parkpts.addTo(map);
     	addMouseClickListener(parkpts);	
+    }
+    else if(window.location.href.indexOf("SNL") > -1){
+    	$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', ['snl','walk','parking']);
+    	parkingpts.addTo(map);
+    	snlpts.addTo(map);
+    	walkingfeatures.addTo(map);
+    	addMouseClickListener(snlpts);	
     }
     else if(window.location.href.indexOf("trails") > -1){
     	$('#search-bar').selectpicker('deselectAll');
@@ -160,6 +170,7 @@ function startup(){
 		museumpts.addTo(map);
 		artpts.addTo(map);	
 		buspts.addTo(map);	
+		snlpts.addTo(map);
 		//parkpts.addTo(map);	
 		walkingfeatures.addTo(map);	
 		//trafficLayer.addTo(map);

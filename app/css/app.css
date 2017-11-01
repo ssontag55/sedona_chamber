@@ -26,6 +26,10 @@ body { margin:0; padding:0; }
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
     width: 240px !important;
 }
+
+.maki-star-stroked{
+  color: #b8860b !important;
+}
 /* fallback 
 @font-face {
   font-family: 'Material Icons';

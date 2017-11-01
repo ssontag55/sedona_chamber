@@ -1,0 +1,241 @@
+{"type": "FeatureCollection","features": [{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-163",
+					        "title": "L'Auberge / 89Agave",
+					        "description": "<a href=\"http://www.89agave.com\" target=\"_blank\"><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [-111.759350,34.869297
+					        ],"type": "Point"
+					      },"id": 163
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1275",
+					        "title": "Canyon Breeze star-stroked & Bar",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.canyon-breeze.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.759692,34.870721
+					        ],"type": "Point"
+					      },"id": 1275
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2671",
+					        "title": "Creekside American Bistro",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.creeksidesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.763243,34.864169
+					        ],"type": "Point"
+					      },"id": 2671
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4771",
+					        "title": "Mariposa Latin Inspired Grill",
+					        "description": "<a href=\"http://www.mariposasedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/mariposa010_0d5f21c7-5056-a36f-23273a343188e384.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.mariposasedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.774580, 34.866630
+					        ],"type": "Point"
+					      },"id": 4771
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-161",
+					        "title": "Oaxaca star-stroked & Rooftop Cantina",
+					        "description": "<a href=\"http://www.oaxacastar-stroked.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Oaxaca010_0d3acf7f-5056-a36f-23303233b3cc3183.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oaxacastar-stroked.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.759812,34.871319
+					        ],"type": "Point"
+					      },"id": 161
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1696",
+					        "title": "Open Range Grill & Tavern",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.openrangesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.759113, 34.871078
+					        ],"type": "Point"
+					      },"id": 1696
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5186",
+					        "title": "Oregano's Pizza Bistro",
+					        "description": "<a href=\"http://www.oreganos.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Oreganos-Logo-Half-Red-Maroon---800x600-0ea8a3575056a36_0ea8a7d7-5056-a36f-23600d971c524db6.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oreganos.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.763747, 34.865047
+					        ],"type": "Point"
+					      },"id": 5186
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-183",
+					        "title": "Tlaquepaque",
+					        "description": "<br><div id=\"linksite\"><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.763064,34.862351
+					        ],"type": "Point"
+					      },"id": 183
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3976",
+					        "title": "Sound Bites Grill",
+					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/photo_4B941B47-4697-4B72-9931BF7D6226448E_f154550a-63f3-42c5-9547197cd55b7cda.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.763046, 34.866692
+					        ],"type": "Point"
+					      },"id": 3976
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4872",
+					        "title": "The Hudson",
+					        "description": "<a href=\"http://www.thehudsonsedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hudson_0004_800x600010_0d59a18e-5056-a36f-238723b606200e5f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thehudsonsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.762500, 34.858513
+					        ],"type": "Point"
+					      },"id": 4872
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "Best Western  Arroyo Roble",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.758100, 34.871965
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "HYATT",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.763538, 34.867718
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "Matterhorn",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.759404, 34.871801
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "Amara Resort",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.758496, 34.869660
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "El Portal",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.764808, 34.862550
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "Hillside",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.763117, 34.858577
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "Mariott",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.828066, 34.850045
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "Sedona Real",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.816168, 34.860212
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "Hideaway House",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.763384, 34.864463
+					        ],"type": "Point"
+					      },"id": 5190
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5190",
+					        "title": "AZ Safari Adventures",
+					        "description": "<div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.761326, 34.871242
+					        ],"type": "Point"
+					      },"id": 5190
+					    }],"id": "sedonachamber.star-stroked"}
