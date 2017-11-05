@@ -170,7 +170,7 @@ function startup(){
 		museumpts.addTo(map);
 		artpts.addTo(map);	
 		buspts.addTo(map);	
-		snlpts.addTo(map);
+		//snlpts.addTo(map);
 		//parkpts.addTo(map);	
 		walkingfeatures.addTo(map);	
 		//trafficLayer.addTo(map);
@@ -195,6 +195,7 @@ function startup(){
 		map.removeLayer(parkpts);
 		map.removeLayer(artpts);	
 		map.removeLayer(buspts);	
+		map.removeLayer(snlpts);
 		map.removeLayer(walkingfeatures);
 		map.removeLayer(publicartpts);
 		map.removeLayer(trafficLayer);
@@ -232,6 +233,10 @@ function startup(){
 				else if(selectedLayers[l] == 'parks'){
 					parkpts.addTo(map);	
 					addMouseClickListener(parkpts);
+				}
+				else if(selectedLayers[l] == 'snl'){
+					snlpts.addTo(map);	
+					addMouseClickListener(snlpts);
 				}
 				else if(selectedLayers[l] == 'pubart'){
 					publicartpts.addTo(map);	
@@ -491,7 +496,8 @@ function startup(){
 
 
 	//don't need to show data:
-	todayDateString = "Walk Sedona shows Sedona Attractions and potential walkable locations.<br><br>Press 'Start Here' to find closest location.<br><br>Use the drop down list <span class='caret'></span> at the <b>top</b> of the page to search more categories.<br><br>Use the <span class='fa fa-map-marker'></span> to the <b>left</b> to find yourself on the map.";
+	//todayDateString = "Walk Sedona shows Sedona Attractions and potential walkable locations.<br><br>Press 'Start Here' to find closest location.<br><br>Use the drop down list <span class='caret'></span> at the <b>top</b> of the page to search more categories.<br><br>Use the <span class='fa fa-map-marker'></span> to the <b>left</b> to find yourself on the map.";
+	todayDateString = "Celebrate the holiday season in Sedona, and witness the country’s largest 3D holiday light show in The Most Beautiful Place on Earth. Click on the Sedona Northern Lights layer to see Viewing Areas.<br><br>Press 'Start Here' to find closest location.<br><br>Use the drop down list <span class='caret'></span> at the <b>top</b> of the page to search more categories.<br><br>Use the <span class='fa fa-map-marker'></span> to the <b>left</b> to find yourself on the map.";
 
 	if(d.getDay() == 5&&d.getDate()<7){
 	  todayDateString= todayDateString+'<br><br><a target="_blank" style="color:#7A1800" href="http://sedonagalleryassociation.com/?page_id=236">First Friday Art Walk. Click here for more information.</a></i>'
@@ -508,7 +514,6 @@ function startup(){
 	  callback: function(value) {
 	    //locate for directions
 	    if(value == true){
-
 	      //locate
 	      lc.start();    
 	    }
@@ -566,6 +571,15 @@ function addMouseClickListener(pts){
 		  	//get direction same
 		  	that.map.stopLocate();
 		    that.map.locate();
+		});
+
+		$("#moreinfo").on('click', function (e) {
+			e.preventDefault();
+			vex.dialog.buttons.YES.text = 'OK';
+			vex.dialog.alert({
+	            message: e.currentTarget.title
+	        });
+			//console.log(e.currentTarget.title);
 		});
 
 		that.layertitle = e.layer.feature.properties.title;
