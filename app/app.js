@@ -108,7 +108,7 @@ function startup(){
     	parkpts.addTo(map);
     	addMouseClickListener(parkpts);	
     }
-    else if(window.location.href.indexOf("SNL") > -1){
+    else if(String(window.location.href).toUpperCase().indexOf("SNL") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', ['snl','walk','parking']);
     	parkingpts.addTo(map);
