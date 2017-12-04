@@ -7,29 +7,16 @@
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.763073,
-					          34.858773
+					      },"geometry": {"coordinates": [ -111.800156,
+					          34.862926
 					        ],"type": "Point"
 					      },"id": 3897
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-1530",
-					        "title": "Andrea Smith Gallery",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.andreasmithgallery.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.761698,
-					          34.862418
-					        ],"type": "Point"
-					      },"id": 1530
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-2091",
 					        "title": "Arcosanti/The Cosanti Foundation",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.arcosanti.org\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.arcosanti.org\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/arcosanti0-7c1f85bf5056a36_7c1f87dd-5056-a36f-2307fc1d8a320384.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.arcosanti.org\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -53,22 +40,22 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4625",
-					        "title": "Carre D'Artistes",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.carredartistesaz.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-4932",
+					        "title": "Creative Gateways",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.creativegateways.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.763171,
-					          34.862223
+					      },"geometry": {"coordinates": [ -111.787068,
+					          34.862477
 					        ],"type": "Point"
-					      },"id": 4625
+					      },"id": 4932
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-4614",
 					        "title": "Esteban's",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.estebanssedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.estebanssedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/estebans-pottery-7c4a58145056a36_7c4a591d-5056-a36f-23f3f4e5afaab2fe.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.estebanssedona.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -81,12 +68,12 @@
 					      "properties": {
 					        "id": "marker-817",
 					        "title": "Exposures International Gallery of Fine Art",
-					        "description": "<a href=\"http://www.exposuresfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Exposures-Gallery-TJ-Exterior-2800-2806-72x51--Ycx-SD0185-1000p-800x60010_0d6697d2-5056-a36f-235e92fb232e8c50.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.exposuresfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.exposuresfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Exposures-Gallery-New-20170206-TJ-Exterior-8636-1400pcx-800x600-d095e6c45056a36_d095e9e7-5056-a36f-231e04a6420cb60d.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.exposuresfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.762194,
-					          34.859797
+					      },"geometry": {"coordinates": [ -111.762095,
+					          34.859696
 					        ],"type": "Point"
 					      },"id": 817
 					    },{
@@ -111,8 +98,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.815822,
-					          34.862438
+					      },"geometry": {"coordinates": [ -111.763870,
+					          34.865407
 					        ],"type": "Point"
 					      },"id": 1728
 					    },{
@@ -120,7 +107,7 @@
 					      "properties": {
 					        "id": "marker-3878",
 					        "title": "Greg Lawson Galleries",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.greglawsongalleries.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.greglawsongalleries.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Greg_Lawson0-8385f5305056a36_8385f617-5056-a36f-23da3d5143fe7e07.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.greglawsongalleries.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -133,12 +120,12 @@
 					      "properties": {
 					        "id": "marker-2018",
 					        "title": "Hillside Sedona",
-					        "description": "<a href=\"http://www.hillsidesedona.net\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Hillside-Sedona-magic-dust10_0d5b72fd-5056-a36f-233388cf7a57f381.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.hillsidesedona.net\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.hillsidesedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Hillside-Sedona-magic-dust10_0d5b72fd-5056-a36f-233388cf7a57f381.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.hillsidesedona.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.761576,
-					          34.860033
+					      },"geometry": {"coordinates": [ -111.763054,
+					          34.858897
 					        ],"type": "Point"
 					      },"id": 2018
 					    },{
@@ -146,7 +133,7 @@
 					      "properties": {
 					        "id": "marker-4881",
 					        "title": "Honshin Fine Art Gallery of the Ascending Spirit",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.honshinfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/APRIL-Brother-Raven-Sings-the-song-of-the-Medicine-Bear-to-the-Gold-light-of-Sky-copy_298CE2FB-BD63-4DBD-A387EF8E024BCA59_4365c4b9-01f8-4dcf-a444ad3f522d876c.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -159,7 +146,7 @@
 					      "properties": {
 					        "id": "marker-4819",
 					        "title": "Honshin Fine Art Gallery of Wholeness, Harmony & Radiance",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.honshinfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/7009-Blossoms-Offered-to-the-Ascending-Spirit---Ch-1_88B82E5D-B40E-469C-A04FE485214FA54E_715ed0fc-dddc-4a38-9e39cfb669a3d5fd.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -185,7 +172,7 @@
 					      "properties": {
 					        "id": "marker-987",
 					        "title": "Kuivato Glass Gallery",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.kuivato.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.kuivato.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Elegant_RainbowKuivato0-7bde88275056a36_7bde89a4-5056-a36f-2345836fc82499b3.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.kuivato.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -209,22 +196,9 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4834",
-					        "title": "Love Africa Decor & Gallery",
-					        "description": "<a href=\"http://www.loveafricadecor.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Master.RS.10-800x60010_0d4ba312-5056-a36f-235a2852dcc74497.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.loveafricadecor.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.763879,
-					          34.865468
-					        ],"type": "Point"
-					      },"id": 4834
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-2265",
-					        "title": "Mountain Trails Galleries",
-					        "description": "<a href=\"http://www.mountaintrails.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Mountain-Trails-Gallery-for-Sedona-Chamber-of-Comm-membership-listing-photo-800x60010_0d67272c-5056-a36f-23098d4df98e9c90.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.mountaintrails.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "Mountain Trails Galleries Sedona",
+					        "description": "<a href=\"http://www.mountaintrailssedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Mountain-Trails-Gallery-for-Sedona-Chamber-of-Comm-membership-listing-photo-800x60010_0d67272c-5056-a36f-23098d4df98e9c90.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.mountaintrailssedona.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -250,7 +224,7 @@
 					      "properties": {
 					        "id": "marker-3527",
 					        "title": "Rowe Fine Art Gallery",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.rowegallery.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.rowegallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Rowe-gallery-7bc98dfa5056a36_7bc9901f-5056-a36f-236bbefda3a63003.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.rowegallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -258,6 +232,19 @@
 					          34.86243
 					        ],"type": "Point"
 					      },"id": 3527
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5120",
+					        "title": "Sedona Artist Market",
+					        "description": "<a href=\"http://www.sedonaartistmarket.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Artist-Market---Chamber-Directory-Logo_Flat_800x600-20c412c05056a36_20c44f8e-5056-a36f-23f17fb29a44ae51.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonaartistmarket.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#1087bf",
+					        "marker-symbol": "art-gallery"
+					      },"geometry": {"coordinates": [ -111.796810,
+					          34.862793
+					        ],"type": "Point"
+					      },"id": 5120
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -274,16 +261,16 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4493",
-					        "title": "Soderberg Bronze",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.johnsoderberg.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-5223",
+					        "title": "The Collective Sedona",
+					        "description": "<a href=\"http://sedona.events/the-collective-sedona-events\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/the-collective-sedona-sign-800x600-b259a09a5056a36_b25a08a2-5056-a36f-23cb7c65f3105244.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://sedona.events/the-collective-sedona-events\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.814185,
-					          34.861949
+					      },"geometry": {"coordinates": [ -111.764119,
+					          34.774710
 					        ],"type": "Point"
-					      },"id": 4493
+					      },"id": 5223
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -328,7 +315,7 @@
 					      "properties": {
 					        "id": "marker-4850",
 					        "title": "Village Gallery of Local Artists",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.sedonalocalartists.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonalocalartists.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_6418_B95B5CB7-B5CB-459C-BD40B5BD13325120_35ea4839-c818-488b-a0cdcbe53166346d.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonalocalartists.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -336,4 +323,69 @@
 					          34.780412
 					        ],"type": "Point"
 					      },"id": 4850
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4861",
+					        "title": "A Journey Through Art",
+					        "description": "<a href=\"http://www.ajourneythroughart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/galleryart010_0d49c9ad-5056-a36f-23878fd45165f02c.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.ajourneythroughart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#1087bf",
+					        "marker-symbol": "art-gallery"
+					      },"geometry": {"coordinates": [ -111.759106,
+					          34.774864
+					        ],"type": "Point"
+					      },"id": 4861
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4540",
+					        "title": "Gallery Tesla",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.gallerytesla.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#1087bf",
+					        "marker-symbol": "art-gallery"
+					      },"geometry": {"coordinates": [ -111.787506,
+					          34.863025
+					        ],"type": "Point"
+					      },"id": 4540
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3045",
+					        "title": "Lark Art",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://bit.ly/LarkArt\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#1087bf",
+					        "marker-symbol": "art-gallery"
+					      },"geometry": {"coordinates": [ -111.761518,
+					          34.860695
+					        ],"type": "Point"
+					      },"id": 3045
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5552",
+					        "title": "Quilts LTD Gallery",
+					        "description": "<a href=\"https://sedonaquiltgallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_2779_3FB5BF9F-D800-42DD-91E6E549405A8CC6_d2057c63-8614-4924-be9ef33154324aa8.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://sedonaquiltgallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#1087bf",
+					        "marker-symbol": "art-gallery"
+					      },"geometry": {"coordinates": [ -111.762892,
+					          34.863039
+					        ],"type": "Point"
+					      },"id": 5552
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2649",
+					        "title": "Zonies Galleria",
+					        "description": "<br><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#1087bf",
+					        "marker-symbol": "art-gallery"
+					      },"geometry": {"coordinates": [ -111.761514,
+					          34.869282
+					        ],"type": "Point"
+					      },"id": 2649
 					    }],"id": "sedonachamber.gallery"}
