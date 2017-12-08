@@ -38,18 +38,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-2671",
-					        "title": "Creekside American Bistro, Coffee & Wine Tasting",
-					        "description": "<a href=\"http://creeksidesedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Kenlogo.gif\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://creeksidesedona.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Menu created with inspiration of international delicacies from traditions around the globe.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#b8860b",
-					        "marker-symbol": "star-stroked"
-					      },"geometry": {"coordinates": [ -111.763243,34.864169
-					        ],"type": "Point"
-					      },"id": 2671
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-1696",
 					        "title": "Open Range Grill & Tavern",
 					        "description": "<a href=\"http://www.openrangesedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/OpenRange.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.openrangesedona.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Dine with the most spectacular view from the dinning room.  Outdoor patio to be enjoyed year around.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
@@ -206,6 +194,18 @@
 					        "marker-symbol": "star-stroked"
 					      },"geometry": {"coordinates": [ -111.761521,
 					          34.869004
+					        ],"type": "Point"
+					      },"id": 9402
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-9402",
+					        "title": "Forest Plaza",
+					        "description": "<a href=\"https://www.cheersofsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/manzaanita.png\" height=\"140\" width=\"160\"></a><br><a href=\"https://www.cheersofsedona.com\" target=\"_blank\">Visit website!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Indian Garden’s Cafe & Market will be selling local Hot Apple Cider, Hot Cocoa and Holiday Treats in our viewing area with the sales proceeds to benefit Sedona Community Food Bank.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [  -111.761823,34.868540
 					        ],"type": "Point"
 					      },"id": 9402
 					    },{
