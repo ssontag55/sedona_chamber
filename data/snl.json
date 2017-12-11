@@ -3,7 +3,7 @@
 					      "properties": {
 					        "id": "marker-3078",
 					        "title": "Sedona Arts Center",
-					        "description": "<a href=\"http://www.sedonaartscenter.org\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/SAClogo.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonaartscenter.org\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Book signing by childre's author Patricia Saxton on December 15 and 16 from 6-8pm.<br><br> Sedona Poetry Slam on December 16 at 7:30pm.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.sedonaartscenter.org\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/SAClogo.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonaartscenter.org\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Book signing by childre's author Patricia Saxton on December 15 and 16 from 6-8pm.<br><br> Sedona Poetry Slam on December 16 at 7:30pm.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -16,7 +16,7 @@
 					      "properties": {
 					        "id": "marker-125",
 					        "title": "L'Auberge de Sedona",
-					        "description": "<a href=\"http://www.lauberge.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/lauberge.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lauberge.com\" target=\"_blank\">Visit website!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='One of the Top 50 hotels in the US by Conde Nast' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.lauberge.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/lauberge.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lauberge.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='One of the Top 50 hotels in the US by Conde Nast' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#846355",
 					        "marker-symbol": "restaurant"
@@ -28,7 +28,7 @@
 					      "properties": {
 					        "id": "marker-1275",
 					        "title": "Canyon Breeze Restaurant & Bar",
-					        "description": "<a href=\"http://www.canyon-breeze.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/canyon_breeze_logo.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.canyon-breeze.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Best patio view! Starbucks coffee, fresh squeezed juices and smoothies, Mexacan food, pizza, burgers, sandwiches, salads, ice cream, snow cones, full bar.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.canyon-breeze.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/canyon_breeze_logo.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.canyon-breeze.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Best patio view! Starbucks coffee, fresh squeezed juices and smoothies, Mexacan food, pizza, burgers, sandwiches, salads, ice cream, snow cones, full bar.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'> </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -40,7 +40,7 @@
 					      "properties": {
 					        "id": "marker-1696",
 					        "title": "Open Range Grill & Tavern",
-					        "description": "<a href=\"http://www.openrangesedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/OpenRange.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.openrangesedona.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Dine with the most spectacular view from the dinning room.  Outdoor patio to be enjoyed year around.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.openrangesedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/OpenRange.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.openrangesedona.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Dine with the most spectacular view from the dinning room.  Outdoor patio to be enjoyed year around.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'></i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -52,7 +52,7 @@
 					      "properties": {
 					        "id": "marker-183",
 					        "title": "Tlaquepaque Arts & Crafts Village",
-					        "description": "<a href=\"https://www.tlaq.com/restaurants\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Tlaq.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://www.tlaq.com/restaurants\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Buy One Get One Free $3 Hot Cocoa or Apple Cider at Rene.  Seating in and outside of restaurant with heaters on patio.  Enjoy a Northern Lights specialty drink!' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"https://www.tlaq.com/restaurants\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Tlaq.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://www.tlaq.com/restaurants\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Buy One Get One Free $3 Hot Cocoa or Apple Cider at Rene.  Seating in and outside of restaurant with heaters on patio.  Enjoy a Northern Lights specialty drink!' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -64,7 +64,7 @@
 					      "properties": {
 					        "id": "marker-3976",
 					        "title": "Sound Bites Grill",
-					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/SoundBites.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Premiere Entertainment Restaurant in Sedona. Open for lunch and dinner daily with amazing red rock views. Serving all natural cuisine and an extensive wine by the glass program. Enjoy live music nightly.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/SoundBites.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Premiere Entertainment Restaurant in Sedona. Open for lunch and dinner daily with amazing red rock views. Serving all natural cuisine and an extensive wine by the glass program. Enjoy live music nightly.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -76,7 +76,7 @@
 					      "properties": {
 					        "id": "marker-4872",
 					        "title": "The Hudson",
-					        "description": "<a href=\"http://www.thehudsonsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hudson.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thehudsonsedona.com\" target=\"_blank\">Visit website!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='An American eatery welcomes you daily for lunch and dinner with chef-driven food, great cocktails and wine, and a fun, inviting, family-like atmosphere.  Our place is industrial chic with an open dining room, central bar, lounge and the best deck in town.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.thehudsonsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hudson.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thehudsonsedona.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='An American eatery welcomes you daily for lunch and dinner with chef-driven food, great cocktails and wine, and a fun, inviting, family-like atmosphere.  Our place is industrial chic with an open dining room, central bar, lounge and the best deck in town.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -88,7 +88,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "Best Western PLUS Arroyo Roble Hotel & Creekside Villas",
-					        "description": "<a href=\"https://bestwesternsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/bwar-logo.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://bestwesternsedona.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='As the tallest building in Sedona, the 5-floor hotel offers spectacular unobstructed red rock views from private balconies and/or patios.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"https://bestwesternsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/bwar-logo.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://bestwesternsedona.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='As the tallest building in Sedona, the 5-floor hotel offers spectacular unobstructed red rock views from private balconies and/or patios.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -100,7 +100,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "Hyatt Pinon Pointe",
-					        "description": "<a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hyatt.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Art of Wine discounts and glow necklaces, free hot chocolate and glitter tattoos at concierge booth, Starbucks arts/crafts. Seating at two great viewing areas by Starbucks and Cold Stone Creamery' id=\"moreinfo\"><a target=\"_blank\">More info </a><i class='fa fa-info' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hyatt.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Art of Wine discounts and glow necklaces, free hot chocolate and glitter tattoos at concierge booth, Starbucks arts/crafts. Seating at two great viewing areas by Starbucks and Cold Stone Creamery' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info </a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -112,7 +112,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "Matterhorn Inn",
-					        "description": "<a href=\"http://www.matterhorninn.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Matterhorn.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.matterhorninn.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Located in uptown Sedona with spectacular red rock views from every room.  Heated outdoor pool and year-round hot tub and outdoor fireplace.  Walk to Sedona Northern Lights viewing. ' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.matterhorninn.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Matterhorn.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.matterhorninn.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Located in uptown Sedona with spectacular red rock views from every room.  Heated outdoor pool and year-round hot tub and outdoor fireplace.  Walk to Sedona Northern Lights viewing. ' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -124,7 +124,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "Amara Resort & Spa",
-					        "description": "<a href=\"http://www.amararesort.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/AMARA.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.amararesort.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Offering two specialty cocktails and a holiday pre fixe of 4 courses for $55 including a complimentary bubbly toast. Reservations encouraged.<br><br>Courtyard will have heaters, blankets, fire pits and speakers for audio portion of the show, and the best views in town!' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.amararesort.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/AMARA.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.amararesort.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Offering two specialty cocktails and a holiday pre fixe of 4 courses for $55 including a complimentary bubbly toast. Reservations encouraged.<br><br>Courtyard will have heaters, blankets, fire pits and speakers for audio portion of the show, and the best views in town!' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -136,7 +136,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "El Portal Sedona Hotel",
-					        "description": "<a href=\"http://www.elportalsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/ElPortal.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.elportalsedona.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Dedicated to providing an extraordinary lodging experience for guests and their pets in unpretentious luxury, while at the same time offering guests the best in modern amenities and unparalleled concierge services for the Sedona area. AAA Four Diamond Hotel. Pet friendly.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.elportalsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/ElPortal.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.elportalsedona.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Dedicated to providing an extraordinary lodging experience for guests and their pets in unpretentious luxury, while at the same time offering guests the best in modern amenities and unparalleled concierge services for the Sedona area. AAA Four Diamond Hotel. Pet friendly.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -148,7 +148,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "Hillside Sedona",
-					        "description": "<a href=\"http://www.hillsidesedona.net\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hillside.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.hillsidesedona.net\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Renowned shopping destination and home to a collective of restaurants for all distinguishing tastes, fine art galleries offering a diverse portfolio of art, sculpture, pottery and jewelry alongside boutiques that more than satisfy with their collection of shoes fasshion and home decor. <br><br> Santa here December 16 2-4pm with Red Rock Rockapella Chorus with Jeannie Carroll playing form 1-5pm' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.hillsidesedona.net\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hillside.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.hillsidesedona.net\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Renowned shopping destination and home to a collective of restaurants for all distinguishing tastes, fine art galleries offering a diverse portfolio of art, sculpture, pottery and jewelry alongside boutiques that more than satisfy with their collection of shoes fasshion and home decor. <br><br> Santa here December 16 2-4pm with Red Rock Rockapella Chorus with Jeannie Carroll playing form 1-5pm' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -175,7 +175,7 @@
 					      "properties": {
 					        "id": "marker-940d",
 					        "title": "Javelina Cantina",
-					        "description": "<a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/jav.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/jav.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -188,7 +188,7 @@
 					      "properties": {
 					        "id": "marker-9402",
 					        "title": "Cheers",
-					        "description": "<a href=\"https://www.cheersofsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/cheers.jpg\" height=\"140\" width=\"160\"></a><br><a href=\"https://www.cheersofsedona.com\" target=\"_blank\">Visit website!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.cheersofsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/cheers.jpg\" height=\"140\" width=\"160\"></a><br><a href=\"https://www.cheersofsedona.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -201,7 +201,7 @@
 					      "properties": {
 					        "id": "marker-9402",
 					        "title": "Forest Plaza",
-					        "description": "<a href=\"https://www.cheersofsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/manzaanita.png\" height=\"140\" width=\"160\"></a><br><a href=\"https://www.cheersofsedona.com\" target=\"_blank\">Visit website!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Indian Garden’s Cafe & Market will be selling local Hot Apple Cider, Hot Cocoa and Holiday Treats in our viewing area with the sales proceeds to benefit Sedona Community Food Bank and the Yavapai Food Council.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"https://www.cheersofsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/manzaanita.png\" height=\"140\" width=\"160\"></a><br><a href=\"https://www.cheersofsedona.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Indian Garden’s Cafe & Market will be selling local Hot Apple Cider, Hot Cocoa and Holiday Treats in our viewing area with the sales proceeds to benefit Sedona Community Food Bank and the Yavapai Food Council.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -213,7 +213,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "Hideaway House",
-					        "description": "<a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hideaway.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='We are cooking up homestyle curious country Italian foods with some twists on the favorites.  Home made bread, soups, deserts, pizzas, and also offering daily specials.' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/Hideaway.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='We are cooking up homestyle curious country Italian foods with some twists on the favorites.  Home made bread, soups, deserts, pizzas, and also offering daily specials.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -225,7 +225,7 @@
 			"properties": {
 				"id": "marker-in81eiyt8",
 				"title": "Chamber of Commerce Visitor Center",
-				"description": "<a href=\"http://www.sedonachamber.com/\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/VisitorsCenterlogo.png\" height=\"140\" width=\"160\"></a><br><a href=\"http://www.sedonachamber.com\" target=\"_blank\">Visit website!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='Come and take your picture with Santa! It is free and open Friday, Saturday and Sunday from 6-8 PM' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+				"description": "<a href=\"http://www.sedonachamber.com/\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/VisitorsCenterlogo.png\" height=\"140\" width=\"160\"></a><br><a href=\"http://www.sedonachamber.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Come and take your picture with Santa! It is free and open Friday, Saturday and Sunday from 6-8 PM' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 				"marker-size": "medium",
 				"marker-color": "#6c6c6c",
 				"marker-symbol": "star"
@@ -243,7 +243,7 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "AZ Safari Jeep Tours",
-					        "description": "<a href=\"http://www.safarijeeptours.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/arizonasafarijeeptours.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.safarijeeptours.com\" target=\"_blank\">Visit website!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div><div title='From Wildlife Safari to Diamond Back Gulch to Seven Canyons, Safari Jeep Tours offers a variety of tours for every member of the family. Safari guides are the most educated and experienced in Arizona. With Jeeps outfitted for your ultimate safety and comfort. Ride with the best. Life is a Safari!' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div>",
+					        "description": "<a href=\"http://www.safarijeeptours.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/arizonasafarijeeptours.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.safarijeeptours.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='From Wildlife Safari to Diamond Back Gulch to Seven Canyons, Safari Jeep Tours offers a variety of tours for every member of the family. Safari guides are the most educated and experienced in Arizona. With Jeeps outfitted for your ultimate safety and comfort. Ride with the best. Life is a Safari!' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"

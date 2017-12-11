@@ -166,9 +166,9 @@ border-top: 20px solid #58595B !important;*/
   border-radius: 10px !important;
   background:#2c3e50;
   color:#fff;
-  font-size:16px;
+  font-size:13px;
   max-width: 230px;
-  line-height:24px;
+  /*line-height:24px;*/
   }
 .custom-popup .leaflet-popup-content-wrapper a {
     color:rgba(255,255,255,0.5);
