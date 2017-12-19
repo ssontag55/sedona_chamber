@@ -18,8 +18,8 @@
 					        "title": "L'Auberge de Sedona",
 					        "description": "<a href=\"http://www.lauberge.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/lauberge.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lauberge.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='One of the Top 50 hotels in the US by Conde Nast' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#846355",
-					        "marker-symbol": "restaurant"
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
 					      },"geometry": {"coordinates": [ -111.759350,34.869297
 					        ],"type": "Point"
 					      },"id": 125
@@ -64,7 +64,7 @@
 					      "properties": {
 					        "id": "marker-3976",
 					        "title": "Sound Bites Grill",
-					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/SoundBites.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Premiere Entertainment Restaurant in Sedona. Open for lunch and dinner daily with amazing red rock views. Serving all natural cuisine and an extensive wine by the glass program. Enjoy live music nightly.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
+					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/SoundBites.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Premiere Entertainment Restaurant in Sedona. Open for lunch and dinner daily with amazing red rock views. Serving all natural cuisine and an extensive wine by the glass program. Enjoy live music nightly.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -201,7 +201,7 @@
 					      "properties": {
 					        "id": "marker-9402",
 					        "title": "Forest Plaza",
-					        "description": "<a href=\"https://www.cheersofsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/manzaanita.png\" height=\"140\" width=\"160\"></a><br><a href=\"https://www.cheersofsedona.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Indian Garden’s Cafe & Market will be selling local Hot Apple Cider, Hot Cocoa and Holiday Treats in our viewing area with the sales proceeds to benefit Sedona Community Food Bank and the Yavapai Food Council.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
+					        "description": "<a href=\"https://www.cheersofsedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/manzaanita.png\" height=\"140\" width=\"160\"></a><br><a href=\"https://www.cheersofsedona.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Indian Garden’s Cafe & Market will be selling local Hot Apple Cider, Hot Cocoa and Holiday Treats in our viewing area with the sales proceeds to benefit Sedona Community Food Bank and the Yavapai Food Council.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -225,10 +225,10 @@
 			"properties": {
 				"id": "marker-in81eiyt8",
 				"title": "Chamber of Commerce Visitor Center",
-				"description": "<a href=\"http://www.sedonachamber.com/\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/VisitorsCenterlogo.png\" height=\"140\" width=\"160\"></a><br><a href=\"http://www.sedonachamber.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Come and take your picture with Santa! It is free and open Friday, Saturday and Sunday from 6-8 PM' id=\"moreinfo\"><a target=\"_blank\">More info</a> <i class='fa fa-info-circle' aria-hidden='true'></i></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
+				"description": "<a href=\"http://www.sedonachamber.com/\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/VisitorsCenterlogo.png\" height=\"140\" width=\"160\"></a><br><a href=\"http://www.sedonachamber.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Come and take your picture with Santa! It is free and open Friday, Saturday and Sunday from 6-8 PM' id=\"moreinfo\">  <i class='fa fa-info-circle' aria-hidden='true'>  </i><a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
 				"marker-size": "medium",
 				"marker-color": "#6c6c6c",
-				"marker-symbol": "star"
+				"marker-symbol": "star" 
 			},
 			"geometry": {
 				"coordinates": [
@@ -238,16 +238,28 @@
 				"type": "Point"
 			},
 			"id": "f6365dfe494995d3f80bc3ca245be9aa"
-		},{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-5190",
-					        "title": "AZ Safari Jeep Tours",
-					        "description": "<a href=\"http://www.safarijeeptours.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/arizonasafarijeeptours.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.safarijeeptours.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='From Wildlife Safari to Diamond Back Gulch to Seven Canyons, Safari Jeep Tours offers a variety of tours for every member of the family. Safari guides are the most educated and experienced in Arizona. With Jeeps outfitted for your ultimate safety and comfort. Ride with the best. Life is a Safari!' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
-					        "marker-size": "medium",
-					        "marker-color": "#b8860b",
-					        "marker-symbol": "star-stroked"
-					      },"geometry": {"coordinates": [ -111.761326, 34.871242
-					        ],"type": "Point"
-					      },"id": 519022
-					    }],"id": "sedonachamber.star-stroked"}
+			},{
+		      "type": "Feature",
+		      "properties": {
+		        "id": "marker-125",
+		        "title": "Pink Java Cafe",
+		        "description": "<a href=\"https://www.pinkjeeptourssedona.com/pink-java-cafe/\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/pinkjeep.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.pinkjeeptourssedona.com/pink-java-cafe/\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Pink Java Café & the surrounding patio at the Pink Jeep Plaza will be offering Hot Drip Coffee + Hot Chocolate w Whip Cream Drink Specials (only) beginning at 5:30pm  We will also be giving a complimentary Holiday Cookie out to all the patrons who come through the Cafe' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
+		        "marker-size": "medium",
+		        "marker-color": "#b8860b",
+		        "marker-symbol": "star-stroked"
+		      },"geometry": {"coordinates": [-111.761053, 34.868809
+		        ],"type": "Point"
+		      },"id": 1253
+		    },{
+	      "type": "Feature",
+	      "properties": {
+	        "id": "marker-5190",
+	        "title": "AZ Safari Jeep Tours",
+	        "description": "<a href=\"http://www.safarijeeptours.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/arizonasafarijeeptours.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.safarijeeptours.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='From Wildlife Safari to Diamond Back Gulch to Seven Canyons, Safari Jeep Tours offers a variety of tours for every member of the family. Safari guides are the most educated and experienced in Arizona. With Jeeps outfitted for your ultimate safety and comfort. Ride with the best. Life is a Safari!' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
+	        "marker-size": "medium",
+	        "marker-color": "#b8860b",
+	        "marker-symbol": "star-stroked"
+	      },"geometry": {"coordinates": [ -111.761326, 34.871242
+	        ],"type": "Point"
+	      },"id": 519022
+	    }],"id": "sedonachamber.star-stroked"}
