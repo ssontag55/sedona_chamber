@@ -112,6 +112,12 @@ function startup(){
     	parkpts.addTo(map);
     	addMouseClickListener(parkpts);	
     }
+    else if(window.location.href.indexOf("parking") > -1){
+    	$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', 'parking');
+    	parkingpts.addTo(map);
+    	addMouseClickListener(parkingpts);	
+    }
     else if(window.location.href.indexOf("publicart") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', ['pubart']);
