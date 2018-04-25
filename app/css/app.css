@@ -21,8 +21,11 @@ body { margin:0; padding:0; }
 .btn{
     background: #4bc1b9!important;
     color: white !important;
-}    
+}
 
+.carousel-control{
+  width: 60px;
+}
 
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
     width: 240px !important;
@@ -182,7 +185,6 @@ border-top: 20px solid #58595B !important;*/
 }
 .carousel-control {
   padding-top:10%;
-  width:65%;
 }
 #pubartCarousel{
   width:65%;
