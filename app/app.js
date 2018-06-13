@@ -477,6 +477,19 @@ function startup(){
 	});
 	map.addControl(new imagecontrol());
 
+	var privacyLink = L.Control.extend({
+	    options: {
+	      position: 'bottomleft'
+	    },
+	    onAdd: function (map) {
+	      var container = L.DomUtil.create('div', 'privacy-control');
+
+	      container.innerHTML = '<a href="https://visitsedona.com/privacy-policy/" target="_blank">Privacy Policy</a>';
+	      return container;
+	    }
+	});
+	map.addControl(new privacyLink());
+
 	$('.img-control').click(function() {
 	  window.open('http://visitsedona.com/','_blank')
 	});

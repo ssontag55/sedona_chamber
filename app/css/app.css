@@ -30,6 +30,20 @@ body { margin:0; padding:0; }
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
     width: 240px !important;
 }
+
+.leaflet-bottom .leaflet-control {
+    margin-bottom: 1px !important;
+}
+
+.leaflet-bottom .leaflet-control a {
+    color: #4bc1b9!important;
+}
+
+    
+.leaflet-left .leaflet-control{
+  margin-bottom: 1px !important;
+    color: #4bc1b9!important;
+}
 /* fallback 
 @font-face {
   font-family: 'Material Icons';
