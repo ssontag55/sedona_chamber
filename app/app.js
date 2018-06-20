@@ -659,7 +659,7 @@ function getdirections(start,end){
 	}).addTo(map).bindPopup("You are here.").bringToFront();
 	
 	//using cycling because walking doesn't give adequate directions  Change from cycling
-	var dir_url = "https://api.tiles.mapbox.com/v4/directions/mapbox.cycling/"+start.lng+','+start.lat+";"+end[1]+','+end[0]+".json?instructions=json&geometry=line&access_token="+that.token
+	var dir_url = "https://api.tiles.mapbox.com/v4/directions/mapbox.driving/"+start.lng+','+start.lat+";"+end[1]+','+end[0]+".json?instructions=json&geometry=line&access_token="+that.token
 	
 	$.get( dir_url, function( data ) {
 
