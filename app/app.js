@@ -16,18 +16,13 @@ function startup(){
 	
 	L.mapbox.accessToken = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
 
-	//zoom usually [34.86394, -111.764860], 14 [34.81394, -111.764860], 12
-	var map = L.mapbox.map('map').setView([34.871146,-111.760917], 18).addControl(L.mapbox.shareControl());
-
-	//.addControl(L.mapbox.geocoderControl('mapbox.places',{autocomplete:true})) subbed for local search bar
-	that.map = map;
-
 	that.browsertype = 'desktop';
 
   	//search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
 		//$('#search-bar').selectpicker('mobile');
 		that.browsertype = 'mobile';
+		var map = L.mapbox.map('map').setView([34.871146,-111.7600], 17).addControl(L.mapbox.shareControl());
 
 		map.on('popupopen', function(e) {
 		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
@@ -49,13 +44,17 @@ function startup(){
 				});
 			}
 		 });
-
+		that.timedelay = 10000; 
 	}	
 	else{
 		$('#pubartCarousel').carousel({
 			interval: 88000
 		});
+		var map = L.mapbox.map('map').setView([34.871146,-111.760917], 18).addControl(L.mapbox.shareControl());
+		that.timedelay = 1000;
 	}
+
+	that.map = map;
 
 	$('#search-bar').selectpicker({liveSearchPlaceholder:"Filter Locations...",noneSelectedText:"Find Locations...",header:"Select Location Types"});
 	$('#search-bar').show();
@@ -334,23 +333,23 @@ function startup(){
 	if(d.getHours()>19||d.getHours()<7){
 		L.control.layers({
 		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
+		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}).addTo(map),
 		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
 		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    //'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
+		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
 		}).addTo(map);
 		//},layergroup).addTo(map);
 	}
 	else{
 		L.control.layers({
 		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
+		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}).addTo(map),
 		    //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
 		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    //'Red': L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20}).addTo(map),
-		    'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map),
+		    'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
 		    //'Light': L.mapbox.tileLayer('mapbox.light'),
 		    //'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
 		//},layergroup).addTo(map);
@@ -570,53 +569,55 @@ function addRealTimeParking(){
 	that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
 	var realtimeurl = "https://walksedona.com/php/proxy.php?http://spaceoccupancy.duncan-usa.com/sensor/status/latest/get/json/customer/4211/area/100";
 	
-	$.get( {url:realtimeurl, 
-		success : function (data){  
-	        var data = JSON.parse(data);
-			var spacesids = data.i_areas[0].indicators.glob_addr;
-			var spacesoccupied = data.i_areas[0].indicators.occupied;
-			var totalopen = 0;
+	setTimeout(function () { 
+		$.get( {url:realtimeurl, 
+			success : function (data){  
+		        var data = JSON.parse(data);
+				var spacesids = data.i_areas[0].indicators.glob_addr;
+				var spacesoccupied = data.i_areas[0].indicators.occupied;
+				that.totalopen = 0;
 
-			for (var layer in that.spacespts._layers) {
-				for (var i = spacesoccupied.length - 1; i >= 0; i--) {
-					if(spacesids[i] == that.spacespts._layers[layer].feature.properties['Spaceid']){
+				for (var layerSpace in that.spacespts._layers) {
+					for (var i = spacesoccupied.length; i >= -1; i--) {
+						if(spacesids[i] == that.spacespts._layers[layerSpace].feature.properties['Spaceid']){
 
-						if(spacesoccupied[i]){
-							that.spacespts._layers[layer].feature.properties['id'] = layer;
-							that.spacespts._layers[layer].feature.properties['title'] = 'Occupied';
-							that.spacespts._layers[layer].feature.properties['description'] = "Occupied";
-							that.spacespts._layers[layer].bindPopup('Space Occupied');
-							that.spacespts._layers[layer].options.icon.options.iconUrl = "http://a.tiles.mapbox.com/v4/marker/pin-m-marker-stroked+ff2828.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
-						}
-						else{
-							totalopen=totalopen+1;
-							that.spacespts._layers[layer].feature.properties['id'] = layer;
-							that.spacespts._layers[layer].feature.properties['title'] = 'Open';
-							that.spacespts._layers[layer].feature.properties['description'] = "Open";
-							that.spacespts._layers[layer].bindPopup('Space Available');
-							that.spacespts._layers[layer].options.icon.options.iconUrl = "http://a.tiles.mapbox.com/v4/marker/pin-m-marker+00ac00.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
+							if(spacesoccupied[i]){
+								that.spacespts._layers[layerSpace].feature.properties['id'] = layerSpace;
+								that.spacespts._layers[layerSpace].feature.properties['title'] = 'Occupied';
+								that.spacespts._layers[layerSpace].feature.properties['description'] = "Occupied";
+								that.spacespts._layers[layerSpace].bindPopup('Space Occupied');
+								that.spacespts._layers[layerSpace].options.icon.options.iconUrl = "https://a.tiles.mapbox.com/v4/marker/pin-m-marker-stroked+ff2828.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
+							}
+							else{
+								that.totalopen++;
+								that.spacespts._layers[layerSpace].feature.properties['id'] = layerSpace;
+								that.spacespts._layers[layerSpace].feature.properties['title'] = 'Open';
+								that.spacespts._layers[layerSpace].feature.properties['description'] = "Open";
+								that.spacespts._layers[layerSpace].bindPopup('Space Available');
+								that.spacespts._layers[layerSpace].options.icon.options.iconUrl = "https://a.tiles.mapbox.com/v4/marker/pin-m-marker+00ac00.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
+							}
 						}
 					}
 				}
-			}
-			that.loader.className = 'hide';
-			that.spacespts.addTo(map);
-			
-			//addMouseClickListener(that.spacespts);
 
-			vex.dialog.buttons.YES.text = 'OK';
-			vex.dialog.alert({
-	            message: "There are currently <b> (" + totalopen + ") </b>  parking spaces open in town."
-	        });
-	     },
-	     error : function (xhr, ajaxOptions, thrownError){  
-			vex.dialog.buttons.YES.text = 'OK';
-	        vex.dialog.alert({
-	            message: "There was an error collecting real time parking information.  Please try back later."
-	        });
-	        that.loader.className = 'hide';
-	     } 
-	});	
+				
+	        	that.loader.className = 'hide';
+				that.spacespts.addTo(map);
+
+				vex.dialog.buttons.YES.text = 'OK';
+				vex.dialog.alert({
+		            message: "There are currently <b> (" + String(that.totalopen) + ") </b>  parking spaces open in town."
+		        });
+		     },
+		     error : function (xhr, ajaxOptions, thrownError){  
+				vex.dialog.buttons.YES.text = 'OK';
+		        vex.dialog.alert({
+		            message: "There was an error collecting real time parking information.  Please try back later."
+		        });
+		        that.loader.className = 'hide';
+		     } 
+		});	
+    }, 2300);
 }
 
 function addMouseClickListener(pts){
