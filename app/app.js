@@ -22,7 +22,7 @@ function startup(){
 	if(bowser.android||bowser.ios||bowser.mobile){
 		//$('#search-bar').selectpicker('mobile');
 		that.browsertype = 'mobile';
-		var map = L.mapbox.map('map').setView([34.871146,-111.7600], 17).addControl(L.mapbox.shareControl());
+		var map = L.mapbox.map('map').setView([34.87280792707314,-111.76021456718445], 17).addControl(L.mapbox.shareControl());
 
 		map.on('popupopen', function(e) {
 		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
@@ -50,7 +50,7 @@ function startup(){
 		$('#pubartCarousel').carousel({
 			interval: 88000
 		});
-		var map = L.mapbox.map('map').setView([34.871146,-111.760917], 18).addControl(L.mapbox.shareControl());
+		var map = L.mapbox.map('map').setView([34.87280792707314,-111.76021456718445], 17).addControl(L.mapbox.shareControl());
 		that.timedelay = 1000;
 	}
 
@@ -65,7 +65,7 @@ function startup(){
 	var artpts = L.mapbox.featureLayer('data/gallery.json',{popupOptions: { closeButton: true }});
 	var buspts = L.mapbox.featureLayer('data/bus.json',{popupOptions: { closeButton: true }});
 	var theatrepts = L.mapbox.featureLayer('data/theatre.json',{popupOptions: { closeButton: true }});
-	var parkingpts = L.mapbox.featureLayer('data/parking.json',{popupOptions: { closeButton: true }});
+	that.parkingpts = L.mapbox.featureLayer('data/parking.json',{popupOptions: { closeButton: true, settings: 'parking' }});
 	var walkingfeatures = L.mapbox.featureLayer('data/walking.json',{popupOptions: { closeButton: true }});
 	var museumpts = L.mapbox.featureLayer('data/museum.json',{popupOptions: { closeButton: true }});
 	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
@@ -79,7 +79,7 @@ function startup(){
 
 	restaurantpts.on('ready', processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
-	parkingpts.on('ready',  processLayerGeo);
+	that.parkingpts.on('ready',  processLayerGeo);
 	museumpts.on('ready',  processLayerGeo);
 	artpts.on('ready',  processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
@@ -114,9 +114,10 @@ function startup(){
     else if(window.location.href.indexOf("parking") > -1 || window.location.href.indexOf("chamber") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', 'parking');
-    	parkingpts.addTo(map);
-    	addMouseClickListener(parkingpts);
+    	that.parkingpts.addTo(map);
+    	addMouseClickListener(that.parkingpts);
     	addRealTimeParking();
+    	setInterval(addRealTimeParking, 50000);
     }
     else if(window.location.href.indexOf("publicart") > -1){
     	$('#search-bar').selectpicker('deselectAll');
@@ -135,7 +136,7 @@ function startup(){
     	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
     	theatrepts.addTo(map);
     	museumpts.addTo(map);
-    	parkingpts.addTo(map);
+    	that.parkingpts.addTo(map);
     	buspts.addTo(map);
     	artpts.addTo(map);
     	walkingfeatures.addTo(map);	
@@ -155,14 +156,14 @@ function startup(){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', ['bus','parking','traffic']);
     	trafficLayer.addTo(map);
-    	parkingpts.addTo(map);
+    	that.parkingpts.addTo(map);
     	buspts.addTo(map);
-    	addMouseClickListener(parkingpts);	
+    	addMouseClickListener(that.parkingpts);	
     }
     else{
 		restaurantpts.addTo(map);
 		theatrepts.addTo(map);
-		parkingpts.addTo(map);
+		that.parkingpts.addTo(map);
 		museumpts.addTo(map);
 		artpts.addTo(map);	
 		buspts.addTo(map);	
@@ -173,7 +174,7 @@ function startup(){
 		//addMouseClickListener(parkpts);
 		addMouseClickListener(restaurantpts);
 		addMouseClickListener(theatrepts);
-		addMouseClickListener(parkingpts);
+		addMouseClickListener(that.parkingpts);
 		addMouseClickListener(buspts);
 		addMouseClickListener(museumpts);
 		addMouseClickListener(walkingfeatures);
@@ -185,7 +186,7 @@ function startup(){
     	map.removeLayer(restaurantpts);
 		map.removeLayer(recyclingpts);
 		map.removeLayer(theatrepts);
-		map.removeLayer(parkingpts);
+		map.removeLayer(that.parkingpts);
 		map.removeLayer(museumpts);
 		map.removeLayer(parkpts);
 		map.removeLayer(artpts);	
@@ -221,8 +222,8 @@ function startup(){
 	    			addMouseClickListener(museumpts);
 	    		}
 				else if(selectedLayers[l] == 'parking'){
-					parkingpts.addTo(map);	
-					addMouseClickListener(parkingpts);
+					that.parkingpts.addTo(map);	
+					addMouseClickListener(that.parkingpts);
 				}
 				else if(selectedLayers[l] == 'parks'){
 					parkpts.addTo(map);	
@@ -527,12 +528,12 @@ function layerpointclick(layr){
 	
 	layr.openPopup();	
   	map.setView(layr._latlng, 15);
-  	if(that.browsertype == 'mobile'){
+  	/*if(that.browsertype == 'mobile'){
   		//map.panBy([0, -130]);	
   	}
   	else{
   		//map.panBy([0, -10]);
-  	}
+  	}*/
   	map.panBy([0, -130]);
 
 	if(layr.feature.geometry.type == 'Point'){
@@ -556,19 +557,60 @@ function processLayer2Geo(t){
 	that.points.addData(t.getGeoJSON());
 }
 
+function addParkinglotInfo(){
+	var parkingloturl = "https://walksedona.com/php/proxy_parkinglot.php?https://api.streetsoncloud.com/pl1/multi-lot-info";
+	$.get({
+        url: parkingloturl,
+		success : function (data){  
+			that.total_spaces = data[0][0].total_spaces;
+			that.free_spaces = data[0][0].free_spaces;
+			that.occupancy_per = data[0][0].occupancy + '%';
+
+			that.map.eachLayer(function(marker) {    
+		        if(marker.options){
+		        	if (marker.options.hasOwnProperty('popupOptions')) {
+			            if(marker.options.popupOptions.settings == 'parking'){
+			            	//parking layer
+			            	for (var parkingArea in that.parkingpts._layers) {
+			            		if(that.parkingpts._layers[parkingArea].feature.properties['id']  == 'marker-in81c3mc7'){
+			            			//that.parkingpts._layers[parkingArea].setPopupContent('<div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>';
+			            			that.parkingpts._layers[parkingArea].setPopupContent('<div style="color:#4bc1b9"><b>'+ that.free_spaces + ' spaces available</b><br>'+that.occupancy_per+' Occupied<br><div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>');
+			            			that.parkingpts._layers[parkingArea].openPopup();
+			            			that.gotoloc = [34.87280792707314,-111.76021456718445];
+
+			            			$("#direc" ).on('click', function (e) {
+											e.preventDefault();
+											that.loader.className = '';
+										  	//get direction same
+										  	that.map.stopLocate();
+										    that.map.locate();
+										});
+			            		}
+			            	}
+			            }
+			        }
+		        } 
+		    });
+
+        	that.loader.className = 'hide';
+	     },
+	     error : function (xhr, ajaxOptions, thrownError){  
+			vex.dialog.buttons.YES.text = 'OK';
+	        vex.dialog.alert({
+	            message: "There was an error collecting real time parking information.  Please try back later."
+	        });
+	        that.loader.className = 'hide';
+	     } 
+	});	
+}
+
 function addRealTimeParking(){
-
-	// XML service for spaces
-	// var spacesurl = http://spaceoccupancy.duncan-usa.com/sensor/space/get/customer/4211/start/1/end/100000000
-
-	/*var parser = new DOMParser();
-	var spacesXML = parser.parseFromString(text,"text/xml");
-	document.getElementById("demo").innerHTML = spacesXML.getElementsByTagName("title")[0].childNodes[0].nodeValue;*/
 	
 	// real time service
 	that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
 	var realtimeurl = "https://walksedona.com/php/proxy.php?http://spaceoccupancy.duncan-usa.com/sensor/status/latest/get/json/customer/4211/area/100";
 	
+	addParkinglotInfo();
 	setTimeout(function () { 
 		$.get( {url:realtimeurl, 
 			success : function (data){  
@@ -599,14 +641,15 @@ function addRealTimeParking(){
 						}
 					}
 				}
-
 				
 	        	that.loader.className = 'hide';
 				that.spacespts.addTo(map);
 
+				that.totalopen = Number(that.free_spaces) + that.totalopen;
+				vex.close();
 				vex.dialog.buttons.YES.text = 'OK';
 				vex.dialog.alert({
-		            message: "There are currently <b> (" + String(that.totalopen) + ") </b>  parking spaces open in town."
+		            message: "There are currently <b> (" + String(that.totalopen) + ") </b>  parking spaces open in town. Refresh browser to show most up-to-date information."
 		        });
 		     },
 		     error : function (xhr, ajaxOptions, thrownError){  
