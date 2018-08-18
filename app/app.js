@@ -187,6 +187,7 @@ function startup(){
 		map.removeLayer(recyclingpts);
 		map.removeLayer(theatrepts);
 		map.removeLayer(that.parkingpts);
+		map.removeLayer(that.spacespts);
 		map.removeLayer(museumpts);
 		map.removeLayer(parkpts);
 		map.removeLayer(artpts);	
@@ -223,6 +224,8 @@ function startup(){
 	    		}
 				else if(selectedLayers[l] == 'parking'){
 					that.parkingpts.addTo(map);	
+					that.loader.className = '';
+					addRealTimeParking();
 					addMouseClickListener(that.parkingpts);
 				}
 				else if(selectedLayers[l] == 'parks'){
@@ -573,8 +576,8 @@ function addParkinglotInfo(){
 			            	//parking layer
 			            	for (var parkingArea in that.parkingpts._layers) {
 			            		if(that.parkingpts._layers[parkingArea].feature.properties['id']  == 'marker-in81c3mc7'){
-			            			//that.parkingpts._layers[parkingArea].setPopupContent('<div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>';
-			            			that.parkingpts._layers[parkingArea].setPopupContent('<div style="color:#4bc1b9"><b>'+ that.free_spaces + ' spaces available</b><br>'+that.occupancy_per+' Occupied<br><div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>');
+			            			//that.parkingpts._layers[parkingArea].setPopupContent('<div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>';//<br>'+that.occupancy_per+' Occupied<br>
+			            			that.parkingpts._layers[parkingArea].setPopupContent('<div style="color:#4bc1b9"><b>'+ that.free_spaces + ' spaces available</b><div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>');
 			            			that.parkingpts._layers[parkingArea].openPopup();
 			            			that.gotoloc = [34.87280792707314,-111.76021456718445];
 
@@ -592,7 +595,7 @@ function addParkinglotInfo(){
 		        } 
 		    });
 
-        	that.loader.className = 'hide';
+        	//that.loader.className = 'hide';
 	     },
 	     error : function (xhr, ajaxOptions, thrownError){  
 			vex.dialog.buttons.YES.text = 'OK';
@@ -628,7 +631,7 @@ function addRealTimeParking(){
 								that.spacespts._layers[layerSpace].feature.properties['title'] = 'Occupied';
 								that.spacespts._layers[layerSpace].feature.properties['description'] = "Occupied";
 								that.spacespts._layers[layerSpace].bindPopup('Space Occupied');
-								that.spacespts._layers[layerSpace].options.icon.options.iconUrl = "https://a.tiles.mapbox.com/v4/marker/pin-m-marker-stroked+ff2828.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
+								that.spacespts._layers[layerSpace].options.icon.options.iconUrl = "https://a.tiles.mapbox.com/v4/marker/pin-m-roadblock+ff2828.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
 							}
 							else{
 								that.totalopen++;
@@ -636,7 +639,7 @@ function addRealTimeParking(){
 								that.spacespts._layers[layerSpace].feature.properties['title'] = 'Open';
 								that.spacespts._layers[layerSpace].feature.properties['description'] = "Open";
 								that.spacespts._layers[layerSpace].bindPopup('Space Available');
-								that.spacespts._layers[layerSpace].options.icon.options.iconUrl = "https://a.tiles.mapbox.com/v4/marker/pin-m-marker+00ac00.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
+								that.spacespts._layers[layerSpace].options.icon.options.iconUrl = "https://a.tiles.mapbox.com/v4/marker/pin-m-car+00ac00.png?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg";	
 							}
 						}
 					}
@@ -646,11 +649,11 @@ function addRealTimeParking(){
 				that.spacespts.addTo(map);
 
 				that.totalopen = Number(that.free_spaces) + that.totalopen;
-				vex.close();
+				/*vex.close();
 				vex.dialog.buttons.YES.text = 'OK';
 				vex.dialog.alert({
 		            message: "There are currently <b> (" + String(that.totalopen) + ") </b>  parking spaces open in town. Refresh browser to show most up-to-date information."
-		        });
+		        });*/
 		     },
 		     error : function (xhr, ajaxOptions, thrownError){  
 				vex.dialog.buttons.YES.text = 'OK';
