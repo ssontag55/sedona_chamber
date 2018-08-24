@@ -116,7 +116,7 @@ function startup(){
     	$('#search-bar').selectpicker('val', 'parking');
     	that.parkingpts.addTo(map);
     	addMouseClickListener(that.parkingpts);
-    	addRealTimeParking();
+    	addRealTimeParking(true);
     	setInterval(addRealTimeParking, 50000);
     }
     else if(window.location.href.indexOf("publicart") > -1){
@@ -225,7 +225,7 @@ function startup(){
 				else if(selectedLayers[l] == 'parking'){
 					that.parkingpts.addTo(map);	
 					that.loader.className = '';
-					addRealTimeParking();
+					addRealTimeParking(true);
 					addMouseClickListener(that.parkingpts);
 				}
 				else if(selectedLayers[l] == 'parks'){
@@ -560,7 +560,7 @@ function processLayer2Geo(t){
 	that.points.addData(t.getGeoJSON());
 }
 
-function addParkinglotInfo(){
+function addParkinglotInfo(d){
 	var parkingloturl = "https://walksedona.com/php/proxy_parkinglot.php?https://api.streetsoncloud.com/pl1/multi-lot-info";
 	$.get({
         url: parkingloturl,
@@ -577,8 +577,12 @@ function addParkinglotInfo(){
 			            	for (var parkingArea in that.parkingpts._layers) {
 			            		if(that.parkingpts._layers[parkingArea].feature.properties['id']  == 'marker-in81c3mc7'){
 			            			//that.parkingpts._layers[parkingArea].setPopupContent('<div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>';//<br>'+that.occupancy_per+' Occupied<br>
-			            			that.parkingpts._layers[parkingArea].setPopupContent('<div style="color:#4bc1b9"><b>'+ that.free_spaces + ' spaces available</b><div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>');
-			            			that.parkingpts._layers[parkingArea].openPopup();
+			            			that.parkingpts._layers[parkingArea]._icon['title'] = 'Lot #5 (' + that.free_spaces + ') spaces available';
+			            			that.parkingpts._layers[parkingArea].setPopupContent('<div style="color:#4bc1b9"><b>Lot #5 ('+ that.free_spaces + ') spaces currently available</b><div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>');
+			            			if(d){
+			            				that.parkingpts._layers[parkingArea].openPopup();	
+			            			}
+			            			
 			            			that.gotoloc = [34.87280792707314,-111.76021456718445];
 
 			            			$("#direc" ).on('click', function (e) {
@@ -607,13 +611,13 @@ function addParkinglotInfo(){
 	});	
 }
 
-function addRealTimeParking(){
+function addRealTimeParking(first){
 	
 	// real time service
 	that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
 	var realtimeurl = "https://walksedona.com/php/proxy.php?http://spaceoccupancy.duncan-usa.com/sensor/status/latest/get/json/customer/4211/area/100";
 	
-	addParkinglotInfo();
+	addParkinglotInfo(first);
 	setTimeout(function () { 
 		$.get( {url:realtimeurl, 
 			success : function (data){  
