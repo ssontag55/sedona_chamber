@@ -578,7 +578,7 @@ function addParkinglotInfo(d){
 			            		if(that.parkingpts._layers[parkingArea].feature.properties['id']  == 'marker-in81c3mc7'){
 			            			//that.parkingpts._layers[parkingArea].setPopupContent('<div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>';//<br>'+that.occupancy_per+' Occupied<br>
 			            			that.parkingpts._layers[parkingArea]._icon['title'] = 'Lot #5 (' + that.free_spaces + ') spaces available';
-			            			that.parkingpts._layers[parkingArea].setPopupContent('<div style="color:#4bc1b9"><b>Lot #5 ('+ that.free_spaces + ') spaces currently available</b><div class="marker-description"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>');
+			            			that.parkingpts._layers[parkingArea].setPopupContent('<div style="color:#4bc1b9;width:162px;"><b>Lot #5 ('+ that.free_spaces + ') spaces currently available</b><div class="marker-description"><img style="padding-top:3px;" src="https://walksedona.com/assets/parkinglots/p5map.png"><br>@Cedar and Schnebly<br><div id="direc"><a target="_blank">Get Directions!</a></div></div>');
 			            			if(d){
 			            				that.parkingpts._layers[parkingArea].openPopup();	
 			            			}
