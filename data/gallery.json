@@ -27,14 +27,27 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-6509",
+					        "title": "Aurora Dora Photography",
+					        "description": "<a href=\"https://www.auroradora.com/\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/aurora-dora-photo-f419f6d35056a36_f41a07a6-5056-a36f-2345a60bece2f312.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://www.auroradora.com/\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#1087bf",
+					        "marker-symbol": "art-gallery"
+					      },"geometry": {"coordinates": [ -111.759090,
+					          34.871685
+					        ],"type": "Point"
+					      },"id": 6509
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-4913",
 					        "title": "Bearcloud Gallery",
 					        "description": "<a href=\"http://www.bearcloudgallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Bearcloud-Painting-800x600_0d6e0007-5056-a36f-23df3561f83d4343.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.bearcloudgallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.763438,
-					          34.862177
+					      },"geometry": {"coordinates": [ -111.764372,
+					          34.774118
 					        ],"type": "Point"
 					      },"id": 4913
 					    },{
@@ -42,7 +55,7 @@
 					      "properties": {
 					        "id": "marker-4932",
 					        "title": "Creative Gateways",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.creativegateways.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.creativegateways.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/DSC07977_3652B48D-5FBE-4B16-9F6BEC10A6DFA406_bccdc026-4ea8-450b-91b6f39c30e46f3c.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.creativegateways.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -133,7 +146,7 @@
 					      "properties": {
 					        "id": "marker-4881",
 					        "title": "Honshin Fine Art Gallery of the Ascending Spirit",
-					        "description": "<a href=\"http://www.honshinfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/APRIL-Brother-Raven-Sings-the-song-of-the-Medicine-Bear-to-the-Gold-light-of-Sky-copy_298CE2FB-BD63-4DBD-A387EF8E024BCA59_4365c4b9-01f8-4dcf-a444ad3f522d876c.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.honshinfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/2018-CC18-hummingbird_978761D4-1656-4085-89A09305FDFDB34B_1fa0a2c4-051f-45e9-97ed273b80262cef.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -146,7 +159,7 @@
 					      "properties": {
 					        "id": "marker-4819",
 					        "title": "Honshin Fine Art Gallery of Wholeness, Harmony & Radiance",
-					        "description": "<a href=\"http://www.honshinfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/7009-Blossoms-Offered-to-the-Ascending-Spirit---Ch-1_88B82E5D-B40E-469C-A04FE485214FA54E_715ed0fc-dddc-4a38-9e39cfb669a3d5fd.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.honshinfineart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ZEN-CAT-EGYPTIAN-voyage-small_1F9A2467-64EC-4EC6-90C782643D1C14F6_976ff9e5-cbe7-481a-bc7f1cf1f12c8688.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.honshinfineart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -171,8 +184,8 @@
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-987",
-					        "title": "Kuivato Glass Gallery",
-					        "description": "<a href=\"http://www.kuivato.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Elegant_RainbowKuivato0-7bde88275056a36_7bde89a4-5056-a36f-2345836fc82499b3.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.kuivato.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "Kuivato, a Creative Gateways Gallery",
+					        "description": "<a href=\"http://www.kuivato.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Edited-gallery-photo-2_2F6E03D6-9056-4D93-9CD40EA041018A76_6346b7ed-9887-473d-a13c588bb930b42c.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.kuivato.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -184,8 +197,8 @@
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-131",
-					        "title": "Lanning Gallery",
-					        "description": "<a href=\"http://www.lanninggallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/LanningGallery-Rogoway-The-Toast-sized-for-Chmbr-sites-800x60010_0d5e89ea-5056-a36f-2308a758b6fe0bd8.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.lanninggallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "Lanning, a Bryant Nagel Gallery",
+					        "description": "<a href=\"https://www.lanninggallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Alfred-Rogoway-Tender-Moments-Chmbr_21657438-775E-42FA-8EE850FCDB50E493_d6c647f8-2d15-4381-ad1b8e12c9411bbc.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://www.lanninggallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -301,8 +314,8 @@
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-4929",
-					        "title": "Turquoise Tortoise Gallery",
-					        "description": "<a href=\"http://www.turquoisetortoisegallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/TurquoiseTortoise-Jewelry-Assormnt-sized-for-Chmbr-sites-800x60010_0d5e75da-5056-a36f-23cd08d036324d8a.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.turquoisetortoisegallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "Turquoise Tortoise, a Bryant Nagel Gallery",
+					        "description": "<a href=\"http://www.turquoisetortoisegallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Turquoise-Tortoise-Gallery--Exterior_0d6d3ee0-5056-a36f-23663eca7249edd4.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.turquoisetortoisegallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"
@@ -310,32 +323,6 @@
 					          34.860796
 					        ],"type": "Point"
 					      },"id": 4929
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-4850",
-					        "title": "Village Gallery of Local Artists",
-					        "description": "<a href=\"http://www.sedonalocalartists.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_6418_B95B5CB7-B5CB-459C-BD40B5BD13325120_35ea4839-c818-488b-a0cdcbe53166346d.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonalocalartists.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.763365,
-					          34.780412
-					        ],"type": "Point"
-					      },"id": 4850
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-4861",
-					        "title": "A Journey Through Art",
-					        "description": "<a href=\"http://www.ajourneythroughart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/galleryart010_0d49c9ad-5056-a36f-23878fd45165f02c.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.ajourneythroughart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.759106,
-					          34.774864
-					        ],"type": "Point"
-					      },"id": 4861
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -352,35 +339,9 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-3045",
-					        "title": "Lark Art",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://bit.ly/LarkArt\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.761518,
-					          34.860695
-					        ],"type": "Point"
-					      },"id": 3045
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-5552",
-					        "title": "Quilts LTD Gallery",
-					        "description": "<a href=\"https://sedonaquiltgallery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_2779_3FB5BF9F-D800-42DD-91E6E549405A8CC6_d2057c63-8614-4924-be9ef33154324aa8.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://sedonaquiltgallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.762892,
-					          34.863039
-					        ],"type": "Point"
-					      },"id": 5552
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-2649",
 					        "title": "Zonies Galleria",
-					        "description": "<br><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<br><div id=\"linksite\"><a href=\"https://sedonaverdevalley.natgeotourism.com/content/zonies-galleria/svvf8bd7f8ac50ee4dd2\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#1087bf",
 					        "marker-symbol": "art-gallery"

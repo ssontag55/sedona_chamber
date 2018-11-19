@@ -17,7 +17,7 @@ function startup(){
 	L.mapbox.accessToken = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
 
 	//zoom usually [34.86394, -111.764860], 14 [34.81394, -111.764860], 12
-	var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
+	var map = L.mapbox.map('map').setView([34.86494, -111.757860], 16).addControl(L.mapbox.shareControl());
 
 	//.addControl(L.mapbox.geocoderControl('mapbox.places',{autocomplete:true})) subbed for local search bar
 	that.map = map;
