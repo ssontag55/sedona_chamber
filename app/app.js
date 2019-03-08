@@ -22,7 +22,7 @@ function startup(){
 	if(bowser.android||bowser.ios||bowser.mobile){
 		//$('#search-bar').selectpicker('mobile');
 		that.browsertype = 'mobile';
-		var map = L.mapbox.map('map').setView([34.87280792707314,-111.76021456718445], 17).addControl(L.mapbox.shareControl());
+		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
 
 		map.on('popupopen', function(e) {
 		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
@@ -50,7 +50,7 @@ function startup(){
 		$('#pubartCarousel').carousel({
 			interval: 88000
 		});
-		var map = L.mapbox.map('map').setView([34.87280792707314,-111.76021456718445], 17).addControl(L.mapbox.shareControl());
+		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
 		that.timedelay = 1000;
 	}
 
@@ -71,6 +71,7 @@ function startup(){
 	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
 	var recyclingpts = L.mapbox.featureLayer('data/recycling.json',{popupOptions: { closeButton: true }});
 	var parkpts = L.mapbox.featureLayer('data/parks.json',{popupOptions: { closeButton: true }});
+	that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
 
 	var trafficLayer = L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20,zIndex:1000});
 
@@ -111,7 +112,7 @@ function startup(){
     	parkpts.addTo(map);
     	addMouseClickListener(parkpts);	
     }
-    else if(window.location.href.indexOf("parking") > -1 || window.location.href.indexOf("chamber") > -1){
+    else if(window.location.href.indexOf("parking") > -1){
     	$('#search-bar').selectpicker('deselectAll');
     	$('#search-bar').selectpicker('val', 'parking');
     	that.parkingpts.addTo(map);
@@ -163,18 +164,17 @@ function startup(){
     else{
 		restaurantpts.addTo(map);
 		theatrepts.addTo(map);
-		that.parkingpts.addTo(map);
+		//that.parkingpts.addTo(map);
 		museumpts.addTo(map);
 		artpts.addTo(map);	
-		buspts.addTo(map);	
-		//parkpts.addTo(map);	
+		buspts.addTo(map);
 		walkingfeatures.addTo(map);	
 		//trafficLayer.addTo(map);
 		addMouseClickListener(artpts);
 		//addMouseClickListener(parkpts);
 		addMouseClickListener(restaurantpts);
 		addMouseClickListener(theatrepts);
-		addMouseClickListener(that.parkingpts);
+		//addMouseClickListener(that.parkingpts);
 		addMouseClickListener(buspts);
 		addMouseClickListener(museumpts);
 		addMouseClickListener(walkingfeatures);
@@ -337,30 +337,30 @@ function startup(){
 	if(d.getHours()>19||d.getHours()<7){
 		L.control.layers({
 		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}).addTo(map),
+		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
 		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
 		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    //'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
+		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
 		}).addTo(map);
 		//},layergroup).addTo(map);
 	}
 	else{
 		L.control.layers({
 		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}).addTo(map),
+		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
 		    //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
 		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
 		    //'Red': L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20}).addTo(map),
-		    'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
+		    'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
 		    //'Light': L.mapbox.tileLayer('mapbox.light'),
 		    //'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
 		//},layergroup).addTo(map);
 		}).addTo(map);
 	}
 
-	//that.loader.className = 'hide';
+	that.loader.className = 'hide';
 	map.on('locationfound',(function(t) {
 
         //find closest point
@@ -614,7 +614,6 @@ function addParkinglotInfo(d){
 function addRealTimeParking(first){
 	
 	// real time service
-	that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
 	var realtimeurl = "https://walksedona.com/php/proxy.php?http://spaceoccupancy.duncan-usa.com/sensor/status/latest/get/json/customer/4211/area/100";
 	
 	addParkinglotInfo(first);
