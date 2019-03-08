@@ -1,19 +1,6 @@
 {"type": "FeatureCollection","features": [{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-3078",
-					        "title": "Sedona Arts Center",
-					        "description": "<a href=\"http://www.sedonaartscenter.org\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/SAClogo.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.sedonaartscenter.org\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='Book signing by childrens author Patricia Saxton on December 15 and 16 from 6-8pm.<br/><br/> Sedona Poetry Slam on December 16 at 7:30pm.' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div><div style='font-size:11px; font-style:italic;'><i class='fa fa-music' aria-hidden='true'></i>   Music will be playing on the radio to sync with the light show</div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.757592,
-					          34.872447
-					        ],"type": "Point"
-					      },"id": 3078
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-125",
 					        "title": "L'Auberge de Sedona",
 					        "description": "<a href=\"http://www.lauberge.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/lauberge.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lauberge.com\" target=\"_blank\">Visit website</a><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div><div title='One of the Top 50 hotels in the US by Conde Nast' id=\"moreinfo\"><i class='fa fa-info-circle' aria-hidden='true'>  </i>  <a target=\"_blank\">More info</a></div>",
@@ -23,6 +10,19 @@
 					      },"geometry": {"coordinates": [ -111.759350,34.869297
 					        ],"type": "Point"
 					      },"id": 125
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3976",
+					        "title": "Sound Bites Grill",
+					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/photo_4B941B47-4697-4B72-9931BF7D6226448E_f154550a-63f3-42c5-9547197cd55b7cda.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#b8860b",
+					        "marker-symbol": "star-stroked"
+					      },"geometry": {"coordinates": [ -111.762984,
+					          34.866679
+					        ],"type": "Point"
+					      },"id": 3976
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -151,7 +151,7 @@
 					      "properties": {
 					        "id": "marker-1728",
 					        "title": "Ramsey's Rocks and Minerals",
-					        "description": "<a href=\"http://www.goldensteinart.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/goldenstein00_0d20d4a5-5056-a36f-23fc37626555603e.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.goldensteinart.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.ramseyssedona.com/\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/ram.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"https://www.ramseyssedona.com/\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#b8860b",
 					        "marker-symbol": "star-stroked"
@@ -173,20 +173,7 @@
 					        ],"type": "Point"
 					      },"id": 1728
 					    },
-					    {
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-940d",
-					        "title": "Orchard Inn",
-					        "description": "<a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\"><img src=\"https://walksedona.com/snl/assets/snl/jav.png\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\">Visit website</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#b8860b",
-					        "marker-symbol": "star-stroked"
-					      },"geometry": {"coordinates": [ -111.760448,
-					          34.869333
-					        ],"type": "Point"
-					      },"id": 9403
-					    },
+					    
 					    {
 					      "type": "Feature",
 					      "properties": {
