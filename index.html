@@ -20,17 +20,16 @@
 </head>
 <body>
 <div id="side-menu">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">one</a>  
   <a href="#">two</a>
   <a href="#">three</a>
 </div>
+<button id="hamburger" class="hamburger hamburger--squeeze" type="button" onclick="toggleNav()">
+    <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+    </span>
+</button>
 <div id="main">
-    <div id="hamburger" onclick="openNav()">
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
     <div class='custom-popup' id='map'></div>
     <div id='toolbar'>
       <select id="search-bar" multiple="multiple" data-live-search="true" style="display:none">
