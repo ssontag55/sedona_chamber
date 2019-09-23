@@ -85,59 +85,35 @@ function startup(){
 	publicartpts.on('ready',  processLayerGeo);
   parkpts.on('ready',  processLayerGeo);
 
-
-
-
-
-
-
-
-
-
-
-  // re-write auto select if window.location is a certain option
-
-
-
-
-
-
-
 	if(window.location.href.indexOf("restaurants") > -1) {
-		$('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', 'rest');
+		deselectAllExcept(['rest']);
     restaurantpts.addTo(map);
     addMouseClickListener(restaurantpts);
   }
   else if(window.location.href.indexOf("green") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', 'recycling');
+    deselectAllExcept(['recycling']);
     recyclingpts.addTo(map);
     addMouseClickListener(recyclingpts);	
   }
   else if(window.location.href.indexOf("parks") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', 'parks');
+    deselectAllExcept(['parks']);
     parkpts.addTo(map);
     addMouseClickListener(parkpts);	
   }
   else if(window.location.href.indexOf("trails") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', 'parks');
+    deselectAllExcept(['parks']);
     parkpts.addTo(map);
     addMouseClickListener(parkpts);	
   }
   else if(window.location.href.indexOf("parking") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', 'parking');
+    deselectAllExcept(['parking']);
     that.parkingpts.addTo(map);
     addMouseClickListener(that.parkingpts);
     addRealTimeParking(true);
     setInterval(addRealTimeParking, 50000);
   }
   else if(window.location.href.indexOf("publicart") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', ['pubart']);
+    deselectAllExcept(['pubart']);
     publicartpts.addTo(map);	
     addMouseClickListener(publicartpts);	
     if(that.browsertype == 'mobile'){
@@ -148,8 +124,7 @@ function startup(){
     }
   }
   else if(window.location.href.indexOf("art") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
+    deselectAllExcept(['gallery','bus','walk','museum','theatre']);
     theatrepts.addTo(map);
     museumpts.addTo(map);
     that.parkingpts.addTo(map);
@@ -159,8 +134,7 @@ function startup(){
     addMouseClickListener(artpts);	
   }
   else if(window.location.href.indexOf("galleries") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
+    deselectAllExcept(['gallery','bus','walk','museum','theatre']);
     theatrepts.addTo(map);
     museumpts.addTo(map);
     artpts.addTo(map);
@@ -169,8 +143,7 @@ function startup(){
     addMouseClickListener(artpts);	
   }
   else if(window.location.href.indexOf("traffic") > -1){
-    $('#search-bar').selectpicker('deselectAll');
-    $('#search-bar').selectpicker('val', ['bus','parking','traffic']);
+    deselectAllExcept(['bus','parking','traffic']);
     trafficLayer.addTo(map);
     that.parkingpts.addTo(map);
     buspts.addTo(map);
@@ -193,6 +166,35 @@ function startup(){
     addMouseClickListener(buspts);
     addMouseClickListener(museumpts);
     addMouseClickListener(walkingfeatures);
+  }
+
+  function deselectAllExcept(selectedValues) {
+    selectedLayers = [selectedValues];
+
+    // set selected values on select options
+    $('#search-select-list').children('li').each(function() {
+      if (selectedValues.includes($(this).data('value'))) {
+        $(this).data('selected', true);
+        $(this).attr('data-selected', true);
+      } else {
+        $(this).data('selected', false);
+        $(this).attr('data-selected', false);
+      }
+    });
+
+    map.removeLayer(that.spacespts);
+
+    map.removeLayer(artpts);
+    map.removeLayer(restaurantpts);
+    map.removeLayer(theatrepts);
+    map.removeLayer(museumpts);
+    map.removeLayer(that.parkingpts);
+    map.removeLayer(parkpts);
+    map.removeLayer(publicartpts);
+    map.removeLayer(recyclingpts);
+    map.removeLayer(buspts);
+    map.removeLayer(walkingfeatures);
+    map.removeLayer(trafficLayer);
   }
 
   var selectedLayers = [];
@@ -219,7 +221,6 @@ function startup(){
 
       map.removeLayer(that.spacespts);
 
-      // hide/show options on map
       if (selectedValue === 'gallery') map.removeLayer(artpts);
       if (selectedValue === 'rest') map.removeLayer(restaurantpts);
       if (selectedValue === 'theatre') map.removeLayer(theatrepts);
