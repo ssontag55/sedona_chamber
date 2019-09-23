@@ -72,7 +72,7 @@ function startup(){
 
 	var trafficLayer = L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20,zIndex:1000});
 
-    basefeatures.addTo(map);
+  basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
 	restaurantpts.on('ready', processLayerGeo);
@@ -306,33 +306,26 @@ function startup(){
   // write search functionality
   $('#search-select-bar').on('input', function(e) {
     var searchVal = $(this).val();
+    var found = 0;    
 
     // hide all options that don't match search value
     $('#search-select-list').children('li').each(function() {
       $(this).hide();
       if ($(this).text().toLowerCase().includes(searchVal.toLowerCase())) {
         $(this).show();
+        found++
       }
     });
+
+    if (found === 0) {
+      $('#no-results')
+        .text('No results matched \"' + searchVal + '\"')
+        .show();
+    } else {
+      $('#no-results').hide();
+    }
   });
 
-
-
-
-
-
-
-
-  // get rid of search-bar artifacts
-
-
-
-
-
-
-
-
-	
 	var todayDateString;
 	var d = new Date(); 
 	todayDateString = d.toString("dddd, MMMM dd, yyyy h:mm tt");
