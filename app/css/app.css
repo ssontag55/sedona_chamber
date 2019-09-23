@@ -12,12 +12,6 @@ body { margin:0; padding:0; }
 
 #direc{cursor: pointer}
 
-#toolbar{
-  padding-top: 12px;
-  font-size: 18px !important;
-  padding-left: 43%;
-}
-
 .btn{
     background: #4bc1b9!important;
     color: white !important;
