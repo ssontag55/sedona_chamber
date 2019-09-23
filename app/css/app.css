@@ -526,3 +526,7 @@ border-top: 20px solid #58595B !important;*/
       bottom: 0;
       transform: rotate(-90deg);
       transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+#search-select-list li[data-selected="true"] {
+  background-color: red;
+}

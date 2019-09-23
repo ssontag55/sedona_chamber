@@ -20,9 +20,20 @@
 </head>
 <body>
 <div id="side-menu">
-  <a href="#">one</a>  
-  <a href="#">two</a>
-  <a href="#">three</a>
+  <input type="text" id="search-select-bar" />
+  <ul id="search-select-list">
+    <li data-value="gallery" data-selected="true" data-icon="maki maki-art-gallery maki-lg">Galleries</li>
+    <li data-value="rest" data-selected="true" data-icon="maki maki-restaurant maki-lg"> Restaurants</li>
+    <li data-value="recycling" data-icon="maki maki-waste-basket maki-lg">  Recycling Drop-off Locations</li>
+    <li data-value="bus" data-selected="true" data-icon="maki maki-bus maki-lg">    Public Transportation</li>
+    <li data-value="theatre" data-selected="true" data-icon="maki maki-cinema maki-lg">    Theatre</li>
+    <li data-value="museum" data-selected="true" data-icon="maki maki-museum maki-lg">    Museum</li>
+    <li data-value="parks" data-icon="maki maki-park maki-lg">    Parks and Trailheads</li>
+    <li data-value="parking" data-icon="maki maki-parking maki-lg">    Parking</li>
+    <li data-value="pubart" data-icon="maki maki-camera maki-lg">    Public Art Locations</li>
+    <li data-value="walk" data-selected="true" data-icon="maki maki-pitch maki-lg">    Suggested Walking Routes</li>
+    <li data-value="traffic" data-icon="maki maki-car maki-lg">    Real-time Traffic (red heavy)</li>
+  </ul>
 </div>
 <button id="hamburger" class="hamburger hamburger--squeeze" type="button" onclick="toggleNav()">
     <span class="hamburger-box">
@@ -32,19 +43,6 @@
 <div id="main">
     <div class='custom-popup' id='map'></div>
     <div id='toolbar'>
-      <select id="search-bar" multiple="multiple" data-live-search="true" style="display:none">
-          <option value="gallery" selected data-icon="maki maki-art-gallery maki-lg" value="Galleries">Galleries</option>
-          <option value="rest" selected data-icon="maki maki-restaurant maki-lg" value="Restaurants"> Restaurants</option>
-          <option value="recycling" data-icon="maki maki-waste-basket maki-lg" value="Recycling">  Recycling Drop-off Locations</option>
-          <option value="bus" selected data-icon="maki maki-bus maki-lg" value="Bus Stops">    Public Transportation</option>
-          <option value="theatre" selected data-icon="maki maki-cinema maki-lg" value="Theatre">    Theatre</option>
-          <option value="museum" selected data-icon="maki maki-museum maki-lg" value="Museum">    Museum</option>
-            <option value="parks" data-icon="maki maki-park maki-lg" value="Parks,Restrooms,trailheads,trails">    Parks and Trailheads</option>
-          <option value="parking" data-icon="maki maki-parking maki-lg" value="Parking">    Parking</option>
-          <option value="pubart" data-icon="maki maki-camera maki-lg" value="Public Art Locations">    Public Art Locations</option>
-          <option value="walk" selected data-icon="maki maki-pitch maki-lg" value="Suggested Walking Routes">    Suggested Walking Routes</option>
-            <option value="traffic" data-icon="maki maki-car maki-lg" value="Real-time Traffic">    Real-time Traffic (red heavy)</option>
-      </select>
     </div>
     <div id='loader'><span class='message'></span></div>
     <div id="pubartCarousel" class="carousel slide" style="display:none">

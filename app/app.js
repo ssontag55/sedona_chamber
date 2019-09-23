@@ -56,9 +56,6 @@ function startup(){
 
 	that.map = map;
 
-	$('#search-bar').selectpicker({liveSearchPlaceholder:"Filter Locations...",noneSelectedText:"Find Locations...",header:"Select Location Types"});
-	$('#search-bar').show();
-
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	
 	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
@@ -86,176 +83,211 @@ function startup(){
 	theatrepts.on('ready',  processLayerGeo);
 	buspts.on('ready',  processLayerGeo);
 	publicartpts.on('ready',  processLayerGeo);
-	parkpts.on('ready',  processLayerGeo);
+  parkpts.on('ready',  processLayerGeo);
+
+
+
+
+
+
+
+
+
+
+
+  // re-write auto select if window.location is a certain option
+
+
+
+
+
+
 
 	if(window.location.href.indexOf("restaurants") > -1) {
 		$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'rest');
-        restaurantpts.addTo(map);
-        addMouseClickListener(restaurantpts);
-    }
-    else if(window.location.href.indexOf("green") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'recycling');
-    	recyclingpts.addTo(map);
-    	addMouseClickListener(recyclingpts);	
-    }
-    else if(window.location.href.indexOf("parks") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'parks');
-    	parkpts.addTo(map);
-    	addMouseClickListener(parkpts);	
-    }
-    else if(window.location.href.indexOf("trails") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'parks');
-    	parkpts.addTo(map);
-    	addMouseClickListener(parkpts);	
-    }
-    else if(window.location.href.indexOf("parking") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'parking');
-    	that.parkingpts.addTo(map);
-    	addMouseClickListener(that.parkingpts);
-    	addRealTimeParking(true);
-    	setInterval(addRealTimeParking, 50000);
-    }
-    else if(window.location.href.indexOf("publicart") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['pubart']);
-    	publicartpts.addTo(map);	
-    	addMouseClickListener(publicartpts);	
-    	if(that.browsertype == 'mobile'){
-			$('#pubartCarouselmobile').show();
-		}
-		else{
-			$('#pubartCarousel').show();	
-		}
-    }
-    else if(window.location.href.indexOf("art") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
-    	theatrepts.addTo(map);
-    	museumpts.addTo(map);
-    	that.parkingpts.addTo(map);
-    	buspts.addTo(map);
-    	artpts.addTo(map);
-    	walkingfeatures.addTo(map);	
-    	addMouseClickListener(artpts);	
-    }
-    else if(window.location.href.indexOf("galleries") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
-    	theatrepts.addTo(map);
-    	museumpts.addTo(map);
-    	artpts.addTo(map);
-    	buspts.addTo(map);
-    	walkingfeatures.addTo(map);	
-    	addMouseClickListener(artpts);	
-    }
-    else if(window.location.href.indexOf("traffic") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['bus','parking','traffic']);
-    	trafficLayer.addTo(map);
-    	that.parkingpts.addTo(map);
-    	buspts.addTo(map);
-    	addMouseClickListener(that.parkingpts);	
+    $('#search-bar').selectpicker('val', 'rest');
+    restaurantpts.addTo(map);
+    addMouseClickListener(restaurantpts);
+  }
+  else if(window.location.href.indexOf("green") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', 'recycling');
+    recyclingpts.addTo(map);
+    addMouseClickListener(recyclingpts);	
+  }
+  else if(window.location.href.indexOf("parks") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', 'parks');
+    parkpts.addTo(map);
+    addMouseClickListener(parkpts);	
+  }
+  else if(window.location.href.indexOf("trails") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', 'parks');
+    parkpts.addTo(map);
+    addMouseClickListener(parkpts);	
+  }
+  else if(window.location.href.indexOf("parking") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', 'parking');
+    that.parkingpts.addTo(map);
+    addMouseClickListener(that.parkingpts);
+    addRealTimeParking(true);
+    setInterval(addRealTimeParking, 50000);
+  }
+  else if(window.location.href.indexOf("publicart") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', ['pubart']);
+    publicartpts.addTo(map);	
+    addMouseClickListener(publicartpts);	
+    if(that.browsertype == 'mobile'){
+      $('#pubartCarouselmobile').show();
     }
     else{
-		restaurantpts.addTo(map);
-		theatrepts.addTo(map);
-		//that.parkingpts.addTo(map);
-		museumpts.addTo(map);
-		artpts.addTo(map);	
-		buspts.addTo(map);
-		walkingfeatures.addTo(map);	
-		//trafficLayer.addTo(map);
-		addMouseClickListener(artpts);
-		//addMouseClickListener(parkpts);
-		addMouseClickListener(restaurantpts);
-		addMouseClickListener(theatrepts);
-		//addMouseClickListener(that.parkingpts);
-		addMouseClickListener(buspts);
-		addMouseClickListener(museumpts);
-		addMouseClickListener(walkingfeatures);
-    }	
-     
-    $('#search-bar').on('changed.bs.select', function (e) {
+      $('#pubartCarousel').show();	
+    }
+  }
+  else if(window.location.href.indexOf("art") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
+    theatrepts.addTo(map);
+    museumpts.addTo(map);
+    that.parkingpts.addTo(map);
+    buspts.addTo(map);
+    artpts.addTo(map);
+    walkingfeatures.addTo(map);	
+    addMouseClickListener(artpts);	
+  }
+  else if(window.location.href.indexOf("galleries") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
+    theatrepts.addTo(map);
+    museumpts.addTo(map);
+    artpts.addTo(map);
+    buspts.addTo(map);
+    walkingfeatures.addTo(map);	
+    addMouseClickListener(artpts);	
+  }
+  else if(window.location.href.indexOf("traffic") > -1){
+    $('#search-bar').selectpicker('deselectAll');
+    $('#search-bar').selectpicker('val', ['bus','parking','traffic']);
+    trafficLayer.addTo(map);
+    that.parkingpts.addTo(map);
+    buspts.addTo(map);
+    addMouseClickListener(that.parkingpts);	
+  }
+  else{
+    restaurantpts.addTo(map);
+    theatrepts.addTo(map);
+    //that.parkingpts.addTo(map);
+    museumpts.addTo(map);
+    artpts.addTo(map);	
+    buspts.addTo(map);
+    walkingfeatures.addTo(map);	
+    //trafficLayer.addTo(map);
+    addMouseClickListener(artpts);
+    //addMouseClickListener(parkpts);
+    addMouseClickListener(restaurantpts);
+    addMouseClickListener(theatrepts);
+    //addMouseClickListener(that.parkingpts);
+    addMouseClickListener(buspts);
+    addMouseClickListener(museumpts);
+    addMouseClickListener(walkingfeatures);
+  }
 
-    	var selectedLayers = $('#search-bar').val();
-    	map.removeLayer(restaurantpts);
-		map.removeLayer(recyclingpts);
-		map.removeLayer(theatrepts);
-		map.removeLayer(that.parkingpts);
-		map.removeLayer(that.spacespts);
-		map.removeLayer(museumpts);
-		map.removeLayer(parkpts);
-		map.removeLayer(artpts);	
-		map.removeLayer(buspts);	
-		map.removeLayer(walkingfeatures);
-		map.removeLayer(publicartpts);
-		map.removeLayer(trafficLayer);
+  var selectedLayers = [];
+  
+  // populate list with selected options in html
+  $('#search-select-list').children('li').each(function() {
+    if ($(this).data('selected')) selectedLayers.push($(this).data('value'));
+  });
 
-		that.points = L.geoJson();
+  // add event handlers for list item click
+  $('#search-select-list > li').on('click', function(e) {
+    var selectedValue = $(this).data('value');
+    that.points = L.geoJson();
+    var showcarasal = false;
 
-		var showcarasal = false;
-		if(selectedLayers){
-			
-			for (var l = 0; l < selectedLayers.length; l++) {
-		    	if(selectedLayers[l] == 'gallery'){
-		    		artpts.addTo(map);
-		    		processLayer2Geo(artpts);
-		    		addMouseClickListener(artpts);
-		    	}        
-		    	else if(selectedLayers[l] == 'rest'){
-		    		processLayer2Geo(restaurantpts);
-		    		restaurantpts.addTo(map);
-		    		addMouseClickListener(restaurantpts);
-		    	}   
-		    	else if(selectedLayers[l] == 'theatre'){
-		    		theatrepts.addTo(map);	
-		    		processLayer2Geo(theatrepts);
-		    		addMouseClickListener(theatrepts);
-		    	}
-	    		else if(selectedLayers[l] == 'museum'){
-	    			museumpts.addTo(map);	
-	    			processLayer2Geo(museumpts);
-	    			addMouseClickListener(museumpts);
-	    		}
-				else if(selectedLayers[l] == 'parking'){
-					that.parkingpts.addTo(map);	
-					that.loader.className = '';
-					addRealTimeParking(true);
-					addMouseClickListener(that.parkingpts);
-				}
-				else if(selectedLayers[l] == 'parks'){
-					parkpts.addTo(map);	
-					addMouseClickListener(parkpts);
-				}
-				else if(selectedLayers[l] == 'pubart'){
-					publicartpts.addTo(map);	
-					processLayer2Geo(publicartpts);
-					addMouseClickListener(publicartpts);
-					showcarasal = true;
-				}
-				else if(selectedLayers[l] == 'recycling'){
-					recyclingpts.addTo(map);	
-					processLayer2Geo(recyclingpts);
-					addMouseClickListener(recyclingpts);
-				}
-				else if(selectedLayers[l] == 'bus'){
-					buspts.addTo(map);	
-					addMouseClickListener(buspts);
-				}
-				else if(selectedLayers[l] == 'walk'){
-					walkingfeatures.addTo(map);	
-					addMouseClickListener(walkingfeatures);
-				}
-				else if(selectedLayers[l] == 'traffic'){
-					trafficLayer.addTo(map);	
-				}
-    		} 
-		}
+    // toggle "selected" attribute
+    var newSelectValue = !$(this).data('selected');
+    $(this).data('selected', newSelectValue);
+    $(this).attr( 'data-selected', newSelectValue);
+
+    // add layer to array if it's not there, otherwise remove it
+    if (selectedLayers.includes(selectedValue)) {
+      selectedLayers = selectedLayers.filter(function(val) { return val !== selectedValue });
+
+      map.removeLayer(that.spacespts);
+
+      // hide/show options on map
+      if (selectedValue === 'gallery') map.removeLayer(artpts);
+      if (selectedValue === 'rest') map.removeLayer(restaurantpts);
+      if (selectedValue === 'theatre') map.removeLayer(theatrepts);
+      if (selectedValue === 'museum') map.removeLayer(museumpts);
+      if (selectedValue === 'parking') map.removeLayer(that.parkingpts);
+      if (selectedValue === 'parks') map.removeLayer(parkpts);
+      if (selectedValue === 'pubart') map.removeLayer(publicartpts);
+      if (selectedValue === 'recycling') map.removeLayer(recyclingpts);
+      if (selectedValue === 'bus') map.removeLayer(buspts);
+      if (selectedValue === 'walk') map.removeLayer(walkingfeatures);
+      if (selectedValue === 'traffic') map.removeLayer(trafficLayer);
+
+    } else {
+      selectedLayers.push(selectedValue);
+
+      if(selectedValue == 'gallery'){
+        artpts.addTo(map);
+        processLayer2Geo(artpts);
+        addMouseClickListener(artpts);
+      }        
+      else if(selectedValue == 'rest'){
+        processLayer2Geo(restaurantpts);
+        restaurantpts.addTo(map);
+        addMouseClickListener(restaurantpts);
+      }   
+      else if(selectedValue == 'theatre'){
+        theatrepts.addTo(map);	
+        processLayer2Geo(theatrepts);
+        addMouseClickListener(theatrepts);
+      }
+      else if(selectedValue == 'museum'){
+        museumpts.addTo(map);	
+        processLayer2Geo(museumpts);
+        addMouseClickListener(museumpts);
+      }
+      else if(selectedValue == 'parking'){
+        that.parkingpts.addTo(map);	
+        that.loader.className = '';
+        addRealTimeParking(true);
+        addMouseClickListener(that.parkingpts);
+      }
+      else if(selectedValue == 'parks'){
+        parkpts.addTo(map);	
+        addMouseClickListener(parkpts);
+      }
+      else if(selectedValue == 'pubart'){
+        publicartpts.addTo(map);	
+        processLayer2Geo(publicartpts);
+        addMouseClickListener(publicartpts);
+        showcarasal = true;
+      }
+      else if(selectedValue == 'recycling'){
+        recyclingpts.addTo(map);	
+        processLayer2Geo(recyclingpts);
+        addMouseClickListener(recyclingpts);
+      }
+      else if(selectedValue == 'bus'){
+        buspts.addTo(map);	
+        addMouseClickListener(buspts);
+      }
+      else if(selectedValue == 'walk'){
+        walkingfeatures.addTo(map);	
+        addMouseClickListener(walkingfeatures);
+      }
+      else if(selectedValue == 'traffic'){
+        trafficLayer.addTo(map);	
+      }
+    }
 		if(showcarasal == true){
 			if(that.browsertype == 'mobile'){
 				$('#pubartCarouselmobile').show();
@@ -269,6 +301,36 @@ function startup(){
 			$('#pubartCarouselmobile').hide();
 		}
 	});
+
+  // write search functionality
+  $('#search-select-bar').on('input', function(e) {
+    var searchVal = $(this).val();
+
+    // hide all options that don't match search value
+    $('#search-select-list').children('li').each(function() {
+      $(this).hide();
+      if ($(this).text().toLowerCase().includes(searchVal.toLowerCase())) {
+        $(this).show();
+      }
+    });
+  });
+
+
+
+
+
+
+
+
+  // get rid of search-bar artifacts
+
+
+
+
+
+
+
+
 	
 	var todayDateString;
 	var d = new Date(); 
