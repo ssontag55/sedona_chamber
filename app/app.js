@@ -20,7 +20,6 @@ function startup(){
 
   	//search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
-		//$('#search-bar').selectpicker('mobile');
 		that.browsertype = 'mobile';
 		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
 
@@ -29,8 +28,6 @@ function startup(){
 		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
 		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
 		});
-		//change header toolbar
-		$('#toolbar').css('padding-left','17%');
 		$('#pubartCarouselmobile').carousel({
 			interval: 88000
 		});		
@@ -303,7 +300,6 @@ function startup(){
 		}
 	});
 
-  // write search functionality
   $('#search-select-bar').on('input', function(e) {
     var searchVal = $(this).val();
     var found = 0;    
