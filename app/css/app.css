@@ -395,8 +395,13 @@ border-top: 20px solid #58595B !important;*/
   background-color: rgba(153, 81, 14, 0.9);
   height: 4.5em;
 }
+#side-menu-header-title {
+  background: #d9d9d9;
+  border-bottom: 1px solid #bdbcc1;
+  padding: .25em .75em .25em;
+  font-weight: bold;
+}
 #side-menu #search-bar-div {
-  background-color: #e7e7e7;
   padding: .5em;
   width: 340px;
 }
@@ -407,7 +412,7 @@ border-top: 20px solid #58595B !important;*/
 }
 #search-select-list {
   height: calc(100vh - 7.75em);
-  margin-top: 7.75em;
+  margin-top: 9.5em;
   overflow: auto;
   padding: 0;
   list-style: none;
