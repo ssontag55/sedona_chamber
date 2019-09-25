@@ -396,6 +396,8 @@ border-top: 20px solid #58595B !important;*/
   padding: .75rem;
 }
 #search-select-bar {
+  font-size: 1.8rem;
+  height: 4rem;
   width: 100%;
 }
 #search-select-list {
