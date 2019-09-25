@@ -18,7 +18,7 @@ function startup(){
 
 	that.browsertype = 'desktop';
 
-  	//search for mobile version 
+  //search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
 		that.browsertype = 'mobile';
 		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
@@ -305,7 +305,7 @@ function startup(){
     var found = 0;    
 
     // hide all options that don't match search value
-    $('#search-select-list').children('li').each(function() {
+    $('#search-select-list').children('li:not(#no-results)').each(function() {
       $(this).hide();
       if ($(this).text().toLowerCase().includes(searchVal.toLowerCase())) {
         $(this).show();
