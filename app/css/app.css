@@ -419,6 +419,8 @@ border-top: 20px solid #58595B !important;*/
 }
 #search-select-list li {
   cursor: pointer;
+  display: flex;
+  align-items: center;
   padding: .3rem .75rem;
   white-space: nowrap;
 }
