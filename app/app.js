@@ -318,7 +318,7 @@ function startup(){
 
     if (found === 0) {
       $('#no-results')
-        .text('No results matched \"' + searchVal + '\"')
+        .html('<span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;No results matched \"' + searchVal + '\"')
         .show();
     } else {
       $('#no-results').hide();

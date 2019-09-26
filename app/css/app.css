@@ -423,14 +423,14 @@ border-top: 20px solid #58595B !important;*/
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: .3rem .75rem;
   white-space: nowrap;
 }
-/* #search-select-list li[data-selected="true"], */
+#search-select-list li:not(#no-results) {
+  justify-content: space-between;
+}
 #search-select-list li:hover {
   background-color: #dfdfdf;
-  /* background-color: rgba(75, 193, 185, 0.6); */
 }
 #search-select-list li .switch-label {
   display: flex;
