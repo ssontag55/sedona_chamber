@@ -211,14 +211,15 @@ border-top: 20px solid #58595B !important;*/
   padding-top:10%;
 }
 #pubartCarousel{
-  width:65%;
-  position: fixed !important;
-  bottom: 3px !important;
-  left: 19% !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  width: 65%;
+  position: absolute;
+  bottom: 7px !important;
 }
 #pubartCarouselmobile{
   width:56%;
-  position: fixed !important;
+  position: absolute !important;
   bottom: 3px !important;
   left: 0% !important;
 }
