@@ -203,6 +203,9 @@ function startup(){
 
   // add event handlers for list item click
   $('#search-select-list > li').on('click', function(e) {
+    // early return if checkbox is clicked
+    if (e.target.type === "checkbox") return;
+
     var selectedValue = $(this).data('value');
     that.points = L.geoJson();
     var showcarasal = false;
