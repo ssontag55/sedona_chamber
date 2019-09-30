@@ -54,7 +54,7 @@ function startup(){
 	that.map = map;
 
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
-	
+	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
 	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
 	var artpts = L.mapbox.featureLayer('data/gallery.json',{popupOptions: { closeButton: true }});
 	var buspts = L.mapbox.featureLayer('data/bus.json',{popupOptions: { closeButton: true }});
@@ -72,6 +72,7 @@ function startup(){
   basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
+	lodgingpts.on('ready', processLayerGeo);
 	restaurantpts.on('ready', processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
 	that.parkingpts.on('ready',  processLayerGeo);
@@ -86,6 +87,11 @@ function startup(){
 		deselectAllExcept(['rest']);
     restaurantpts.addTo(map);
     addMouseClickListener(restaurantpts);
+  }
+  else if(window.location.href.indexOf("lodging") > -1){
+    deselectAllExcept(['lodge']);
+    lodgingpts.addTo(map);
+    addMouseClickListener(lodgingpts);	
   }
   else if(window.location.href.indexOf("green") > -1){
     deselectAllExcept(['recycling']);
@@ -153,7 +159,8 @@ function startup(){
     museumpts.addTo(map);
     artpts.addTo(map);	
     buspts.addTo(map);
-    walkingfeatures.addTo(map);	
+    walkingfeatures.addTo(map);
+    lodgingpts.addTo(map);	
     //trafficLayer.addTo(map);
     addMouseClickListener(artpts);
     //addMouseClickListener(parkpts);
@@ -163,6 +170,7 @@ function startup(){
     addMouseClickListener(buspts);
     addMouseClickListener(museumpts);
     addMouseClickListener(walkingfeatures);
+    addMouseClickListener(lodgingpts);
   }
 
   function deselectAllExcept(selectedValues) {
@@ -227,6 +235,7 @@ function startup(){
       if (selectedValue === 'museum') map.removeLayer(museumpts);
       if (selectedValue === 'parking') map.removeLayer(that.parkingpts);
       if (selectedValue === 'parks') map.removeLayer(parkpts);
+      if (selectedValue === 'lodge') map.removeLayer(lodgingpts);
       if (selectedValue === 'pubart') map.removeLayer(publicartpts);
       if (selectedValue === 'recycling') map.removeLayer(recyclingpts);
       if (selectedValue === 'bus') map.removeLayer(buspts);
@@ -265,6 +274,10 @@ function startup(){
       else if(selectedValue == 'parks'){
         parkpts.addTo(map);	
         addMouseClickListener(parkpts);
+      }
+      else if(selectedValue == 'lodge'){
+        lodgingpts.addTo(map);	
+        addMouseClickListener(lodgingpts);
       }
       else if(selectedValue == 'pubart'){
         publicartpts.addTo(map);	

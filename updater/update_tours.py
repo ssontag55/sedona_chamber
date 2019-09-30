@@ -26,20 +26,23 @@ import os
 
 
 #open jsonfile
-jsonfile = open('restaurant.json', 'w')
+jsonfile = open('tours.json', 'w')
 #jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
 
-#cat  39 rest
-cat = 39
-#subcat
-#restraraunts 250
-#sweet treats 251
-#coffee 246
-#wineries 384
-subcat = [250,251,246,384]
+# 252	Air Tours / Balloon Rides						
+# 388	Astronomy 						
+# 455	Bike / Segway Tours						
+# 254	Ground / ATV / Hummer Tours						
+# 255	Guides - Private / Virtual / Drive						
+# 359	Jeep / Trolley Tours						
+# 387	Specialty / Cultural Tours						
+# 421	Wine Tours						
+			
+
+subcat = [252,388,254,359,255, 387, 421]
 
 #simplview API url
 svurl = 'http://sedona.simpleviewcrm.com/webapi/listings/xml/listings.cfm'
@@ -57,7 +60,7 @@ for subcatid in subcat:
 	for recordelement in treeXML[0]:
 		try:
 
-			individualID = recordelement.find('LISTINGID').text;
+			individualID = str(recordelement.find('LISTINGID').text);
 			companyName = recordelement.find('SORTCOMPANY').text;
 			photo = str(recordelement.find('IMGPATH').text)+str(recordelement.find('PHOTOFILE').text);
 			websiteURL = str(recordelement.find('WEBURL').text);
@@ -97,15 +100,17 @@ for subcatid in subcat:
 					else:
 						description = """<br><div id=\\"linksite\\"><a href=\\\""""""+websiteURL+"""\\" target=\\"_blank\\">Visit website for more info!</a></div><div id=\\"direc\\"><a target=\\"_blank\\">Get Directions!</a></div>""";
 					
+					# heliport
 					jsonfile.write("""{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-"""+individualID+"""",
 					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
+					        "subcat": \""""+str(subcatid)+"""\",
 					        "marker-size": "medium",
-					        "marker-color": "#006666",
-					        "marker-symbol": "restaurant"
+					        "marker-color": "#666699",
+					        "marker-symbol": "optician" 
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
 					          """+gpslocation.split(',')[0]+"""
@@ -143,7 +148,7 @@ try:
 	msg = string.join((
 	        "From: %s" % fromaddr,
 	        "To: %s" % toaddr,
-	        "Subject: %s" % "Restaurant List Updated",
+	        "Subject: %s" % "Where to Stay List Updated",
 	        "",
 	        "The following list has been processed\n"+companyList), "\r\n");
 
@@ -159,19 +164,19 @@ except:
 jsonfile.close()
 import shutil
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//publicart//data//restaurant.json')
+# shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//publicart//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//green//data//restaurant.json')
+# shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//green//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//galleries//data//restaurant.json')
+# shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//galleries//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//art//data//restaurant.json')
+# shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//art//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//data//restaurant.json')
+# shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//parks//data//restaurant.json')
+# shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//parks//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//traffic//data//restaurant.json')
+# shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//traffic//data//restaurant.json')
 
 print "Files Copied"
 
