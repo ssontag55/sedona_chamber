@@ -60,7 +60,7 @@ function startup(){
 	$('#search-bar').show();
 
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
-	
+	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
 	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
 	var artpts = L.mapbox.featureLayer('data/gallery.json',{popupOptions: { closeButton: true }});
 	var buspts = L.mapbox.featureLayer('data/bus.json',{popupOptions: { closeButton: true }});
@@ -78,6 +78,7 @@ function startup(){
     basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
+	lodgingpts.on('ready', processLayerGeo);
 	restaurantpts.on('ready', processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
 	that.parkingpts.on('ready',  processLayerGeo);
@@ -93,6 +94,12 @@ function startup(){
     	$('#search-bar').selectpicker('val', 'rest');
         restaurantpts.addTo(map);
         addMouseClickListener(restaurantpts);
+    }
+    else if(window.location.href.indexOf("lodging") > -1) {
+		$('#search-bar').selectpicker('deselectAll');
+    	$('#search-bar').selectpicker('val', 'lodge');
+        lodgingpts.addTo(map);
+        addMouseClickListener(lodgingpts);
     }
     else if(window.location.href.indexOf("green") > -1){
     	$('#search-bar').selectpicker('deselectAll');
@@ -183,6 +190,7 @@ function startup(){
     $('#search-bar').on('changed.bs.select', function (e) {
 
     	var selectedLayers = $('#search-bar').val();
+    	map.removeLayer(lodgingpts);
     	map.removeLayer(restaurantpts);
 		map.removeLayer(recyclingpts);
 		map.removeLayer(theatrepts);
@@ -231,6 +239,10 @@ function startup(){
 				else if(selectedLayers[l] == 'parks'){
 					parkpts.addTo(map);	
 					addMouseClickListener(parkpts);
+				}
+				else if(selectedLayers[l] == 'lodge'){
+					lodgingpts.addTo(map);	
+					addMouseClickListener(lodgingpts);
 				}
 				else if(selectedLayers[l] == 'pubart'){
 					publicartpts.addTo(map);	
