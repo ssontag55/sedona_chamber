@@ -202,6 +202,49 @@ function startup(){
     map.removeLayer(trafficLayer);
   }
 
+  // Submenu collape/expand
+  $('.select-item.parent .switch-label span').on('click', function(e) {
+    e.stopPropagation();
+
+    var parentLi = $(this)
+      .parent('.switch-label')
+      .parent('.select-item')
+      .parent('li');
+    
+    var isExpanded = parentLi.hasClass('open');
+    subMenuExpand(parentLi, !isExpanded)
+  });
+
+  function subMenuExpand(parentLi, expand) {
+    // always remove open class and duplicates
+    parentLi.removeClass('open');
+
+    if (expand) {
+      parentLi.addClass('open');
+      parentLi.children('.select-item')
+        .find('.parent-icon')
+        .removeClass('glyphicon-plus')
+        .addClass('glyphicon-minus');
+
+      parentLi
+        .children('ul.children')
+        .each(function(i) {
+          this.style.maxHeight = this.scrollHeight + 'px';
+        });
+    } else {
+      parentLi.children('.select-item')
+        .find('.parent-icon')
+        .addClass('glyphicon-plus')
+        .removeClass('glyphicon-minus');
+
+      parentLi
+        .children('ul.children')
+        .each(function(i) {
+          this.style.maxHeight = null;
+        });
+    }
+  }
+
   var selectedLayers = [];
   
   // Select & add to map functionality
@@ -254,6 +297,11 @@ function startup(){
 	});
 
   function selectDeselect(el, selectedValue, newSelectValue) {
+    // open dropdowns if they exist
+    if (el.siblings('.children').length > 0) {
+      subMenuExpand(el.parent('li'), true);
+    }
+
     that.points = L.geoJson();
     var showcarasal = false;
 
@@ -340,18 +388,18 @@ function startup(){
         trafficLayer.addTo(map);	
       }
     }
-		if(showcarasal == true){
-			if(that.browsertype == 'mobile'){
-				$('#pubartCarouselmobile').show();
-			}
-			else{
-				$('#pubartCarousel').show();	
-			}
-		}
-		else{
-			$('#pubartCarousel').hide();
-			$('#pubartCarouselmobile').hide();
-		}
+    if(showcarasal == true){
+      if(that.browsertype == 'mobile'){
+        $('#pubartCarouselmobile').show();
+      }
+      else{
+        $('#pubartCarousel').show();	
+      }
+    }
+    else{
+      $('#pubartCarousel').hide();
+      $('#pubartCarouselmobile').hide();
+    }
   }
 
   // Search bar functionality
