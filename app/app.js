@@ -204,27 +204,65 @@ function startup(){
 
   var selectedLayers = [];
   
+  // Select & add to map functionality
   // populate list with selected options in html
-  $('#search-select-list').children('li').each(function() {
+  $('#search-select-list .select-item').each(function() {
     if ($(this).data('selected')) selectedLayers.push($(this).data('value'));
   });
 
   // add event handlers for list item click
-  $('#search-select-list > li').on('click', function(e) {
-    // early return if checkbox is clicked
+  $('#search-select-list .select-item').on('click', function(e) {
+    // early return if checkbox itself is clicked (catch event at li)
     if (e.target.type === "checkbox") return;
 
     var selectedValue = $(this).data('value');
+    
+    // determine newSelectValue and select/deselect
+    const newSelectValue = !selectedLayers.includes(selectedValue);
+    selectDeselect($(this), selectedValue, newSelectValue);
+
+    // if item has children, select/deselect them all
+    if ($(this).siblings('.children').length > 0) {
+      $(this).siblings('.children').each(function(i) {
+        $(this).find('.select-item').each(function(i) {
+          selectDeselect($(this), $(this).data('value'), newSelectValue);
+        });
+      });
+    }
+
+    // if target is a child, select/deselect parent based on children's selected status
+    if ($(this).parents('.children').length > 0) {
+      $(this).parents('.children').each(function (i) {
+        var allSelected = true;
+
+        // determine if all are selected
+        $(this).find('.select-item').each(function(i) {
+          if (!selectedLayers.includes($(this).data('value'))) allSelected = false;
+        });
+
+        if (allSelected) {
+          $(this).siblings('.select-item').each(function(i) {
+            selectDeselect($(this), $(this).data('value'), true);
+          });
+        } else {
+          $(this).siblings('.select-item').each(function(i) {
+            selectDeselect($(this), $(this).data('value'), false);
+          });
+        }
+      });
+    }
+	});
+
+  function selectDeselect(el, selectedValue, newSelectValue) {
     that.points = L.geoJson();
     var showcarasal = false;
 
     // toggle "selected" attribute
-    var newSelectValue = !$(this).data('selected');
-    $(this).data('selected', newSelectValue);
-    $(this).attr( 'data-selected', newSelectValue);
+    el.data('selected', newSelectValue);
+    el.attr( 'data-selected', newSelectValue);
 
     // add layer to array if it's not there, otherwise remove it
-    if (selectedLayers.includes(selectedValue)) {
+    if (!newSelectValue) {
       selectedLayers = selectedLayers.filter(function(val) { return val !== selectedValue });
 
       map.removeLayer(that.spacespts);
@@ -314,8 +352,9 @@ function startup(){
 			$('#pubartCarousel').hide();
 			$('#pubartCarouselmobile').hide();
 		}
-	});
+  }
 
+  // Search bar functionality
   $('#search-select-bar').on('input', function(e) {
     var searchVal = $(this).val();
     var found = 0;    
