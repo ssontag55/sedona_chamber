@@ -408,12 +408,14 @@ function startup(){
     var found = 0;    
 
     // hide all options that don't match search value
+    showMatches(
+      $('#search-select-list').children('li:not(#no-results)'),
+      searchVal
+    );
+
+    // expand all submenus if we are filtering
     $('#search-select-list').children('li:not(#no-results)').each(function() {
-      $(this).hide();
-      if ($(this).text().toLowerCase().includes(searchVal.toLowerCase())) {
-        $(this).show();
-        found++
-      }
+      subMenuExpand($(this), searchVal.length > 0);
     });
 
     if (found === 0) {
@@ -422,6 +424,24 @@ function startup(){
         .show();
     } else {
       $('#no-results').hide();
+    }
+
+    function showMatches(elements, searchVal) {
+      elements.each(function(i) {
+        $(this).hide();
+  
+        if ($(this).children('.children').length > 0) {
+          showMatches(
+            $(this).children('.children').children('li'),
+            searchVal
+          )
+        }
+  
+        if ($(this).text().toLowerCase().includes(searchVal.toLowerCase())) {
+          $(this).show();
+          found++
+        }
+      });
     }
   });
 
