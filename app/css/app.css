@@ -618,6 +618,9 @@ input.danger:checked + .slider {
   padding: 0;
   list-style: none;
 }
+#search-select-list li {
+  width: 340px;
+}
 #search-select-list li ul.children {
   max-height: 0;
   overflow: hidden;
