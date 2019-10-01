@@ -626,7 +626,7 @@ input.danger:checked + .slider {
   overflow: hidden;
   transition: 0.4s ease-out;
 }
-#search-select-list li .parent-icon {
+#search-select-list li .icon {
   width: 1.3335em;
   text-align: center;
 }
@@ -643,7 +643,7 @@ input.danger:checked + .slider {
   padding: .3rem .75rem;
   white-space: nowrap;
 }
-#search-select-list li .select-item:not(#no-results) {
+#search-select-list li .select-item {
   justify-content: space-between;
 }
 #search-select-list li .select-item:hover {

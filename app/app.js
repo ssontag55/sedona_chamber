@@ -507,8 +507,9 @@ function startup(){
 
     if (found === 0) {
       $('#no-results')
-        .html('<span class="glyphicon glyphicon-remove"></span>&nbsp;&nbsp;No results matched \"' + searchVal + '\"')
-        .show();
+        .show()
+        .find('.switch-label')
+        .html('<span class="icon glyphicon glyphicon-remove"></span>&nbsp;&nbsp;No results matched \"' + searchVal + '\"');
     } else {
       $('#no-results').hide();
     }
