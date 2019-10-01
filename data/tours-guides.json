@@ -1,0 +1,302 @@
+{"type": "FeatureCollection","features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2471",
+      "title": "A Day In The West",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.adayinthewest.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.760065,
+        34.869558
+      ],
+      "type": "Point"
+    },
+    "id": 2471
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3980",
+      "title": "Absolute Bikes",
+      "description": "<a href=\"http://www.absolutebikes.net\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Capture0-cad5d9fc5056a36_cad5db49-5056-a36f-23e5deda885ef14c.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.absolutebikes.net\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.762576,
+        34.788007
+      ],
+      "type": "Point"
+    },
+    "id": 3980
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5563",
+      "title": "Adventure Jeep Tours",
+      "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Jeep-1-800x6000_0d674360-5056-a36f-235ab182ea8154f1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759413,
+        34.871102
+      ],
+      "type": "Point"
+    },
+    "id": 5563
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-6882",
+      "title": "Adventurous Antelope Canyon Tours",
+      "description": "<a href=\"www.navajoantelopecanyon.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Capture0-b28362915056a36_b28363fb-5056-a36f-23dbe5f332991871.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"www.navajoantelopecanyon.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.366458,
+        36.888114
+      ],
+      "type": "Point"
+    },
+    "id": 6882
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4290",
+      "title": "America Travel Factory LLC",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.america-travel-factory.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.798596,
+        34.860017
+      ],
+      "type": "Point"
+    },
+    "id": 4290
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-1937",
+      "title": "Antelope Canyon Tours Inc",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.antelopecanyon.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.45845,
+        36.918178
+      ],
+      "type": "Point"
+    },
+    "id": 1937
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2077",
+      "title": "Arizona Safari Jeep Tours",
+      "description": "<a href=\"http://www.safarijeeptours.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/arizona-safari-jeep-tours---logo-800x600-1fc37f625056a36_1fc3816f-5056-a36f-23ef575663c996b9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.safarijeeptours.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.761486,
+        34.87125
+      ],
+      "type": "Point"
+    },
+    "id": 2077
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4769",
+      "title": "Four Season Guides LLC",
+      "description": "<a href=\"http://www.fsguides.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Four-Season-Guides-800x600_0d3cae3d-5056-a36f-236a1c480b51171b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.fsguides.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.661715,
+        35.190444
+      ],
+      "type": "Point"
+    },
+    "id": 4769
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-1967",
+      "title": "Pink Jeep Tours",
+      "description": "<a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Pink-Jeep-Tours-Sedona1_0d1fc0c0-5056-a36f-232381ef23b72d75.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.76033,
+        34.868911
+      ],
+      "type": "Point"
+    },
+    "id": 1967
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2329",
+      "title": "Red Rock TV - Channel 16",
+      "description": "<a href=\"http://www.sedona.tv\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/app-chamber-photo_1C1C3E81-8EA5-4C5C-AAECD1F61F627B7C_f9663cbe-e6d2-48c5-a3a3298143421c41.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedona.tv\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.806101,
+        34.862428
+      ],
+      "type": "Point"
+    },
+    "id": 2329
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2157",
+      "title": "Sedona Hummer Tours",
+      "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hummer_tour0_0d2018a3-5056-a36f-2391a76b4bf1a638.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759414,
+        34.871102
+      ],
+      "type": "Point"
+    },
+    "id": 2157
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-7205",
+      "title": "Sedona Segway Tours",
+      "description": "<a href=\"https://www.sedonasegway.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/segway-tours_0d6ebc15-5056-a36f-235d88462dcf3f10.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sedonasegway.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.763322,
+        34.868435
+      ],
+      "type": "Point"
+    },
+    "id": 7205
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5786",
+      "title": "Sedona Ticket Station",
+      "description": "<a href=\"https://www.SedonaTicketStation.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedona-ticket-station_red-rock-view_concierge_433x2600-bf84f3115056a36_bf84f3df-5056-a36f-23b6486a20cb5e39.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.SedonaTicketStation.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.763648,
+        34.855885
+      ],
+      "type": "Point"
+    },
+    "id": 5786
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3286",
+      "title": "Spirit Steps Tours",
+      "description": "<a href=\"http://www.spiritsteps.org\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SpiritStepsToursLogo0_0d55386f-5056-a36f-2345111a1a42e8ea.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.spiritsteps.org\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.797918,
+        34.864138
+      ],
+      "type": "Point"
+    },
+    "id": 3286
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4794",
+      "title": "The Wildland Trekking Company",
+      "description": "<a href=\"http://www.wildlandtrekking.com/sedona/hiking-tours.html\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedona3-trekking_0d43f95e-5056-a36f-234f9348f1339626.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.wildlandtrekking.com/sedona/hiking-tours.html\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "255",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.590195,
+        35.215238
+      ],
+      "type": "Point"
+    },
+    "id": 4794
+  }
+],"id": "sedonachamber.restaurant"}

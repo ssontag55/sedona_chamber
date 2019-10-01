@@ -51,7 +51,17 @@ function startup(){
 		that.timedelay = 1000;
 	}
 
-	that.map = map;
+  that.map = map;
+
+  // "tours" features
+  var airpts =  L.mapbox.featureLayer('data/tours-air.json',{popupOptions: { closeButton: true }});
+  var astronomypts = L.mapbox.featureLayer('data/tours-astronomy.json',{popupOptions: { closeButton: true }});
+  var bikesegwaypts = L.mapbox.featureLayer('data/tours-bikesegway.json',{popupOptions: { closeButton: true }});
+  var groundpts = L.mapbox.featureLayer('data/tours-ground.json',{popupOptions: { closeButton: true }});
+  var privatepts = L.mapbox.featureLayer('data/tours-guides.json',{popupOptions: { closeButton: true }});
+  var jeeptrolleypts = L.mapbox.featureLayer('data/tours-jeeptrolley.json',{popupOptions: { closeButton: true }});
+  var specialtypts = L.mapbox.featureLayer('data/tours-specialty.json',{popupOptions: { closeButton: true }});
+  var winepts =  L.mapbox.featureLayer('data/tours-wine.json',{popupOptions: { closeButton: true }});
 
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
@@ -65,13 +75,21 @@ function startup(){
 	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
 	var recyclingpts = L.mapbox.featureLayer('data/recycling.json',{popupOptions: { closeButton: true }});
 	var parkpts = L.mapbox.featureLayer('data/parks.json',{popupOptions: { closeButton: true }});
-	that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
+  that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
 
 	var trafficLayer = L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20,zIndex:1000});
 
   basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
+  airpts.on('ready', processLayerGeo);
+  astronomypts.on('ready', processLayerGeo);
+  bikesegwaypts.on('ready', processLayerGeo);
+  groundpts.on('ready', processLayerGeo);
+  privatepts.on('ready', processLayerGeo);
+  jeeptrolleypts.on('ready', processLayerGeo);
+  specialtypts.on('ready', processLayerGeo);
+  winepts.on('ready', processLayerGeo);
 	lodgingpts.on('ready', processLayerGeo);
 	restaurantpts.on('ready', processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
@@ -83,7 +101,26 @@ function startup(){
 	publicartpts.on('ready',  processLayerGeo);
   parkpts.on('ready',  processLayerGeo);
 
-	if(window.location.href.indexOf("restaurants") > -1) {
+	if(window.location.href.indexOf("tours") > -1) {
+		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine']);
+    airpts.addTo(map);
+    astronomypts.addTo(map);
+    bikesegwaypts.addTo(map);
+    groundpts.addTo(map);
+    privatepts.addTo(map);
+    jeeptrolleypts.addTo(map);
+    specialtypts.addTo(map);
+    winepts.addTo(map);
+    addMouseClickListener(airpts);
+    addMouseClickListener(astronomypts);
+    addMouseClickListener(bikesegwaypts);
+    addMouseClickListener(groundpts);
+    addMouseClickListener(privatepts);
+    addMouseClickListener(jeeptrolleypts);
+    addMouseClickListener(specialtypts);
+    addMouseClickListener(winepts);
+  }
+  else if(window.location.href.indexOf("restaurants") > -1) {
 		deselectAllExcept(['rest']);
     restaurantpts.addTo(map);
     addMouseClickListener(restaurantpts);
@@ -177,15 +214,17 @@ function startup(){
     selectedLayers = [selectedValues];
 
     // set selected values on select options
-    $('#search-select-list').children('li').each(function() {
-      if (selectedValues.includes($(this).data('value'))) {
-        $(this).data('selected', true);
-        $(this).attr('data-selected', true);
-      } else {
-        $(this).data('selected', false);
-        $(this).attr('data-selected', false);
-      }
-    });
+    $('#search-select-list')
+      .find('.select-item')
+      .each(function() {
+        if (selectedValues.includes($(this).data('value'))) {
+          $(this).data('selected', true);
+          $(this).attr('data-selected', true);
+        } else {
+          $(this).data('selected', false);
+          $(this).attr('data-selected', false);
+        }
+      });
 
     map.removeLayer(that.spacespts);
 
@@ -327,11 +366,59 @@ function startup(){
       if (selectedValue === 'bus') map.removeLayer(buspts);
       if (selectedValue === 'walk') map.removeLayer(walkingfeatures);
       if (selectedValue === 'traffic') map.removeLayer(trafficLayer);
+      if (selectedValue === 'air') map.removeLayer(airpts);
+      if (selectedValue === 'astronomy') map.removeLayer(astronomypts);
+      if (selectedValue === 'bikesegway') map.removeLayer(bikesegwaypts);
+      if (selectedValue === 'ground') map.removeLayer(groundpts);
+      if (selectedValue === 'private') map.removeLayer(privatepts);
+      if (selectedValue === 'jeeptrolley') map.removeLayer(jeeptrolleypts);
+      if (selectedValue === 'specialty') map.removeLayer(specialtypts);
+      if (selectedValue === 'wine') map.removeLayer(winepts);
 
     } else {
       selectedLayers.push(selectedValue);
 
-      if(selectedValue == 'gallery'){
+      if(selectedValue == 'air'){
+        airpts.addTo(map);
+        processLayer2Geo(airpts);
+        addMouseClickListener(airpts);
+      }        
+      else if(selectedValue == 'astronomy'){
+        astronomypts.addTo(map);
+        processLayer2Geo(astronomypts);
+        addMouseClickListener(astronomypts);
+      }        
+      else if(selectedValue == 'bikesegway'){
+        bikesegwaypts.addTo(map);
+        processLayer2Geo(bikesegwaypts);
+        addMouseClickListener(bikesegwaypts);
+      }        
+      else if(selectedValue == 'ground'){
+        groundpts.addTo(map);
+        processLayer2Geo(groundpts);
+        addMouseClickListener(groundpts);
+      }        
+      else if(selectedValue == 'private'){
+        privatepts.addTo(map);
+        processLayer2Geo(privatepts);
+        addMouseClickListener(privatepts);
+      }        
+      else if(selectedValue == 'jeeptrolley'){
+        jeeptrolleypts.addTo(map);
+        processLayer2Geo(jeeptrolleypts);
+        addMouseClickListener(jeeptrolleypts);
+      }        
+      else if(selectedValue == 'specialty'){
+        specialtypts.addTo(map);
+        processLayer2Geo(specialtypts);
+        addMouseClickListener(specialtypts);
+      }        
+      else if(selectedValue == 'wine'){
+        winepts.addTo(map);
+        processLayer2Geo(winepts);
+        addMouseClickListener(winepts);
+      }        
+      else if(selectedValue == 'gallery'){
         artpts.addTo(map);
         processLayer2Geo(artpts);
         addMouseClickListener(artpts);

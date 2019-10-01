@@ -1,0 +1,82 @@
+{"type": "FeatureCollection","features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2653",
+      "title": "A Day In The West",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.adayinthewest.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "421",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.760065,
+        34.869558
+      ],
+      "type": "Point"
+    },
+    "id": 2653
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5564",
+      "title": "Adventure Jeep Tours",
+      "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Jeep-1-800x6000_0d674360-5056-a36f-235ab182ea8154f1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "421",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759413,
+        34.871102
+      ],
+      "type": "Point"
+    },
+    "id": 5564
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-7206",
+      "title": "Sedona Segway Tours",
+      "description": "<a href=\"https://www.sedonasegway.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/segway-tours_0d6ebc15-5056-a36f-235d88462dcf3f10.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sedonasegway.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "421",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.763322,
+        34.868435
+      ],
+      "type": "Point"
+    },
+    "id": 7206
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4006",
+      "title": "Tours of Jerome",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.toursofjerome.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "421",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "optician"
+    },
+    "geometry": {
+      "coordinates": [
+        -112.116153,
+        34.751252
+      ],
+      "type": "Point"
+    },
+    "id": 4006
+  }
+],"id": "sedonachamber.restaurant"}
