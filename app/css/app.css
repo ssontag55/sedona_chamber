@@ -2,8 +2,6 @@
 @import url('vex.css');
 @import url('vex-theme-os.css');
 @import url('mapbox.css');
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css');
 @import url('maki.min.css');
 
 body { margin:0; padding:0; }
@@ -31,7 +29,7 @@ body { margin:0; padding:0; }
   right: 8px !important;
   top:25% !important;
   margin-bottom: 18px;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
     width: 240px !important;
@@ -397,7 +395,7 @@ border-top: 20px solid #58595B !important;*/
   height: 3em;
   padding-top: 17px;
   color: white;
-  padding-left: 107px;
+  padding-left: 90px;
 }
 #side-menu-header-title {
   background: #d9d9d9;
@@ -603,19 +601,20 @@ input.danger:checked + .slider {
   width: 340px;
 }
 #search-select-bar {
-  font-size: 1.8rem;
-  height: 2.25em;
-  width: 100%;
+  font-size: 1.2rem;
+    height: 2.25em;
+    width: 100%;
 }
 #search-select-list {
-  height: calc(100vh - 10.25em);
-  margin-top: 6em;
+  height: calc(100vh - 7.25em);
+  margin-top: 5em;
   overflow: auto;
 }
 #search-select-list,
 #search-select-list ul.children {
   padding: 0;
   list-style: none;
+  overflow-x: hidden;
 }
 #search-select-list li {
   width: 340px;
@@ -638,6 +637,7 @@ input.danger:checked + .slider {
 #search-select-list li .select-item {
   cursor: pointer;
   display: flex;
+  font-size: .9em;
   align-items: center;
   padding: .3rem .75rem;
   white-space: nowrap;

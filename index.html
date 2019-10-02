@@ -15,8 +15,9 @@
 <script src='app/js/bowser.min.js'></script>
 <script src="app/js/vex.combined.min.js"></script>
 <script src='app/js/customsearch.min.js'></script>
-<script src='app/app.min.js'></script>
-<link href='app/css/app.min.css' rel='stylesheet' />
+<script src='app/app.js'></script>
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' />
+<link href='app/css/app.css' rel='stylesheet' />
 </head>
 <body>
 <div id="side-menu">
@@ -71,7 +72,7 @@
             <div class="select-item" data-value="recycling">
                 <div class="switch-label">
                   <span class="glyphicon maki maki-waste-basket maki-lg"></span>
-                  <div>&nbsp;Recycling Drop-off Locations</div>
+                  <div>&nbsp;Recycling Drop-off</div>
                 </div>
 
                 <label class="switch ">
@@ -133,19 +134,6 @@
             </div>
         </li>
         <li>
-            <div class="select-item" data-value="parking">
-                <div class="switch-label">
-                    <span class="maki maki-parking maki-lg"></span>
-                    <div>&nbsp;Parking</div>
-                </div>
-
-                <label class="switch ">
-                    <input type="checkbox" class="default">
-                    <span class="slider round"></span>
-                </label>
-            </div>
-        </li>
-        <li>
             <div class="select-item" data-value="pubart">
                 <div class="switch-label">
                     <span class="maki maki-camera maki-lg"></span>
@@ -162,7 +150,7 @@
             <div class="select-item" data-value="walk" data-selected="true">
                 <div class="switch-label">
                     <span class="maki maki-pitch maki-lg"></span>
-                    <div>&nbsp;Suggested Walking Routes</div>
+                    <div>&nbsp;Suggested Walking Route</div>
                 </div>
 
                 <label class="switch ">
@@ -170,6 +158,47 @@
                     <span class="slider round"></span>
                 </label>
             </div>
+        </li>
+        <li>
+            <div class="select-item parent" data-value="parking">
+                <div class="switch-label">
+                    <span class="fuel-icon icon glyphicon glyphicon-plus"></span>
+                    <div>&nbsp;Parking</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <ul class="children">
+                <li>
+                    <div class="select-item" data-value="parking">
+                        <div class="switch-label">
+                            <span class="maki maki-parking maki-lg"></span>
+                            <div>&nbsp;Parking</div>
+                        </div>
+
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="ev">
+                        <div class="switch-label">
+                            <span class="maki maki-fuel maki-lg"></span>
+                            <div>&nbsp;EV Stations</div>
+                        </div>
+
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
         </li>
         <li>
             <div class="select-item parent" data-value="tours">

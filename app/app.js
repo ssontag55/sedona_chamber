@@ -21,7 +21,7 @@ function startup(){
   //search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
 		that.browsertype = 'mobile';
-		var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl('bottomright'));
+		var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14);
     L.control.zoom({position:'topright'}).addTo(map);
     map.addControl(new L.mapbox.shareControl({position:'topright'}));
 		map.on('popupopen', function(e) {
@@ -65,6 +65,7 @@ function startup(){
   var jeeptrolleypts = L.mapbox.featureLayer('data/tours-jeeptrolley.json',{popupOptions: { closeButton: true }});
   var specialtypts = L.mapbox.featureLayer('data/tours-specialty.json',{popupOptions: { closeButton: true }});
   var winepts =  L.mapbox.featureLayer('data/tours-wine.json',{popupOptions: { closeButton: true }});
+  var evpts = L.mapbox.featureLayer('data/ev.json',{popupOptions: { closeButton: true }});
 
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
@@ -93,6 +94,7 @@ function startup(){
   jeeptrolleypts.on('ready', processLayerGeo);
   specialtypts.on('ready', processLayerGeo);
   winepts.on('ready', processLayerGeo);
+  evpts.on('ready', processLayerGeo);
 	lodgingpts.on('ready', processLayerGeo);
 	restaurantpts.on('ready', processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
@@ -149,9 +151,10 @@ function startup(){
     addMouseClickListener(parkpts);	
   }
   else if(window.location.href.indexOf("parking") > -1){
-    deselectAllExcept(['parking']);
+    deselectAllExcept(['parking','ev']);
     that.parkingpts.addTo(map);
-    addMouseClickListener(that.parkingpts);
+    evpts.addTo(map);
+    addMouseClickListener(evpts);
     addRealTimeParking(true);
     setInterval(addRealTimeParking, 50000);
   }
@@ -200,7 +203,7 @@ function startup(){
     artpts.addTo(map);	
     buspts.addTo(map);
     walkingfeatures.addTo(map);
-    lodgingpts.addTo(map);	
+    // lodgingpts.addTo(map);	
     //trafficLayer.addTo(map);
     addMouseClickListener(artpts);
     //addMouseClickListener(parkpts);
@@ -210,7 +213,7 @@ function startup(){
     addMouseClickListener(buspts);
     addMouseClickListener(museumpts);
     addMouseClickListener(walkingfeatures);
-    addMouseClickListener(lodgingpts);
+    // addMouseClickListener(lodgingpts);
   }
 
   function deselectAllExcept(selectedValues) {
@@ -377,6 +380,7 @@ function startup(){
       if (selectedValue === 'jeeptrolley') map.removeLayer(jeeptrolleypts);
       if (selectedValue === 'specialty') map.removeLayer(specialtypts);
       if (selectedValue === 'wine') map.removeLayer(winepts);
+      if (selectedValue === 'ev') map.removeLayer(evpts);
 
     } else {
       selectedLayers.push(selectedValue);
@@ -476,6 +480,9 @@ function startup(){
       }
       else if(selectedValue == 'traffic'){
         trafficLayer.addTo(map);	
+      }
+      else if(selectedValue == 'ev'){
+        evpts.addTo(map);  
       }
     }
     if(showcarasal == true){
