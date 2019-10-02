@@ -21,8 +21,9 @@ function startup(){
   //search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
 		that.browsertype = 'mobile';
-		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
-
+		var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl('bottomright'));
+    L.control.zoom({position:'topright'}).addTo(map);
+    map.addControl(new L.mapbox.shareControl({position:'topright'}));
 		map.on('popupopen', function(e) {
 		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
 		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
@@ -47,8 +48,10 @@ function startup(){
 		$('#pubartCarousel').carousel({
 			interval: 88000
 		});
-		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
-		that.timedelay = 1000;
+		var map = L.mapbox.map('map',null, {zoomControl:false}).setView([34.86394, -111.764860], 14);
+		L.control.zoom({position:'topright'}).addTo(map);
+    map.addControl(new L.mapbox.shareControl({position:'topright'}));
+    that.timedelay = 1000;
 	}
 
   that.map = map;
@@ -56,7 +59,7 @@ function startup(){
   // "tours" features
   var airpts =  L.mapbox.featureLayer('data/tours-air.json',{popupOptions: { closeButton: true }});
   var astronomypts = L.mapbox.featureLayer('data/tours-astronomy.json',{popupOptions: { closeButton: true }});
-  var bikesegwaypts = L.mapbox.featureLayer('data/tours-bikesegway.json',{popupOptions: { closeButton: true }});
+  // var bikesegwaypts = L.mapbox.featureLayer('data/tours-bikesegway.json',{popupOptions: { closeButton: true }});
   var groundpts = L.mapbox.featureLayer('data/tours-ground.json',{popupOptions: { closeButton: true }});
   var privatepts = L.mapbox.featureLayer('data/tours-guides.json',{popupOptions: { closeButton: true }});
   var jeeptrolleypts = L.mapbox.featureLayer('data/tours-jeeptrolley.json',{popupOptions: { closeButton: true }});
@@ -84,7 +87,7 @@ function startup(){
 
   airpts.on('ready', processLayerGeo);
   astronomypts.on('ready', processLayerGeo);
-  bikesegwaypts.on('ready', processLayerGeo);
+  //bikesegwaypts.on('ready', processLayerGeo);
   groundpts.on('ready', processLayerGeo);
   privatepts.on('ready', processLayerGeo);
   jeeptrolleypts.on('ready', processLayerGeo);
@@ -105,7 +108,7 @@ function startup(){
 		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine']);
     airpts.addTo(map);
     astronomypts.addTo(map);
-    bikesegwaypts.addTo(map);
+    //bikesegwaypts.addTo(map);
     groundpts.addTo(map);
     privatepts.addTo(map);
     jeeptrolleypts.addTo(map);
@@ -113,7 +116,7 @@ function startup(){
     winepts.addTo(map);
     addMouseClickListener(airpts);
     addMouseClickListener(astronomypts);
-    addMouseClickListener(bikesegwaypts);
+    //addMouseClickListener(bikesegwaypts);
     addMouseClickListener(groundpts);
     addMouseClickListener(privatepts);
     addMouseClickListener(jeeptrolleypts);
@@ -548,9 +551,52 @@ function startup(){
 	});
 	
 	var mylocIcon = L.icon({
-	     iconUrl: 'app/css/ripple.gif',
-	     iconAnchor: [10, 10]
-	 });
+     iconUrl: 'app/css/ripple.gif',
+     iconAnchor: [10, 10]
+	});
+
+
+  
+  var privacyLink = L.Control.extend({
+      options: {
+        position: 'bottomleft'
+      },
+      onAdd: function (map) {
+        var container = L.DomUtil.create('div', 'privacy-control');
+
+        container.innerHTML = '<a href="https://visitsedona.com/privacy-policy/" target="_blank">Privacy Policy</a>';
+        return container;
+      }
+  });
+  map.addControl(new privacyLink());
+
+  //turn dark if at night
+  if(d.getHours()>19||d.getHours()<7){
+    L.control.layers({
+        'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
+        'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
+        //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
+        //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        //'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
+    },null,{position:'bottomleft'}).addTo(map);
+    //},layergroup).addTo(map);
+  }
+  else{
+    L.control.layers({
+        'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
+        'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
+        //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
+        //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        //'Red': L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20}).addTo(map),
+        'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
+        //'Light': L.mapbox.tileLayer('mapbox.light'),
+        //'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
+    //},layergroup).addTo(map);
+    },null,{position:'bottomleft'}).addTo(map);
+  }
+
 
 	var lc = L.control.locate({
 		follow: true,
@@ -558,6 +604,7 @@ function startup(){
 		locateOptions: {maxZoom: 16},
 		metric: false,
 		showPopup: true, 
+    position: 'topright',
 		markerClass: L.marker,
 		markerStyle: {icon:mylocIcon},
 		strings: {
@@ -593,35 +640,8 @@ function startup(){
 	}).addTo(map);
 
 	//add below locate
-	map.addControl(L.control.customsearch({ position: 'topleft' }));
+	map.addControl(L.control.customsearch({ position: 'topright' }));
 
-
-	//turn dark if at night
-	if(d.getHours()>19||d.getHours()<7){
-		L.control.layers({
-		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
-		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
-		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    //'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
-		}).addTo(map);
-		//},layergroup).addTo(map);
-	}
-	else{
-		L.control.layers({
-		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
-		    //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
-		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    //'Red': L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20}).addTo(map),
-		    'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
-		    //'Light': L.mapbox.tileLayer('mapbox.light'),
-		    //'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
-		//},layergroup).addTo(map);
-		}).addTo(map);
-	}
 
 	that.loader.className = 'hide';
 	map.on('locationfound',(function(t) {
@@ -743,19 +763,6 @@ function startup(){
 	    }
 	});
 	map.addControl(new imagecontrol());
-
-	var privacyLink = L.Control.extend({
-	    options: {
-	      position: 'bottomleft'
-	    },
-	    onAdd: function (map) {
-	      var container = L.DomUtil.create('div', 'privacy-control');
-
-	      container.innerHTML = '<a href="https://visitsedona.com/privacy-policy/" target="_blank">Privacy Policy</a>';
-	      return container;
-	    }
-	});
-	map.addControl(new privacyLink());
 
 	$('.img-control').click(function() {
 	  window.open('http://visitsedona.com/','_blank')

@@ -23,8 +23,8 @@ body { margin:0; padding:0; }
 
 .caret:before{
   font-family: FontAwesome;
-  content: "\f002";
-  color: #99520e!important;
+  content: "\f0c9";
+  color: #4bc1b9 !important;
 }
 .caret{
   border-top: 0px !important;
@@ -376,7 +376,7 @@ border-top: 20px solid #58595B !important;*/
 }
 
 #side-menu {
-  background-color: #f3f3f3;
+  /*background-color: #f3f3f3;*/
   color: #666;
   font-size: 1.8rem;
   height: 100%;
@@ -394,8 +394,10 @@ border-top: 20px solid #58595B !important;*/
 }
 #side-menu-header-spacer {
   background-color: rgba(153, 81, 14, 0.9);
-  background-color: #aaa;
-  height: 4.5em;
+  height: 3em;
+  padding-top: 17px;
+  color: white;
+  padding-left: 107px;
 }
 #side-menu-header-title {
   background: #d9d9d9;
@@ -442,10 +444,7 @@ border-top: 20px solid #58595B !important;*/
   background: rgba(0, 0, 0, 0.2);
   border-radius: 3px;
   line-height: 1;
-  padding: 18px 15px;
   position: absolute;
-  left: 50px;
-  top: 10px;
   transition: .5s;
   z-index: 2;
 }
@@ -455,7 +454,6 @@ border-top: 20px solid #58595B !important;*/
 }
 #hamburger.is-active {
   background: none;
-  left: 260px;
 }
 
 /*!
@@ -501,7 +499,7 @@ border-top: 20px solid #58595B !important;*/
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: white;
+    background-color: #4bc1b9 !important;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;
@@ -509,6 +507,7 @@ border-top: 20px solid #58595B !important;*/
     transition-timing-function: ease; }
   .hamburger-inner::before, .hamburger-inner::after {
     content: "";
+    background-color: #4bc1b9 !important;
     display: block; }
   .hamburger-inner::before {
     top: -10px; }
@@ -610,7 +609,7 @@ input.danger:checked + .slider {
 }
 #search-select-list {
   height: calc(100vh - 10.25em);
-  margin-top: 9.5em;
+  margin-top: 6em;
   overflow: auto;
 }
 #search-select-list,

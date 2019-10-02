@@ -7,7 +7,7 @@
 					        "subcat": "252",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.788820,
 					          34.851481
 					        ],"type": "Point"
@@ -21,7 +21,7 @@
 					        "subcat": "252",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -112.127465,
 					          35.936658
 					        ],"type": "Point"
@@ -35,7 +35,7 @@
 					        "subcat": "252",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.762602,
 					          34.784106
 					        ],"type": "Point"
@@ -49,7 +49,7 @@
 					        "subcat": "252",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.795901,
 					          34.863428
 					        ],"type": "Point"
@@ -63,7 +63,7 @@
 					        "subcat": "252",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.788672,
 					          34.851032
 					        ],"type": "Point"
@@ -77,7 +77,7 @@
 					        "subcat": "252",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.789254,
 					          34.849777
 					        ],"type": "Point"
@@ -91,7 +91,7 @@
 					        "subcat": "388",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.664672,
 					          35.202914
 					        ],"type": "Point"
@@ -105,7 +105,7 @@
 					        "subcat": "388",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.025177,
 					          35.030130
 					        ],"type": "Point"
@@ -119,7 +119,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759413,
 					          34.871102
 					        ],"type": "Point"
@@ -133,7 +133,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.429402,
 					          36.965216
 					        ],"type": "Point"
@@ -147,7 +147,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.458450,
 					          36.918178
 					        ],"type": "Point"
@@ -161,7 +161,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.795877,
 					          34.864664
 					        ],"type": "Point"
@@ -175,7 +175,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.738664,
 					          34.782277
 					        ],"type": "Point"
@@ -189,7 +189,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.788915,
 					          34.861049
 					        ],"type": "Point"
@@ -203,7 +203,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760330,
 					          34.868911
 					        ],"type": "Point"
@@ -217,7 +217,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.808180,
 					          34.862734
 					        ],"type": "Point"
@@ -231,7 +231,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759414,
 					          34.871102
 					        ],"type": "Point"
@@ -245,7 +245,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.809800,
 					          34.862499
 					        ],"type": "Point"
@@ -259,7 +259,7 @@
 					        "subcat": "254",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -112.056328,
 					          34.776236
 					        ],"type": "Point"
@@ -273,7 +273,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760065,
 					          34.869558
 					        ],"type": "Point"
@@ -287,7 +287,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759413,
 					          34.871102
 					        ],"type": "Point"
@@ -301,7 +301,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.761486,
 					          34.871250
 					        ],"type": "Point"
@@ -315,7 +315,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.812522,
 					          34.861558
 					        ],"type": "Point"
@@ -329,7 +329,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760330,
 					          34.868911
 					        ],"type": "Point"
@@ -343,7 +343,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.795901,
 					          34.863428
 					        ],"type": "Point"
@@ -357,7 +357,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759414,
 					          34.871102
 					        ],"type": "Point"
@@ -371,7 +371,7 @@
 					        "subcat": "359",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.752302,
 					          34.877872
 					        ],"type": "Point"
@@ -385,7 +385,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760065,
 					          34.869558
 					        ],"type": "Point"
@@ -399,7 +399,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.762576,
 					          34.788007
 					        ],"type": "Point"
@@ -413,7 +413,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759413,
 					          34.871102
 					        ],"type": "Point"
@@ -427,7 +427,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.366458,
 					          36.888114
 					        ],"type": "Point"
@@ -441,7 +441,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.798596,
 					          34.860017
 					        ],"type": "Point"
@@ -455,7 +455,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.458450,
 					          36.918178
 					        ],"type": "Point"
@@ -469,7 +469,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.761486,
 					          34.871250
 					        ],"type": "Point"
@@ -483,7 +483,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.661715,
 					          35.190444
 					        ],"type": "Point"
@@ -497,7 +497,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760330,
 					          34.868911
 					        ],"type": "Point"
@@ -511,7 +511,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.806101,
 					          34.862428
 					        ],"type": "Point"
@@ -525,7 +525,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759414,
 					          34.871102
 					        ],"type": "Point"
@@ -539,7 +539,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.763322,
 					          34.868435
 					        ],"type": "Point"
@@ -553,7 +553,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.763648,
 					          34.855885
 					        ],"type": "Point"
@@ -567,7 +567,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.797918,
 					          34.864138
 					        ],"type": "Point"
@@ -581,7 +581,7 @@
 					        "subcat": "255",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.590195,
 					          35.215238
 					        ],"type": "Point"
@@ -595,7 +595,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.804448,
 					          34.863186
 					        ],"type": "Point"
@@ -609,7 +609,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.227871,
 					          36.119275
 					        ],"type": "Point"
@@ -623,7 +623,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -113.422724,
 					          35.529897
 					        ],"type": "Point"
@@ -637,7 +637,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.897460,
 					          34.775851
 					        ],"type": "Point"
@@ -651,7 +651,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.919744,
 					          34.612906
 					        ],"type": "Point"
@@ -665,7 +665,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760330,
 					          34.868911
 					        ],"type": "Point"
@@ -679,7 +679,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760330,
 					          34.868911
 					        ],"type": "Point"
@@ -693,7 +693,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759216,
 					          34.871918
 					        ],"type": "Point"
@@ -707,7 +707,7 @@
 					        "subcat": "387",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -112.116153,
 					          34.751252
 					        ],"type": "Point"
@@ -721,7 +721,7 @@
 					        "subcat": "421",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.760065,
 					          34.869558
 					        ],"type": "Point"
@@ -735,7 +735,7 @@
 					        "subcat": "421",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.759413,
 					          34.871102
 					        ],"type": "Point"
@@ -749,7 +749,7 @@
 					        "subcat": "421",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -111.763322,
 					          34.868435
 					        ],"type": "Point"
@@ -763,7 +763,7 @@
 					        "subcat": "421",
 					        "marker-size": "medium",
 					        "marker-color": "#666699",
-					        "marker-symbol": "optician" 
+					        "marker-symbol": "land-use" 
 					      },"geometry": {"coordinates": [ -112.116153,
 					          34.751252
 					        ],"type": "Point"
