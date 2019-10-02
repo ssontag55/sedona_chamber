@@ -2,8 +2,6 @@
 @import url('vex.css');
 @import url('vex-theme-os.css');
 @import url('mapbox.css');
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css');
 @import url('maki.min.css');
 
 body { margin:0; padding:0; }
@@ -11,12 +9,6 @@ body { margin:0; padding:0; }
 #map { position:absolute; top:0; bottom:0; width:100%; }
 
 #direc{cursor: pointer}
-
-#toolbar{
-  padding-top: 12px;
-  font-size: 18px !important;
-  padding-left: 43%;
-}
 
 .btn{
     background: #4bc1b9!important;
@@ -29,15 +21,15 @@ body { margin:0; padding:0; }
 
 .caret:before{
   font-family: FontAwesome;
-  content: "\f002";
-  color: #99520e!important;
+  content: "\f0c9";
+  color: #4bc1b9 !important;
 }
 .caret{
   border-top: 0px !important;
   right: 8px !important;
   top:25% !important;
   margin-bottom: 18px;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn){
     width: 240px !important;
@@ -217,14 +209,15 @@ border-top: 20px solid #58595B !important;*/
   padding-top:10%;
 }
 #pubartCarousel{
-  width:65%;
-  position: fixed !important;
-  bottom: 3px !important;
-  left: 19% !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+  width: 65%;
+  position: absolute;
+  bottom: 7px !important;
 }
 #pubartCarouselmobile{
   width:56%;
-  position: fixed !important;
+  position: absolute !important;
   bottom: 3px !important;
   left: 0% !important;
 }
@@ -378,4 +371,303 @@ border-top: 20px solid #58595B !important;*/
 }
 .leaflet-control-geocoder-address-context {
   color: #666;
+}
+
+#side-menu {
+  /*background-color: #f3f3f3;*/
+  color: #666;
+  font-size: 1.8rem;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+#side-menu-header {
+  position: fixed;
+  width: 100%;
+}
+#side-menu-header-spacer {
+  background-color: rgba(153, 81, 14, 0.9);
+  height: 3em;
+  padding-top: 17px;
+  color: white;
+  padding-left: 90px;
+}
+#side-menu-header-title {
+  background: #d9d9d9;
+  border-bottom: 1px solid #bdbcc1;
+  padding: .25em .75em .25em;
+  font-weight: bold;
+}
+#side-menu.is-active {
+  width: 340px;
+}
+#side-menu a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+#side-menu a:hover {
+  color: #f1f1f1;
+}
+#side-menu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#main {
+  height: 100vh;
+  position: relative;
+  transition: margin-left .5s;
+  z-index: 1;
+}
+#main.is-active {
+  margin-left: 340px;
+}
+
+@media screen and (max-height: 450px) {
+  #side-menu a {font-size: 18px;}
+}
+
+#hamburger {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  line-height: 1;
+  position: absolute;
+  transition: .5s;
+  z-index: 2;
+}
+#hamburger:focus, #hamburger:active {
+  outline: none !important;
+  box-shadow: none;
+}
+#hamburger.is-active {
+  background: none;
+}
+
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+ .hamburger {
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible; }
+  .hamburger:hover {
+    opacity: 0.7; }
+  .hamburger.is-active:hover {
+    opacity: 0.7; }
+  .hamburger.is-active .hamburger-inner,
+  .hamburger.is-active .hamburger-inner::before,
+  .hamburger.is-active .hamburger-inner::after {
+    background-color: white; }
+
+.hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative; }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px; }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: #4bc1b9 !important;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    background-color: #4bc1b9 !important;
+    display: block; }
+  .hamburger-inner::before {
+    top: -10px; }
+  .hamburger-inner::after {
+    bottom: -10px; }
+
+  /*
+  * Squeeze
+  */
+  .hamburger--squeeze .hamburger-inner {
+    transition-duration: 0.075s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+    .hamburger--squeeze .hamburger-inner::before {
+      transition: top 0.075s 0.12s ease, opacity 0.075s ease; }
+    .hamburger--squeeze .hamburger-inner::after {
+      transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  
+  .hamburger--squeeze.is-active .hamburger-inner {
+    transform: rotate(45deg);
+    transition-delay: 0.12s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+    .hamburger--squeeze.is-active .hamburger-inner::before {
+      top: 0;
+      opacity: 0;
+      transition: top 0.075s ease, opacity 0.075s 0.12s ease; }
+    .hamburger--squeeze.is-active .hamburger-inner::after {
+      bottom: 0;
+      transform: rotate(-90deg);
+      transition: bottom 0.075s ease, transform 0.075s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); }
+
+/* bootstrap switch polyfill */
+/* The switch - the box around the slider */
+.switch {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 26px;
+  float: right;
+}
+
+/* Hide default HTML checkbox */
+.switch input { display:none; }
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+/* input.default:checked + .slider {
+  background-color: #444;
+}
+input.primary:checked + .slider {
+  background-color: #2196F3;
+}
+input.success:checked + .slider {
+  background-color: #8bc34a;
+}
+input.info:checked + .slider {
+  background-color: #3de0f5;
+}
+input.warning:checked + .slider {
+  background-color: #FFC107;
+}
+input.danger:checked + .slider {
+  background-color: #f44336;
+} */
+
+
+/* search select stuff */
+#side-menu #search-bar-div {
+  padding: .5em;
+  width: 340px;
+}
+#search-select-bar {
+  font-size: 1.2rem;
+    height: 2.25em;
+    width: 100%;
+}
+#search-select-list {
+  height: calc(100vh - 7.25em);
+  margin-top: 5em;
+  overflow: auto;
+}
+#search-select-list,
+#search-select-list ul.children {
+  padding: 0;
+  list-style: none;
+  overflow-x: hidden;
+}
+#search-select-list li {
+  width: 340px;
+}
+#search-select-list li ul.children {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-out;
+}
+#search-select-list li .icon {
+  width: 1.3335em;
+  text-align: center;
+}
+#search-select-list li .parent {
+  font-weight: bold;
+}
+#search-select-list ul.children li .select-item {
+  padding-left: 1.5em;
+}
+#search-select-list li .select-item {
+  cursor: pointer;
+  display: flex;
+  font-size: .9em;
+  align-items: center;
+  padding: .3rem .75rem;
+  white-space: nowrap;
+}
+#search-select-list li .select-item {
+  justify-content: space-between;
+}
+#search-select-list li .select-item:hover {
+  background-color: #dfdfdf;
+}
+#search-select-list li .select-item .switch-label {
+  display: flex;
+  align-items: center;
+}
+#search-select-list input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+#search-select-list li .select-item[data-selected="true"] input + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+#search-select-list li .select-item[data-selected="true"] input + .slider {
+  background-color: #888;
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 26px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }

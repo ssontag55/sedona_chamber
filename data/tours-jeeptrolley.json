@@ -1,0 +1,162 @@
+{"type": "FeatureCollection","features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-549",
+      "title": "A Day In The West",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.adayinthewest.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.760065,
+        34.869558
+      ],
+      "type": "Point"
+    },
+    "id": 549
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3812",
+      "title": "Adventure Jeep Tours",
+      "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Jeep-1-800x6000_0d674360-5056-a36f-235ab182ea8154f1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759413,
+        34.871102
+      ],
+      "type": "Point"
+    },
+    "id": 3812
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-1784",
+      "title": "Arizona Safari Jeep Tours",
+      "description": "<a href=\"http://www.safarijeeptours.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/arizona-safari-jeep-tours---logo-800x600-1fc37f625056a36_1fc3816f-5056-a36f-23ef575663c996b9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.safarijeeptours.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.761486,
+        34.87125
+      ],
+      "type": "Point"
+    },
+    "id": 1784
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2026",
+      "title": "Barlow Jeep Rentals",
+      "description": "<a href=\"http://www.barlows.us\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Barlow-jeep_0d4a089e-5056-a36f-23542e2bf4adbcb1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.barlows.us\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.812522,
+        34.861558
+      ],
+      "type": "Point"
+    },
+    "id": 2026
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-166",
+      "title": "Pink Jeep Tours",
+      "description": "<a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Pink-Jeep-Tours-Sedona1_0d1fc0c0-5056-a36f-232381ef23b72d75.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.76033,
+        34.868911
+      ],
+      "type": "Point"
+    },
+    "id": 166
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4056",
+      "title": "Sedona Activity Center",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.sedonaactivitycenter.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.795901,
+        34.863428
+      ],
+      "type": "Point"
+    },
+    "id": 4056
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3418",
+      "title": "Sedona Hummer Tours",
+      "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hummer_tour0_0d2018a3-5056-a36f-2391a76b4bf1a638.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759414,
+        34.871102
+      ],
+      "type": "Point"
+    },
+    "id": 3418
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-396",
+      "title": "Sedona Trolley",
+      "description": "<a href=\"http://www.sedonatrolley.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Trolley-Logo-2019-48dadbbb5056a36_48dadcc5-5056-a36f-239fba8ec2256293.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonatrolley.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "359",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.752302,
+        34.877872
+      ],
+      "type": "Point"
+    },
+    "id": 396
+  }
+],"id": "sedonachamber.restaurant"}

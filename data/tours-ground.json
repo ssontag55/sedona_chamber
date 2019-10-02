@@ -1,0 +1,222 @@
+{"type": "FeatureCollection","features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5562",
+      "title": "Adventure Jeep Tours",
+      "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Jeep-1-800x6000_0d674360-5056-a36f-235ab182ea8154f1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759413,
+        34.871102
+      ],
+      "type": "Point"
+    },
+    "id": 5562
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2193",
+      "title": "Antelope Canyon Navajo Tours",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.navajotours.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.429402,
+        36.965216
+      ],
+      "type": "Point"
+    },
+    "id": 2193
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-1732",
+      "title": "Antelope Canyon Tours Inc",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.antelopecanyon.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.45845,
+        36.918178
+      ],
+      "type": "Point"
+    },
+    "id": 1732
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2372",
+      "title": "Arizona Tourism Center",
+      "description": "<a href=\"http://www.arizonatourismcenter.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/12584_Brown_ATC_by_DRI_Logo_Final0_0d5cbe2a-5056-a36f-23a019b3ea1c9ee3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arizonatourismcenter.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.795877,
+        34.864664
+      ],
+      "type": "Point"
+    },
+    "id": 2372
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2321",
+      "title": "Grand Canyon Railway",
+      "description": "<a href=\"http://www.thetrain.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/gcr_sedonachamber_800x6000_0d3789a3-5056-a36f-238b6cf9429bdba1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thetrain.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.738664,
+        34.782277
+      ],
+      "type": "Point"
+    },
+    "id": 2321
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-324",
+      "title": "Mystic Tours with Rahelio",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.rahelio.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.788915,
+        34.861049
+      ],
+      "type": "Point"
+    },
+    "id": 324
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3060",
+      "title": "Pink Jeep Tours",
+      "description": "<a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Pink-Jeep-Tours-Sedona1_0d1fc0c0-5056-a36f-232381ef23b72d75.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.76033,
+        34.868911
+      ],
+      "type": "Point"
+    },
+    "id": 3060
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3991",
+      "title": "Sedona ATV & Buggy Rental",
+      "description": "<a href=\"http://www.atvsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedonaatv7_orig0-8b07b90e5056a36_8b07ba61-5056-a36f-23168e0772ec1599.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.atvsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.80818,
+        34.862734
+      ],
+      "type": "Point"
+    },
+    "id": 3991
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3755",
+      "title": "Sedona Hummer Tours",
+      "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hummer_tour0_0d2018a3-5056-a36f-2391a76b4bf1a638.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759414,
+        34.871102
+      ],
+      "type": "Point"
+    },
+    "id": 3755
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4924",
+      "title": "Sedona Slingshot & CanAm ATV Rentals",
+      "description": "<a href=\"http://sedonaslingshotrentals.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/slingshot0-7d5770c85056a36_7d577212-5056-a36f-23038d692f0b11d9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://sedonaslingshotrentals.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.8098,
+        34.862499
+      ],
+      "type": "Point"
+    },
+    "id": 4924
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-1991",
+      "title": "Verde Canyon Railroad",
+      "description": "<a href=\"http://www.verdecanyonrr.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-banner_8E4F1DF8-3861-4881-A446580AAE9FAC97_418da434-1d82-4589-bb14b0266c57dd5c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.verdecanyonrr.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "254",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -112.056328,
+        34.776236
+      ],
+      "type": "Point"
+    },
+    "id": 1991
+  }
+],"id": "sedonachamber.restaurant"}

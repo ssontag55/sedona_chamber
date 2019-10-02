@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Get Around Sedona!</title>
+<title>Walk Sedona!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="shortcut icon" href="https://walksedona.com/assets/sedona.ico" type="image/x-icon" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -15,427 +15,740 @@
 <script src='app/js/bowser.min.js'></script>
 <script src="app/js/vex.combined.min.js"></script>
 <script src='app/js/customsearch.min.js'></script>
-<script src='app/app.min.js'></script>
-<link href='app/css/app.min.css' rel='stylesheet' />
+<script src='app/app.js'></script>
+<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' />
+<link href='app/css/app.css' rel='stylesheet' />
 </head>
 <body>
-<div class='custom-popup' id='map'></div>
-<div id='toolbar'>
-	<select id="search-bar" multiple="multiple" data-live-search="true" style="display:none">
-	    <option value="gallery" selected data-icon="maki maki-art-gallery maki-lg" value="Galleries">Galleries</option>
-	    <option value="rest" selected data-icon="maki maki-restaurant maki-lg" value="Restaurants"> Restaurants</option>
-	    <option value="recycling" data-icon="maki maki-waste-basket maki-lg" value="Recycling">  Recycling Drop-off Locations</option>
-	    <option value="bus" selected data-icon="maki maki-bus maki-lg" value="Bus Stops">    Public Transportation</option>
-	    <option value="theatre" selected data-icon="maki maki-cinema maki-lg" value="Theatre">    Theatre</option>
-	    <option value="museum" selected data-icon="maki maki-museum maki-lg" value="Museum">    Museum</option>
-        <option value="parks" data-icon="maki maki-park maki-lg" value="Parks,Restrooms,trailheads,trails">    Parks and Trailheads</option>
-	    <option value="parking" data-icon="maki maki-parking maki-lg" value="Parking">    Parking</option>
-	    <option value="pubart" data-icon="maki maki-camera maki-lg" value="Public Art Locations">    Public Art Locations</option>
-	    <option value="walk" selected data-icon="maki maki-pitch maki-lg" value="Suggested Walking Routes">    Suggested Walking Routes</option>
-        <option value="traffic" data-icon="maki maki-car maki-lg" value="Real-time Traffic">    Real-time Traffic (red heavy)</option>
-	</select>
+<div id="side-menu">
+    <div id="side-menu-header">
+        <div id="side-menu-header-spacer">Get Around Sedona</div>
+        <!-- <div id="side-menu-header-title">Select Location Types</div> -->
+        <div id="search-bar-div">
+            <input type="text" id="search-select-bar" class="form-control" placeholder="What are you looking for?" />
+        </div>
+    </div>
+    <ul id="search-select-list">
+        <li>
+          <div class="select-item" data-value="lodge" data-selected="true">
+              <div class="switch-label">
+                  <span class="maki maki-lodging maki-lg"></span>
+                  <div>&nbsp;Lodging</div>
+              </div>
+
+              <label class="switch ">
+                  <input type="checkbox" class="default">
+                  <span class="slider round"></span>
+              </label>
+          </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="gallery" data-selected="true">
+                <div class="switch-label">
+                    <span class="maki maki-art-gallery maki-lg"></span>
+                    <div>&nbsp;Galleries</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="rest" data-selected="true">
+                <div class="switch-label">
+                    <span class="maki maki-restaurant maki-lg"></span>
+                    <div>&nbsp;Restaurants</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="recycling">
+                <div class="switch-label">
+                  <span class="glyphicon maki maki-waste-basket maki-lg"></span>
+                  <div>&nbsp;Recycling Drop-off</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="bus" data-selected="true">
+                <div class="switch-label">
+                    <span class="maki maki-bus maki-lg"></span>
+                    <div>&nbsp;Public Transportation</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="theatre" data-selected="true">
+                <div class="switch-label">
+                    <span class="maki maki-cinema maki-lg"></span>
+                    <div>&nbsp;Theatre</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="museum" data-selected="true">
+                <div class="switch-label">
+                    <span class="maki maki-museum maki-lg"></span>
+                    <div>&nbsp;Museum</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="parks">
+                <div class="switch-label">
+                    <span class="maki maki-park maki-lg"></span>
+                    <div>&nbsp;Parks and Trailheads</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="pubart">
+                <div class="switch-label">
+                    <span class="maki maki-camera maki-lg"></span>
+                    <div>&nbsp;Public Art Locations</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="walk" data-selected="true">
+                <div class="switch-label">
+                    <span class="maki maki-pitch maki-lg"></span>
+                    <div>&nbsp;Suggested Walking Route</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item parent" data-value="parking">
+                <div class="switch-label">
+                    <span class="fuel-icon icon glyphicon glyphicon-plus"></span>
+                    <div>&nbsp;Parking</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <ul class="children">
+                <li>
+                    <div class="select-item" data-value="parking">
+                        <div class="switch-label">
+                            <span class="maki maki-parking maki-lg"></span>
+                            <div>&nbsp;Parking</div>
+                        </div>
+
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="ev">
+                        <div class="switch-label">
+                            <span class="maki maki-fuel maki-lg"></span>
+                            <div>&nbsp;EV Stations</div>
+                        </div>
+
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="select-item parent" data-value="tours">
+                <div class="switch-label">
+                    <span class="parent-icon icon glyphicon glyphicon-plus"></span>
+                    <div>&nbsp;Tours</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <ul class="children">
+                <li>
+                    <div class="select-item" data-value="air">
+                        <div class="switch-label">
+                            <span class="maki maki-heliport maki-lg"></span>
+                            <div>&nbsp;Air</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="astronomy">
+                        <div class="switch-label">
+                            <span class="maki maki-land-use maki-lg"></span>
+                            <div>&nbsp;Astronomy</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <!-- <li>
+                    <div class="select-item" data-value="bikesegway">
+                        <div class="switch-label">
+                            <span></span>
+                            <div>&nbsp;Bike+Segway</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li> -->
+                <li>
+                    <div class="select-item" data-value="ground">
+                        <div class="switch-label">
+                            <span class="maki maki-land-use maki-lg"></span>
+                            <div>&nbsp;Ground</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="private">
+                        <div class="switch-label">
+                            <span class="maki maki-land-use maki-lg"></span>
+                            <div>&nbsp;Private</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="jeeptrolley">
+                        <div class="switch-label">
+                            <span class="maki maki-land-use maki-lg"></span>
+                            <div>&nbsp;Jeep+Trolley</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="specialty">
+                        <div class="switch-label">
+                            <span class="maki maki-land-use maki-lg"></span>
+                            <div>&nbsp;Specialty</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="wine">
+                        <div class="switch-label">
+                            <span class="maki maki-land-use maki-lg"></span>
+                            <div>&nbsp;Wine</div>
+                        </div>
+        
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div class="select-item" data-value="traffic">
+                <div class="switch-label">
+                    <span class="maki maki-car maki-lg"></span>
+                    <div>&nbsp;Real-time Traffic (red heavy)</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li id="no-results" style="display: none;">
+            <div class="select-item">
+                <div class="switch-label"></div>
+            </div>
+        </li>
+    </ul>
 </div>
-<div id='loader'><span class='message'></span></div>
-<div id="pubartCarousel" class="carousel slide" style="display:none">
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <div class="row">
+<button id="hamburger" class="hamburger hamburger--squeeze" type="button" onclick="toggleNav()">
+    <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+    </span>
+</button>
+<div id="main">
+    <div class='custom-popup' id='map'></div>
+    <div id='loader'><span class='message'></span></div>
+    <div id="pubartCarousel" class="carousel slide" style="display:none">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='b6ceb5d5ce631b6c65fe3e7b612b4ce3' class="thumbnail"><div class="carousel-caption">
+                <p>John Waddell</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Waddell_Ruth.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='69b991a152ef02c4037d21e04712c062' class="thumbnail"><div class="carousel-caption">
+                <p>Joe Beeler</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Beeler_TheHealer.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='ab9d723feeaf5cdb4a2e325620187a9f' class="thumbnail"><div class="carousel-caption">
+                <p>Susan Kliewer</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Sedona_Bronze.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='96bffcc36b994bb16ad78ae0e99a2e37' class="thumbnail"><div class="carousel-caption">
+                <p>Red Rock High School Students</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/DunstofFears.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='8818c1ea34fa8b782233412bc6102285' class="thumbnail"><div class="carousel-caption">
+                <p>James N. Muir</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/caduceus.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='9c9cc65b8a6f4823b82793cc8ae45b45' class="thumbnail"><div class="carousel-caption">
+                <p>Steve Smith</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/coyote.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='aaa0236e32eec3143f621a53f1e1f7f3' class="thumbnail"><div class="carousel-caption">
+                <p>John M. Soderberg</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/AnasaziFountain_Soderberg.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='910c7c45b7666153b0e83142e999341c' class="thumbnail"><div class="carousel-caption">
+                <p>Joanne Hiscox</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/glascape.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='c00212eb485aeb835c2173f2bf0f9a47' class="thumbnail"><div class="carousel-caption">
+                <p>James N. Muir</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/HumaneSociety.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='396bb5b6ca536e47a1520921958e65b2' class="thumbnail"><div class="carousel-caption">
+                <p>John M. Soderberg</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Invocation_Soderberg.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='4197e2a5a58ce3b202df9dd40ba7bba5' class="thumbnail"><div class="carousel-caption">
+                <p>John M. Soderberg</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Merlin_Soderberg.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='e0fa1f5088201c005644402d5ee0c975' class="thumbnail"><div class="carousel-caption">
+                <p>Fuller Barnes</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/FullerBarnes_ApplePeeler.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='26ebdbcff83ad3f14e147671e69c540b' class="thumbnail"><div class="carousel-caption">
+                <p></p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/storytellincowboy.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='ccedc71292a7dc832cfee3ebcb0f04d8' class="thumbnail"><div class="carousel-caption">
+                <p>Eugenia Everett</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/welcome.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='4eccb994bca904e1d1b1bf6901230fd3' class="thumbnail"><div class="carousel-caption">
+                <p>Nassan Gobran</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Gobran_Peace.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='a3a24a58eefb7c3558250fd53da34b39' class="thumbnail"><div class="carousel-caption">
+                <p>John M. Soderberg</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Sacagawea.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                  <div class="col-sm-3"><a href="#" id='88d77fd0272d6109122ee170292913b6' class="thumbnail"><div class="carousel-caption">
+                <p>Andrea Smith</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Smith_HaveAloha.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='a6a707e2c4f732e55a54f75f1080154d' class="thumbnail"><div class="carousel-caption">
+                <p>Clyde Ross Morgan</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/ClydeRossMorgan_RedRocks_andthe_CowboyArtist1.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='9bcd2255d9d6c451d88eb15f72760ffa' class="thumbnail"><div class="carousel-caption">
+                <p>Larry and Gayle Taylor</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/astralvoyagers.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='7515db0e78d49678e579b5ffec5e4f10' class="thumbnail"><div class="carousel-caption">
+                <p>James N. Muir</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Cowboy_Dancers.sm.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='9a57bfcf402d227886e996ee3202530b' class="thumbnail"><div class="carousel-caption">
+                <p>James N. Muir</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/JamesRMuir_TrailoftheWest.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='eaf977ba90c6369990cbc1ef67f32b3f' class="thumbnail"><div class="carousel-caption">
+                <p>Karl Jensen</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/IceCream_Uptown.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='ca12a07ff33af17472649db49aa2d985' class="thumbnail"><div class="carousel-caption">
+                <p>Eileen Conn</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/TlaqChapel1.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='6728ad988d3db26cdf1654d99f794942' class="thumbnail"><div class="carousel-caption">
+                <p>W. Stanley Proctor</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_FollowtheLeader.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d37' class="thumbnail"><div class="carousel-caption">
+                <p>W. Stanley Proctor</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_first_mate_pounce.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='b84eee31ab290165b169afce6976a0bb' class="thumbnail"><div class="carousel-caption">
+                <p>Barbara R. Brown</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/BarbaraBrown_Pondering.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='125f39b105ade885c1f3a7edb6f936fc' class="thumbnail"><div class="carousel-caption">
+                <p>Ken Ottinger</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/voices.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='9020513676d3e6fbe10dc167defcf3c0' class="thumbnail"><div class="carousel-caption">
+                <p>August K. Strotz</p>
+                </div><img src="https://walksedona.com/assets/FeaturedArt/sedona-chapel.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d45' class="thumbnail"><div class="carousel-caption">
+                        <p>James N. Muir</p>
+                        </div><img src="https://walksedona.com/assets/FeaturedArt/cornerstone.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='b84eee31ab290165b169afce6976a055' class="thumbnail"><div class="carousel-caption">
+                        <p>James N. Muir</p>
+                        </div><img src="https://walksedona.com/assets/FeaturedArt/athena.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='125f39b105ade885c1f3a7edb6f93665' class="thumbnail"><div class="carousel-caption">
+                        <p>James N. Muir</p>
+                        </div><img src="https://walksedona.com/assets/FeaturedArt/chaos_kinetic.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='9020513676d3e6fbe10dc167defcf75' class="thumbnail"><div class="carousel-caption">
+                        <p>James N. Muir</p>
+                        </div><img src="https://walksedona.com/assets/FeaturedArt/church.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d15' class="thumbnail"><div class="carousel-caption">
+                        <p>James N. Muir</p>
+                        </div><img src="https://walksedona.com/assets/FeaturedArt/chisel.jpg" alt="Image" class="img-"></a>
+                    </div>
+                    <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d25' class="thumbnail"><div class="carousel-caption">
+                        <p>James N. Muir</p>
+                        </div><img src="https://walksedona.com/assets/FeaturedArt/fisherboy.jpg" alt="Image" class="img-"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#pubartCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#pubartCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="pubartCarouselmobile" class="carousel slide" style="display:none">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
                 <div class="col-sm-3"><a href="#" id='b6ceb5d5ce631b6c65fe3e7b612b4ce3' class="thumbnail"><div class="carousel-caption">
-    				<p>John Waddell</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Waddell_Ruth.jpg" alt="Image" class="img-"></a>
+            <p>John Waddell</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Waddell_Ruth.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='69b991a152ef02c4037d21e04712c062' class="thumbnail"><div class="carousel-caption">
-    				<p>Joe Beeler</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Beeler_TheHealer.jpg" alt="Image" class="img-"></a>
+            <p>Joe Beeler</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Beeler_TheHealer.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='ab9d723feeaf5cdb4a2e325620187a9f' class="thumbnail"><div class="carousel-caption">
-    				<p>Susan Kliewer</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Sedona_Bronze.jpg" alt="Image" class="img-"></a>
+            <p>Susan Kliewer</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Sedona_Bronze.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='96bffcc36b994bb16ad78ae0e99a2e37' class="thumbnail"><div class="carousel-caption">
-    				<p>Red Rock High School Students</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/DunstofFears.jpg" alt="Image" class="img-"></a>
+            <p>Red Rock High School Students</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/DunstofFears.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
-                <div class="col-sm-3"><a href="#" id='8818c1ea34fa8b782233412bc6102285' class="thumbnail"><div class="carousel-caption">
-    				<p>James N. Muir</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/caduceus.jpg" alt="Image" class="img-"></a>
-                </div>
+            <div class="item">
+              <div class="col-sm-3"><a href="#" id='8818c1ea34fa8b782233412bc6102285' class="thumbnail"><div class="carousel-caption">
+            <p>James N. Muir</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/caduceus.jpg" alt="Image" class="img-"></a>
+              </div>
+          </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='9c9cc65b8a6f4823b82793cc8ae45b45' class="thumbnail"><div class="carousel-caption">
-    				<p>Steve Smith</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/coyote.jpg" alt="Image" class="img-"></a>
+            <p>Steve Smith</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/coyote.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='aaa0236e32eec3143f621a53f1e1f7f3' class="thumbnail"><div class="carousel-caption">
-    				<p>John M. Soderberg</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/AnasaziFountain_Soderberg.jpg" alt="Image" class="img-"></a>
+            <p>John M. Soderberg</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/AnasaziFountain_Soderberg.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='910c7c45b7666153b0e83142e999341c' class="thumbnail"><div class="carousel-caption">
-    				<p>Joanne Hiscox</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/glascape.jpg" alt="Image" class="img-"></a>
+            <p>Joanne Hiscox</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/glascape.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='c00212eb485aeb835c2173f2bf0f9a47' class="thumbnail"><div class="carousel-caption">
-    				<p>James N. Muir</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/HumaneSociety.jpg" alt="Image" class="img-"></a>
+            <p>James N. Muir</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/HumaneSociety.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='396bb5b6ca536e47a1520921958e65b2' class="thumbnail"><div class="carousel-caption">
-    				<p>John M. Soderberg</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Invocation_Soderberg.jpg" alt="Image" class="img-"></a>
+            <p>John M. Soderberg</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Invocation_Soderberg.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='4197e2a5a58ce3b202df9dd40ba7bba5' class="thumbnail"><div class="carousel-caption">
-    				<p>John M. Soderberg</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Merlin_Soderberg.jpg" alt="Image" class="img-"></a>
+            <p>John M. Soderberg</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Merlin_Soderberg.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='e0fa1f5088201c005644402d5ee0c975' class="thumbnail"><div class="carousel-caption">
-    				<p>Fuller Barnes</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/FullerBarnes_ApplePeeler.jpg" alt="Image" class="img-"></a>
+            <p>Fuller Barnes</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/FullerBarnes_ApplePeeler.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='26ebdbcff83ad3f14e147671e69c540b' class="thumbnail"><div class="carousel-caption">
-    				<p></p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/storytellincowboy.jpg" alt="Image" class="img-"></a>
+            <p></p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/storytellincowboy.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='ccedc71292a7dc832cfee3ebcb0f04d8' class="thumbnail"><div class="carousel-caption">
-    				<p>Eugenia Everett</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/welcome.jpg" alt="Image" class="img-"></a>
+            <p>Eugenia Everett</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/welcome.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='4eccb994bca904e1d1b1bf6901230fd3' class="thumbnail"><div class="carousel-caption">
-    				<p>Nassan Gobran</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Gobran_Peace.jpg" alt="Image" class="img-"></a>
+            <p>Nassan Gobran</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Gobran_Peace.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='a3a24a58eefb7c3558250fd53da34b39' class="thumbnail"><div class="carousel-caption">
-    				<p>John M. Soderberg</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Sacagawea.jpg" alt="Image" class="img-"></a>
+            <p>John M. Soderberg</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Sacagawea.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
-            	<div class="col-sm-3"><a href="#" id='88d77fd0272d6109122ee170292913b6' class="thumbnail"><div class="carousel-caption">
-    				<p>Andrea Smith</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Smith_HaveAloha.jpg" alt="Image" class="img-"></a>
+            <div class="item">
+              <div class="col-sm-3"><a href="#" id='88d77fd0272d6109122ee170292913b6' class="thumbnail"><div class="carousel-caption">
+            <p>Andrea Smith</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Smith_HaveAloha.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='a6a707e2c4f732e55a54f75f1080154d' class="thumbnail"><div class="carousel-caption">
-    				<p>Clyde Ross Morgan</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/ClydeRossMorgan_RedRocks_andthe_CowboyArtist1.jpg" alt="Image" class="img-"></a>
+            <p>Clyde Ross Morgan</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/ClydeRossMorgan_RedRocks_andthe_CowboyArtist1.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='9bcd2255d9d6c451d88eb15f72760ffa' class="thumbnail"><div class="carousel-caption">
-    				<p>Larry and Gayle Taylor</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/astralvoyagers.jpg" alt="Image" class="img-"></a>
+            <p>Larry and Gayle Taylor</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/astralvoyagers.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='7515db0e78d49678e579b5ffec5e4f10' class="thumbnail"><div class="carousel-caption">
-    				<p>James N. Muir</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Cowboy_Dancers.sm.jpg" alt="Image" class="img-"></a>
+            <p>James N. Muir</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Cowboy_Dancers.sm.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='9a57bfcf402d227886e996ee3202530b' class="thumbnail"><div class="carousel-caption">
-    				<p>James N. Muir</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/JamesRMuir_TrailoftheWest.jpg" alt="Image" class="img-"></a>
+            <p>James N. Muir</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/JamesRMuir_TrailoftheWest.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='eaf977ba90c6369990cbc1ef67f32b3f' class="thumbnail"><div class="carousel-caption">
-    				<p>Karl Jensen</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/IceCream_Uptown.jpg" alt="Image" class="img-"></a>
+            <p>Karl Jensen</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/IceCream_Uptown.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='ca12a07ff33af17472649db49aa2d985' class="thumbnail"><div class="carousel-caption">
-    				<p>Eileen Conn</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/TlaqChapel1.jpg" alt="Image" class="img-"></a>
+            <p>Eileen Conn</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/TlaqChapel1.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='6728ad988d3db26cdf1654d99f794942' class="thumbnail"><div class="carousel-caption">
-    				<p>W. Stanley Proctor</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_FollowtheLeader.jpg" alt="Image" class="img-"></a>
+            <p>W. Stanley Proctor</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_FollowtheLeader.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d37' class="thumbnail"><div class="carousel-caption">
-    				<p>W. Stanley Proctor</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_first_mate_pounce.jpg" alt="Image" class="img-"></a>
-                </div>
-                <div class="col-sm-3"><a href="#" id='b84eee31ab290165b169afce6976a0bb' class="thumbnail"><div class="carousel-caption">
-    				<p>Barbara R. Brown</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/BarbaraBrown_Pondering.jpg" alt="Image" class="img-"></a>
-                </div>
-                <div class="col-sm-3"><a href="#" id='125f39b105ade885c1f3a7edb6f936fc' class="thumbnail"><div class="carousel-caption">
-    				<p>Ken Ottinger</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/voices.jpg" alt="Image" class="img-"></a>
-                </div>
-                <div class="col-sm-3"><a href="#" id='9020513676d3e6fbe10dc167defcf3c0' class="thumbnail"><div class="carousel-caption">
-    				<p>August K. Strotz</p>
-  					</div><img src="https://walksedona.com/assets/FeaturedArt/sedona-chapel.jpg" alt="Image" class="img-"></a>
+            <p>W. Stanley Proctor</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_first_mate_pounce.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
+            <div class="item">
+                <div class="col-sm-3"><a href="#" id='b84eee31ab290165b169afce6976a0bb' class="thumbnail"><div class="carousel-caption">
+            <p>Barbara R. Brown</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/BarbaraBrown_Pondering.jpg" alt="Image" class="img-"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-sm-3"><a href="#" id='125f39b105ade885c1f3a7edb6f936fc' class="thumbnail"><div class="carousel-caption">
+            <p>Ken Ottinger</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/voices.jpg" alt="Image" class="img-"></a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="col-sm-3"><a href="#" id='9020513676d3e6fbe10dc167defcf3c0' class="thumbnail"><div class="carousel-caption">
+            <p>August K. Strotz</p>
+              </div><img src="https://walksedona.com/assets/FeaturedArt/sedona-chapel.jpg" alt="Image" class="img-"></a>
+                </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d45' class="thumbnail"><div class="carousel-caption">
                     <p>James N. Muir</p>
                     </div><img src="https://walksedona.com/assets/FeaturedArt/cornerstone.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='b84eee31ab290165b169afce6976a055' class="thumbnail"><div class="carousel-caption">
                     <p>James N. Muir</p>
                     </div><img src="https://walksedona.com/assets/FeaturedArt/athena.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='125f39b105ade885c1f3a7edb6f93665' class="thumbnail"><div class="carousel-caption">
                     <p>James N. Muir</p>
                     </div><img src="https://walksedona.com/assets/FeaturedArt/chaos_kinetic.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='9020513676d3e6fbe10dc167defcf75' class="thumbnail"><div class="carousel-caption">
                     <p>James N. Muir</p>
                     </div><img src="https://walksedona.com/assets/FeaturedArt/church.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
-        <div class="item">
-            <div class="row">
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d15' class="thumbnail"><div class="carousel-caption">
                     <p>James N. Muir</p>
                     </div><img src="https://walksedona.com/assets/FeaturedArt/chisel.jpg" alt="Image" class="img-"></a>
                 </div>
+            </div>
+            <div class="item">
                 <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d25' class="thumbnail"><div class="carousel-caption">
                     <p>James N. Muir</p>
                     </div><img src="https://walksedona.com/assets/FeaturedArt/fisherboy.jpg" alt="Image" class="img-"></a>
                 </div>
             </div>
-        </div>
+        <a class="left carousel-control" href="#pubartCarouselmobile" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#pubartCarouselmobile" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
     </div>
-	   <a class="left carousel-control" href="#pubartCarousel" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#pubartCarousel" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
-</div>
-<div id="pubartCarouselmobile" class="carousel slide" style="display:none">
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <div class="col-sm-3"><a href="#" id='b6ceb5d5ce631b6c65fe3e7b612b4ce3' class="thumbnail"><div class="carousel-caption">
-				<p>John Waddell</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Waddell_Ruth.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='69b991a152ef02c4037d21e04712c062' class="thumbnail"><div class="carousel-caption">
-				<p>Joe Beeler</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Beeler_TheHealer.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='ab9d723feeaf5cdb4a2e325620187a9f' class="thumbnail"><div class="carousel-caption">
-				<p>Susan Kliewer</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Sedona_Bronze.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='96bffcc36b994bb16ad78ae0e99a2e37' class="thumbnail"><div class="carousel-caption">
-				<p>Red Rock High School Students</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/DunstofFears.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-	        <div class="col-sm-3"><a href="#" id='8818c1ea34fa8b782233412bc6102285' class="thumbnail"><div class="carousel-caption">
-				<p>James N. Muir</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/caduceus.jpg" alt="Image" class="img-"></a>
-	        </div>
-	    </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='9c9cc65b8a6f4823b82793cc8ae45b45' class="thumbnail"><div class="carousel-caption">
-				<p>Steve Smith</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/coyote.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='aaa0236e32eec3143f621a53f1e1f7f3' class="thumbnail"><div class="carousel-caption">
-				<p>John M. Soderberg</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/AnasaziFountain_Soderberg.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='910c7c45b7666153b0e83142e999341c' class="thumbnail"><div class="carousel-caption">
-				<p>Joanne Hiscox</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/glascape.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='c00212eb485aeb835c2173f2bf0f9a47' class="thumbnail"><div class="carousel-caption">
-				<p>James N. Muir</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/HumaneSociety.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='396bb5b6ca536e47a1520921958e65b2' class="thumbnail"><div class="carousel-caption">
-				<p>John M. Soderberg</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Invocation_Soderberg.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='4197e2a5a58ce3b202df9dd40ba7bba5' class="thumbnail"><div class="carousel-caption">
-				<p>John M. Soderberg</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Merlin_Soderberg.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='e0fa1f5088201c005644402d5ee0c975' class="thumbnail"><div class="carousel-caption">
-				<p>Fuller Barnes</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/FullerBarnes_ApplePeeler.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='26ebdbcff83ad3f14e147671e69c540b' class="thumbnail"><div class="carousel-caption">
-				<p></p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/storytellincowboy.jpg" alt="Image" class="img-"></a>
-            </div>
-         </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='ccedc71292a7dc832cfee3ebcb0f04d8' class="thumbnail"><div class="carousel-caption">
-				<p>Eugenia Everett</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/welcome.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='4eccb994bca904e1d1b1bf6901230fd3' class="thumbnail"><div class="carousel-caption">
-				<p>Nassan Gobran</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Gobran_Peace.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='a3a24a58eefb7c3558250fd53da34b39' class="thumbnail"><div class="carousel-caption">
-				<p>John M. Soderberg</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Sacagawea.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-        	<div class="col-sm-3"><a href="#" id='88d77fd0272d6109122ee170292913b6' class="thumbnail"><div class="carousel-caption">
-				<p>Andrea Smith</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Smith_HaveAloha.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='a6a707e2c4f732e55a54f75f1080154d' class="thumbnail"><div class="carousel-caption">
-				<p>Clyde Ross Morgan</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/ClydeRossMorgan_RedRocks_andthe_CowboyArtist1.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='9bcd2255d9d6c451d88eb15f72760ffa' class="thumbnail"><div class="carousel-caption">
-				<p>Larry and Gayle Taylor</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/astralvoyagers.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='7515db0e78d49678e579b5ffec5e4f10' class="thumbnail"><div class="carousel-caption">
-				<p>James N. Muir</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Cowboy_Dancers.sm.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='9a57bfcf402d227886e996ee3202530b' class="thumbnail"><div class="carousel-caption">
-				<p>James N. Muir</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/JamesRMuir_TrailoftheWest.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='eaf977ba90c6369990cbc1ef67f32b3f' class="thumbnail"><div class="carousel-caption">
-				<p>Karl Jensen</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/IceCream_Uptown.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='ca12a07ff33af17472649db49aa2d985' class="thumbnail"><div class="carousel-caption">
-				<p>Eileen Conn</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/TlaqChapel1.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='6728ad988d3db26cdf1654d99f794942' class="thumbnail"><div class="carousel-caption">
-				<p>W. Stanley Proctor</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_FollowtheLeader.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d37' class="thumbnail"><div class="carousel-caption">
-				<p>W. Stanley Proctor</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/Proctor_first_mate_pounce.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='b84eee31ab290165b169afce6976a0bb' class="thumbnail"><div class="carousel-caption">
-				<p>Barbara R. Brown</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/BarbaraBrown_Pondering.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='125f39b105ade885c1f3a7edb6f936fc' class="thumbnail"><div class="carousel-caption">
-				<p>Ken Ottinger</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/voices.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='9020513676d3e6fbe10dc167defcf3c0' class="thumbnail"><div class="carousel-caption">
-				<p>August K. Strotz</p>
-					</div><img src="https://walksedona.com/assets/FeaturedArt/sedona-chapel.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d45' class="thumbnail"><div class="carousel-caption">
-                <p>James N. Muir</p>
-                </div><img src="https://walksedona.com/assets/FeaturedArt/cornerstone.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='b84eee31ab290165b169afce6976a055' class="thumbnail"><div class="carousel-caption">
-                <p>James N. Muir</p>
-                </div><img src="https://walksedona.com/assets/FeaturedArt/athena.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='125f39b105ade885c1f3a7edb6f93665' class="thumbnail"><div class="carousel-caption">
-                <p>James N. Muir</p>
-                </div><img src="https://walksedona.com/assets/FeaturedArt/chaos_kinetic.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='9020513676d3e6fbe10dc167defcf75' class="thumbnail"><div class="carousel-caption">
-                <p>James N. Muir</p>
-                </div><img src="https://walksedona.com/assets/FeaturedArt/church.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d15' class="thumbnail"><div class="carousel-caption">
-                <p>James N. Muir</p>
-                </div><img src="https://walksedona.com/assets/FeaturedArt/chisel.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-        <div class="item">
-            <div class="col-sm-3"><a href="#" id='c0fc1d690dae5d5a4b0fc3faf0b35d25' class="thumbnail"><div class="carousel-caption">
-                <p>James N. Muir</p>
-                </div><img src="https://walksedona.com/assets/FeaturedArt/fisherboy.jpg" alt="Image" class="img-"></a>
-            </div>
-        </div>
-	   <a class="left carousel-control" href="#pubartCarouselmobile" role="button" data-slide="prev">
-	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-	    <span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#pubartCarouselmobile" role="button" data-slide="next">
-	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-	    <span class="sr-only">Next</span>
-	  </a>
 </div>
 <script>
 vex.defaultOptions.className = 'vex-theme-os';

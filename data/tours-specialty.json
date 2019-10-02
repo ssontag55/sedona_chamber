@@ -1,0 +1,182 @@
+{"type": "FeatureCollection","features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5358",
+      "title": "Cobalt Escapes",
+      "description": "<a href=\"http://www.cesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/cobalt-escapes_0d5f6a6f-5056-a36f-2389ba998a7e5eed.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.804448,
+        34.863186
+      ],
+      "type": "Point"
+    },
+    "id": 5358
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-7002",
+      "title": "Experience Hopi Tours",
+      "description": "<a href=\"https://experiencehopi.com/tours\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Experience-Hopi_cropped-dc724ba65056a36_dc724d3c-5056-a36f-232e9505d2ce6810.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://experiencehopi.com/tours\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.227871,
+        36.119275
+      ],
+      "type": "Point"
+    },
+    "id": 7002
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5673",
+      "title": "Grand Canyon West",
+      "description": "<a href=\"http://www.grandcanyonwest.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_7350-final_008C09B5-8385-4FDB-A1A47716DAA3A80D_179d81dd-65b0-4594-8628ea14c36d95a2.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.grandcanyonwest.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -113.422724,
+        35.529897
+      ],
+      "type": "Point"
+    },
+    "id": 5673
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4117",
+      "title": "Horsin' Around Adventures",
+      "description": "<a href=\"http://www.horsinaroundsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/horsin-around-2_0d62185d-5056-a36f-2301e4df08347fe0.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.horsinaroundsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.89746,
+        34.775851
+      ],
+      "type": "Point"
+    },
+    "id": 4117
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-2494",
+      "title": "Out of Africa Wildlife Park",
+      "description": "<a href=\"https://www.outofafricapark.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Out-of-Africa-Passport_0d2fafa2-5056-a36f-2351edb50be28958.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.outofafricapark.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.919744,
+        34.612906
+      ],
+      "type": "Point"
+    },
+    "id": 2494
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-6884",
+      "title": "Pink Adventure Tours",
+      "description": "<br><div id=\"linksite\"><a href=\"https://www.pinkadventuretours.com/\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.76033,
+        34.868911
+      ],
+      "type": "Point"
+    },
+    "id": 6884
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-3061",
+      "title": "Pink Jeep Tours",
+      "description": "<a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Pink-Jeep-Tours-Sedona1_0d1fc0c0-5056-a36f-232381ef23b72d75.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pinkjeeptourssedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.76033,
+        34.868911
+      ],
+      "type": "Point"
+    },
+    "id": 3061
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5042",
+      "title": "Sedona Spirit Journeys & Vortex Tours",
+      "description": "<a href=\"http://www.sedonaspiritjourneys.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/drum-and-me_0d5495af-5056-a36f-2328d6779a9cc7f3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaspiritjourneys.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.759216,
+        34.871918
+      ],
+      "type": "Point"
+    },
+    "id": 5042
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4007",
+      "title": "Tours of Jerome",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.toursofjerome.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "387",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -112.116153,
+        34.751252
+      ],
+      "type": "Point"
+    },
+    "id": 4007
+  }
+],"id": "sedonachamber.restaurant"}

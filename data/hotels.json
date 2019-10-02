@@ -1,0 +1,1067 @@
+{"type": "FeatureCollection","features": [{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1658",
+					        "title": "A Sunset Chateau",
+					        "description": "<a href=\"https://asunsetchateau.com?utm_source=sedonaChamber&utm_medium=referral&utm_campaign=directories\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sunset-chateaux-0f2220a05056a36_0f2221ba-5056-a36f-232ba9dd136b200e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://asunsetchateau.com?utm_source=sedonaChamber&utm_medium=referral&utm_campaign=directories\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.796057,
+					          34.854459
+					        ],"type": "Point"
+					      },"id": 1658
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4767",
+					        "title": "Adobe Grand Villas",
+					        "description": "<a href=\"http://www.adobegrandvillas.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Adobe-Grand-Entrance-IMG_122110_0d1d9b3f-5056-a36f-2389be2e5f0d914a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.adobegrandvillas.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.812616,
+					          34.864152
+					        ],"type": "Point"
+					      },"id": 4767
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-756",
+					        "title": "Adobe Hacienda Bed & Breakfast Inn",
+					        "description": "<a href=\"https://www.adobehacienda.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/adobe-hacienda3-480x320-0dca8d665056a36_0dca8e50-5056-a36f-23e7f06a706a7c9a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.adobehacienda.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.765416,
+					          34.769323
+					        ],"type": "Point"
+					      },"id": 756
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-922",
+					        "title": "Alma de Sedona Inn",
+					        "description": "<a href=\"http://www.almadesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AlmaDeSedona-800x600010_0d3c8143-5056-a36f-236504ad972b2dd1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.almadesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.811438,
+					          34.864919
+					        ],"type": "Point"
+					      },"id": 922
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-33",
+					        "title": "Briar Patch Inn on Oak Creek",
+					        "description": "<a href=\"http://www.briarpatchinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Briar-Patch-Inn10_0d251605-5056-a36f-233dd701f32038af.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.briarpatchinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.730956,
+					          34.899422
+					        ],"type": "Point"
+					      },"id": 33
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-383",
+					        "title": "Canyon Villa Bed & Breakfast Inn of Sedona",
+					        "description": "<a href=\"http://www.canyonvilla.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/canyonvilla20-0e18b95c5056a36_0e18babd-5056-a36f-232bf28a9c6ea7ca.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyonvilla.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.763717,
+					          34.790092
+					        ],"type": "Point"
+					      },"id": 383
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-350",
+					        "title": "Cozy Cactus Bed & Breakfast",
+					        "description": "<a href=\"http://www.cozycactus.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cozy-Cactus-B-B-2017-1d0c0f655056a36_1d0c117c-5056-a36f-234b98976431bea6.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cozycactus.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.764498,
+					          34.790003
+					        ],"type": "Point"
+					      },"id": 350
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-475",
+					        "title": "Lodge at Sedona - A Luxury B&B Inn",
+					        "description": "<a href=\"http://www.lodgeatsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Lodge-at-Sedona---FrontLodge-OK_0d1f115b-5056-a36f-23ae309d54ef5c0d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lodgeatsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.793469,
+					          34.861413
+					        ],"type": "Point"
+					      },"id": 475
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3923",
+					        "title": "Sedona Bear Lodge",
+					        "description": "<a href=\"http://www.sedonabearlodge.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedona-bear-lodge-800x60010_0d5d3536-5056-a36f-2331f67664d60ffd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonabearlodge.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.824277,
+					          34.863077
+					        ],"type": "Point"
+					      },"id": 3923
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4810",
+					        "title": "The Arizona Lighthouse B&B LLC",
+					        "description": "<a href=\"http://www.thearizonalighthouse.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AZ-lighthouse-800x60010_0d4244e4-5056-a36f-2360ea9cf3f993fd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thearizonalighthouse.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -112.070074,
+					          34.738940
+					        ],"type": "Point"
+					      },"id": 4810
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1709",
+					        "title": "The Sedona Dream Maker Bed & Breakfast",
+					        "description": "<a href=\"http://www.sedonadreammaker.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Dream-Maker_0d31b775-5056-a36f-23a453b4279ad3ea.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonadreammaker.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.759104,
+					          34.774651
+					        ],"type": "Point"
+					      },"id": 1709
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-574",
+					        "title": "The Suites at Sedona",
+					        "description": "<a href=\"http://www.oldwestbb.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/suitesatsedona0-0f0ba8e65056a36_0f0baa2b-5056-a36f-237fa54273aad70a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oldwestbb.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.810843,
+					          34.864499
+					        ],"type": "Point"
+					      },"id": 574
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4759",
+					        "title": "Whispering Creek Bed & Breakfast",
+					        "description": "<a href=\"http://www.whisperingcreekbnb.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/DSCN7806-Wispering-creek-800x60010_0d626855-5056-a36f-238f700edd03920b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.whisperingcreekbnb.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.761323,
+					          34.875884
+					        ],"type": "Point"
+					      },"id": 4759
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2178",
+					        "title": "Briar Patch Inn on Oak Creek",
+					        "description": "<a href=\"http://www.briarpatchinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Briar-Patch-Inn10_0d251605-5056-a36f-233dd701f32038af.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.briarpatchinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.730956,
+					          34.899422
+					        ],"type": "Point"
+					      },"id": 2178
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2938",
+					        "title": "Oak Creek Terrace Resort",
+					        "description": "<a href=\"http://www.oakcreekterrace.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Oak-Creek-Terrace-Sign-800x600_0d6cbe61-5056-a36f-2306d7067aa44f32.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oakcreekterrace.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.730965,
+					          34.918598
+					        ],"type": "Point"
+					      },"id": 2938
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3276",
+					        "title": "Orchard Canyon on Oak Creek",
+					        "description": "<a href=\"https://enjoyorchardcanyon.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Garlands-800x60010_0d3ec870-5056-a36f-23994848a5324170.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://enjoyorchardcanyon.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.754974,
+					          34.959335
+					        ],"type": "Point"
+					      },"id": 3276
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1968",
+					        "title": "Red Agave Resort",
+					        "description": "<a href=\"http://www.redagaveresort.net\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Red-Agave-800x60010_0d5ef398-5056-a36f-233e827f0b631ecb.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.redagaveresort.net\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.765981,
+					          34.789982
+					        ],"type": "Point"
+					      },"id": 1968
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2322",
+					        "title": "Sycamore Springs Guest House",
+					        "description": "<a href=\"http://www.ssguesthouse.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SSguesthouse010_0d29682f-5056-a36f-2359281dfd5b55c5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.ssguesthouse.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.916476,
+					          34.729933
+					        ],"type": "Point"
+					      },"id": 2322
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-490",
+					        "title": "The Canyon Wren Cabins",
+					        "description": "<a href=\"http://www.canyonwrencabins.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/canyon-wren-cabins-1240x775-207669725056a36_20766b5a-5056-a36f-2355f4316f0bcee5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyonwrencabins.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.734643,
+					          34.922247
+					        ],"type": "Point"
+					      },"id": 490
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7065",
+					        "title": "TinyCamp",
+					        "description": "<br><div id=\"linksite\"><a href=\"https://www.tinycamp.com/\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.725896,
+					          34.912689
+					        ],"type": "Point"
+					      },"id": 7065
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4565",
+					        "title": "Adobe Village Inn",
+					        "description": "<a href=\"http://www.adobevillageinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/adobe-village-inn-0dbdc0445056a36_0dbdc1ba-5056-a36f-230c8929a0056cb8.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.adobevillageinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.765038,
+					          34.789090
+					        ],"type": "Point"
+					      },"id": 4565
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1715",
+					        "title": "Amara Resort & Spa",
+					        "description": "<a href=\"http://www.amararesort.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Amara-Resort-Spa10_0d3416a0-5056-a36f-23cea7b178295aec.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.amararesort.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.758278,
+					          34.869435
+					        ],"type": "Point"
+					      },"id": 1715
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-725",
+					        "title": "Arroyo Pinion Sedona Hotel LLC",
+					        "description": "<a href=\"http://www.arroyohotel.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AZ021exterior1_3433127E-40A3-4CB5-A60AD5B27E357DD9_7d3fd81c-af6b-4d26-b5b5f40931aba00a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arroyohotel.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.814865,
+					          34.861138
+					        ],"type": "Point"
+					      },"id": 725
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2262",
+					        "title": "Baby Quail Inn",
+					        "description": "<a href=\"http://www.babyquailinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/baby-quail-inn-sign-pic10_0d1dbe9b-5056-a36f-234aeb8b4e22960c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.babyquailinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.785776,
+					          34.862212
+					        ],"type": "Point"
+					      },"id": 2262
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-25",
+					        "title": "Bell Rock Inn",
+					        "description": "<a href=\"https://www.diamondresortsandhotels.com/Resorts/Bell-Rock-Inn/?mkc=SEDCOCBRI\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/exterior-2_bell-rock-inn_sedona-arizona-800x6000_0d63c2f5-5056-a36f-23fc64521943e01c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.diamondresortsandhotels.com/Resorts/Bell-Rock-Inn/?mkc=SEDCOCBRI\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.763647,
+					          34.786713
+					        ],"type": "Point"
+					      },"id": 25
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-13",
+					        "title": "BEST WESTERN PLUS Arroyo Roble Hotel & Creekside Villas",
+					        "description": "<a href=\"https://bestwesternsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/BWAR-exterior-2017_2C74A972-C87D-42D9-B68CDCF1B8A7347F_ec9cb1a2-d54e-47a6-9e0ade64f950640a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://bestwesternsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.758164,
+					          34.871877
+					        ],"type": "Point"
+					      },"id": 13
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-614",
+					        "title": "BEST WESTERN Plus Inn of Sedona",
+					        "description": "<a href=\"https://www.innofsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedona1_766835C7-439D-4A09-A312C2FDEAAE567B_4914365a-b1e4-4aad-ada272998cfe7b1b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.innofsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.749627,
+					          34.879203
+					        ],"type": "Point"
+					      },"id": 614
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-384",
+					        "title": "Casa Sedona Inn",
+					        "description": "<a href=\"http://www.casasedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/18589028_1292254167548695_7242308482114427740_o_19392439-895B-4FCC-BC0A44E8E29A9B87_d9ec12a2-581e-4742-b4d6ff0eaec93c98.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.casasedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.812161,
+					          34.864681
+					        ],"type": "Point"
+					      },"id": 384
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3900",
+					        "title": "Cliff Castle Casino Hotel",
+					        "description": "<a href=\"http://www.cliffcastlecasinohotel.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Casino-New-Hero-800x60010_0d25c2dc-5056-a36f-23e730b31a485ce3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cliffcastlecasinohotel.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.862358,
+					          34.606694
+					        ],"type": "Point"
+					      },"id": 3900
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4830",
+					        "title": "Courtyard by Marriott Sedona",
+					        "description": "<a href=\"https://www.marriott.com/hotels/travel/flgcs-courtyard-sedona/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/night_839035EA-108D-4C49-9748FDD3C7F8F738_27545930-e0b8-4f69-8a31543f3d80bf96.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.marriott.com/hotels/travel/flgcs-courtyard-sedona/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.828489,
+					          34.850367
+					        ],"type": "Point"
+					      },"id": 4830
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-873",
+					        "title": "Days Inn Kokopelli",
+					        "description": "<a href=\"http://www.daysinnkokopelli.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sign0_0d1e037d-5056-a36f-23129863d2d41f5d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.daysinnkokopelli.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.762949,
+					          34.777847
+					        ],"type": "Point"
+					      },"id": 873
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1136",
+					        "title": "El Portal Sedona Hotel",
+					        "description": "<a href=\"http://www.elportalsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ElPortalNight-dog-1240x775-1571fcca5056a36_1571fdfd-5056-a36f-23fa2ed35489904c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.elportalsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.764815,
+					          34.862700
+					        ],"type": "Point"
+					      },"id": 1136
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-71",
+					        "title": "Enchantment Resort",
+					        "description": "<a href=\"https://www.enchantmentresort.com/?nck=ER-VisitSedona\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/enchantment-resort010_0d2d8a41-5056-a36f-237e2967cfb52983.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.enchantmentresort.com/?nck=ER-VisitSedona\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.852938,
+					          34.912684
+					        ],"type": "Point"
+					      },"id": 71
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-975",
+					        "title": "GreenTree Inn Sedona",
+					        "description": "<a href=\"http://www.greentreeinnsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_2401_2_3_EB028B77-F147-4992-BE39AB5464FDA264_9d2e8817-7461-4825-9eaad98b0b604e69.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.greentreeinnsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.812567,
+					          34.861431
+					        ],"type": "Point"
+					      },"id": 975
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1902",
+					        "title": "Hampton Inn Sedona",
+					        "description": "<a href=\"https://hamptoninn3.hilton.com/en/hotels/arizona/hampton-inn-sedona-FLGSDHX/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/FLGSDHX_flgsd-lobby_3634_copy_S_5156C2B5-515E-46ED-BC70BCE8CB34ACE6_624b13fd-9b97-4aad-bf6e0436c2f2a9d2.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://hamptoninn3.hilton.com/en/hotels/arizona/hampton-inn-sedona-FLGSDHX/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.791252,
+					          34.864274
+					        ],"type": "Point"
+					      },"id": 1902
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-882",
+					        "title": "Hilton Sedona Resort at Bell Rock",
+					        "description": "<a href=\"http://www.hiltonsedonaresort.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/fireplace-main-1240x775-13a685f85056a36_13a68719-5056-a36f-2363783e9b2a93c6.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.hiltonsedonaresort.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.765387,
+					          34.773955
+					        ],"type": "Point"
+					      },"id": 882
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-710",
+					        "title": "Holiday Inn Express Sedona - Oak Creek",
+					        "description": "<a href=\"http://www.hiexpress.com/sedonaaz\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Holiday-Inn-Express-Sedona-Oak-Creek-Bell-Rock-1240x775-7c2c1b3d5056a36_7c2c1ca1-5056-a36f-2376d705120b2464.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.hiexpress.com/sedonaaz\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.764213,
+					          34.786894
+					        ],"type": "Point"
+					      },"id": 710
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4451",
+					        "title": "Hyatt Pinon Pointe",
+					        "description": "<a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hyatt0-aaa112be5056a36_aaa11421-5056-a36f-23d615cf141de8f8.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.763057,
+					          34.867712
+					        ],"type": "Point"
+					      },"id": 4451
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-116",
+					        "title": "Junipine Resort",
+					        "description": "<a href=\"http://www.junipine.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Junipine-800-60010_0d526431-5056-a36f-23b46462ee070e38.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.junipine.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.734793,
+					          34.922177
+					        ],"type": "Point"
+					      },"id": 116
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-130",
+					        "title": "La Petite Sedona",
+					        "description": "<a href=\"http://www.lapetitesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/la-petite-0e793bd55056a36_0e793dc4-5056-a36f-23eeed811da02b34.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lapetitesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.756907,
+					          34.872950
+					        ],"type": "Point"
+					      },"id": 130
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-291",
+					        "title": "Lantern Light Inn",
+					        "description": "<a href=\"http://www.lanternlightinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/lantern-light-inn_0d1f006d-5056-a36f-23b616bafc4f04ee.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lanternlightinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.814117,
+					          34.861121
+					        ],"type": "Point"
+					      },"id": 291
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-124",
+					        "title": "L'Auberge de Sedona",
+					        "description": "<a href=\"http://www.lauberge.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/LAuberge_Dining-by-the-creek_web1-0fe82a4a5056a36_0fe82b71-5056-a36f-236a4ade09a80305.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lauberge.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.759145,
+					          34.869242
+					        ],"type": "Point"
+					      },"id": 124
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-135",
+					        "title": "Los Abrigados Resort & Spa",
+					        "description": "<a href=\"https://www.diamondresortsandhotels.com/Resorts/Los-Abrigados-Resort-and-Spa/?mkc=SEDCOCLAR\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/LAR_2015_Exterior_800x600010_0d5984aa-5056-a36f-23fc3ea05eddfe8b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.diamondresortsandhotels.com/Resorts/Los-Abrigados-Resort-and-Spa/?mkc=SEDCOCLAR\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.764304,
+					          34.861388
+					        ],"type": "Point"
+					      },"id": 135
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-139",
+					        "title": "Matterhorn Inn",
+					        "description": "<a href=\"http://www.matterhorninn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/matterhorn-inn-0ea811af5056a36_0ea812c9-5056-a36f-23dd28e64b617a31.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.matterhorninn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.759370,
+					          34.871821
+					        ],"type": "Point"
+					      },"id": 139
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2474",
+					        "title": "Mii amo, a destination spa",
+					        "description": "<a href=\"http://www.miiamo.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Mii-Amo-door11_0d2d9c42-5056-a36f-23f845306caf2d7a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.miiamo.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.851261,
+					          34.913641
+					        ],"type": "Point"
+					      },"id": 2474
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-159",
+					        "title": "Oak Creek Terrace Resort",
+					        "description": "<a href=\"http://www.oakcreekterrace.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Oak-Creek-Terrace-Sign-800x600_0d6cbe61-5056-a36f-2306d7067aa44f32.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oakcreekterrace.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.730965,
+					          34.918598
+					        ],"type": "Point"
+					      },"id": 159
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-86",
+					        "title": "Orchard Canyon on Oak Creek",
+					        "description": "<a href=\"https://enjoyorchardcanyon.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Garlands-800x60010_0d3ec870-5056-a36f-23994848a5324170.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://enjoyorchardcanyon.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.754974,
+					          34.959335
+					        ],"type": "Point"
+					      },"id": 86
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1683",
+					        "title": "Orchards Inn",
+					        "description": "<a href=\"http://www.orchardsinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Orchards-Pool-2ec163235056a36_2ec165d4-5056-a36f-239ceaaf8b506b46.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.orchardsinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.760182,
+					          34.869508
+					        ],"type": "Point"
+					      },"id": 1683
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-167",
+					        "title": "Poco Diablo Resort",
+					        "description": "<a href=\"http://www.pocodiablo.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Poco_Grounds_800x600011_0d4f0399-5056-a36f-239ee9b2a3ebf387.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pocodiablo.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.773912,
+					          34.844029
+					        ],"type": "Point"
+					      },"id": 167
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-170",
+					        "title": "Red Agave Resort",
+					        "description": "<a href=\"http://www.redagaveresort.net\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Red-Agave-800x60010_0d5ef398-5056-a36f-233e827f0b631ecb.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.redagaveresort.net\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.765981,
+					          34.789982
+					        ],"type": "Point"
+					      },"id": 170
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1357",
+					        "title": "Sedona Cedars Resort On Oak Creek",
+					        "description": "<a href=\"http://www.sedonacedarsresort.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/28430489867_5db294e6b5_o0-0f5183105056a36_0f5185bc-5056-a36f-23b31f55dd520629.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonacedarsresort.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.763212,
+					          34.865989
+					        ],"type": "Point"
+					      },"id": 1357
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2567",
+					        "title": "Sedona Pines Resort",
+					        "description": "<a href=\"http://www.sedonapines.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Pines-Resort-Logo800x600010_0d55a7b6-5056-a36f-234bd7eeab807ca0.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonapines.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.865930,
+					          34.842956
+					        ],"type": "Point"
+					      },"id": 2567
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-761",
+					        "title": "Sedona Real Inn & Suites",
+					        "description": "<a href=\"http://www.sedonareal.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedonareal-profile-image0-5c47f6bb5056a36_5c47f7d2-5056-a36f-23520c03afa54916.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonareal.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.815730,
+					          34.860451
+					        ],"type": "Point"
+					      },"id": 761
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1798",
+					        "title": "Sedona Rouge Hotel and Spa Trademark Collection by Wyndham",
+					        "description": "<a href=\"http://www.sedonarouge.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Rouge-Hotel_0d1f4e50-5056-a36f-23b91eb45aaf4b88.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonarouge.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.799221,
+					          34.864181
+					        ],"type": "Point"
+					      },"id": 1798
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-773",
+					        "title": "Sedona Springs Resort",
+					        "description": "<a href=\"http://www.sedonaescape.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Springs10_0d503b93-5056-a36f-235e585f57be2ca6.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaescape.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.791464,
+					          34.862108
+					        ],"type": "Point"
+					      },"id": 773
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-774",
+					        "title": "Sedona Summit",
+					        "description": "<a href=\"https://www.diamondresortsandhotels.com/Resorts/Sedona-Summit/?mkc=SEDCOCSST\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/front-exterior_sedona-summit-resort_sedona-arizona-800x600010_0d64d647-5056-a36f-232d4cab0defdb9e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.diamondresortsandhotels.com/Resorts/Sedona-Summit/?mkc=SEDCOCSST\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.827509,
+					          34.852180
+					        ],"type": "Point"
+					      },"id": 774
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-236",
+					        "title": "Sky Ranch Lodge",
+					        "description": "<a href=\"http://www.skyranchlodge.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/20180807-Sky-Ranch-View-d147e6205056a36_d147e726-5056-a36f-237b3eb07cc04ae6.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.skyranchlodge.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.790389,
+					          34.852359
+					        ],"type": "Point"
+					      },"id": 236
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-245",
+					        "title": "Star Motel",
+					        "description": "<a href=\"http://www.starmotelsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Star-Motel---outside-photo-800x600_0d6c8c8e-5056-a36f-233e27e70c4cd679.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.starmotelsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.761340,
+					          34.870366
+					        ],"type": "Point"
+					      },"id": 245
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-248",
+					        "title": "Sugar Loaf Lodge",
+					        "description": "<a href=\"http://www.sedonasugarloaf.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sugarloaf-lodge-0efdfefc5056a36_0efdffe4-5056-a36f-231b9b185bc8921a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasugarloaf.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.792379,
+					          34.864287
+					        ],"type": "Point"
+					      },"id": 248
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-249",
+					        "title": "The Andante Inn of Sedona",
+					        "description": "<a href=\"http://www.andanteinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/20_Doubles-Room5-1240x775-82ebb2b45056a36_82ebb40f-5056-a36f-23d23bff8e9a948d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.andanteinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.804627,
+					          34.862580
+					        ],"type": "Point"
+					      },"id": 249
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-577",
+					        "title": "The Arabella Sedona",
+					        "description": "<a href=\"http://www.arabellahotelsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Arabella-800-60010_0d527143-5056-a36f-230c33ec06cd5b9d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arabellahotelsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.763765,
+					          34.858387
+					        ],"type": "Point"
+					      },"id": 577
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5898",
+					        "title": "The Ridge on Sedona Golf Resort",
+					        "description": "<a href=\"https://www.diamondresortsandhotels.com/Resorts/The-Ridge-on-Sedona-Golf-Resort\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/RID_EXT_FRONT_5919_2015_D842BBC6-8771-4AE7-9AE1E1C6FA787A3B_870a3826-5896-4b16-bad772aa1ac9dd6d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.diamondresortsandhotels.com/Resorts/The-Ridge-on-Sedona-Golf-Resort\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.767075,
+					          34.771947
+					        ],"type": "Point"
+					      },"id": 5898
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-701",
+					        "title": "Village Lodge",
+					        "description": "<a href=\"http://www.sedonavillagelodge.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_0340_9C6BCEBD-7BE3-46E8-9B60E69A8B7B302E_fc6c8110-3cbb-49c9-aa2cf23c09edd46a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonavillagelodge.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.764351,
+					          34.788299
+					        ],"type": "Point"
+					      },"id": 701
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-303",
+					        "title": "Villas at Poco Diablo",
+					        "description": "<a href=\"http://www.8664myvacation.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Exterior01_HDR-800x600_0d6f3c96-5056-a36f-2357b0df8c12b6f9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.8664myvacation.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.773128,
+					          34.843888
+					        ],"type": "Point"
+					      },"id": 303
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-526",
+					        "title": "White House Inn Sedona",
+					        "description": "<a href=\"http://www.sedonawhitehouseinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/WHINNroomCapture0-decd912a5056a36_decd920a-5056-a36f-23c0b9875d643cc5.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonawhitehouseinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.812597,
+					          34.862462
+					        ],"type": "Point"
+					      },"id": 526
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-797",
+					        "title": "Wildflower Inn at Bell Rock",
+					        "description": "<a href=\"http://www.sedonawildflowerinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Wildflower-Inn-View-800x600_0d69f218-5056-a36f-23963b38a92efd96.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonawildflowerinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.763107,
+					          34.785884
+					        ],"type": "Point"
+					      },"id": 797
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4473",
+					        "title": "Distant Drums RV Resort",
+					        "description": "<a href=\"http://www.distantdrumsrvresort.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Distant-Drums-RV-Resort-1-0ffab29d5056a36_0ffab40e-5056-a36f-23107a2a96e268b5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.distantdrumsrvresort.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.863852,
+					          34.613920
+					        ],"type": "Point"
+					      },"id": 4473
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-174",
+					        "title": "Rancho Sedona RV Park",
+					        "description": "<a href=\"https://www.ranchosedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/RV30-0f849def5056a36_0f849ef6-5056-a36f-23e9191bb90a9eb1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.ranchosedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.759819,
+					          34.866440
+					        ],"type": "Point"
+					      },"id": 174
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1573",
+					        "title": "Rio Verde RV Park",
+					        "description": "<a href=\"http://www.rioverdervpark.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/rvp-chamber010_0d3c22c0-5056-a36f-23dc4afa3369f3d8.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.rioverdervpark.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.989125,
+					          34.721718
+					        ],"type": "Point"
+					      },"id": 1573
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4539",
+					        "title": "US Forest Service Red Rock Ranger District",
+					        "description": "<a href=\"http://www.coconinonationalforest.us\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/USFS-Logo-800x60010_0d58c2c3-5056-a36f-234b751f92346638.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.coconinonationalforest.us\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.764346,
+					          34.757274
+					        ],"type": "Point"
+					      },"id": 4539
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6932",
+					        "title": "Verde Ranch RV",
+					        "description": "<a href=\"https://www.verderanchrvresort.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Camp-Verde-Scene-5_2C6510A8-E103-4044-9530E8D4AB6198E2_213dfff7-e6d2-4d5a-8fa148a8d533b09b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.verderanchrvresort.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.885655,
+					          34.584739
+					        ],"type": "Point"
+					      },"id": 6932
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-372",
+					        "title": "A Foothills Property Management Co",
+					        "description": "<a href=\"http://www.foothillsrentals.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Foothills-Propery-Mgt-0fa42ede5056a36_0fa4305b-5056-a36f-23c34d26051f6115.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.foothillsrentals.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.788599,
+					          34.863055
+					        ],"type": "Point"
+					      },"id": 372
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3296",
+					        "title": "Baby Quail Inn",
+					        "description": "<a href=\"http://www.babyquailinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/baby-quail-inn-sign-pic10_0d1dbe9b-5056-a36f-234aeb8b4e22960c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.babyquailinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.785776,
+					          34.862212
+					        ],"type": "Point"
+					      },"id": 3296
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6757",
+					        "title": "Global Alliance Properties Vacation Rentals",
+					        "description": "<a href=\"https://globalalliance.properties/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/global-properties-bf190a9c5056a36_bf190bc1-5056-a36f-23755f89d72b4a4a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://globalalliance.properties/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.819696,
+					          34.823470
+					        ],"type": "Point"
+					      },"id": 6757
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6694",
+					        "title": "JEM Property Investments, LLC",
+					        "description": "<a href=\"None\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/JEMCapture0-47ce32365056a36_47ce336e-5056-a36f-237536e4acd39fc2.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.747326,
+					          34.983503
+					        ],"type": "Point"
+					      },"id": 6694
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3967",
+					        "title": "M Diamond Ranch LLC",
+					        "description": "<a href=\"http://www.mdiamondranch.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/M-diamond-2_0d4865b3-5056-a36f-237d1b65ec5525de.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.mdiamondranch.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.783352,
+					          34.640417
+					        ],"type": "Point"
+					      },"id": 3967
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2536",
+					        "title": "Sedona Elite Properties Management",
+					        "description": "<a href=\"http://www.sedonaeliteproperties.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Elite-Properties-Management-0fe229585056a36_0fe22ab6-5056-a36f-23d218205acff52a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaeliteproperties.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.790258,
+					          34.863216
+					        ],"type": "Point"
+					      },"id": 2536
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3287",
+					        "title": "Sedona Springs Resort",
+					        "description": "<a href=\"http://www.sedonaescape.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Springs10_0d503b93-5056-a36f-235e585f57be2ca6.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaescape.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.791464,
+					          34.862108
+					        ],"type": "Point"
+					      },"id": 3287
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4532",
+					        "title": "Sycamore Springs Guest House",
+					        "description": "<a href=\"http://www.ssguesthouse.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SSguesthouse010_0d29682f-5056-a36f-2359281dfd5b55c5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.ssguesthouse.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.916476,
+					          34.729933
+					        ],"type": "Point"
+					      },"id": 4532
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3043",
+					        "title": "The Canyon Wren Cabins",
+					        "description": "<a href=\"http://www.canyonwrencabins.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/canyon-wren-cabins-1240x775-207669725056a36_20766b5a-5056-a36f-2355f4316f0bcee5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyonwrencabins.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.734643,
+					          34.922247
+					        ],"type": "Point"
+					      },"id": 3043
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3288",
+					        "title": "Villas at Poco Diablo",
+					        "description": "<a href=\"http://www.8664myvacation.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Exterior01_HDR-800x600_0d6f3c96-5056-a36f-2357b0df8c12b6f9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.8664myvacation.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.773128,
+					          34.843888
+					        ],"type": "Point"
+					      },"id": 3288
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4616",
+					        "title": "Vista Ridge Sedona",
+					        "description": "<a href=\"http://www.vistaridgesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/VR-logo-800x60010_0d2a5133-5056-a36f-237d43ebc1af7a8f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.vistaridgesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.760842,
+					          34.857514
+					        ],"type": "Point"
+					      },"id": 4616
+					    }],"id": "sedonachamber.restaurant"}

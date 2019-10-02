@@ -1,0 +1,120 @@
+{"type": "FeatureCollection","features": [{
+    "type": "Feature",
+    "properties": {
+      "id": "marker-5059",
+      "title": "Guidance Air",
+      "description": "<a href=\"http://www.guidanceair.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/GA-640x360-00c715605056a36_00c71725-5056-a36f-23e82d2e09739e40.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.guidanceair.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "252",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "heliport"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.78882,
+        34.851481
+      ],
+      "type": "Point"
+    },
+    "id": 5059
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-309",
+      "title": "Maverick Helicopters",
+      "description": "<a href=\"http://www.maverickhelicopter.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Canyon-Spirit0_0d56a159-5056-a36f-2310f2549d9a5015.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.maverickhelicopter.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "252",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "heliport"
+    },
+    "geometry": {
+      "coordinates": [
+        -112.127465,
+        35.936658
+      ],
+      "type": "Point"
+    },
+    "id": 309
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-1970",
+      "title": "Red Rock Balloon Adventures",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.redrockballoons.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "252",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "heliport"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.762602,
+        34.784106
+      ],
+      "type": "Point"
+    },
+    "id": 1970
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4055",
+      "title": "Sedona Activity Center",
+      "description": "<br><div id=\"linksite\"><a href=\"http://www.sedonaactivitycenter.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "252",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "heliport"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.795901,
+        34.863428
+      ],
+      "type": "Point"
+    },
+    "id": 4055
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-641",
+      "title": "Sedona Air Tours",
+      "description": "<a href=\"http://www.sedonaairtours.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Air-Tours-photo_0d5814bb-5056-a36f-23a75f1e8fc95a9d.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaairtours.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "252",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "heliport"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.788672,
+        34.851032
+      ],
+      "type": "Point"
+    },
+    "id": 641
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4557",
+      "title": "Westwind Air Service",
+      "description": "<a href=\"http://www.westwindairservice.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Birds-Eye-View_3963470E-5043-4945-BCD4064ED7BFFB8B_3ef12efe-8141-4e32-be49480c692cd64f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.westwindairservice.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "252",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "heliport"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.789254,
+        34.849777
+      ],
+      "type": "Point"
+    },
+    "id": 4557
+  }],"id": "sedonachamber.restaurant"}

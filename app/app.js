@@ -18,19 +18,17 @@ function startup(){
 
 	that.browsertype = 'desktop';
 
-  	//search for mobile version 
+  //search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
-		//$('#search-bar').selectpicker('mobile');
 		that.browsertype = 'mobile';
-		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
-
+		var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14);
+    L.control.zoom({position:'topright'}).addTo(map);
+    map.addControl(new L.mapbox.shareControl({position:'topright'}));
 		map.on('popupopen', function(e) {
 		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
 		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
 		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
 		});
-		//change header toolbar
-		$('#toolbar').css('padding-left','17%');
 		$('#pubartCarouselmobile').carousel({
 			interval: 88000
 		});		
@@ -50,17 +48,27 @@ function startup(){
 		$('#pubartCarousel').carousel({
 			interval: 88000
 		});
-		var map = L.mapbox.map('map').setView([34.86394, -111.764860], 14).addControl(L.mapbox.shareControl());
-		that.timedelay = 1000;
+		var map = L.mapbox.map('map',null, {zoomControl:false}).setView([34.86394, -111.764860], 14);
+		L.control.zoom({position:'topright'}).addTo(map);
+    map.addControl(new L.mapbox.shareControl({position:'topright'}));
+    that.timedelay = 1000;
 	}
 
-	that.map = map;
+  that.map = map;
 
-	$('#search-bar').selectpicker({liveSearchPlaceholder:"Filter Locations...",noneSelectedText:"Find Locations...",header:"Select Location Types"});
-	$('#search-bar').show();
+  // "tours" features
+  var airpts =  L.mapbox.featureLayer('data/tours-air.json',{popupOptions: { closeButton: true }});
+  var astronomypts = L.mapbox.featureLayer('data/tours-astronomy.json',{popupOptions: { closeButton: true }});
+  // var bikesegwaypts = L.mapbox.featureLayer('data/tours-bikesegway.json',{popupOptions: { closeButton: true }});
+  var groundpts = L.mapbox.featureLayer('data/tours-ground.json',{popupOptions: { closeButton: true }});
+  var privatepts = L.mapbox.featureLayer('data/tours-guides.json',{popupOptions: { closeButton: true }});
+  var jeeptrolleypts = L.mapbox.featureLayer('data/tours-jeeptrolley.json',{popupOptions: { closeButton: true }});
+  var specialtypts = L.mapbox.featureLayer('data/tours-specialty.json',{popupOptions: { closeButton: true }});
+  var winepts =  L.mapbox.featureLayer('data/tours-wine.json',{popupOptions: { closeButton: true }});
+  var evpts = L.mapbox.featureLayer('data/ev.json',{popupOptions: { closeButton: true }});
 
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
-	
+	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
 	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
 	var artpts = L.mapbox.featureLayer('data/gallery.json',{popupOptions: { closeButton: true }});
 	var buspts = L.mapbox.featureLayer('data/bus.json',{popupOptions: { closeButton: true }});
@@ -71,13 +79,23 @@ function startup(){
 	var publicartpts = L.mapbox.featureLayer('data/publicart.json',{popupOptions: { closeButton: true }});
 	var recyclingpts = L.mapbox.featureLayer('data/recycling.json',{popupOptions: { closeButton: true }});
 	var parkpts = L.mapbox.featureLayer('data/parks.json',{popupOptions: { closeButton: true }});
-	that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
+  that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
 
 	var trafficLayer = L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20,zIndex:1000});
 
-    basefeatures.addTo(map);
+  basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
+  airpts.on('ready', processLayerGeo);
+  astronomypts.on('ready', processLayerGeo);
+  //bikesegwaypts.on('ready', processLayerGeo);
+  groundpts.on('ready', processLayerGeo);
+  privatepts.on('ready', processLayerGeo);
+  jeeptrolleypts.on('ready', processLayerGeo);
+  specialtypts.on('ready', processLayerGeo);
+  winepts.on('ready', processLayerGeo);
+  evpts.on('ready', processLayerGeo);
+	lodgingpts.on('ready', processLayerGeo);
 	restaurantpts.on('ready', processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
 	that.parkingpts.on('ready',  processLayerGeo);
@@ -86,190 +104,445 @@ function startup(){
 	theatrepts.on('ready',  processLayerGeo);
 	buspts.on('ready',  processLayerGeo);
 	publicartpts.on('ready',  processLayerGeo);
-	parkpts.on('ready',  processLayerGeo);
+  parkpts.on('ready',  processLayerGeo);
 
-	if(window.location.href.indexOf("restaurants") > -1) {
-		$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'rest');
-        restaurantpts.addTo(map);
-        addMouseClickListener(restaurantpts);
-    }
-    else if(window.location.href.indexOf("green") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'recycling');
-    	recyclingpts.addTo(map);
-    	addMouseClickListener(recyclingpts);	
-    }
-    else if(window.location.href.indexOf("parks") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'parks');
-    	parkpts.addTo(map);
-    	addMouseClickListener(parkpts);	
-    }
-    else if(window.location.href.indexOf("trails") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'parks');
-    	parkpts.addTo(map);
-    	addMouseClickListener(parkpts);	
-    }
-    else if(window.location.href.indexOf("parking") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', 'parking');
-    	that.parkingpts.addTo(map);
-    	addMouseClickListener(that.parkingpts);
-    	addRealTimeParking(true);
-    	setInterval(addRealTimeParking, 50000);
-    }
-    else if(window.location.href.indexOf("publicart") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['pubart']);
-    	publicartpts.addTo(map);	
-    	addMouseClickListener(publicartpts);	
-    	if(that.browsertype == 'mobile'){
-			$('#pubartCarouselmobile').show();
-		}
-		else{
-			$('#pubartCarousel').show();	
-		}
-    }
-    else if(window.location.href.indexOf("art") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
-    	theatrepts.addTo(map);
-    	museumpts.addTo(map);
-    	that.parkingpts.addTo(map);
-    	buspts.addTo(map);
-    	artpts.addTo(map);
-    	walkingfeatures.addTo(map);	
-    	addMouseClickListener(artpts);	
-    }
-    else if(window.location.href.indexOf("galleries") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['gallery','bus','walk','museum','theatre']);
-    	theatrepts.addTo(map);
-    	museumpts.addTo(map);
-    	artpts.addTo(map);
-    	buspts.addTo(map);
-    	walkingfeatures.addTo(map);	
-    	addMouseClickListener(artpts);	
-    }
-    else if(window.location.href.indexOf("traffic") > -1){
-    	$('#search-bar').selectpicker('deselectAll');
-    	$('#search-bar').selectpicker('val', ['bus','parking','traffic']);
-    	trafficLayer.addTo(map);
-    	that.parkingpts.addTo(map);
-    	buspts.addTo(map);
-    	addMouseClickListener(that.parkingpts);	
+	if(window.location.href.indexOf("tours") > -1) {
+		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine']);
+    airpts.addTo(map);
+    astronomypts.addTo(map);
+    //bikesegwaypts.addTo(map);
+    groundpts.addTo(map);
+    privatepts.addTo(map);
+    jeeptrolleypts.addTo(map);
+    specialtypts.addTo(map);
+    winepts.addTo(map);
+    addMouseClickListener(airpts);
+    addMouseClickListener(astronomypts);
+    //addMouseClickListener(bikesegwaypts);
+    addMouseClickListener(groundpts);
+    addMouseClickListener(privatepts);
+    addMouseClickListener(jeeptrolleypts);
+    addMouseClickListener(specialtypts);
+    addMouseClickListener(winepts);
+  }
+  else if(window.location.href.indexOf("restaurants") > -1) {
+		deselectAllExcept(['rest']);
+    restaurantpts.addTo(map);
+    addMouseClickListener(restaurantpts);
+  }
+  else if(window.location.href.indexOf("lodging") > -1){
+    deselectAllExcept(['lodge']);
+    lodgingpts.addTo(map);
+    addMouseClickListener(lodgingpts);	
+  }
+  else if(window.location.href.indexOf("green") > -1){
+    deselectAllExcept(['recycling']);
+    recyclingpts.addTo(map);
+    addMouseClickListener(recyclingpts);	
+  }
+  else if(window.location.href.indexOf("parks") > -1){
+    deselectAllExcept(['parks']);
+    parkpts.addTo(map);
+    addMouseClickListener(parkpts);	
+  }
+  else if(window.location.href.indexOf("trails") > -1){
+    deselectAllExcept(['parks']);
+    parkpts.addTo(map);
+    addMouseClickListener(parkpts);	
+  }
+  else if(window.location.href.indexOf("parking") > -1){
+    deselectAllExcept(['parking','ev']);
+    that.parkingpts.addTo(map);
+    evpts.addTo(map);
+    addMouseClickListener(evpts);
+    addRealTimeParking(true);
+    setInterval(addRealTimeParking, 50000);
+  }
+  else if(window.location.href.indexOf("publicart") > -1){
+    deselectAllExcept(['pubart']);
+    publicartpts.addTo(map);	
+    addMouseClickListener(publicartpts);	
+    if(that.browsertype == 'mobile'){
+      $('#pubartCarouselmobile').show();
     }
     else{
-		restaurantpts.addTo(map);
-		theatrepts.addTo(map);
-		//that.parkingpts.addTo(map);
-		museumpts.addTo(map);
-		artpts.addTo(map);	
-		buspts.addTo(map);
-		walkingfeatures.addTo(map);	
-		//trafficLayer.addTo(map);
-		addMouseClickListener(artpts);
-		//addMouseClickListener(parkpts);
-		addMouseClickListener(restaurantpts);
-		addMouseClickListener(theatrepts);
-		//addMouseClickListener(that.parkingpts);
-		addMouseClickListener(buspts);
-		addMouseClickListener(museumpts);
-		addMouseClickListener(walkingfeatures);
-    }	
-     
-    $('#search-bar').on('changed.bs.select', function (e) {
+      $('#pubartCarousel').show();	
+    }
+  }
+  else if(window.location.href.indexOf("art") > -1){
+    deselectAllExcept(['gallery','bus','walk','museum','theatre']);
+    theatrepts.addTo(map);
+    museumpts.addTo(map);
+    that.parkingpts.addTo(map);
+    buspts.addTo(map);
+    artpts.addTo(map);
+    walkingfeatures.addTo(map);	
+    addMouseClickListener(artpts);	
+  }
+  else if(window.location.href.indexOf("galleries") > -1){
+    deselectAllExcept(['gallery','bus','walk','museum','theatre']);
+    theatrepts.addTo(map);
+    museumpts.addTo(map);
+    artpts.addTo(map);
+    buspts.addTo(map);
+    walkingfeatures.addTo(map);	
+    addMouseClickListener(artpts);	
+  }
+  else if(window.location.href.indexOf("traffic") > -1){
+    deselectAllExcept(['bus','parking','traffic']);
+    trafficLayer.addTo(map);
+    that.parkingpts.addTo(map);
+    buspts.addTo(map);
+    addMouseClickListener(that.parkingpts);	
+  }
+  else{
+    restaurantpts.addTo(map);
+    theatrepts.addTo(map);
+    //that.parkingpts.addTo(map);
+    museumpts.addTo(map);
+    artpts.addTo(map);	
+    buspts.addTo(map);
+    walkingfeatures.addTo(map);
+    // lodgingpts.addTo(map);	
+    //trafficLayer.addTo(map);
+    addMouseClickListener(artpts);
+    //addMouseClickListener(parkpts);
+    addMouseClickListener(restaurantpts);
+    addMouseClickListener(theatrepts);
+    //addMouseClickListener(that.parkingpts);
+    addMouseClickListener(buspts);
+    addMouseClickListener(museumpts);
+    addMouseClickListener(walkingfeatures);
+    // addMouseClickListener(lodgingpts);
+  }
 
-    	var selectedLayers = $('#search-bar').val();
-    	map.removeLayer(restaurantpts);
-		map.removeLayer(recyclingpts);
-		map.removeLayer(theatrepts);
-		map.removeLayer(that.parkingpts);
-		map.removeLayer(that.spacespts);
-		map.removeLayer(museumpts);
-		map.removeLayer(parkpts);
-		map.removeLayer(artpts);	
-		map.removeLayer(buspts);	
-		map.removeLayer(walkingfeatures);
-		map.removeLayer(publicartpts);
-		map.removeLayer(trafficLayer);
+  function deselectAllExcept(selectedValues) {
+    selectedLayers = [selectedValues];
 
-		that.points = L.geoJson();
+    // set selected values on select options
+    $('#search-select-list')
+      .find('.select-item')
+      .each(function() {
+        if (selectedValues.includes($(this).data('value'))) {
+          $(this).data('selected', true);
+          $(this).attr('data-selected', true);
+        } else {
+          $(this).data('selected', false);
+          $(this).attr('data-selected', false);
+        }
+      });
 
-		var showcarasal = false;
-		if(selectedLayers){
-			
-			for (var l = 0; l < selectedLayers.length; l++) {
-		    	if(selectedLayers[l] == 'gallery'){
-		    		artpts.addTo(map);
-		    		processLayer2Geo(artpts);
-		    		addMouseClickListener(artpts);
-		    	}        
-		    	else if(selectedLayers[l] == 'rest'){
-		    		processLayer2Geo(restaurantpts);
-		    		restaurantpts.addTo(map);
-		    		addMouseClickListener(restaurantpts);
-		    	}   
-		    	else if(selectedLayers[l] == 'theatre'){
-		    		theatrepts.addTo(map);	
-		    		processLayer2Geo(theatrepts);
-		    		addMouseClickListener(theatrepts);
-		    	}
-	    		else if(selectedLayers[l] == 'museum'){
-	    			museumpts.addTo(map);	
-	    			processLayer2Geo(museumpts);
-	    			addMouseClickListener(museumpts);
-	    		}
-				else if(selectedLayers[l] == 'parking'){
-					that.parkingpts.addTo(map);	
-					that.loader.className = '';
-					addRealTimeParking(true);
-					addMouseClickListener(that.parkingpts);
-				}
-				else if(selectedLayers[l] == 'parks'){
-					parkpts.addTo(map);	
-					addMouseClickListener(parkpts);
-				}
-				else if(selectedLayers[l] == 'pubart'){
-					publicartpts.addTo(map);	
-					processLayer2Geo(publicartpts);
-					addMouseClickListener(publicartpts);
-					showcarasal = true;
-				}
-				else if(selectedLayers[l] == 'recycling'){
-					recyclingpts.addTo(map);	
-					processLayer2Geo(recyclingpts);
-					addMouseClickListener(recyclingpts);
-				}
-				else if(selectedLayers[l] == 'bus'){
-					buspts.addTo(map);	
-					addMouseClickListener(buspts);
-				}
-				else if(selectedLayers[l] == 'walk'){
-					walkingfeatures.addTo(map);	
-					addMouseClickListener(walkingfeatures);
-				}
-				else if(selectedLayers[l] == 'traffic'){
-					trafficLayer.addTo(map);	
-				}
-    		} 
-		}
-		if(showcarasal == true){
-			if(that.browsertype == 'mobile'){
-				$('#pubartCarouselmobile').show();
-			}
-			else{
-				$('#pubartCarousel').show();	
-			}
-		}
-		else{
-			$('#pubartCarousel').hide();
-			$('#pubartCarouselmobile').hide();
-		}
+    map.removeLayer(that.spacespts);
+
+    map.removeLayer(artpts);
+    map.removeLayer(restaurantpts);
+    map.removeLayer(theatrepts);
+    map.removeLayer(museumpts);
+    map.removeLayer(that.parkingpts);
+    map.removeLayer(parkpts);
+    map.removeLayer(publicartpts);
+    map.removeLayer(recyclingpts);
+    map.removeLayer(buspts);
+    map.removeLayer(walkingfeatures);
+    map.removeLayer(trafficLayer);
+  }
+
+  // Submenu collape/expand
+  $('.select-item.parent .switch-label span').on('click', function(e) {
+    e.stopPropagation();
+
+    var parentLi = $(this)
+      .parent('.switch-label')
+      .parent('.select-item')
+      .parent('li');
+    
+    var isExpanded = parentLi.hasClass('open');
+    subMenuExpand(parentLi, !isExpanded)
+  });
+
+  function subMenuExpand(parentLi, expand) {
+    // always remove open class and duplicates
+    parentLi.removeClass('open');
+
+    if (expand) {
+      parentLi.addClass('open');
+      parentLi.children('.select-item')
+        .find('.parent-icon')
+        .removeClass('glyphicon-plus')
+        .addClass('glyphicon-minus');
+
+      parentLi
+        .children('ul.children')
+        .each(function(i) {
+          this.style.maxHeight = this.scrollHeight + 'px';
+        });
+    } else {
+      parentLi.children('.select-item')
+        .find('.parent-icon')
+        .addClass('glyphicon-plus')
+        .removeClass('glyphicon-minus');
+
+      parentLi
+        .children('ul.children')
+        .each(function(i) {
+          this.style.maxHeight = null;
+        });
+    }
+  }
+
+  var selectedLayers = [];
+  
+  // Select & add to map functionality
+  // populate list with selected options in html
+  $('#search-select-list .select-item').each(function() {
+    if ($(this).data('selected')) selectedLayers.push($(this).data('value'));
+  });
+
+  // add event handlers for list item click
+  $('#search-select-list .select-item').on('click', function(e) {
+    // early return if checkbox itself is clicked (catch event at li)
+    if (e.target.type === "checkbox") return;
+
+    var selectedValue = $(this).data('value');
+    
+    // determine newSelectValue and select/deselect
+    const newSelectValue = !selectedLayers.includes(selectedValue);
+    selectDeselect($(this), selectedValue, newSelectValue);
+
+    // if item has children, select/deselect them all
+    if ($(this).siblings('.children').length > 0) {
+      $(this).siblings('.children').each(function(i) {
+        $(this).find('.select-item').each(function(i) {
+          selectDeselect($(this), $(this).data('value'), newSelectValue);
+        });
+      });
+    }
+
+    // if target is a child, select/deselect parent based on children's selected status
+    if ($(this).parents('.children').length > 0) {
+      $(this).parents('.children').each(function (i) {
+        var allSelected = true;
+
+        // determine if all are selected
+        $(this).find('.select-item').each(function(i) {
+          if (!selectedLayers.includes($(this).data('value'))) allSelected = false;
+        });
+
+        if (allSelected) {
+          $(this).siblings('.select-item').each(function(i) {
+            selectDeselect($(this), $(this).data('value'), true);
+          });
+        } else {
+          $(this).siblings('.select-item').each(function(i) {
+            selectDeselect($(this), $(this).data('value'), false);
+          });
+        }
+      });
+    }
 	});
-	
+
+  function selectDeselect(el, selectedValue, newSelectValue) {
+    // open dropdowns if they exist
+    if (el.siblings('.children').length > 0) {
+      subMenuExpand(el.parent('li'), true);
+    }
+
+    that.points = L.geoJson();
+    var showcarasal = false;
+
+    // toggle "selected" attribute
+    el.data('selected', newSelectValue);
+    el.attr( 'data-selected', newSelectValue);
+
+    // add layer to array if it's not there, otherwise remove it
+    if (!newSelectValue) {
+      selectedLayers = selectedLayers.filter(function(val) { return val !== selectedValue });
+
+      map.removeLayer(that.spacespts);
+
+      if (selectedValue === 'gallery') map.removeLayer(artpts);
+      if (selectedValue === 'rest') map.removeLayer(restaurantpts);
+      if (selectedValue === 'theatre') map.removeLayer(theatrepts);
+      if (selectedValue === 'museum') map.removeLayer(museumpts);
+      if (selectedValue === 'parking') map.removeLayer(that.parkingpts);
+      if (selectedValue === 'parks') map.removeLayer(parkpts);
+      if (selectedValue === 'lodge') map.removeLayer(lodgingpts);
+      if (selectedValue === 'pubart') map.removeLayer(publicartpts);
+      if (selectedValue === 'recycling') map.removeLayer(recyclingpts);
+      if (selectedValue === 'bus') map.removeLayer(buspts);
+      if (selectedValue === 'walk') map.removeLayer(walkingfeatures);
+      if (selectedValue === 'traffic') map.removeLayer(trafficLayer);
+      if (selectedValue === 'air') map.removeLayer(airpts);
+      if (selectedValue === 'astronomy') map.removeLayer(astronomypts);
+      if (selectedValue === 'bikesegway') map.removeLayer(bikesegwaypts);
+      if (selectedValue === 'ground') map.removeLayer(groundpts);
+      if (selectedValue === 'private') map.removeLayer(privatepts);
+      if (selectedValue === 'jeeptrolley') map.removeLayer(jeeptrolleypts);
+      if (selectedValue === 'specialty') map.removeLayer(specialtypts);
+      if (selectedValue === 'wine') map.removeLayer(winepts);
+      if (selectedValue === 'ev') map.removeLayer(evpts);
+
+    } else {
+      selectedLayers.push(selectedValue);
+
+      if(selectedValue == 'air'){
+        airpts.addTo(map);
+        processLayer2Geo(airpts);
+        addMouseClickListener(airpts);
+      }        
+      else if(selectedValue == 'astronomy'){
+        astronomypts.addTo(map);
+        processLayer2Geo(astronomypts);
+        addMouseClickListener(astronomypts);
+      }        
+      else if(selectedValue == 'bikesegway'){
+        bikesegwaypts.addTo(map);
+        processLayer2Geo(bikesegwaypts);
+        addMouseClickListener(bikesegwaypts);
+      }        
+      else if(selectedValue == 'ground'){
+        groundpts.addTo(map);
+        processLayer2Geo(groundpts);
+        addMouseClickListener(groundpts);
+      }        
+      else if(selectedValue == 'private'){
+        privatepts.addTo(map);
+        processLayer2Geo(privatepts);
+        addMouseClickListener(privatepts);
+      }        
+      else if(selectedValue == 'jeeptrolley'){
+        jeeptrolleypts.addTo(map);
+        processLayer2Geo(jeeptrolleypts);
+        addMouseClickListener(jeeptrolleypts);
+      }        
+      else if(selectedValue == 'specialty'){
+        specialtypts.addTo(map);
+        processLayer2Geo(specialtypts);
+        addMouseClickListener(specialtypts);
+      }        
+      else if(selectedValue == 'wine'){
+        winepts.addTo(map);
+        processLayer2Geo(winepts);
+        addMouseClickListener(winepts);
+      }        
+      else if(selectedValue == 'gallery'){
+        artpts.addTo(map);
+        processLayer2Geo(artpts);
+        addMouseClickListener(artpts);
+      }        
+      else if(selectedValue == 'rest'){
+        processLayer2Geo(restaurantpts);
+        restaurantpts.addTo(map);
+        addMouseClickListener(restaurantpts);
+      }   
+      else if(selectedValue == 'theatre'){
+        theatrepts.addTo(map);	
+        processLayer2Geo(theatrepts);
+        addMouseClickListener(theatrepts);
+      }
+      else if(selectedValue == 'museum'){
+        museumpts.addTo(map);	
+        processLayer2Geo(museumpts);
+        addMouseClickListener(museumpts);
+      }
+      else if(selectedValue == 'parking'){
+        that.parkingpts.addTo(map);	
+        that.loader.className = '';
+        addRealTimeParking(true);
+        addMouseClickListener(that.parkingpts);
+      }
+      else if(selectedValue == 'parks'){
+        parkpts.addTo(map);	
+        addMouseClickListener(parkpts);
+      }
+      else if(selectedValue == 'lodge'){
+        lodgingpts.addTo(map);	
+        addMouseClickListener(lodgingpts);
+      }
+      else if(selectedValue == 'pubart'){
+        publicartpts.addTo(map);	
+        processLayer2Geo(publicartpts);
+        addMouseClickListener(publicartpts);
+        showcarasal = true;
+      }
+      else if(selectedValue == 'recycling'){
+        recyclingpts.addTo(map);	
+        processLayer2Geo(recyclingpts);
+        addMouseClickListener(recyclingpts);
+      }
+      else if(selectedValue == 'bus'){
+        buspts.addTo(map);	
+        addMouseClickListener(buspts);
+      }
+      else if(selectedValue == 'walk'){
+        walkingfeatures.addTo(map);	
+        addMouseClickListener(walkingfeatures);
+      }
+      else if(selectedValue == 'traffic'){
+        trafficLayer.addTo(map);	
+      }
+      else if(selectedValue == 'ev'){
+        evpts.addTo(map);  
+      }
+    }
+    if(showcarasal == true){
+      if(that.browsertype == 'mobile'){
+        $('#pubartCarouselmobile').show();
+      }
+      else{
+        $('#pubartCarousel').show();	
+      }
+    }
+    else{
+      $('#pubartCarousel').hide();
+      $('#pubartCarouselmobile').hide();
+    }
+  }
+
+  // Search bar functionality
+  $('#search-select-bar').on('input', function(e) {
+    var searchVal = $(this).val();
+    var found = 0;    
+
+    // hide all options that don't match search value
+    showMatches(
+      $('#search-select-list').children('li:not(#no-results)'),
+      searchVal
+    );
+
+    // expand all submenus if we are filtering
+    $('#search-select-list').children('li:not(#no-results)').each(function() {
+      subMenuExpand($(this), searchVal.length > 0);
+    });
+
+    if (found === 0) {
+      $('#no-results')
+        .show()
+        .find('.switch-label')
+        .html('<span class="icon glyphicon glyphicon-remove"></span>&nbsp;&nbsp;No results matched \"' + searchVal + '\"');
+    } else {
+      $('#no-results').hide();
+    }
+
+    function showMatches(elements, searchVal) {
+      elements.each(function(i) {
+        $(this).hide();
+  
+        if ($(this).children('.children').length > 0) {
+          showMatches(
+            $(this).children('.children').children('li'),
+            searchVal
+          )
+        }
+  
+        if ($(this).text().toLowerCase().includes(searchVal.toLowerCase())) {
+          $(this).show();
+          found++
+        }
+      });
+    }
+  });
+
 	var todayDateString;
 	var d = new Date(); 
 	todayDateString = d.toString("dddd, MMMM dd, yyyy h:mm tt");
@@ -285,9 +558,52 @@ function startup(){
 	});
 	
 	var mylocIcon = L.icon({
-	     iconUrl: 'app/css/ripple.gif',
-	     iconAnchor: [10, 10]
-	 });
+     iconUrl: 'app/css/ripple.gif',
+     iconAnchor: [10, 10]
+	});
+
+
+  
+  var privacyLink = L.Control.extend({
+      options: {
+        position: 'bottomleft'
+      },
+      onAdd: function (map) {
+        var container = L.DomUtil.create('div', 'privacy-control');
+
+        container.innerHTML = '<a href="https://visitsedona.com/privacy-policy/" target="_blank">Privacy Policy</a>';
+        return container;
+      }
+  });
+  map.addControl(new privacyLink());
+
+  //turn dark if at night
+  if(d.getHours()>19||d.getHours()<7){
+    L.control.layers({
+        'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
+        'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
+        //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
+        //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        //'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
+    },null,{position:'bottomleft'}).addTo(map);
+    //},layergroup).addTo(map);
+  }
+  else{
+    L.control.layers({
+        'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
+        'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
+        //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
+        //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        //'Red': L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20}).addTo(map),
+        'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
+        //'Light': L.mapbox.tileLayer('mapbox.light'),
+        //'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
+    //},layergroup).addTo(map);
+    },null,{position:'bottomleft'}).addTo(map);
+  }
+
 
 	var lc = L.control.locate({
 		follow: true,
@@ -295,6 +611,7 @@ function startup(){
 		locateOptions: {maxZoom: 16},
 		metric: false,
 		showPopup: true, 
+    position: 'topright',
 		markerClass: L.marker,
 		markerStyle: {icon:mylocIcon},
 		strings: {
@@ -330,35 +647,8 @@ function startup(){
 	}).addTo(map);
 
 	//add below locate
-	map.addControl(L.control.customsearch({ position: 'topleft' }));
+	map.addControl(L.control.customsearch({ position: 'topright' }));
 
-
-	//turn dark if at night
-	if(d.getHours()>19||d.getHours()<7){
-		L.control.layers({
-		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
-		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
-		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    //'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
-		}).addTo(map);
-		//},layergroup).addTo(map);
-	}
-	else{
-		L.control.layers({
-		    'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-		    'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
-		    //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
-		    //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-		    //'Red': L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20}).addTo(map),
-		    'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
-		    //'Light': L.mapbox.tileLayer('mapbox.light'),
-		    //'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20})
-		//},layergroup).addTo(map);
-		}).addTo(map);
-	}
 
 	that.loader.className = 'hide';
 	map.on('locationfound',(function(t) {
@@ -480,19 +770,6 @@ function startup(){
 	    }
 	});
 	map.addControl(new imagecontrol());
-
-	var privacyLink = L.Control.extend({
-	    options: {
-	      position: 'bottomleft'
-	    },
-	    onAdd: function (map) {
-	      var container = L.DomUtil.create('div', 'privacy-control');
-
-	      container.innerHTML = '<a href="https://visitsedona.com/privacy-policy/" target="_blank">Privacy Policy</a>';
-	      return container;
-	    }
-	});
-	map.addControl(new privacyLink());
 
 	$('.img-control').click(function() {
 	  window.open('http://visitsedona.com/','_blank')
@@ -820,4 +1097,10 @@ function getdirections(start,end){
 		that.gotoloc = [];  
 		that.loader.className = 'hide';
 	});
+}
+
+function toggleNav() {
+  $('#side-menu').toggleClass('is-active');
+  $('#hamburger').toggleClass('is-active');
+  $('#main').toggleClass('is-active');
 }
