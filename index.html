@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Walk Sedona!</title>
+<title>GetAround Sedona!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="shortcut icon" href="https://walksedona.com/assets/sedona.ico" type="image/x-icon" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -15,9 +15,9 @@
 <script src='app/js/bowser.min.js'></script>
 <script src="app/js/vex.combined.min.js"></script>
 <script src='app/js/customsearch.min.js'></script>
-<script src='app/app.js'></script>
+<script src='app/app.min.js'></script>
 <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' />
-<link href='app/css/app.css' rel='stylesheet' />
+<link href='app/css/app.min.css' rel='stylesheet' />
 </head>
 <body>
 <div id="side-menu">
@@ -273,6 +273,19 @@
                 <div class="switch-label">
                     <span class="maki maki-water maki-lg"></span>
                     <div>&nbsp;Water Fill-up Stations</div>
+                </div>
+
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+        <li>
+            <div class="select-item" data-value="bike">
+                <div class="switch-label">
+                    <span class="maki maki-bicycle maki-lg"></span>
+                    <div>&nbsp;Bike Stations</div>
                 </div>
 
                 <label class="switch ">

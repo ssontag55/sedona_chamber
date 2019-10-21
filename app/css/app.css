@@ -105,10 +105,9 @@ blue 4bc1b9*/
 /*#99520e
 border-top: 20px solid #58595B !important;*/
 .vex.vex-theme-os .vex-content {
-    border-top: 20px solid #99520e !important;
+    border-top: 20px solid #7c4a35 !important;
     line-height: 1em !important;
     width: 370px !important;
-    border-top: 20px solid #99520e!important;
 }
 .vex-dialog-button-primary{
   background: #7C4A35!important;
@@ -391,7 +390,7 @@ border-top: 20px solid #58595B !important;*/
   width: 100%;
 }
 #side-menu-header-spacer {
-  background-color: rgba(153, 81, 14, 0.9);
+  background-color: #7c4a35;
   height: 3em;
   padding-top: 17px;
   color: white;
