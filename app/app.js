@@ -136,6 +136,12 @@ function startup(){
     restaurantpts.addTo(map);
     addMouseClickListener(restaurantpts);
   }
+  else if(window.location.href.indexOf("bike") > -1) {
+    deselectAllExcept(['bike']);
+    fixit.addTo(map);
+    addMouseClickListener(fixit);
+    map.setView([34.86394, -111.764860], 13);
+  }
   else if(window.location.href.indexOf("lodging") > -1){
     deselectAllExcept(['lodge']);
     lodgingpts.addTo(map);
