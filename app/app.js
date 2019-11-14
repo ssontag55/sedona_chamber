@@ -68,6 +68,7 @@ function startup(){
   var evpts = L.mapbox.featureLayer('data/ev.json',{popupOptions: { closeButton: true }});
   var water = L.mapbox.featureLayer('data/water.json',{popupOptions: { closeButton: true }});
   var fixit = L.mapbox.featureLayer('data/bike.json',{popupOptions: { closeButton: true }});
+  var churchespts =  L.mapbox.featureLayer('data/churches.json',{popupOptions: { closeButton: true }});
 
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
@@ -104,6 +105,7 @@ function startup(){
 	theatrepts.on('ready',  processLayerGeo);
 	that.parkingpts.on('ready',  processLayerGeo);
 	museumpts.on('ready',  processLayerGeo);
+  churchespts.on('ready',  processLayerGeo);
 	artpts.on('ready',  processLayerGeo);
 	theatrepts.on('ready',  processLayerGeo);
 	buspts.on('ready',  processLayerGeo);
@@ -111,7 +113,7 @@ function startup(){
   parkpts.on('ready',  processLayerGeo);
 
 	if(window.location.href.indexOf("tours") > -1) {
-		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine', 'water', 'bike']);
+		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine', 'water', 'bike', 'church']);
     airpts.addTo(map);
     astronomypts.addTo(map);
     //bikesegwaypts.addTo(map);
@@ -137,10 +139,17 @@ function startup(){
     addMouseClickListener(restaurantpts);
   }
   else if(window.location.href.indexOf("bike") > -1) {
-    deselectAllExcept(['bike']);
+    deselectAllExcept(['bike', 'water']);
     fixit.addTo(map);
+    water.addTo(map);
     addMouseClickListener(fixit);
+    addMouseClickListener(water);
     map.setView([34.86394, -111.764860], 13);
+  }
+  else if(window.location.href.indexOf("churches") > -1){
+    deselectAllExcept(['churches']);
+    churchespts.addTo(map);
+    addMouseClickListener(churchespts);  
   }
   else if(window.location.href.indexOf("lodging") > -1){
     deselectAllExcept(['lodge']);
@@ -387,6 +396,7 @@ function startup(){
       if (selectedValue === 'parking') map.removeLayer(that.parkingpts);
       if (selectedValue === 'parks') map.removeLayer(parkpts);
       if (selectedValue === 'lodge') map.removeLayer(lodgingpts);
+      if (selectedValue === 'church') map.removeLayer(churchespts);
       if (selectedValue === 'water') map.removeLayer(water);
       if (selectedValue === 'bike') map.removeLayer(fixit);
       if (selectedValue === 'pubart') map.removeLayer(publicartpts);
@@ -412,11 +422,16 @@ function startup(){
         processLayer2Geo(airpts);
         addMouseClickListener(airpts);
       }        
+      else if(selectedValue == 'church'){
+        churchespts.addTo(map);
+        processLayer2Geo(churchespts);
+        addMouseClickListener(churchespts);
+      }
       else if(selectedValue == 'astronomy'){
         astronomypts.addTo(map);
         processLayer2Geo(astronomypts);
         addMouseClickListener(astronomypts);
-      }        
+      }     
       else if(selectedValue == 'bikesegway'){
         bikesegwaypts.addTo(map);
         processLayer2Geo(bikesegwaypts);

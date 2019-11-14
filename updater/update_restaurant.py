@@ -173,6 +173,11 @@ shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//traffic//data//restaurant.json')
 
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//restaurant.json')
+
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//getaround//data//restaurant.json')
+
+
 print "Files Copied"
 
 sys.exit()
