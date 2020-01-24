@@ -18,36 +18,19 @@ function startup(){
 
 	that.browsertype = 'desktop';
 
+  var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14);
+  
   //search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
 		that.browsertype = 'mobile';
-		var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14);
     L.control.zoom({position:'topright'}).addTo(map);
     map.addControl(new L.mapbox.shareControl({position:'topright'}));
-		map.on('popupopen', function(e) {
-		    var px = map.project(e.popup._latlng); // find the pixel location on the map where the popup anchor is
+		map.on('popupopen', 
+      function(e) {
+		    var px = map.project(e.popup._latlng) // find the pixel location on the map where the popup anchor is
 		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
 		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
-		});
-		$('#pubartCarouselmobile').carousel({
-			interval: 88000
-		});		
-		$('#pubartCarouselmobile').on('slid.bs.carousel', function(t) {
-			var currentItemID = $(t.relatedTarget).find('.col-sm-3').find('.thumbnail').attr('id');
-			if(currentItemID){
-				publicartpts.eachLayer(function (layer) {
-				  if(layer.feature.id ==currentItemID){
-				  	layerpointclick(layer);
-				  }
-				});
-			}
-		 });
-		that.timedelay = 10000; 
-	}	
-	else{
-		$('#pubartCarousel').carousel({
-			interval: 88000
-		});
+      });
 		var map = L.mapbox.map('map',null, {zoomControl:false}).setView([34.86394, -111.764860], 14);
 		L.control.zoom({position:'topright'}).addTo(map);
     map.addControl(new L.mapbox.shareControl({position:'topright'}));
@@ -56,6 +39,9 @@ function startup(){
 
   that.map = map;
 
+  that.retailCategories = [];
+  var retailpts =  L.mapbox.featureLayer('data/retail.json',{popupOptions: { closeButton: true }});
+  
   // "tours" features
   var airpts =  L.mapbox.featureLayer('data/tours-air.json',{popupOptions: { closeButton: true }});
   var astronomypts = L.mapbox.featureLayer('data/tours-astronomy.json',{popupOptions: { closeButton: true }});
@@ -89,6 +75,7 @@ function startup(){
   basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
+  retailpts.on('ready', processLayerGeo);
   airpts.on('ready', processLayerGeo);
   water.on('ready', processLayerGeo);
   fixit.on('ready', processLayerGeo);
@@ -222,25 +209,24 @@ function startup(){
     buspts.addTo(map);
     addMouseClickListener(that.parkingpts);	
   }
+  else if(window.location.href.indexOf("retail") > -1){
+    deselectAllExcept(['retail']);
+    retailpts.addTo(map);
+    addMouseClickListener(retailpts); 
+  }
   else{
     restaurantpts.addTo(map);
     theatrepts.addTo(map);
-    //that.parkingpts.addTo(map);
     museumpts.addTo(map);
     artpts.addTo(map);	
     buspts.addTo(map);
     walkingfeatures.addTo(map);
-    // lodgingpts.addTo(map);	
-    //trafficLayer.addTo(map);
     addMouseClickListener(artpts);
-    //addMouseClickListener(parkpts);
     addMouseClickListener(restaurantpts);
     addMouseClickListener(theatrepts);
-    //addMouseClickListener(that.parkingpts);
     addMouseClickListener(buspts);
     addMouseClickListener(museumpts);
     addMouseClickListener(walkingfeatures);
-    // addMouseClickListener(lodgingpts);
   }
 
   function deselectAllExcept(selectedValues) {
@@ -263,6 +249,7 @@ function startup(){
 
     map.removeLayer(artpts);
     map.removeLayer(water);
+    map.removeLayer(retailpts);
     map.removeLayer(fixit);
     map.removeLayer(restaurantpts);
     map.removeLayer(theatrepts);
@@ -382,6 +369,18 @@ function startup(){
     // toggle "selected" attribute
     el.data('selected', newSelectValue);
     el.attr( 'data-selected', newSelectValue);
+
+    if(selectedValue.search('retail')>-1) {
+
+      // map.removeLayer(retailpts);
+      if(!newSelectValue && selectedValue.split('-')[1] ) {
+        that.retailCategories.pop(selectedValue.split('-')[1]);
+        retailpts.setFilter(function (feature) {
+          return that.retailCategories.includes(feature.properties.subcat);
+        });
+        retailpts.addTo(map); 
+      }
+    }
 
     // add layer to array if it's not there, otherwise remove it
     if (!newSelectValue) {
@@ -528,6 +527,18 @@ function startup(){
       }
       else if(selectedValue == 'ev'){
         evpts.addTo(map);  
+      } else if(selectedValue.search('retail') > -1){
+        map.removeLayer(retailpts);
+
+        // filter by sub categories
+        if( selectedValue.split('-')[1] ) {
+          that.retailCategories.push(selectedValue.split('-')[1]);
+          retailpts.setFilter(function (feature) {
+            return that.retailCategories.includes(feature.properties['subcat']);
+          });
+          retailpts.addTo(map); 
+          addMouseClickListener(retailpts);
+        }
       }
     }
     if(showcarasal == true){

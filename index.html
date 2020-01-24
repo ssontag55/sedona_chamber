@@ -15,9 +15,9 @@
 <script src='app/js/bowser.min.js'></script>
 <script src="app/js/vex.combined.min.js"></script>
 <script src='app/js/customsearch.min.js'></script>
-<script src='app/app.min.js'></script>
+<script src='app/app.js'></script>
 <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' />
-<link href='app/css/app.min.css' rel='stylesheet' />
+<link href='app/css/app.css' rel='stylesheet' />
 </head>
 <body>
 <div id="side-menu">
@@ -30,12 +30,37 @@
     </div>
     <ul id="search-select-list">
         <li>
+            <div class="select-item" data-value="rest" data-selected="true">
+                <div class="switch-label">
+                    <span class="maki maki-restaurant maki-lg"></span>
+                    <div>&nbsp;Restaurants</div>
+                </div>
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </li>
+
+        <li>
+          <div class="select-item" data-value="lodge">
+              <div class="switch-label">
+                  <span class="maki maki-lodging maki-lg"></span>
+                  <div>&nbsp;Lodging</div>
+              </div>
+              <label class="switch ">
+                  <input type="checkbox" class="default">
+                  <span class="slider round"></span>
+              </label>
+          </div>
+        </li>
+
+        <li>
             <div class="select-item" data-value="gallery" data-selected="true">
                 <div class="switch-label">
                     <span class="maki maki-art-gallery maki-lg"></span>
                     <div>&nbsp;Art Galleries</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -43,17 +68,138 @@
             </div>
         </li>
         <li>
-            <div class="select-item" data-value="rest" data-selected="true">
+            <div class="select-item parent" data-value="retail">
                 <div class="switch-label">
-                    <span class="maki maki-restaurant maki-lg"></span>
-                    <div>&nbsp;Restaurants</div>
+                    <span class="parent-icon icon glyphicon glyphicon-plus"></span>
+                    <div>&nbsp;Retail & Shopping</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
                 </label>
             </div>
+            <ul class="children">
+                <li>
+                    <div class="select-item" data-value="retail-276">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Apparel</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="retail-279">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Books & Toys</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="retail-284">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Gifts</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="retail-415">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Home Decor</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="retail-286">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Jewelry & Jems</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="retail-287">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Native American</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="retail-288">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Metaphysical</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="select-item" data-value="retail-293">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Shopping Centers</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+                <!-- <li>
+                    <div class="select-item" data-value="retail-337">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Specialty</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li> -->
+                <li>
+                    <div class="select-item" data-value="retail-294">
+                        <div class="switch-label">
+                            <span class="maki maki-shop maki-lg"></span>
+                            <div>&nbsp;Sporting Goods</div>
+                        </div>
+                        <label class="switch ">
+                            <input type="checkbox" class="default">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
         </li>
         <li>
             <div class="select-item parent" data-value="park">
@@ -61,7 +207,6 @@
                     <span class="parent-icon icon glyphicon glyphicon-plus"></span>
                     <div>&nbsp;Parking</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -74,7 +219,6 @@
                             <span class="maki maki-parking maki-lg"></span>
                             <div>&nbsp;Parking</div>
                         </div>
-
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -87,7 +231,6 @@
                             <span class="maki maki-fuel maki-lg"></span>
                             <div>&nbsp;EV Stations</div>
                         </div>
-
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -102,7 +245,6 @@
                     <span class="maki maki-bus maki-lg"></span>
                     <div>&nbsp;Public Transportation</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -115,7 +257,6 @@
                     <span class="maki maki-cinema maki-lg"></span>
                     <div>&nbsp;Theatre</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -128,7 +269,6 @@
                     <span class="maki maki-museum maki-lg"></span>
                     <div>&nbsp;Museum</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -141,7 +281,6 @@
                     <span class="parent-icon icon glyphicon glyphicon-plus"></span>
                     <div>&nbsp;Tours</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -155,7 +294,6 @@
                             <span class="maki maki-heliport maki-lg"></span>
                             <div>&nbsp;Air</div>
                         </div>
-        
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -168,7 +306,6 @@
                             <span class="maki maki-land-use maki-lg"></span>
                             <div>&nbsp;Astronomy</div>
                         </div>
-        
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -194,7 +331,6 @@
                             <span class="maki maki-land-use maki-lg"></span>
                             <div>&nbsp;Ground</div>
                         </div>
-        
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -207,7 +343,6 @@
                             <span class="maki maki-land-use maki-lg"></span>
                             <div>&nbsp;Private</div>
                         </div>
-        
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -220,7 +355,6 @@
                             <span class="maki maki-land-use maki-lg"></span>
                             <div>&nbsp;Jeep+Trolley</div>
                         </div>
-        
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -233,7 +367,6 @@
                             <span class="maki maki-land-use maki-lg"></span>
                             <div>&nbsp;Specialty</div>
                         </div>
-        
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -246,7 +379,6 @@
                             <span class="maki maki-land-use maki-lg"></span>
                             <div>&nbsp;Wine</div>
                         </div>
-        
                         <label class="switch ">
                             <input type="checkbox" class="default">
                             <span class="slider round"></span>
@@ -255,27 +387,12 @@
                 </li>
             </ul>
         </li>
-
-        <li>
-            <div class="select-item" data-value="church">
-                <div class="switch-label">
-                    <span class="maki maki-town-hall maki-lg"></span>
-                    <div>&nbsp;Churches</div>
-                </div>
-
-                <label class="switch ">
-                    <input type="checkbox" class="default">
-                    <span class="slider round"></span>
-                </label>
-            </div>
-        </li>
         <li>
             <div class="select-item" data-value="parks">
                 <div class="switch-label">
                     <span class="maki maki-park maki-lg"></span>
                     <div>&nbsp;Parks and Trailheads</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -288,7 +405,6 @@
                     <span class="maki maki-water maki-lg"></span>
                     <div>&nbsp;Water Fill-up Stations</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -301,7 +417,6 @@
                     <span class="maki maki-bicycle maki-lg"></span>
                     <div>&nbsp;Bike Stations</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -309,17 +424,16 @@
             </div>
         </li>
         <li>
-          <div class="select-item" data-value="lodge">
-              <div class="switch-label">
-                  <span class="maki maki-lodging maki-lg"></span>
-                  <div>&nbsp;Lodging</div>
-              </div>
-
-              <label class="switch ">
-                  <input type="checkbox" class="default">
-                  <span class="slider round"></span>
-              </label>
-          </div>
+            <div class="select-item" data-value="church">
+                <div class="switch-label">
+                    <span class="maki maki-town-hall maki-lg"></span>
+                    <div>&nbsp;Churches</div>
+                </div>
+                <label class="switch ">
+                    <input type="checkbox" class="default">
+                    <span class="slider round"></span>
+                </label>
+            </div>
         </li>
         <li>
             <div class="select-item" data-value="pubart">
@@ -327,7 +441,6 @@
                     <span class="maki maki-camera maki-lg"></span>
                     <div>&nbsp;Public Art Locations</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -340,7 +453,6 @@
                     <span class="maki maki-pitch maki-lg"></span>
                     <div>&nbsp;Suggested Walking Route</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -353,7 +465,6 @@
                     <span class="maki maki-car maki-lg"></span>
                     <div>&nbsp;Real-time Traffic (red heavy)</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>
@@ -366,7 +477,6 @@
                   <span class="glyphicon maki maki-waste-basket maki-lg"></span>
                   <div>&nbsp;Recycling Drop-off</div>
                 </div>
-
                 <label class="switch ">
                     <input type="checkbox" class="default">
                     <span class="slider round"></span>

@@ -138,7 +138,6 @@ try:
 
 	fromaddr = "stephen@mapblender.org";
 	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
-	#toaddr = ["sontag.stephen@gmail.com","scurtis@sedonachamber.com","stephen.sontag@rpsgroup.com"];
 
 	msg = string.join((
 	        "From: %s" % fromaddr,
@@ -152,9 +151,7 @@ try:
 	print "Email Sent"
 
 except:
-
 	print "Email server not working" 
-#print companyList
 
 jsonfile.close()
 import shutil
@@ -172,8 +169,6 @@ shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//parks//data//restaurant.json')
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//traffic//data//restaurant.json')
-
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//restaurant.json')
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//getaround//data//restaurant.json')
 

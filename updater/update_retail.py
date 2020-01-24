@@ -26,20 +26,13 @@ import os
 
 
 #open jsonfile
-jsonfile = open('restaurant.json', 'w')
-#jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
-jsonfile.write("""{"type": "FeatureCollection","features": [""");
+jsonfile = open('retail.json', 'w')
+jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
+#jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
 
-#cat  39 rest
-cat = 39
-#subcat
-#restraraunts 250
-#sweet treats 251
-#coffee 246
-#wineries 384
-subcat = [276,415,286,287,288,337,294]
+subcat = [276,415,286,287,288,337,294, 279, 293, 284]
 
 #apparel, 276
 #home decor, 415
@@ -47,8 +40,12 @@ subcat = [276,415,286,287,288,337,294]
 #native american, 287
 #metaphysical,288
 #sporting goods 294
+#books 279
+#specialty 337
+#gifts 284
+#Shopping centers 293
 
-#retail,  279 284, 266, 293
+
 
 #simplview API url
 svurl = 'http://sedona.simpleviewcrm.com/webapi/listings/xml/listings.cfm'
@@ -112,9 +109,10 @@ for subcatid in subcat:
 					        "id": "marker-"""+individualID+"""",
 					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
+					        "subcat": \""""+str(subcatid)+"""\",
 					        "marker-size": "medium",
-					        "marker-color": "#006666",
-					        "marker-symbol": "restaurant"
+					        "marker-color": "#C38D9e",
+					        "marker-symbol": "shop"
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
 					          """+gpslocation.split(',')[0]+"""
@@ -147,12 +145,11 @@ try:
 
 	fromaddr = "stephen@mapblender.org";
 	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
-	#toaddr = ["sontag.stephen@gmail.com","scurtis@sedonachamber.com","stephen.sontag@rpsgroup.com"];
 
 	msg = string.join((
 	        "From: %s" % fromaddr,
 	        "To: %s" % toaddr,
-	        "Subject: %s" % "Restaurant List Updated",
+	        "Subject: %s" % "Retail List Updated",
 	        "",
 	        "The following list has been processed\n"+companyList), "\r\n");
 
@@ -161,26 +158,13 @@ try:
 	print "Email Sent"
 
 except:
-
-	print "Email server not working" 
-#print companyList
+	print "Email server not working"
 
 jsonfile.close()
 import shutil
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//publicart//data//restaurant.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/retail.json', '////var//chroot//home//content//19//12215219//html//getaround//data//retail.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//green//data//restaurant.json')
-
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//galleries//data//restaurant.json')
-
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//art//data//restaurant.json')
-
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//data//restaurant.json')
-
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//parks//data//restaurant.json')
-
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//traffic//data//restaurant.json')
 
 print "Files Copied"
 
