@@ -381,7 +381,7 @@ function startup(){
 
       // map.removeLayer(retailpts);
       if(!newSelectValue && selectedValue.split('-')[1] ) {
-        that.retailCategories.splice(that.retailCategories.indexOf(selectedValue.split('-')[1]));
+        that.retailCategories.splice(that.retailCategories.indexOf(selectedValue.split('-')[1]),1);
 
         retailpts.setFilter(function (feature) {
           return that.retailCategories.includes(feature.properties.subcat);
@@ -553,7 +553,6 @@ function startup(){
       else if(selectedValue == 'ev'){
         evpts.addTo(map);  
       } else if(selectedValue.search('retail') > -1){
-        map.removeLayer(retailpts);
 
         // filter by sub categories
         if( selectedValue.split('-')[1] ) {
@@ -561,6 +560,7 @@ function startup(){
           retailpts.setFilter(function (feature) {
             return that.retailCategories.includes(feature.properties['subcat']);
           });
+          map.removeLayer(retailpts);
           retailpts.addTo(map); 
           addMouseClickListener(retailpts);
         }
