@@ -381,13 +381,18 @@ function startup(){
 
       // map.removeLayer(retailpts);
       if(!newSelectValue && selectedValue.split('-')[1] ) {
-        that.retailCategories.splice(that.retailCategories.indexOf(selectedValue.split('-')[1]),1);
+        for (var i = that.retailCategories.length - 1; i >= 0; i--) {
+          if(that.retailCategories[i] === selectedValue.split('-')[1]){
+            that.retailCategories.splice(i,1);
+          }
+        }
 
         retailpts.setFilter(function (feature) {
           return that.retailCategories.includes(feature.properties.subcat);
         });
-        retailpts.addTo(map); 
       }
+      map.removeLayer(retailpts);
+      retailpts.addTo(map); 
     }
 
     // add layer to array if it's not there, otherwise remove it

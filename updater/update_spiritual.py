@@ -110,7 +110,7 @@ for subcatid in subcat:
 					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
 					        "marker-size": "medium",
-					        "marker-color": "#ecb7bf",
+					        "marker-color": "#632063",
 					        "marker-symbol": "star"
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
