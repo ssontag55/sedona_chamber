@@ -1,7 +1,7 @@
 /*
 Main App for Sedona Chambers Map App
 Mapblender
-2016
+2019
 	//not usuing from mapbox or layerlist
 	//var artpts = L.mapbox.featureLayer('sedonachamber.pmj9fija');
 	//var layergroup = {"Restaurants":restaurantpts, "Galleries":artpts,"Recyling Dropoff":recyclingpts};
@@ -46,6 +46,7 @@ function startup(){
   var airpts =  L.mapbox.featureLayer('data/tours-air.json',{popupOptions: { closeButton: true }});
   var astronomypts = L.mapbox.featureLayer('data/tours-astronomy.json',{popupOptions: { closeButton: true }});
   // var bikesegwaypts = L.mapbox.featureLayer('data/tours-bikesegway.json',{popupOptions: { closeButton: true }});
+  var spiritualpts = L.mapbox.featureLayer('data/spiritual.json',{popupOptions: { closeButton: true }});
   var groundpts = L.mapbox.featureLayer('data/tours-ground.json',{popupOptions: { closeButton: true }});
   var privatepts = L.mapbox.featureLayer('data/tours-guides.json',{popupOptions: { closeButton: true }});
   var jeeptrolleypts = L.mapbox.featureLayer('data/tours-jeeptrolley.json',{popupOptions: { closeButton: true }});
@@ -69,6 +70,9 @@ function startup(){
 	var recyclingpts = L.mapbox.featureLayer('data/recycling.json',{popupOptions: { closeButton: true }});
 	var parkpts = L.mapbox.featureLayer('data/parks.json',{popupOptions: { closeButton: true }});
   that.spacespts = L.mapbox.featureLayer('data/spaces.json',{popupOptions: { closeButton: true }});
+
+  var transpoints = L.mapbox.featureLayer('data/trans.json',{popupOptions: { closeButton: true }});
+  var what2dopoints = L.mapbox.featureLayer('data/what2do.json',{popupOptions: { closeButton: true }});
 
 	var trafficLayer = L.mapbox.styleLayer('mapbox://styles/sedonachamber/cj0d9x1vd00012rlbjrrj7ciu', {maxZoom:20,zIndex:1000});
 
@@ -98,6 +102,8 @@ function startup(){
 	buspts.on('ready',  processLayerGeo);
 	publicartpts.on('ready',  processLayerGeo);
   parkpts.on('ready',  processLayerGeo);
+  transpoints.on('ready',  processLayerGeo);
+  what2dopoints.on('ready',  processLayerGeo);
 
 	if(window.location.href.indexOf("tours") > -1) {
 		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine', 'water', 'bike', 'church']);
@@ -210,7 +216,8 @@ function startup(){
     addMouseClickListener(that.parkingpts);	
   }
   else if(window.location.href.indexOf("retail") > -1){
-    deselectAllExcept(['retail']);
+    deselectAllExcept(['retail-293','retail','retail-276','retail-279','retail-284','retail-415','retail-286','retail-287','retail-288','retail-294']);
+    that.retailCategories = ['276','415','286','287','288','337','294', '279', '293', '284'];
     retailpts.addTo(map);
     addMouseClickListener(retailpts); 
   }
@@ -412,7 +419,9 @@ function startup(){
       if (selectedValue === 'specialty') map.removeLayer(specialtypts);
       if (selectedValue === 'wine') map.removeLayer(winepts);
       if (selectedValue === 'ev') map.removeLayer(evpts);
-
+      if (selectedValue === 'spiritual') map.removeLayer(spiritualpts);
+      if (selectedValue === 'trans') map.removeLayer(transpoints);
+      if (selectedValue === 'what2do') map.removeLayer(what2dopoints);
     } else {
       selectedLayers.push(selectedValue);
 
@@ -420,7 +429,22 @@ function startup(){
         airpts.addTo(map);
         processLayer2Geo(airpts);
         addMouseClickListener(airpts);
-      }        
+      }
+      else if(selectedValue == 'spiritual'){
+        spiritualpts.addTo(map);
+        processLayer2Geo(spiritualpts);
+        addMouseClickListener(spiritualpts);
+      }
+      else if(selectedValue == 'trans'){
+        transpoints.addTo(map);
+        processLayer2Geo(transpoints);
+        addMouseClickListener(transpoints);
+      }
+      else if(selectedValue == 'what2do'){
+        what2dopoints.addTo(map);
+        processLayer2Geo(what2dopoints);
+        addMouseClickListener(what2dopoints);
+      }  
       else if(selectedValue == 'church'){
         churchespts.addTo(map);
         processLayer2Geo(churchespts);
@@ -918,13 +942,13 @@ function addParkinglotInfo(d){
 			            			
 			            			that.gotoloc = [34.87280792707314,-111.76021456718445];
 
-			            			$("#direc" ).on('click', function (e) {
-											e.preventDefault();
-											that.loader.className = '';
-										  	//get direction same
-										  	that.map.stopLocate();
-										    that.map.locate();
-										});
+			            			$("#direc").on('click', function (e) {
+    											e.preventDefault();
+    											that.loader.className = '';
+  										  	//get direction same
+  										  	that.map.stopLocate();
+  										    that.map.locate();
+    										});
 			            		}
 			            	}
 			            }

@@ -26,21 +26,22 @@ import os
 
 
 #open jsonfile
-# jsonfile = open('hotels.json', 'w')
-jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
+jsonfile = open('trans.json', 'w')
+# jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
 
-#cat  39 rest
-# cat = 34
-#344	Bed & Breakfast				
-#345	Cabins				
-#347	Hotels / Motels / Resorts				
-#351	RV / Camping / Hostels				
-#349	Vacation Rentals				
+# 257	Air Transportation / Airports / Shuttles			
+# 259	Bus/Charter/Limo/Taxi/Parking			
+# 260	Rental Vehicles / Trailers		
+# Travel Services					
+# 151	Destination Marketing Orgs				
+# 439	Reservations / Information 				
+# 155	Travel Agencies & Destination Services				
 
-subcat = [344,345,347,351,349]
+
+subcat = [151,439,155,257,259,260]
 
 #simplview API url
 svurl = 'http://sedona.simpleviewcrm.com/webapi/listings/xml/listings.cfm'
@@ -105,8 +106,8 @@ for subcatid in subcat:
 					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
 					        "marker-size": "medium",
-					        "marker-color": "#0066ff",
-					        "marker-symbol": "lodging"
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
 					          """+gpslocation.split(',')[0]+"""
@@ -163,8 +164,6 @@ import shutil
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//hotels.json')
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//data//hotels.json')
-
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//retail//data//hotels.json')
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//bike//data//hotels.json')
 

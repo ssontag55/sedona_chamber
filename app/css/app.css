@@ -666,7 +666,7 @@ input.danger:checked + .slider {
   transform: translateX(26px);
 }
 #search-select-list li .select-item[data-selected="true"] input + .slider {
-  background-color: #888;
+  background-color: #4bc1b9!important;/*#888;*/
 }
 /* Rounded sliders */
 .slider.round {

@@ -473,6 +473,9 @@
 .maki-laundry:before {
     content: "\e63e";
 }
+.maki-viewpoint:before {
+    background: url("maki-viewpoint-15.svg") no-repeat center !important;
+}
 
 .maki-land-use:before {
     content: "\e63f";

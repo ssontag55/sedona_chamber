@@ -20,27 +20,28 @@ from xml.etree import ElementTree
 
 import os
 
-#import time 
-#from dateutil.parser import parse
-#from datetime import datetime, timedelta
 
 
 #open jsonfile
-# jsonfile = open('hotels.json', 'w')
-jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
+jsonfile = open('what2do.json', 'w')
+# jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
 
-#cat  39 rest
-# cat = 34
-#344	Bed & Breakfast				
-#345	Cabins				
-#347	Hotels / Motels / Resorts				
-#351	RV / Camping / Hostels				
-#349	Vacation Rentals				
+# 370	Casinos / Gaming					
+# 376	Family Entertainment					
+# 432	Festivals & Events					
+# 334	Museums					
+# 372	Night Clubs / Musical Entertainment 					
+# 141	Parks / Gardens					
+# 142	Railroads					
+# 373	Theaters / Dinner Theaters					
+# 374	Wineries / Wine Tasting					
+# 144	Zoos / Farms
 
-subcat = [344,345,347,351,349]
+	
+subcat = [370,376,432,334,372,141,142,373,374,144]
 
 #simplview API url
 svurl = 'http://sedona.simpleviewcrm.com/webapi/listings/xml/listings.cfm'
@@ -105,8 +106,8 @@ for subcatid in subcat:
 					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
 					        "marker-size": "medium",
-					        "marker-color": "#0066ff",
-					        "marker-symbol": "lodging"
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
 					          """+gpslocation.split(',')[0]+"""
@@ -139,12 +140,11 @@ try:
 
 	fromaddr = "stephen@mapblender.org";
 	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
-	#toaddr = ["sontag.stephen@gmail.com","scurtis@sedonachamber.com","stephen.sontag@rpsgroup.com"];
-
+	
 	msg = string.join((
 	        "From: %s" % fromaddr,
 	        "To: %s" % toaddr,
-	        "Subject: %s" % "Where to Stay List Updated",
+	        "Subject: %s" % "What to Do List Updated",
 	        "",
 	        "The following list has been processed\n"+companyList), "\r\n");
 
@@ -160,13 +160,13 @@ except:
 jsonfile.close()
 import shutil
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//hotels.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/what2do.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//what2do.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//data//hotels.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/what2do.json', '////var//chroot//home//content//19//12215219//html//getaround//data//what2do.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//retail//data//hotels.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/what2do.json', '////var//chroot//home//content//19//12215219//html//getaround//bike//data//what2do.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//bike//data//hotels.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/what2do.json', '////var//chroot//home//content//19//12215219//html//getaround//retail//data//what2do.json')
 
 print "Files Copied"
 
