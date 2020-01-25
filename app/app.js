@@ -381,7 +381,8 @@ function startup(){
 
       // map.removeLayer(retailpts);
       if(!newSelectValue && selectedValue.split('-')[1] ) {
-        that.retailCategories.pop(selectedValue.split('-')[1]);
+        that.retailCategories.splice(that.retailCategories.indexOf(selectedValue.split('-')[1]));
+
         retailpts.setFilter(function (feature) {
           return that.retailCategories.includes(feature.properties.subcat);
         });
