@@ -23,8 +23,8 @@ import os
 
 
 #open jsonfile
-jsonfile = open('what2do.json', 'w')
-# jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
+#jsonfile = open('what2do.json', 'w')
+jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";

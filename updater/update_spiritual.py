@@ -165,11 +165,11 @@ except:
 jsonfile.close()
 import shutil
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//hotels.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//spiritual.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//data//hotels.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//data//spiritual.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//bike//data//hotels.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//bike//data//spiritual.json')
 
 print "Files Copied"
 

@@ -28,7 +28,7 @@ import os
 #open jsonfile
 jsonfile = open('retail.json', 'w')
 jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
-#jsonfile.write("""{"type": "FeatureCollection","features": [""");
+jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
 
@@ -164,6 +164,7 @@ jsonfile.close()
 import shutil
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/retail.json', '////var//chroot//home//content//19//12215219//html//getaround//data//retail.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/retail.json', '////var//chroot//home//content//19//12215219//html//getaround//retail//data//retail.json')
 
 
 print "Files Copied"
