@@ -26,26 +26,22 @@ import os
 
 
 #open jsonfile
-jsonfile = open('spiritual.json', 'w')
-# jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
+jsonfile = open('weddings.json', 'w')
+#jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/weddings.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
 
-# 441	Ceremonies			
-# 201	Classes / Teaching			
-# 202	Counseling / Coaching			
-# 443	Fitness / Yoga			
-# 203	Healing / Therapies			
-# 204	Massage / Body Work			
-# 207	Readings			
-# 209	Retreats / Centers			
-# 444	Spas / Salons			
-# 208	Stores			
-# 210	Tours			
-				
+#cat  39 rest
+# 408	Bridal Wear / Tailoring / Alterations								
+# 264	Cakes / Catering								
+# 266	Florists								
+# 268	Music / Disc Jockeys								
+# 269	Photographers / Videographers								
+# 273	Planners / Equipment								
+# 272	Venues								
 
-subcat = [441,201,202,443,203,204,207,209,444,208,210]
+subcat = [408,264,266,268, 269, 273, 272]
 
 #simplview API url
 svurl = 'http://sedona.simpleviewcrm.com/webapi/listings/xml/listings.cfm'
@@ -110,8 +106,8 @@ for subcatid in subcat:
 					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
 					        "marker-size": "medium",
-					        "marker-color": "#632063",
-					        "marker-symbol": "star"
+					        "marker-color": "#fcb2a9",
+					        "marker-symbol": "florist"
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
 					          """+gpslocation.split(',')[0]+"""
@@ -144,11 +140,11 @@ try:
 
 	fromaddr = "stephen@mapblender.org";
 	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
-	
+
 	msg = string.join((
 	        "From: %s" % fromaddr,
 	        "To: %s" % toaddr,
-	        "Subject: %s" % "Spiritual List Updated",
+	        "Subject: %s" % "Restaurant List Updated",
 	        "",
 	        "The following list has been processed\n"+companyList), "\r\n");
 
@@ -157,18 +153,14 @@ try:
 	print "Email Sent"
 
 except:
-
 	print "Email server not working" 
-#print companyList
 
 jsonfile.close()
 import shutil
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//spiritual.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//data//spiritual.json')
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/weddings.json', '////var//chroot//home//content//19//12215219//html//getaround//data//weddings.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//bike//data//spiritual.json')
 
 print "Files Copied"
 
