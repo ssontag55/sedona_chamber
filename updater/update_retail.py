@@ -26,8 +26,8 @@ import os
 
 
 #open jsonfile
-jsonfile = open('retail.json', 'w')
-jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
+#jsonfile = open('retail.json', 'w')
+jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/retail.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";

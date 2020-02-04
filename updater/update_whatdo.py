@@ -24,7 +24,7 @@ import os
 
 #open jsonfile
 #jsonfile = open('what2do.json', 'w')
-jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
+jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/what2do.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
@@ -41,7 +41,7 @@ companyList = "";
 # 144	Zoos / Farms
 
 	
-subcat = [370,376,432,334,372,141,142,373,374,144]
+subcat = [370,376,432,334,372,141,142,373,374,144,219,446,221,448,431,449,222,451,450,447,355,220]
 
 #simplview API url
 svurl = 'http://sedona.simpleviewcrm.com/webapi/listings/xml/listings.cfm'

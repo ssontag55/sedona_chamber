@@ -505,4 +505,277 @@
 					          34.612906
 					        ],"type": "Point"
 					      },"id": 2534
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7441",
+					        "title": "Eagle Rider Sedona",
+					        "description": "<a href=\"https://www.eaglerider.com/sedona\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/eagleridercover1240_3E7C8FE0-7033-43B1-9ECCADD004D82292_c6ff2de7-ceee-40a6-8f005540888ece94.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.eaglerider.com/sedona\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.763349,
+					          34.864742
+					        ],"type": "Point"
+					      },"id": 7441
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3554",
+					        "title": "Sedona ATV & Buggy Rental",
+					        "description": "<a href=\"http://www.atvsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedonaatv7_orig0-8b07b90e5056a36_8b07ba61-5056-a36f-23168e0772ec1599.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.atvsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.808180,
+					          34.862734
+					        ],"type": "Point"
+					      },"id": 3554
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1617",
+					        "title": "Absolute Bikes",
+					        "description": "<a href=\"http://www.absolutebikes.net\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Capture0-cad5d9fc5056a36_cad5db49-5056-a36f-23e5deda885ef14c.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.absolutebikes.net\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.762531,
+					          34.787899
+					        ],"type": "Point"
+					      },"id": 1617
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3918",
+					        "title": "Over the Edge",
+					        "description": "<a href=\"http://www.otesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Over-The-Edge-Sedona_new-800x600-aa3a08195056a36_aa3a0b11-5056-a36f-230f4efaa2cf0bf9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.otesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.789239,
+					          34.863240
+					        ],"type": "Point"
+					      },"id": 3918
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3973",
+					        "title": "Flagstaff Extreme Adventure Course",
+					        "description": "<a href=\"http://www.flagstaffextreme.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/FlagX_Michelle-Koechle-1-800x600_0d55c5d4-5056-a36f-23f6b069190a8748.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.flagstaffextreme.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.688627,
+					          35.145339
+					        ],"type": "Point"
+					      },"id": 3973
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4576",
+					        "title": "US Forest Service Red Rock Ranger District",
+					        "description": "<a href=\"http://www.coconinonationalforest.us\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/USFS-Logo-800x60010_0d58c2c3-5056-a36f-234b751f92346638.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.coconinonationalforest.us\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.764346,
+					          34.757274
+					        ],"type": "Point"
+					      },"id": 4576
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4534",
+					        "title": "Sedona Chamber of Commerce Visitor Center",
+					        "description": "<a href=\"http://www.visitsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/VC1_2018_Kelli_Klymenko_640x3600-703919625056a36_70391ab8-5056-a36f-236a9af913a9fe09.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.visitsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.761743,
+					          34.868655
+					        ],"type": "Point"
+					      },"id": 4534
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-569",
+					        "title": "US Forest Service Red Rock Ranger District",
+					        "description": "<a href=\"http://www.coconinonationalforest.us\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/USFS-Logo-800x60010_0d58c2c3-5056-a36f-234b751f92346638.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.coconinonationalforest.us\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.764346,
+					          34.757274
+					        ],"type": "Point"
+					      },"id": 569
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4768",
+					        "title": "Four Season Guides LLC",
+					        "description": "<a href=\"http://www.fsguides.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Four-Season-Guides-800x600_0d3cae3d-5056-a36f-236a1c480b51171b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.fsguides.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.661715,
+					          35.190444
+					        ],"type": "Point"
+					      },"id": 4768
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3609",
+					        "title": "The Hike House",
+					        "description": "<a href=\"http://www.thehikehouse.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/The-HikeHouse-Logo-800x600_0d3f3b2e-5056-a36f-23bf12c3d8d09e5f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thehikehouse.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.761614,
+					          34.861600
+					        ],"type": "Point"
+					      },"id": 3609
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4793",
+					        "title": "The Wildland Trekking Company",
+					        "description": "<a href=\"http://www.wildlandtrekking.com/sedona/hiking-tours.html\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedona3-trekking_0d43f95e-5056-a36f-234f9348f1339626.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.wildlandtrekking.com/sedona/hiking-tours.html\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.590195,
+					          35.215238
+					        ],"type": "Point"
+					      },"id": 4793
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4078",
+					        "title": "Horsin' Around Adventures",
+					        "description": "<a href=\"http://www.horsinaroundsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/horsin-around-2_0d62185d-5056-a36f-2301e4df08347fe0.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.horsinaroundsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.897460,
+					          34.775851
+					        ],"type": "Point"
+					      },"id": 4078
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1428",
+					        "title": "M Diamond Ranch LLC",
+					        "description": "<a href=\"http://www.mdiamondranch.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/M-diamond-2_0d4865b3-5056-a36f-237d1b65ec5525de.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.mdiamondranch.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.783352,
+					          34.640417
+					        ],"type": "Point"
+					      },"id": 1428
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7305",
+					        "title": "Wild Western Horseback Adventures",
+					        "description": "<a href=\"https://wildwesternhorseback.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/WWH_10-26cb386c5056a36_26cb39ad-5056-a36f-235aece2630b41eb.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://wildwesternhorseback.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.919595,
+					          34.622761
+					        ],"type": "Point"
+					      },"id": 7305
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3684",
+					        "title": "Sedona Segway Tours",
+					        "description": "<a href=\"https://www.sedonasegway.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/segway-tours_0d6ebc15-5056-a36f-235d88462dcf3f10.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sedonasegway.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.763322,
+					          34.868435
+					        ],"type": "Point"
+					      },"id": 3684
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-897",
+					        "title": "Arizona Snowbowl",
+					        "description": "<a href=\"https://www.snowbowl.ski/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/untitled-7875_954FA36A-53E5-4582-A9D093FED904C265_e804a8d5-9729-4474-84cc55524bbc5f29.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.snowbowl.ski/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.710321,
+					          35.330917
+					        ],"type": "Point"
+					      },"id": 897
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6645",
+					        "title": "Agave Highlands Golf Course",
+					        "description": "<a href=\"https://agavehighlandsgolf.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Small_Pro-Shop-Chamber_93F5B60F-23E4-4A1F-87A6A4D86994F063_3f297447-3590-4039-8b3251b7d524eb54.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://agavehighlandsgolf.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.963191,
+					          34.727083
+					        ],"type": "Point"
+					      },"id": 6645
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1026",
+					        "title": "Canyon Mesa Country Club",
+					        "description": "<a href=\"http://www.canyonmesacountryclub.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Canyon-Mesa-Counrty-Club-Golf-Course-0030_0d3a5d40-5056-a36f-2383fbbf3d7ebc3c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyonmesacountryclub.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.750989,
+					          34.779753
+					        ],"type": "Point"
+					      },"id": 1026
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-156",
+					        "title": "Oakcreek Country Club",
+					        "description": "<a href=\"http://www.oakcreekcountryclub.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/100_0989-800x600_0d612f63-5056-a36f-239d2681c61fbd97.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oakcreekcountryclub.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.774163,
+					          34.781761
+					        ],"type": "Point"
+					      },"id": 156
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-203",
+					        "title": "Sedona Golf Resort",
+					        "description": "<a href=\"http://www.sedonagolfresort.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Golf-Resort-800x6000_0d396fcf-5056-a36f-23f1870de1059fdc.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonagolfresort.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.765440,
+					          34.773201
+					        ],"type": "Point"
+					      },"id": 203
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3605",
+					        "title": "Seven Canyons",
+					        "description": "<a href=\"https://www.sevencanyons.com/residences/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC3_DE566A7D-1173-4BFA-9DA5C1A61FA6F8F7_7c5f00c3-3b1a-42ab-bd5b344f36c1b3ce.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sevencanyons.com/residences/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E44100",
+					        "marker-symbol": "school"
+					      },"geometry": {"coordinates": [ -111.822566,
+					          34.914968
+					        ],"type": "Point"
+					      },"id": 3605
 					    }],"id": "sedonachamber.restaurant"}
