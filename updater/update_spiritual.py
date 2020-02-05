@@ -26,8 +26,8 @@ import os
 
 
 #open jsonfile
-jsonfile = open('spiritual.json', 'w')
-# jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
+#jsonfile = open('spiritual.json', 'w')
+jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
@@ -139,18 +139,18 @@ try:
 	#server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
 	#server.connect()
 	#server.login("stephen@mapblender.org", "Imfromnh55")
-	
+
 	server = smtplib.SMTP('relay-hosting.secureserver.net')
 
 	fromaddr = "stephen@mapblender.org";
 	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
-	
+
 	msg = string.join((
 	        "From: %s" % fromaddr,
 	        "To: %s" % toaddr,
 	        "Subject: %s" % "Spiritual List Updated",
 	        "",
-	        "The following list has been processed\n"+companyList), "\r\n");
+	        "The following list has been processed\n"+companyList.encode('ascii', 'ignore').decode('ascii')), "\r\n");
 
 	server.sendmail(fromaddr, toaddr, msg)
 	server.quit()
@@ -158,11 +158,12 @@ try:
 
 except:
 
-	print "Email server not working" 
-#print companyList
+	print "Email server not working"
 
 jsonfile.close()
 import shutil
+
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//retail//data//spiritual.json')
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/spiritual.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//spiritual.json')
 

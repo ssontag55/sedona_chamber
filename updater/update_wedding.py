@@ -26,8 +26,8 @@ import os
 
 
 #open jsonfile
-jsonfile = open('weddings.json', 'w')
-#jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/weddings.json', 'w');
+#jsonfile = open('weddings.json', 'w')
+jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/weddings.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
@@ -107,7 +107,7 @@ for subcatid in subcat:
 					        "description": \""""+description+"""\",
 					        "marker-size": "medium",
 					        "marker-color": "#fcb2a9",
-					        "marker-symbol": "florist"
+					        "marker-symbol": "garden"
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
 					          """+gpslocation.split(',')[0]+"""
@@ -139,7 +139,7 @@ try:
 	server = smtplib.SMTP('relay-hosting.secureserver.net')
 
 	fromaddr = "stephen@mapblender.org";
-	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
+	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com"];
 
 	msg = string.join((
 	        "From: %s" % fromaddr,
@@ -160,6 +160,9 @@ import shutil
 
 
 shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/weddings.json', '////var//chroot//home//content//19//12215219//html//getaround//data//weddings.json')
+
+shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/weddings.json', '////var//chroot//home//content//19//12215219//html//getaround//retail//data//weddings.json')
+
 
 
 print "Files Copied"

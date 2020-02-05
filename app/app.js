@@ -42,6 +42,7 @@ function startup(){
   that.retailCategories = [];
   var retailpts =  L.mapbox.featureLayer('data/retail.json',{popupOptions: { closeButton: true }});
   
+  var weddingpts =  L.mapbox.featureLayer('data/weddings.json',{popupOptions: { closeButton: true }});
   // "tours" features
   var airpts =  L.mapbox.featureLayer('data/tours-air.json',{popupOptions: { closeButton: true }});
   var astronomypts = L.mapbox.featureLayer('data/tours-astronomy.json',{popupOptions: { closeButton: true }});
@@ -84,7 +85,7 @@ function startup(){
   water.on('ready', processLayerGeo);
   fixit.on('ready', processLayerGeo);
   astronomypts.on('ready', processLayerGeo);
-  //bikesegwaypts.on('ready', processLayerGeo);
+  weddingpts.on('ready', processLayerGeo);
   groundpts.on('ready', processLayerGeo);
   privatepts.on('ready', processLayerGeo);
   jeeptrolleypts.on('ready', processLayerGeo);
@@ -109,7 +110,7 @@ function startup(){
 		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine', 'water', 'bike', 'church']);
     airpts.addTo(map);
     astronomypts.addTo(map);
-    //bikesegwaypts.addTo(map);
+    weddingpts.addTo(map);
     groundpts.addTo(map);
     water.addTo(map);
     privatepts.addTo(map);
@@ -118,7 +119,7 @@ function startup(){
     winepts.addTo(map);
     addMouseClickListener(airpts);
     addMouseClickListener(astronomypts);
-    //addMouseClickListener(bikesegwaypts);
+    addMouseClickListener(weddingpts);
     addMouseClickListener(groundpts);
     addMouseClickListener(privatepts);
     addMouseClickListener(jeeptrolleypts);
@@ -267,6 +268,7 @@ function startup(){
     map.removeLayer(recyclingpts);
     map.removeLayer(buspts);
     map.removeLayer(walkingfeatures);
+    map.removeLayer(weddingpts);
     map.removeLayer(trafficLayer);
   }
 
@@ -402,6 +404,7 @@ function startup(){
       map.removeLayer(that.spacespts);
 
       if (selectedValue === 'gallery') map.removeLayer(artpts);
+      if (selectedValue === 'wedding') map.removeLayer(weddingpts);
       if (selectedValue === 'rest') map.removeLayer(restaurantpts);
       if (selectedValue === 'theatre') map.removeLayer(theatrepts);
       if (selectedValue === 'museum') map.removeLayer(museumpts);
@@ -554,6 +557,9 @@ function startup(){
       }
       else if(selectedValue == 'traffic'){
         trafficLayer.addTo(map);	
+      }
+      else if(selectedValue == 'wedding'){
+        weddingpts.addTo(map);  
       }
       else if(selectedValue == 'ev'){
         evpts.addTo(map);  
