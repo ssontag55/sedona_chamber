@@ -17,25 +17,31 @@ function startup(){
 	L.mapbox.accessToken = 'pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg';
 
 	that.browsertype = 'desktop';
-
-  var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14);
   
   //search for mobile version 
 	if(bowser.android||bowser.ios||bowser.mobile){
+
+    var map = L.mapbox.map('map',null, {zoomControl:false}).setView([34.86394, -111.764860], 14);
 		that.browsertype = 'mobile';
     L.control.zoom({position:'topright'}).addTo(map);
+    
     map.addControl(new L.mapbox.shareControl({position:'topright'}));
-		map.on('popupopen', 
+		
+    map.on('popupopen', 
       function(e) {
 		    var px = map.project(e.popup._latlng) // find the pixel location on the map where the popup anchor is
 		    px.y -= e.popup._container.clientHeight/2-100 // find the height of the popup container, divide by 2, subtract from the Y axis of marker location
 		    map.panTo(map.unproject(px),{animate: true}); // pan to new center
-      });
-		var map = L.mapbox.map('map',null, {zoomControl:false}).setView([34.86394, -111.764860], 14);
-		L.control.zoom({position:'topright'}).addTo(map);
+      }
+    );
+    
+    L.control.zoom({position:'topright'}).addTo(map);
     map.addControl(new L.mapbox.shareControl({position:'topright'}));
     that.timedelay = 1000;
 	}
+  else {
+    var map = L.mapbox.map('map',null,{zoomControl:false}).setView([34.86394, -111.764860], 14);
+  }
 
   that.map = map;
 
@@ -215,6 +221,12 @@ function startup(){
     that.parkingpts.addTo(map);
     buspts.addTo(map);
     addMouseClickListener(that.parkingpts);	
+  }
+  else if(window.location.href.indexOf("what2do") > -1){
+    deselectAllExcept(['what2do']);
+    // that.retailCategories = ['276','415','286','287','288','337','294', '279', '293', '284'];
+    what2dopoints.addTo(map);
+    addMouseClickListener(what2dopoints); 
   }
   else if(window.location.href.indexOf("retail") > -1){
     deselectAllExcept(['retail-293','retail','retail-276','retail-279','retail-284','retail-415','retail-286','retail-287','retail-288','retail-294']);
