@@ -139,8 +139,6 @@ function startup(){
     deselectAllExcept(['toilets']);
     toiletspts.addTo(map);
     addMouseClickListener(toiletspts);
-    water.addTo(map);  
-    addMouseClickListener(water);
     map.setView([34.86394, -111.764860], 16);
   }
   else if(window.location.href.indexOf("restaurants") > -1) {
@@ -1167,8 +1165,8 @@ function getdirections(start,end){
 	}).addTo(map).bindPopup("You are here.").bringToFront();
 	
 	//using cycling because walking doesn't give adequate directions  Change from cycling
-	var dir_url = "https://api.tiles.mapbox.com/v4/directions/mapbox.driving/"+start.lng+','+start.lat+";"+end[1]+','+end[0]+".json?instructions=json&geometry=line&access_token="+that.token
-	
+	// var dir_url = "https://api.tiles.mapbox.com/v4/directions/mapbox.driving/"+start.lng+','+start.lat+";"+end[1]+','+end[0]+".json?instructions=json&geometry=line&access_token="+that.token
+	var dir_url = "https://api.mapbox.com/directions/v5/mapbox/driving-traffic/"+start.lng+','+start.lat+";"+end[1]+','+end[0]+"?alternatives=true&geometries=geojson&steps=true&access_token="+that.token
 	$.get( dir_url, function( data ) {
 
 		if(data.routes.length>0){
@@ -1177,8 +1175,8 @@ function getdirections(start,end){
 			directions.type="Feature";
 		    directions.properties = {};
 		    
-		    //directions.properties.popupContent		    
-		    var customPopup= "<i>Walking Time: "+Number(data.routes[0].duration/19).toFixed(0)+" minutes<br><br>Walking Distance: "+Number(data.routes[0].distance*0.000621371).toFixed(0)+" miles";
+		    // duration is in seconds
+		    var customPopup= "<i>Drive Time (w/ Traffic)<br>"+Number(data.routes[0].duration/60).toFixed(0)+" minutes<br><br>Distance: "+Number(data.routes[0].distance*0.000621371).toFixed(0)+" miles";
 			
 			var dirStyle = {
 			    "color": "#61C5BE",
