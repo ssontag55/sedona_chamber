@@ -63,6 +63,7 @@ function startup(){
   var water = L.mapbox.featureLayer('data/water.json',{popupOptions: { closeButton: true }});
   var fixit = L.mapbox.featureLayer('data/bike.json',{popupOptions: { closeButton: true }});
   var churchespts =  L.mapbox.featureLayer('data/churches.json',{popupOptions: { closeButton: true }});
+  var toiletspts =  L.mapbox.featureLayer('data/restrooms.json',{popupOptions: { closeButton: true }});
 
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
@@ -86,6 +87,7 @@ function startup(){
   basefeatures.addTo(map);
 	addMouseClickListener(basefeatures); 
 
+  toiletspts.on('ready', processLayerGeo);
   retailpts.on('ready', processLayerGeo);
   airpts.on('ready', processLayerGeo);
   water.on('ready', processLayerGeo);
@@ -132,6 +134,14 @@ function startup(){
     addMouseClickListener(specialtypts);
     addMouseClickListener(winepts);
     addMouseClickListener(water);
+  }
+  else if(window.location.href.indexOf("restrooms") > -1) {
+    deselectAllExcept(['toilets']);
+    toiletspts.addTo(map);
+    addMouseClickListener(toiletspts);
+    water.addTo(map);  
+    addMouseClickListener(water);
+    map.setView([34.86394, -111.764860], 16);
   }
   else if(window.location.href.indexOf("restaurants") > -1) {
 		deselectAllExcept(['rest']);
@@ -266,7 +276,7 @@ function startup(){
       });
 
     map.removeLayer(that.spacespts);
-
+    map.removeLayer(toiletspts);
     map.removeLayer(artpts);
     map.removeLayer(water);
     map.removeLayer(retailpts);
@@ -415,6 +425,7 @@ function startup(){
 
       map.removeLayer(that.spacespts);
 
+      if (selectedValue === 'toilets') map.removeLayer(toiletspts);
       if (selectedValue === 'gallery') map.removeLayer(artpts);
       if (selectedValue === 'wedding') map.removeLayer(weddingpts);
       if (selectedValue === 'rest') map.removeLayer(restaurantpts);
@@ -562,6 +573,10 @@ function startup(){
       else if(selectedValue == 'bus'){
         buspts.addTo(map);	
         addMouseClickListener(buspts);
+      }
+      else if(selectedValue == 'toilets'){
+        toiletspts.addTo(map);  
+        addMouseClickListener(toiletspts);
       }
       else if(selectedValue == 'walk'){
         walkingfeatures.addTo(map);	
