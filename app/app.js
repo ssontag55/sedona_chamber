@@ -46,6 +46,9 @@ function startup(){
   that.map = map;
 
   that.retailCategories = [];
+  that.what2doCategories = [];
+  that.what2doCategoriesEntert = ['370','376','432','334','372','141','142','373','374','144'];
+  that.what2doCategoriesRec = ['219','446','221','448','431','449','222','451','450','447','355','220'];
   var retailpts =  L.mapbox.featureLayer('data/retail.json',{popupOptions: { closeButton: true }});
   
   var weddingpts =  L.mapbox.featureLayer('data/weddings.json',{popupOptions: { closeButton: true }});
@@ -231,8 +234,8 @@ function startup(){
     addMouseClickListener(that.parkingpts);	
   }
   else if(window.location.href.indexOf("what2do") > -1){
-    deselectAllExcept(['what2do']);
-    // that.retailCategories = ['276','415','286','287','288','337','294', '279', '293', '284'];
+    deselectAllExcept(['what2do', 'what2do-entertainment','what2do-recreation']);
+    that.what2doCategories = ['370','376','432','334','372','141','142','373','374','144','219','446','221','448','431','449','222','451','450','447','355','220'];
     what2dopoints.addTo(map);
     addMouseClickListener(what2dopoints); 
   }
@@ -401,7 +404,6 @@ function startup(){
 
     if(selectedValue.search('retail')>-1) {
 
-      // map.removeLayer(retailpts);
       if(!newSelectValue && selectedValue.split('-')[1] ) {
         for (var i = that.retailCategories.length - 1; i >= 0; i--) {
           if(that.retailCategories[i] === selectedValue.split('-')[1]){
@@ -413,8 +415,33 @@ function startup(){
           return that.retailCategories.includes(feature.properties.subcat);
         });
       }
+
       map.removeLayer(retailpts);
       retailpts.addTo(map); 
+    }
+    if(selectedValue.search('what2do-')>-1) {
+
+      if(!newSelectValue && selectedValue.split('-')[1] ) {
+        if(selectedValue.split('-')[1] == 'recreation') {
+          for (var r = that.what2doCategoriesRec.length - 1; r >= 0; r--) {
+            that.what2doCategories.splice(that.what2doCategories.indexOf(that.what2doCategoriesRec[r]),1);
+          }
+        }
+
+        else if(selectedValue.split('-')[1] == 'entertainment') {
+          for (var e = that.what2doCategoriesEntert.length - 1; e >= 0; e--) {
+            
+            that.what2doCategories.splice(that.what2doCategories.indexOf(that.what2doCategoriesEntert[e]),1);
+          }
+        }
+
+        what2dopoints.setFilter(function (feature) {
+          return that.what2doCategories.includes(feature.properties.subcat);
+        });
+      }
+
+      map.removeLayer(what2dopoints);
+      what2dopoints.addTo(map); 
     }
 
     // add layer to array if it's not there, otherwise remove it
@@ -451,7 +478,6 @@ function startup(){
       if (selectedValue === 'ev') map.removeLayer(evpts);
       if (selectedValue === 'spiritual') map.removeLayer(spiritualpts);
       if (selectedValue === 'trans') map.removeLayer(transpoints);
-      if (selectedValue === 'what2do') map.removeLayer(what2dopoints);
     } else {
       selectedLayers.push(selectedValue);
 
@@ -470,10 +496,22 @@ function startup(){
         processLayer2Geo(transpoints);
         addMouseClickListener(transpoints);
       }
-      else if(selectedValue == 'what2do'){
-        what2dopoints.addTo(map);
-        processLayer2Geo(what2dopoints);
-        addMouseClickListener(what2dopoints);
+      else if(selectedValue.search('what2do')>-1){
+        if( selectedValue.split('-')[1] ) {
+          
+          if(selectedValue.split('-')[1] == 'recreation') {
+            that.what2doCategories = that.what2doCategories.concat(that.what2doCategoriesRec);
+          } else if (selectedValue.split('-')[1] == 'entertainment') {
+            that.what2doCategories = that.what2doCategories.concat(that.what2doCategoriesEntert);
+          }
+
+          what2dopoints.setFilter(function (feature) {
+            return that.what2doCategories.includes(feature.properties['subcat']);
+          });
+          map.removeLayer(what2dopoints);
+          what2dopoints.addTo(map); 
+          addMouseClickListener(what2dopoints);
+        }
       }  
       else if(selectedValue == 'church'){
         churchespts.addTo(map);
@@ -813,42 +851,41 @@ function startup(){
 	        	var nearestpoint = L.GeometryUtil.closestLayer(that.map,that.points,t.latlng);
 		        
 		        if(!bowser.android&&!bowser.ios){
-					that.points.eachLayer(function (layer) {
-					    if (layer.feature.properties.title === nearestpoint.layer.feature.properties.title) {
+              that.points.eachLayer(function (layer) {
+                if (layer.feature.properties.title === nearestpoint.layer.feature.properties.title) {
 					      	//var tomarker = layer.toGeoJSON();
 					      	layer.openPopup();
-					    };
-					 });
+                };
+					   });
 		        }
 
-				if(t.accuracy >550){
-					that.map.setView(t.latlng,14);
-					vex.dialog.buttons.YES.text = 'OK';
-			  		
-			  		vex.dialog.alert({
-			            message: "Your computer says you are over "+Number(t.accuracy/3.28084).toFixed(0)+" feet from here<br><br><br><b>Please enable wifi or use your phone to locate you."
+    				if(t.accuracy >550){
+    					that.map.setView(t.latlng,14);
+    					vex.dialog.buttons.YES.text = 'OK';
+    			  		
+  			  		vex.dialog.alert({
+                message: "Your computer says you are over "+Number(t.accuracy/3.28084).toFixed(0)+" feet from here<br><br><br><b>Please enable wifi or use your phone to locate you."
 			        });
-				}
-				else{
-					that.map.setView(t.latlng,16);
+    				}
+    				else{
+    					that.map.setView(t.latlng,16);
 
-			        vex.dialog.buttons.YES.text = 'Get Directions';
-			        vex.dialog.alert({
-			            message: "You are within " +Number(t.accuracy/3.28084).toFixed(0) +" feet here!<br><br><i>"+nearestpoint.layer.feature.properties.title+"</i> is closest to you.<br>",
-			            callback: function(value) {
-			              //get directions  
-			              //to
-			              if(value == true){
-				              var tocoords=[nearestpoint.layer.feature.geometry.coordinates[1],nearestpoint.layer.feature.geometry.coordinates[0]];
-				              
-							  that.loader.className = '';
-							  that.getdirections(t.latlng,tocoords);
-						  }
-			            }
-			        });
-				}
+    			        vex.dialog.buttons.YES.text = 'Get Directions';
+    			        vex.dialog.alert({
+    			            message: "You are within " +Number(t.accuracy/3.28084).toFixed(0) +" feet here!<br><br><i>"+nearestpoint.layer.feature.properties.title+"</i> is closest to you.<br>",
+    			            callback: function(value) {
+    			              //get directions  
+    			              //to
+    			              if(value == true){
+    				              var tocoords=[nearestpoint.layer.feature.geometry.coordinates[1],nearestpoint.layer.feature.geometry.coordinates[0]];
+    				              
+    							  that.loader.className = '';
+    							  that.getdirections(t.latlng,tocoords);
+    						  }
+		            }
+		          });
+    				}
 	        }
-	        
         }
         //for regular directions
         else{

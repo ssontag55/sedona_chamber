@@ -23,8 +23,8 @@ import os
 
 
 #open jsonfile
-#jsonfile = open('what2do.json', 'w')
-jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/what2do.json', 'w');
+jsonfile = open('what2do.json', 'w')
+#jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/what2do.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
@@ -99,6 +99,41 @@ for subcatid in subcat:
 					else:
 						description = """<br><div id=\\"linksite\\"><a href=\\\""""""+websiteURL+"""\\" target=\\"_blank\\">Visit website for more info!</a></div><div id=\\"direc\\"><a target=\\"_blank\\">Get Directions!</a></div>""";
 					
+					symbolename = 'school'
+
+					if(subcatid == 220):
+						symbolename = 'golf'
+					elif(subcatid == 355):
+						symbolename = 'skiing'
+					#elif(subcatid == 222):
+					#	symbolename = 'horse-riding'
+					elif(subcatid == 446):
+						symbolename = 'bicycle'
+					elif(subcatid == 144):
+						symbolename = 'zoo'
+					elif(subcatid == 141):
+						symbolename = 'playground'
+					elif(subcatid == 142):
+						symbolename = 'rail-metro'
+					#elif(subcatid == 221):
+					#	symbolename = 'mountain'
+					#elif(subcatid == 449):
+					#	symbolename = 'mountain'
+					elif(subcatid == 334):
+						symbolename = 'museum'
+					elif(subcatid == 334):
+						symbolename = 'alcohol-shop'
+					#elif(subcatid == 448):
+					#symbolename = 'aquarium'
+					elif(subcatid == 372):
+						symbolename = 'bar'
+					elif(subcatid == 373):
+						symbolename = 'theatre'
+					#elif(subcatid == 432):
+					#	symbolename = 'stadium'
+					elif(subcatid == 431):
+						symbolename = 'building'
+
 					jsonfile.write("""{
 					      "type": "Feature",
 					      "properties": {
@@ -106,8 +141,9 @@ for subcatid in subcat:
 					        "title": \""""+companyName.encode("UTF-8")+"""\",
 					        "description": \""""+description+"""\",
 					        "marker-size": "medium",
+					        "subcat": \""""+str(subcatid)+"""\",
 					        "marker-color": "#E44100",
-					        "marker-symbol": "school"
+					        "marker-symbol": \""""+str(symbolename)+"""\"
 					      },"geometry": {"coordinates": ["""+
 					          gpslocation.split(',')[1]+""",
 					          """+gpslocation.split(',')[0]+"""
