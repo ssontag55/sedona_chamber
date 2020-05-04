@@ -68,6 +68,15 @@ function startup(){
   var churchespts =  L.mapbox.featureLayer('data/churches.json',{popupOptions: { closeButton: true }});
   var toiletspts =  L.mapbox.featureLayer('data/restrooms.json',{popupOptions: { closeButton: true }});
 
+  // secret7
+  var hike7pts =  L.mapbox.featureLayer('data/hiking7.json',{popupOptions: { closeButton: true }});
+  var bike7pts =  L.mapbox.featureLayer('data/biking7.json',{popupOptions: { closeButton: true }});
+  var spiritual7pts =  L.mapbox.featureLayer('data/spiritual7.json',{popupOptions: { closeButton: true }});
+  var artculturepts =  L.mapbox.featureLayer('data/artculture7.json',{popupOptions: { closeButton: true }});
+  var picnicspts =  L.mapbox.featureLayer('data/picnics7.json',{popupOptions: { closeButton: true }});
+  var vistaspts =  L.mapbox.featureLayer('data/vistas7.json',{popupOptions: { closeButton: true }});
+  var stargazingpts =  L.mapbox.featureLayer('data/stargazing7.json',{popupOptions: { closeButton: true }});
+
 	var basefeatures = L.mapbox.featureLayer('data/basefeatures.json',{popupOptions: { closeButton: true }});
 	var lodgingpts = L.mapbox.featureLayer('data/hotels.json',{popupOptions: { closeButton: true }});
 	var restaurantpts = L.mapbox.featureLayer('data/restaurant.json',{popupOptions: { closeButton: true }});
@@ -117,6 +126,14 @@ function startup(){
   transpoints.on('ready',  processLayerGeo);
   what2dopoints.on('ready',  processLayerGeo);
 
+  hike7pts.on('ready',  processLayerGeo);
+  bike7pts.on('ready',  processLayerGeo);
+  spiritual7pts.on('ready',  processLayerGeo);
+  artculturepts.on('ready',  processLayerGeo);
+  picnicspts.on('ready',  processLayerGeo);
+  vistaspts.on('ready',  processLayerGeo);
+  stargazingpts.on('ready',  processLayerGeo);
+
 	if(window.location.href.indexOf("tours") > -1) {
 		deselectAllExcept(['tours', 'air', 'astronomy', 'bikesegway', 'ground', 'private', 'jeeptrolley', 'specialty', 'wine', 'water', 'bike', 'church']);
     airpts.addTo(map);
@@ -137,6 +154,25 @@ function startup(){
     addMouseClickListener(specialtypts);
     addMouseClickListener(winepts);
     addMouseClickListener(water);
+  }
+  else if(window.location.href.toLowerCase().indexOf("secret7") > -1) {
+    deselectAllExcept(['secret7', 'hiking7', 'biking7', 'vistas7', 'spiritual7', 'picnics7', 'arts7', 'stargazing7']);
+    hike7pts.addTo(map);
+    bike7pts.addTo(map);
+    spiritual7pts.addTo(map);
+    artculturepts.addTo(map);
+    picnicspts.addTo(map);
+    vistaspts.addTo(map);
+    stargazingpts.addTo(map);
+    addMouseClickListener(hike7pts);
+    addMouseClickListener(bike7pts);
+    addMouseClickListener(spiritual7pts);
+    addMouseClickListener(artculturepts);
+    addMouseClickListener(picnicspts);
+    addMouseClickListener(vistaspts);
+    addMouseClickListener(stargazingpts);
+
+    map.setView([34.86394, -111.764860], 13);
   }
   else if(window.location.href.indexOf("restrooms") > -1) {
     deselectAllExcept(['toilets']);
@@ -280,7 +316,7 @@ function startup(){
     map.removeLayer(toiletspts);
     map.removeLayer(artpts);
     map.removeLayer(water);
-    map.removeLayer(retailpts);
+    // map.removeLayer(retailpts);
     map.removeLayer(fixit);
     map.removeLayer(restaurantpts);
     map.removeLayer(theatrepts);
@@ -402,7 +438,7 @@ function startup(){
     el.data('selected', newSelectValue);
     el.attr( 'data-selected', newSelectValue);
 
-    if(selectedValue.search('retail')>-1) {
+    if(selectedValue.search('retail-')>-1) {
 
       if(!newSelectValue && selectedValue.split('-')[1] ) {
         for (var i = that.retailCategories.length - 1; i >= 0; i--) {
@@ -478,6 +514,14 @@ function startup(){
       if (selectedValue === 'ev') map.removeLayer(evpts);
       if (selectedValue === 'spiritual') map.removeLayer(spiritualpts);
       if (selectedValue === 'trans') map.removeLayer(transpoints);
+      if (selectedValue === 'hiking7') map.removeLayer(hike7pts);
+      if (selectedValue === 'biking7') map.removeLayer(bike7pts);
+      if (selectedValue === 'spiritual7') map.removeLayer(spiritual7pts);
+      if (selectedValue === 'arts7') map.removeLayer(artculturepts);
+      if (selectedValue === 'picnics7') map.removeLayer(picnicspts);
+      if (selectedValue === 'vistas7') map.removeLayer(vistaspts);
+      if (selectedValue === 'stargazing7') map.removeLayer(stargazingpts);
+
     } else {
       selectedLayers.push(selectedValue);
 
@@ -626,8 +670,36 @@ function startup(){
       }
       else if(selectedValue == 'ev'){
         evpts.addTo(map);  
-      } else if(selectedValue.search('retail') > -1){
-
+      } 
+      else if(selectedValue == 'stargazing7'){
+        stargazingpts.addTo(map); 
+        addMouseClickListener(stargazingpts);
+      }
+      else if(selectedValue == 'vistas7'){
+        vistaspts.addTo(map); 
+        addMouseClickListener(vistaspts);
+      }
+      else if(selectedValue == 'picnics7'){
+        picnicspts.addTo(map); 
+        addMouseClickListener(picnicspts);
+      }
+      else if(selectedValue == 'arts7'){
+        artculturepts.addTo(map); 
+        addMouseClickListener(artculturepts);
+      }
+      else if(selectedValue == 'spiritual7'){
+        spiritual7pts.addTo(map); 
+        addMouseClickListener(spiritual7pts);
+      }
+      else if(selectedValue == 'biking7'){
+        bike7pts.addTo(map); 
+        addMouseClickListener(bike7pts);
+      }
+      else if(selectedValue == 'hiking7'){
+        hike7pts.addTo(map); 
+        addMouseClickListener(hike7pts);
+      }
+      else if(selectedValue.search('retail-') > -1){
         // filter by sub categories
         if( selectedValue.split('-')[1] ) {
           that.retailCategories.push(selectedValue.split('-')[1]);
@@ -739,7 +811,7 @@ function startup(){
         'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
         //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
         //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
-        //'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
+        'Sedona Red': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2kt8ku001sb4mawvdvwjxf/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
         'Dark': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin961o3z00epcxnhaxgzwdb6/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}).addTo(map)
     },null,{position:'bottomleft'}).addTo(map);
     //},layergroup).addTo(map);

@@ -612,7 +612,7 @@ input.danger:checked + .slider {
 }
 #search-select-list {
   height: calc(100vh - 5.9em);
-  margin-top: 5em;
+  margin-top: 5.2em;
   overflow: auto;
 }
 #search-select-list,
