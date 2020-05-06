@@ -1192,7 +1192,7 @@ function addMouseClickListener(pts){
 		});
 
 		that.layertitle = e.layer.feature.properties.title;
-		that.id2send = String(e.layer.feature.properties.id).split('-')[1];
+		that.id2send = e.layer.feature.properties.title;// String(e.layer.feature.properties.id).split('-')[1];
 		//add event for event click for 
 		$('#linksite').on('click', function (e) {
 			ga('send', 'event', 'linksite', 'click', that.layertitle);
@@ -1204,7 +1204,7 @@ function addMouseClickListener(pts){
 			var dataObj = { action: "updateHits", username: "SedonaMaps_API",password: "cart0gr@phick!", hittypeid: "4",recid: that.id2send, hitdate: datestring };
 
 			$.ajax({
-			     url: "https://walksedona.com/php/updatehit.php?idval="+that.id2send+"&d="+datestring,
+			   url: "https://walksedona.com/php/updatehit.php?idval="+that.id2send+"&d="+datestring,
 			 	 success : function (t){  
 			         //console.log(t.status);  
 			     },
