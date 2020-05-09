@@ -174,6 +174,48 @@ function startup(){
 
     map.setView([34.86394, -111.764860], 13);
   }
+  else if(window.location.href.indexOf("hiking7") > -1) {
+    deselectAllExcept(['hiking7']);
+    hike7pts.addTo(map);
+    addMouseClickListener(hike7pts);
+    map.setView([34.86394, -111.764860], 13);
+  }
+  else if(window.location.href.indexOf("biking7") > -1) {
+    deselectAllExcept(['biking7']);
+    bike7pts.addTo(map);
+    addMouseClickListener(bike7pts);
+    map.setView([34.86394, -111.764860], 13);
+  }
+  else if(window.location.href.indexOf("vistas7") > -1) {
+    deselectAllExcept(['vistas7']);
+    vistaspts.addTo(map);
+    addMouseClickListener(vistaspts);
+    map.setView([34.86394, -111.764860], 13);
+  }
+  else if(window.location.href.indexOf("picnics7") > -1) {
+    deselectAllExcept(['picnics7']);
+    picnics7.addTo(map);
+    addMouseClickListener(picnics7);
+    map.setView([34.86394, -111.764860], 13);
+  }
+  else if(window.location.href.indexOf("stargazing7") > -1) {
+    deselectAllExcept(['stargazing7']);
+    stargazingpts.addTo(map);
+    addMouseClickListener(stargazingpts);
+    map.setView([34.86394, -111.764860], 13);
+  }
+  else if(window.location.href.indexOf("spiritual7") > -1) {
+    deselectAllExcept(['spiritual7']);
+    spiritual7pts.addTo(map);
+    addMouseClickListener(spiritual7pts);
+    map.setView([34.86394, -111.764860], 13);
+  }
+  else if(window.location.href.indexOf("arts7") > -1) {
+    deselectAllExcept(['toilets']);
+    artculturepts.addTo(map);
+    addMouseClickListener(artculturepts);
+    map.setView([34.86394, -111.764860], 13);
+  }
   else if(window.location.href.indexOf("restrooms") > -1) {
     deselectAllExcept(['toilets']);
     toiletspts.addTo(map);
