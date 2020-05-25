@@ -155,7 +155,7 @@ function startup(){
     addMouseClickListener(winepts);
     addMouseClickListener(water);
   }
-  else if(window.location.href.toLowerCase().indexOf("secret7") > -1) {
+  else if(window.location.href.toLowerCase().indexOf("/secret7") > -1) {
     deselectAllExcept(['secret7', 'hiking7', 'biking7', 'vistas7', 'spiritual7', 'picnics7', 'arts7', 'stargazing7']);
     hike7pts.addTo(map);
     bike7pts.addTo(map);
@@ -1049,7 +1049,8 @@ function startup(){
 	//don't need to show data:
 	todayDateString = "Walk Sedona shows Sedona Attractions and potential walkable locations.<br><br>Press 'Start Here' to find closest location.<br><br>Use the drop down list <span class='caret'></span> at the <b>top</b> of the page to search more categories.<br><br>Use the <span class='fa fa-map-marker'></span> to the <b>left</b> to find yourself on the map.";
 
-	if(d.getDay() == 5&&d.getDate()<7){
+  /// disable 
+	/*if(d.getDay() == 5&&d.getDate()<7){
 	  todayDateString= todayDateString+'<br><br><a target="_blank" style="color:#7A1800" href="http://sedonagalleryassociation.com/?page_id=236">First Friday Art Walk. Click here for more information.</a></i>'
 	}
 	else if(d.getDay() == 4&&d.getDate()<7){
@@ -1057,7 +1058,9 @@ function startup(){
 	}
 	else if(d.getHours()>18||d.getHours()<8){
 	  todayDateString= todayDateString+'<br><br><i>Galleries may be closed in the evening.</i>'
-	}
+	}*/
+
+  todayDateString= todayDateString+'<br><br><i>Check Location Website for up-to-date hours of operations.</i>'
 
 	vex.dialog.confirm({
 	  message: "<br><a target='_blank' href='http://visitsedona.com/'><img src='assets/big_sedona.png' style='padding-left:70px;padding-bottom:5px !important;padding-right:32px !important;'></></a><br><br>"+todayDateString,
