@@ -26,9 +26,11 @@ RewriteEngine On
 # force http because of ssl issues
 RewriteEngine On
 RewriteCond %{HTTPS} on
-RewriteCond %{HTTP_HOST} ^(sedonasecret7map.com(\/{0,1})){1}$
+RewriteCond %{HTTP_HOST} ^(stephensontag.com(\/{0,1})){1}$
 RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [NE,L,R=301]
 
+#RewriteCond %{HTTPS} on
+#RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 authname www.mapblender.COM
 

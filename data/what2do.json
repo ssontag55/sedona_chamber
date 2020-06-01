@@ -344,8 +344,8 @@
 					        "subcat": "142",
 					        "marker-color": "#E44100",
 					        "marker-symbol": "rail-metro"
-					      },"geometry": {"coordinates": [ -111.738664,
-					          34.782277
+					      },"geometry": {"coordinates": [-112.1366436,
+					          36.0566125
 					        ],"type": "Point"
 					      },"id": 327
 					    },{
