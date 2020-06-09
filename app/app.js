@@ -173,7 +173,7 @@ function startup(){
     addMouseClickListener(stargazingpts);
 
     map.setView([34.86394, -111.764860], 11);
-  }
+  } 
   else if(window.location.href.indexOf("hiking7") > -1) {
     deselectAllExcept(['hiking7']);
     hike7pts.addTo(map);
@@ -214,6 +214,25 @@ function startup(){
     deselectAllExcept(['arts7']);
     artculturepts.addTo(map);
     addMouseClickListener(artculturepts);
+    map.setView([34.86394, -111.764860], 11);
+  }
+  else if(window.location.href.toLowerCase().indexOf("secret7map") > -1) {
+    deselectAllExcept(['secret7', 'hiking7', 'biking7', 'vistas7', 'spiritual7', 'picnics7', 'arts7', 'stargazing7']);
+    hike7pts.addTo(map);
+    bike7pts.addTo(map);
+    spiritual7pts.addTo(map);
+    artculturepts.addTo(map);
+    picnicspts.addTo(map);
+    vistaspts.addTo(map);
+    stargazingpts.addTo(map);
+    addMouseClickListener(hike7pts);
+    addMouseClickListener(bike7pts);
+    addMouseClickListener(spiritual7pts);
+    addMouseClickListener(artculturepts);
+    addMouseClickListener(picnicspts);
+    addMouseClickListener(vistaspts);
+    addMouseClickListener(stargazingpts);
+
     map.setView([34.86394, -111.764860], 11);
   }
   else if(window.location.href.indexOf("restrooms") > -1) {
@@ -345,7 +364,7 @@ function startup(){
     $('#search-select-list')
       .find('.select-item')
       .each(function() {
-        if (selectedValues.includes($(this).data('value'))) {
+        if (selectedValues.indexOf($(this).data('value'))>-1) {
           $(this).data('selected', true);
           $(this).attr('data-selected', true);
         } else {
@@ -432,7 +451,7 @@ function startup(){
     var selectedValue = $(this).data('value');
     
     // determine newSelectValue and select/deselect
-    const newSelectValue = !selectedLayers.includes(selectedValue);
+    const newSelectValue = selectedLayers.indexOf(selectedValue) == -1;
     selectDeselect($(this), selectedValue, newSelectValue);
 
     // if item has children, select/deselect them all
@@ -451,7 +470,9 @@ function startup(){
 
         // determine if all are selected
         $(this).find('.select-item').each(function(i) {
-          if (!selectedLayers.includes($(this).data('value'))) allSelected = false;
+          if (selectedLayers.indexOf($(this).data('value')) == -1) {
+            allSelected = false;
+          }
         });
 
         if (allSelected) {
@@ -490,7 +511,7 @@ function startup(){
         }
 
         retailpts.setFilter(function (feature) {
-          return that.retailCategories.includes(feature.properties.subcat);
+          return that.retailCategories.indexOf(feature.properties.subcat) >-1;
         });
       }
 
@@ -514,7 +535,7 @@ function startup(){
         }
 
         what2dopoints.setFilter(function (feature) {
-          return that.what2doCategories.includes(feature.properties.subcat);
+          return that.what2doCategories.indexOf(feature.properties.subcat)>-1;
         });
       }
 
@@ -592,7 +613,7 @@ function startup(){
           }
 
           what2dopoints.setFilter(function (feature) {
-            return that.what2doCategories.includes(feature.properties['subcat']);
+            return that.what2doCategories.indexOf(feature.properties['subcat']) > -1;
           });
           map.removeLayer(what2dopoints);
           what2dopoints.addTo(map); 
@@ -746,7 +767,7 @@ function startup(){
         if( selectedValue.split('-')[1] ) {
           that.retailCategories.push(selectedValue.split('-')[1]);
           retailpts.setFilter(function (feature) {
-            return that.retailCategories.includes(feature.properties['subcat']);
+            return that.retailCategories.indexOf(feature.properties['subcat']) > -1;
           });
           map.removeLayer(retailpts);
           retailpts.addTo(map); 
@@ -804,7 +825,7 @@ function startup(){
           )
         }
   
-        if ($(this).text().toLowerCase().includes(searchVal.toLowerCase())) {
+        if ($(this).text().toLowerCase().indexOf(searchVal.toLowerCase()) > -1) {
           $(this).show();
           found++
         }
