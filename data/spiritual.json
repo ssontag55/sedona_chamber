@@ -40,19 +40,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-6909",
-					        "title": "Sat Nam Spirit Center of Sedona & Body & Soul Healing",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.satnamyogapilates.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#632063",
-					        "marker-symbol": "star"
-					      },"geometry": {"coordinates": [ -111.796156,
-					          34.866468
-					        ],"type": "Point"
-					      },"id": 6909
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-6817",
 					        "title": "Sedona Soul Adventures",
 					        "description": "<a href=\"http://www.sedonasouladventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SSA-640x360_40EF30E3-4BC5-4FDD-85B5E3287587B7CC_801216d9-b6a5-4777-acd611af7faabebb.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasouladventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -81,7 +68,7 @@
 					      "properties": {
 					        "id": "marker-2335",
 					        "title": "Accurate Psychic Readings by Nirup",
-					        "description": "<a href=\"https://psychicnirup.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Nirup-Sedona-Spiritual-healing-07-14_0d2aa8e6-5056-a36f-230bc54ffcfd0ff7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://psychicnirup.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://psychicnirup.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/New-Nirup-Horizontal-8bed8ee05056a36_8bed9020-5056-a36f-23d20305c52cba31.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://psychicnirup.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#632063",
 					        "marker-symbol": "star"
@@ -237,7 +224,7 @@
 					      "properties": {
 					        "id": "marker-4703",
 					        "title": "Accurate Psychic Readings by Nirup",
-					        "description": "<a href=\"https://psychicnirup.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Nirup-Sedona-Spiritual-healing-07-14_0d2aa8e6-5056-a36f-230bc54ffcfd0ff7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://psychicnirup.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://psychicnirup.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/New-Nirup-Horizontal-8bed8ee05056a36_8bed9020-5056-a36f-23d20305c52cba31.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://psychicnirup.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#632063",
 					        "marker-symbol": "star"
@@ -362,32 +349,6 @@
 					          34.871757
 					        ],"type": "Point"
 					      },"id": 1623
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-6088",
-					        "title": "Sarah Christine - Certified Generational Healer™ & Spiritual Guide",
-					        "description": "<a href=\"http://sarahchristinegill.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sarah-Sedona-12_xsmall_F0F289EE-9B87-40B8-9F087294632AF681_3538ece6-7ea8-4d53-9aef0176a8f98319.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://sarahchristinegill.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#632063",
-					        "marker-symbol": "star"
-					      },"geometry": {"coordinates": [ -111.801715,
-					          34.864442
-					        ],"type": "Point"
-					      },"id": 6088
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-6910",
-					        "title": "Sat Nam Spirit Center of Sedona & Body & Soul Healing",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.satnamyogapilates.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#632063",
-					        "marker-symbol": "star"
-					      },"geometry": {"coordinates": [ -111.796156,
-					          34.866468
-					        ],"type": "Point"
-					      },"id": 6910
 					    },{
 					      "type": "Feature",
 					      "properties": {
@@ -627,7 +588,7 @@
 					      "properties": {
 					        "id": "marker-1496",
 					        "title": "Accurate Psychic Readings by Nirup",
-					        "description": "<a href=\"https://psychicnirup.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Nirup-Sedona-Spiritual-healing-07-14_0d2aa8e6-5056-a36f-230bc54ffcfd0ff7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://psychicnirup.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://psychicnirup.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/New-Nirup-Horizontal-8bed8ee05056a36_8bed9020-5056-a36f-23d20305c52cba31.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://psychicnirup.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#632063",
 					        "marker-symbol": "star"
@@ -869,19 +830,6 @@
 					          34.823470
 					        ],"type": "Point"
 					      },"id": 6758
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-6695",
-					        "title": "JEM Property Investments, LLC",
-					        "description": "<a href=\"None\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/JEMCapture0-47ce32365056a36_47ce336e-5056-a36f-237536e4acd39fc2.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#632063",
-					        "marker-symbol": "star"
-					      },"geometry": {"coordinates": [ -111.747326,
-					          34.983503
-					        ],"type": "Point"
-					      },"id": 6695
 					    },{
 					      "type": "Feature",
 					      "properties": {

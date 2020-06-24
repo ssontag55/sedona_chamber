@@ -168,11 +168,24 @@ import smtplib
 #seems like this doesn't always work
 #try:
 
-server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
-server.connect()
-server.login("stephen@mapblender.org", "Imfromnh55")
+server = smtplib.SMTP_SSL('mail.mapdizzle.com', 465)
+#server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
 
-#server = smtplib.SMTP('smtpout.secureserver.net')
+server = smtplib.SMTP('mail.mapdizzle.com')
+fromaddr = "sontag@mapdizzle.com";
+toaddr = ["sontag.stephen@gmail.com","stephen.sontag@rpsgroup.com"];
+
+
+message = "Subject: Hi Mailtrap\nTo: ['sontag.stephen@gmail.com','stephen.sontag@rpsgroup.com']\nFrom: sontag@mapdizzle.com\n\nThis is my first message with Python.";
+
+server.sendmail('sontag@mapdizzle.com', 'sontag@mapdizzle.com', message)
+
+#server.connect()
+#server.login("sontag@mapdizzle.com", "Imfromnh55#")
+
+server.sendmail("sontag@mapdizzle.com", ["stephen@mapblender.org"], "test")
+
+server = smtplib.SMTP('relay-hosting.secureserver.net')
 
 fromaddr = "stephen@mapblender.org";
 toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];

@@ -3,9 +3,9 @@
 					      "properties": {
 					        "id": "marker-163",
 					        "title": "89Agave",
-					        "description": "<a href=\"http://www.89agave.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/89010_0d51a84e-5056-a36f-23bdd1718ecf2b44.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.89agave.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.89agave.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/89010_0d51a84e-5056-a36f-23bdd1718ecf2b44.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.89agave.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.760607,
 					          34.869739
@@ -14,24 +14,24 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4064",
-					        "title": "Big E Steakhouse & Saloon",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.bigesteakhouse.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-6652",
+					        "title": "Agave Highlands Golf Course",
+					        "description": "<a href=\"https://agavehighlandsgolf.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Small_Pro-Shop-Chamber_93F5B60F-23E4-4A1F-87A6A4D86994F063_3f297447-3590-4039-8b3251b7d524eb54.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://agavehighlandsgolf.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -112.126132,
-					          35.973147
+					      },"geometry": {"coordinates": [ -111.963191,
+					          34.727083
 					        ],"type": "Point"
-					      },"id": 4064
+					      },"id": 6652
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-3937",
 					        "title": "Blazin' M Ranch Western Dinner Theater",
-					        "description": "<a href=\"http://www.blazinm.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/bmr-sedona-chamber00_0d3bb40d-5056-a36f-23277a6e3d85d5cd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.blazinm.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.blazinm.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/bmr-sedona-chamber00_0d3bb40d-5056-a36f-23277a6e3d85d5cd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.blazinm.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -112.023086,
 					          34.756504
@@ -40,24 +40,24 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-1596",
-					        "title": "Blue Moon Cafe",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.bluemooncafe.us\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-7232",
+					        "title": "Butterfly Burger",
+					        "description": "<a href=\"https://www.butterflyburger.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Butterfly-Burger-c139add45056a36_c139aeec-5056-a36f-23f127063474081e.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.butterflyburger.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.762413,
-					          34.788117
+					      },"geometry": {"coordinates": [ -111.762311,
+					          34.777827
 					        ],"type": "Point"
-					      },"id": 1596
+					      },"id": 7232
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-3639",
 					        "title": "Cafe Jose",
-					        "description": "<a href=\"http://www.sedonacafejose.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cafe-Jose10_0d3df87f-5056-a36f-237686f480ed907e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonacafejose.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonacafejose.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cafe-Jose10_0d3df87f-5056-a36f-237686f480ed907e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonacafejose.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.801675,
 					          34.863446
@@ -66,24 +66,11 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4855",
-					        "title": "Café Paleo Brio",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.cafepaleobrio.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.782196,
-					          34.862420
-					        ],"type": "Point"
-					      },"id": 4855
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-1275",
 					        "title": "Canyon Breeze Restaurant & Bar",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.canyon-breeze.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.canyon-breeze.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/CB-Bar-View-1-LR-sgp-55839c835056a36_55839d9a-5056-a36f-2398abd8ca992ca7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyon-breeze.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.759675,
 					          34.870721
@@ -94,9 +81,9 @@
 					      "properties": {
 					        "id": "marker-72",
 					        "title": "Che Ah Chi",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.enchantmentresort.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.enchantmentresort.com/che_ah_chi_dining/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/chi-ah-chi-cb4568d05056a36_cb4569c6-5056-a36f-231a68db04008d04.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.enchantmentresort.com/che_ah_chi_dining/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.853928,
 					          34.914222
@@ -107,9 +94,9 @@
 					      "properties": {
 					        "id": "marker-2714",
 					        "title": "ChocolaTree Organic Oasis",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.chocolatree.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.chocolatree.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Avocado-Herb-Sandwich-0f7aa6985056a36_0f7aa78f-5056-a36f-2353f0f2ca1e8a68.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.chocolatree.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.788374,
 					          34.862972
@@ -118,27 +105,27 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-486",
-					        "title": "Cowboy Club",
-					        "description": "<a href=\"http://www.cowboyclub.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cowboy-Club-10_0d3b0da6-5056-a36f-23b85ba24b1ed107.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cowboyclub.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-7291",
+					        "title": "Corner Table Restaurant & Bar",
+					        "description": "<a href=\"https://cornertablesedona.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Corner-Table-50dfbbfc5056a36_50dfbd99-5056-a36f-23944dfa4b5abeba.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://cornertablesedona.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.760786,
-					          34.869713
+					      },"geometry": {"coordinates": [ -111.764400,
+					          34.773932
 					        ],"type": "Point"
-					      },"id": 486
+					      },"id": 7291
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-2671",
-					        "title": "Creekside Restaurant",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.creeksidesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "Creekside American Bistro",
+					        "description": "<a href=\"http://www.creeksidesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Creekside-2016web0-8dc77bbe5056a36_8dc77cfc-5056-a36f-235cb2dcb7dab0fa.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.creeksidesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763309,
-					          34.863537
+					      },"geometry": {"coordinates": [ -111.763407,
+					          34.863968
 					        ],"type": "Point"
 					      },"id": 2671
 					    },{
@@ -146,9 +133,9 @@
 					      "properties": {
 					        "id": "marker-125",
 					        "title": "Cress on Oak Creek",
-					        "description": "<a href=\"http://www.lauberge.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/L-aubergeRestaurantCreekSide-Dining10_0d2416c8-5056-a36f-23c651d4cbe34880.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lauberge.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.lauberge.com/cress/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/L-aubergeRestaurantCreekSide-Dining10_0d2416c8-5056-a36f-23c651d4cbe34880.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.lauberge.com/cress/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.759216,
 					          34.869226
@@ -159,12 +146,12 @@
 					      "properties": {
 					        "id": "marker-1746",
 					        "title": "Cucina Rustica",
-					        "description": "<a href=\"http://www.cucinarustica.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/cucina-rustica10_0d5f4735-5056-a36f-230f05f10688f9da.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cucinarustica.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.cucinarustica.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/cucina-rustica10_0d5f4735-5056-a36f-230f05f10688f9da.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cucinarustica.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763477,
-					          34.774918
+					      },"geometry": {"coordinates": [ -111.764202,
+					          34.774799
 					        ],"type": "Point"
 					      },"id": 1746
 					    },{
@@ -172,9 +159,9 @@
 					      "properties": {
 					        "id": "marker-529",
 					        "title": "Dahl & Di Luca Ristorante Italiano",
-					        "description": "<a href=\"http://www.dahlanddiluca.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/dahl-210_0d5f3489-5056-a36f-2332a0bf8c507cc8.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.dahlanddiluca.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.dahlanddiluca.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/dahl-210_0d5f3489-5056-a36f-2332a0bf8c507cc8.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.dahlanddiluca.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.800825,
 					          34.862940
@@ -183,11 +170,24 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-7313",
+					        "title": "Decanter",
+					        "description": "<a href=\"https://www.decantertastingroom.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Decanter-Meats-66bd62985056a36_66bd63ca-5056-a36f-23e7debc4bae563c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.decantertastingroom.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.763993,
+					          34.775385
+					        ],"type": "Point"
+					      },"id": 7313
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-185",
 					        "title": "El Rincon Restaurant Mexicano",
-					        "description": "<a href=\"http://www.elrinconrestaurant.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Navajo-Pizza10_0d24d504-5056-a36f-23505fa1c5b38cc1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.elrinconrestaurant.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.elrinconrestaurant.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Navajo-Pizza10_0d24d504-5056-a36f-23505fa1c5b38cc1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.elrinconrestaurant.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.762663,
 					          34.861813
@@ -196,24 +196,24 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4828",
-					        "title": "Etch Kitchen & Bar",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.lauberge.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-2707",
+					        "title": "Elote Cafe",
+					        "description": "<a href=\"http://www.elotecafe.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Elote-Dining-800x600_0d5febf6-5056-a36f-231880ee961b7e54.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.elotecafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.759331,
-					          34.869470
+					      },"geometry": {"coordinates": [ -111.763369,
+					          34.856883
 					        ],"type": "Point"
-					      },"id": 4828
+					      },"id": 2707
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-4900",
 					        "title": "Gerardo's Italian Kitchen",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.gerardositaliankitchen.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.gerardositaliankitchen.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/geraldos0-880ad8ca5056a36_880ada84-5056-a36f-234ca84ef97eb2ed.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.gerardositaliankitchen.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.806571,
 					          34.862260
@@ -224,9 +224,9 @@
 					      "properties": {
 					        "id": "marker-3637",
 					        "title": "Golden Goose American Grill",
-					        "description": "<a href=\"http://www.goldengoosegrill.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Golden-Goose11_0d3dd523-5056-a36f-2358e2245a3aa1b3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.goldengoosegrill.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.goldengoosegrill.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Golden-Goose11_0d3dd523-5056-a36f-2358e2245a3aa1b3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.goldengoosegrill.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.803940,
 					          34.862584
@@ -237,12 +237,12 @@
 					      "properties": {
 					        "id": "marker-4525",
 					        "title": "Hideaway House",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/21432847_1504876526259830_8331471508489092667_n0-a76de2745056a36_a76de37f-5056-a36f-23f614b0f1eb9d12.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonahideawayhouse.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763595,
-					          34.864282
+					      },"geometry": {"coordinates": [ -111.763242,
+					          34.864510
 					        ],"type": "Point"
 					      },"id": 4525
 					    },{
@@ -250,9 +250,9 @@
 					      "properties": {
 					        "id": "marker-3382",
 					        "title": "Hiro's Sushi and Japanese Kitchen",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.hirosedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.hirosedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Hiros0-941aaf955056a36_941ab06a-5056-a36f-23b2d43aa542f481.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.hirosedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.790482,
 					          34.863877
@@ -261,40 +261,53 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-496",
+					        "title": "HP Café American Bistro",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.hpcafesedona.com/\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.760777,
+					          34.870799
+					        ],"type": "Point"
+					      },"id": 496
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4731",
+					        "title": "Indian Gardens Cafe & Market",
+					        "description": "<a href=\"http://www.indiangardens.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_22690-8e452c1a5056a36_8e452d36-5056-a36f-23034a3cfae5eb7f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.indiangardens.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.729048,
+					          34.910830
+					        ],"type": "Point"
+					      },"id": 4731
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-940",
 					        "title": "Javelina Cantina",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/javelina0-cb62c3da5056a36_cb62c4a6-5056-a36f-2326e4035a34bae9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.javelinacantinasedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763230,
-					          34.858724
+					      },"geometry": {"coordinates": [ -111.762427,
+					          34.859180
 					        ],"type": "Point"
 					      },"id": 940
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4370",
-					        "title": "Juniper Bar & Grille",
-					        "description": "<a href=\"http://www.juniperbargrille.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Juniper-Bar-Grille-800x600-10_0d39c1ca-5056-a36f-239f85ae45346c95.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.juniperbargrille.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.764818,
-					          34.773206
-					        ],"type": "Point"
-					      },"id": 4370
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-1024",
 					        "title": "Maria's Restaurant & Cantina",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.marias-restaurant.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.marias-restaurant.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/marias1-93ea0e625056a36_93ea0f96-5056-a36f-23e4636b62773179.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.marias-restaurant.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.762593,
-					          34.780462
+					      },"geometry": {"coordinates": [ -111.763377,
+					          34.781757
 					        ],"type": "Point"
 					      },"id": 1024
 					    },{
@@ -302,12 +315,12 @@
 					      "properties": {
 					        "id": "marker-4771",
 					        "title": "Mariposa Latin Inspired Grill",
-					        "description": "<a href=\"http://www.mariposasedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/mariposa010_0d5f21c7-5056-a36f-23273a343188e384.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.mariposasedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.mariposasedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/mariposa010_0d5f21c7-5056-a36f-23273a343188e384.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.mariposasedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.774812,
-					          34.866566
+					      },"geometry": {"coordinates": [ -111.774623,
+					          34.866369
 					        ],"type": "Point"
 					      },"id": 4771
 					    },{
@@ -315,9 +328,9 @@
 					      "properties": {
 					        "id": "marker-3940",
 					        "title": "Mesa Grill at Sedona Airport",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.mesagrillsedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.mesagrillsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_5077web0-8dacc0af5056a36_8dacc3ee-5056-a36f-230886715821de44.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.mesagrillsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.788752,
 					          34.850436
@@ -326,27 +339,14 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4360",
-					        "title": "New York Bakery & Deli",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.nybakeryanddeli.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.783620,
-					          34.863377
-					        ],"type": "Point"
-					      },"id": 4360
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-2292",
 					        "title": "Oak Creek Brewery & Grill",
-					        "description": "<a href=\"http://www.oakcreekpub.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/oak_creek_pub00_0d21d1cb-5056-a36f-236e3d741414d2c5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oakcreekpub.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://oakcreekbreweryandgrill.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/oak_creek_pub00_0d21d1cb-5056-a36f-236e3d741414d2c5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://oakcreekbreweryandgrill.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763469,
-					          34.862228
+					      },"geometry": {"coordinates": [ -111.763186,
+					          34.862236
 					        ],"type": "Point"
 					      },"id": 2292
 					    },{
@@ -354,9 +354,9 @@
 					      "properties": {
 					        "id": "marker-161",
 					        "title": "Oaxaca Restaurant & Rooftop Cantina",
-					        "description": "<a href=\"http://www.oaxacarestaurant.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Oaxaca010_0d3acf7f-5056-a36f-23303233b3cc3183.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oaxacarestaurant.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.oaxacarestaurant.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Oaxaca010_0d3acf7f-5056-a36f-23303233b3cc3183.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oaxacarestaurant.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.759479,
 					          34.871461
@@ -365,24 +365,11 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-1436",
-					        "title": "Olde Sedona Bar & Grill",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.oldesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.784319,
-					          34.862275
-					        ],"type": "Point"
-					      },"id": 1436
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-1696",
 					        "title": "Open Range Grill & Tavern",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.openrangesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.openrangesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/open-range0-55e6d0445056a36_55e6d19c-5056-a36f-2330ef6652e985b5.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.openrangesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.759145,
 					          34.871046
@@ -391,27 +378,14 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-5186",
-					        "title": "Oregano's Pizza Bistro",
-					        "description": "<a href=\"http://www.oreganos.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Oreganos-Logo-Half-Red-Maroon---800x600-0ea8a3575056a36_0ea8a7d7-5056-a36f-23600d971c524db6.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.oreganos.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763858,
-					          34.865398
-					        ],"type": "Point"
-					      },"id": 5186
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-3616",
 					        "title": "Pago's Pizzeria & Italian Cuisine",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.pagospizza.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.pagospizza.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Pago-s-Pizza-Pie_34B38DF1-DE42-4E02-94475C1489CF9EC3_2fa174fd-9553-4698-9e5d44522db78496.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pagospizza.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.762378,
-					          34.780488
+					      },"geometry": {"coordinates": [ -111.763355,
+					          34.781742
 					        ],"type": "Point"
 					      },"id": 3616
 					    },{
@@ -419,9 +393,9 @@
 					      "properties": {
 					        "id": "marker-1524",
 					        "title": "Picazzo's Organic Italian Kitchen",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.picazzos.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://picazzos.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Picazzo-1_5C12A874-9FB9-478D-BB4ECD7BCDBA5E70_624fd882-01e3-4f39-922c92078e074045.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://picazzos.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.791935,
 					          34.863416
@@ -432,12 +406,12 @@
 					      "properties": {
 					        "id": "marker-4123",
 					        "title": "Pink Java Cafe",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.pinkjeeptours.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.pinkadventuretours.com/pink-java-cafe/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/pink_java_cafe_0010-cb8de4c15056a36_cb8e605b-5056-a36f-2378205f33de306a.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.pinkadventuretours.com/pink-java-cafe/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.760822,
-					          34.868799
+					      },"geometry": {"coordinates": [ -111.761025,
+					          34.868766
 					        ],"type": "Point"
 					      },"id": 4123
 					    },{
@@ -445,22 +419,48 @@
 					      "properties": {
 					        "id": "marker-4471",
 					        "title": "Pisa Lisa",
-					        "description": "<a href=\"http://www.pisalisa.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/pisa-lisa010_0d5f0923-5056-a36f-23419567889ef6b1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pisalisa.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.pisalisa.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/pisa-lisa010_0d5f0923-5056-a36f-23419567889ef6b1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pisalisa.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.799188,
-					          34.863451
+					      },"geometry": {"coordinates": [ -111.799703,
+					          34.863074
 					        ],"type": "Point"
 					      },"id": 4471
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-2336",
-					        "title": "Reds",
-					        "description": "<a href=\"http://www.sedonarouge.com/reds-restaurant\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/REDS800.600010_0d366db1-5056-a36f-233830deafd1ce95.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonarouge.com/reds-restaurant\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-5722",
+					        "title": "Pump House Station",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://pumphousestation.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.762903,
+					          34.863285
+					        ],"type": "Point"
+					      },"id": 5722
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3102",
+					        "title": "Red Rock Cafe",
+					        "description": "<a href=\"http://www.redrockcafeaz.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/FinalLogoRRCv2HQPrint-03-800x600_0d57a395-5056-a36f-2340264adf9e8560.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.redrockcafeaz.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.764442,
+					          34.779114
+					        ],"type": "Point"
+					      },"id": 3102
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2336",
+					        "title": "Reds Sedona Grill",
+					        "description": "<a href=\"https://www.sedonarouge.com/reds-restaurant-sedona\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/REDS800.600010_0d366db1-5056-a36f-233830deafd1ce95.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sedonarouge.com/reds-restaurant-sedona\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.799208,
 					          34.864104
@@ -470,23 +470,36 @@
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-183",
-					        "title": "Rene' at Tlaquepaque",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.renerestaurantsedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "René at Tlaquepaque",
+					        "description": "<a href=\"http://www.renerestaurantsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Renes0-cb15d3105056a36_cb15d4dc-5056-a36f-235a3d06b3babf1b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.renerestaurantsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763580,
-					          34.862150
+					      },"geometry": {"coordinates": [ -111.763101,
+					          34.862165
 					        ],"type": "Point"
 					      },"id": 183
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-7356",
+					        "title": "Rotten Johnny's Wood-Fired Pizza Pie",
+					        "description": "<a href=\"https://www.rottenjohnnys.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Capture0-c83f44295056a36_c83f4683-5056-a36f-23f1a8ca4f8e9f1f.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.rottenjohnnys.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.764071,
+					          34.774895
+					        ],"type": "Point"
+					      },"id": 7356
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-1876",
 					        "title": "SaltRock Southwest Kitchen",
-					        "description": "<a href=\"http://www.amararesort.com/sedona/saltrock\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SaltRock-Dining-Room-800x60010_0d488fd0-5056-a36f-23d8b16ca0fbec87.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.amararesort.com/sedona/saltrock\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.amararesort.com/eat-drink/saltrock\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SaltRock-Dining-Room-800x60010_0d488fd0-5056-a36f-23d8b16ca0fbec87.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.amararesort.com/eat-drink/saltrock\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.758305,
 					          34.869430
@@ -497,9 +510,9 @@
 					      "properties": {
 					        "id": "marker-1054",
 					        "title": "Secret Garden Cafe at Tlaquepaque",
-					        "description": "<a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Secret-Garden-Cafe---Beer-1-d79365125056a36_d7936741-5056-a36f-23906332b316496c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Secret-Garden-Cafe---Beer-1-d79365125056a36_d7936741-5056-a36f-23906332b316496c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.763646,
 					          34.862742
@@ -508,11 +521,24 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-6253",
+					        "title": "Sedona Golf Resort",
+					        "description": "<a href=\"http://www.sedonagolfresort.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Golf-Resort-800x6000_0d396fcf-5056-a36f-23f1870de1059fdc.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonagolfresort.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.765440,
+					          34.773201
+					        ],"type": "Point"
+					      },"id": 6253
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-4393",
 					        "title": "Sedona Pizza Company",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.sedonapizzacompany.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.759060,
 					          34.871440
@@ -521,37 +547,63 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4715",
-					        "title": "Serenitie Restaurant & Burger Bar",
-					        "description": "<a href=\"http://www.serenitierestaurant.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Serenite-Bistro---Place-Setting-800x600-8437b3745056a36_8437b567-5056-a36f-23275cac287a378c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.serenitierestaurant.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-4186",
+					        "title": "Senor Bob's Hot Dogs",
+					        "description": "<a href=\"http://www.senorbobsdogsandburgers.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Senor-Bobs-website-interior-800x600-6aa879975056a36_6aa87b7a-5056-a36f-23c70bf4c6ce9cbe.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.senorbobsdogsandburgers.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.764486,
-					          34.773951
+					      },"geometry": {"coordinates": [ -111.795861,
+					          34.863413
 					        ],"type": "Point"
-					      },"id": 4715
+					      },"id": 4186
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5892",
+					        "title": "Shadow Rock Tap + Table",
+					        "description": "<a href=\"https://www.hiltonsedonaresort.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/lifestyle-chef-stir-fry-edita-1240x775-22ff7cac5056a36_22ff7da2-5056-a36f-2366f1e8a0d48e9f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.hiltonsedonaresort.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.769570,
+					          34.776491
+					        ],"type": "Point"
+					      },"id": 5892
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-3976",
 					        "title": "Sound Bites Grill",
-					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/photo_4B941B47-4697-4B72-9931BF7D6226448E_f154550a-63f3-42c5-9547197cd55b7cda.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.soundbitesgrill.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/photo_4B941B47-4697-4B72-9931BF7D6226448E_f154550a-63f3-42c5-9547197cd55b7cda.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.soundbitesgrill.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761748,
-					          34.867371
+					      },"geometry": {"coordinates": [ -111.762984,
+					          34.866679
 					        ],"type": "Point"
 					      },"id": 3976
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-2967",
+					        "title": "Steakhouse 89",
+					        "description": "<a href=\"https://www.steakhouse89.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Steakhouse89Food-Filet_BC9A4B13-7E3A-4FE5-8407E8B37111C54A_38919e55-2052-460d-aae1a97b07f2e5bd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.steakhouse89.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.805713,
+					          34.862778
+					        ],"type": "Point"
+					      },"id": 2967
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-4678",
 					        "title": "Su Casa of Clarkdale",
-					        "description": "<a href=\"http://www.sucasaclarkdale.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Su-Casa-of-Clarkdale---Inside-Seating-800x600_0d692160-5056-a36f-230e8422c131a71d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sucasaclarkdale.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://sucasaofclarkdale.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Su-Casa-of-Clarkdale---Inside-Seating-800x600_0d692160-5056-a36f-230e8422c131a71d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://sucasaofclarkdale.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -112.059013,
 					          34.771597
@@ -564,7 +616,7 @@
 					        "title": "Szechuan Restaurant & Martini Bar",
 					        "description": "<br><div id=\"linksite\"><a href=\"http://www.szechuansedona.net\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.783255,
 					          34.863386
@@ -574,10 +626,10 @@
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-168",
-					        "title": "T Carl's at Poco Diablo Resort",
-					        "description": "<a href=\"http://www.pocodiablo.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Poco_Grounds_800x600110_0d4fb443-5056-a36f-23763e81146a8016.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pocodiablo.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "TC's Bar and Grill",
+					        "description": "<a href=\"https://www.pocodiablo.com/dining.html\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/new-bar-and-grill-resize-large_D1AD375C-C442-44A7-B9ED4F52F29BA42E_04910ad7-22c3-4dda-824e00245c3ea6f3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.pocodiablo.com/dining.html\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.774126,
 					          34.843972
@@ -586,27 +638,14 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-470",
-					        "title": "Takashi Japanese Restaurant",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.takashisedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761465,
-					          34.873629
-					        ],"type": "Point"
-					      },"id": 470
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-3607",
 					        "title": "Thai Palace Uptown",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.thaipalacesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<br><div id=\"linksite\"><a href=\"https://www.thaipalaceaz.com/\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761202,
-					          34.869749
+					      },"geometry": {"coordinates": [ -111.761795,
+					          34.869733
 					        ],"type": "Point"
 					      },"id": 3607
 					    },{
@@ -614,9 +653,9 @@
 					      "properties": {
 					        "id": "marker-330",
 					        "title": "The Heartline Cafe",
-					        "description": "<a href=\"http://www.heartlinecafe.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Snapshot-1-12-31-2016-1-51-PM-_A09C0F53-D96A-4993-9FED2ACCE920CE3B_ea305d58-a0fa-4dd4-b8a86de1d83108bd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.heartlinecafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.heartlinecafe.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Snapshot-1-12-31-2016-1-51-PM-_A09C0F53-D96A-4993-9FED2ACCE920CE3B_ea305d58-a0fa-4dd4-b8a86de1d83108bd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.heartlinecafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.787971,
 					          34.863577
@@ -627,9 +666,9 @@
 					      "properties": {
 					        "id": "marker-4872",
 					        "title": "The Hudson",
-					        "description": "<a href=\"http://www.thehudsonsedona.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hudson_0004_800x600010_0d59a18e-5056-a36f-238723b606200e5f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thehudsonsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.thehudsonsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hudson_0004_800x600010_0d59a18e-5056-a36f-238723b606200e5f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.thehudsonsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.762606,
 					          34.858573
@@ -640,9 +679,9 @@
 					      "properties": {
 					        "id": "marker-4507",
 					        "title": "Tii Gavo",
-					        "description": "<a href=\"http://www.enchantmentresort.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/12-046-07-Tii-Gavo-RT-copy-LR11_0d26a97e-5056-a36f-237056372215c08f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.enchantmentresort.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.enchantmentresort.com/dining/tii-gavo/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/12-046-07-Tii-Gavo-RT-copy-LR11_0d26a97e-5056-a36f-237056372215c08f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.enchantmentresort.com/dining/tii-gavo/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.853912,
 					          34.914365
@@ -651,24 +690,11 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4863",
-					        "title": "Timo",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.timocentral.com/sedona\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.764425,
-					          34.861745
-					        ],"type": "Point"
-					      },"id": 4863
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-2403",
 					        "title": "Whole Foods Market",
-					        "description": "<a href=\"http://www.wholefoodsmarket.com/stores/sedona\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Whole-Foods-Market---Apple-Green-Logo-800x600-dea2bdb25056a36_dea2bf73-5056-a36f-23b92323a399ca77.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.wholefoodsmarket.com/stores/sedona\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.wholefoodsmarket.com/stores/sedona\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Whole-Foods-Market---Apple-Green-Logo-800x600-dea2bdb25056a36_dea2bf73-5056-a36f-23b92323a399ca77.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.wholefoodsmarket.com/stores/sedona\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.784556,
 					          34.863560
@@ -679,9 +705,9 @@
 					      "properties": {
 					        "id": "marker-1668",
 					        "title": "Wildflower Bread Company",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.wildflowerbread.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.wildflowerbread.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/wildflower-bread-company-2_83869ED0-6AF0-413E-A1040DE428151C56_00a9bc4c-89c7-4043-8a37d4fd56a45e60.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.wildflowerbread.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.762007,
 					          34.867977
@@ -690,50 +716,50 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-937",
-					        "title": "Black Cow Cafe",
-					        "description": "<br><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-6911",
+					        "title": "Chocolita",
+					        "description": "<br><div id=\"linksite\"><a href=\"https://chocolita.com/\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761081,
-					          34.869465
+					      },"geometry": {"coordinates": [ -111.800352,
+					          34.863024
 					        ],"type": "Point"
-					      },"id": 937
+					      },"id": 6911
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-663",
-					        "title": "New York Bakery & Deli",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.nybakeryanddeli.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-6248",
+					        "title": "Red Rock Gelato",
+					        "description": "<a href=\"https://www.redrockgelato.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/RedRockGelato-1240x775-e065632d5056a36_e0656469-5056-a36f-2354f884f8f5d66d.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.redrockgelato.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.783620,
-					          34.863377
+					      },"geometry": {"coordinates": [ -111.796335,
+					          34.863573
 					        ],"type": "Point"
-					      },"id": 663
+					      },"id": 6248
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-3919",
-					        "title": "Red Rock Fro-yo and Deli",
-					        "description": "<a href=\"http://www.redrockfroyoanddeli.com/\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Red-Rock-Fro-yo-and-Deli-Logo-800x600-181c94da5056a36_181cad35-5056-a36f-23711a342ee7b30a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.redrockfroyoanddeli.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "id": "marker-7326",
+					        "title": "Rocky RD Ice Cream",
+					        "description": "<a href=\"http://www.rockyrdicecream.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ccccc_DDC88D77-6DF6-416E-979D71E65D5CA64B_44d93ce8-4f93-4a80-b26ff48f903ec78a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.rockyrdicecream.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.795828,
-					          34.863415
+					      },"geometry": {"coordinates": [ -111.764057,
+					          34.775310
 					        ],"type": "Point"
-					      },"id": 3919
+					      },"id": 7326
 					    },{
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-3719",
 					        "title": "Secret Garden Cafe at Tlaquepaque",
-					        "description": "<a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Secret-Garden-Cafe---Beer-1-d79365125056a36_d7936741-5056-a36f-23906332b316496c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Secret-Garden-Cafe---Beer-1-d79365125056a36_d7936741-5056-a36f-23906332b316496c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.763646,
 					          34.862742
@@ -742,24 +768,11 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-2136",
-					        "title": "Black Cow Cafe",
-					        "description": "<br><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
-					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.761081,
-					          34.869465
-					        ],"type": "Point"
-					      },"id": 2136
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-3640",
 					        "title": "Cafe Jose",
-					        "description": "<a href=\"http://www.sedonacafejose.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cafe-Jose10_0d3df87f-5056-a36f-237686f480ed907e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonacafejose.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonacafejose.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cafe-Jose10_0d3df87f-5056-a36f-237686f480ed907e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonacafejose.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.801675,
 					          34.863446
@@ -770,22 +783,48 @@
 					      "properties": {
 					        "id": "marker-3374",
 					        "title": "Pink Java Cafe",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.pinkjeeptours.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.pinkadventuretours.com/pink-java-cafe/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/pink_java_cafe_0010-cb8de4c15056a36_cb8e605b-5056-a36f-2378205f33de306a.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.pinkadventuretours.com/pink-java-cafe/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.760822,
-					          34.868799
+					      },"geometry": {"coordinates": [ -111.761025,
+					          34.868766
 					        ],"type": "Point"
 					      },"id": 3374
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-5721",
+					        "title": "Pump House Station",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://pumphousestation.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.762903,
+					          34.863285
+					        ],"type": "Point"
+					      },"id": 5721
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4467",
+					        "title": "Alcantara Vineyards",
+					        "description": "<a href=\"https://alcantaravineyard.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/alcantara0_0d21355f-5056-a36f-23cac2d60d0e2dc5.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://alcantaravineyard.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.945443,
+					          34.675191
+					        ],"type": "Point"
+					      },"id": 4467
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-4350",
 					        "title": "Burning Tree Cellars",
-					        "description": "<a href=\"http://www.burningtreecellars.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/burning_tree_logo010_0d3eeb31-5056-a36f-23485742a30a38d7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.burningtreecellars.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.burningtreecellars.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/burning_tree_logo010_0d3eeb31-5056-a36f-23485742a30a38d7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.burningtreecellars.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -112.029864,
 					          34.750165
@@ -794,11 +833,24 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-7312",
+					        "title": "Decanter",
+					        "description": "<a href=\"https://www.decantertastingroom.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Decanter-Meats-66bd62985056a36_66bd63ca-5056-a36f-23e7debc4bae563c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.decantertastingroom.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.763993,
+					          34.775385
+					        ],"type": "Point"
+					      },"id": 7312
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-2832",
 					        "title": "Javelina Leap Vineyard, Winery & Bistro",
-					        "description": "<a href=\"http://www.javelinaleapwinery.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMAG0757-800x60010_0d6005db-5056-a36f-23410fdedd969fb9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.javelinaleapwinery.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.javelinaleapwinery.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMAG0757-800x60010_0d6005db-5056-a36f-23410fdedd969fb9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.javelinaleapwinery.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.887161,
 					          34.760418
@@ -809,9 +861,9 @@
 					      "properties": {
 					        "id": "marker-2206",
 					        "title": "Page Springs Vineyard & Cellars",
-					        "description": "<a href=\"http://www.pagespringscellars.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/PSC-800x60010_0d51307f-5056-a36f-2310f04fe2622418.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pagespringscellars.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.pagespringscellars.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/PSC-800x60010_0d51307f-5056-a36f-2310f04fe2622418.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.pagespringscellars.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.894704,
 					          34.757899
@@ -822,9 +874,9 @@
 					      "properties": {
 					        "id": "marker-5190",
 					        "title": "Secret Garden Cafe at Tlaquepaque",
-					        "description": "<a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\"><img src=\"http://res.cloudinary.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Secret-Garden-Cafe---Beer-1-d79365125056a36_d7936741-5056-a36f-23906332b316496c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Secret-Garden-Cafe---Beer-1-d79365125056a36_d7936741-5056-a36f-23906332b316496c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonasecretgardencafe.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
-					        "marker-color": "#a5bf36",
+					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
 					      },"geometry": {"coordinates": [ -111.763646,
 					          34.862742

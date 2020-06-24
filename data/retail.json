@@ -156,8 +156,8 @@
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-6884",
-					        "title": "Pink Adventure Store",
-					        "description": "<a href=\"https://www.pinkadventuretours.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Pink-Jeep-Store-f134c4015056a36_f134c549-5056-a36f-23334d4ae25e7a39.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.pinkadventuretours.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "title": "Pink Adventure Tours",
+					        "description": "<a href=\"https://www.pinkadventuretours.com/tours/sedona-tours\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Pink-Jeep-Store-f134c4015056a36_f134c549-5056-a36f-23334d4ae25e7a39.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.pinkadventuretours.com/tours/sedona-tours\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "subcat": "276",
 					        "marker-size": "medium",
 					        "marker-color": "#C38D9e",
@@ -395,7 +395,7 @@
 					      "properties": {
 					        "id": "marker-304",
 					        "title": "Joe Wilcox Indian Den",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.joewilcoxsedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.joewilcoxsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/INDIAN-DEN-LOGO_300_DPI_JPEG-f87b7e285056a36_f87b7f27-5056-a36f-236d56da133146a7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.joewilcoxsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "subcat": "287",
 					        "marker-size": "medium",
 					        "marker-color": "#C38D9e",
@@ -687,6 +687,20 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
+					        "id": "marker-7583",
+					        "title": "Appaloosa Trading Company",
+					        "description": "<a href=\"None\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/40971517_715024085498474_8714420589827194880_o0-b3bb9b815056a36_b3bb9cf5-5056-a36f-234046215ff67b69.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "subcat": "284",
+					        "marker-size": "medium",
+					        "marker-color": "#C38D9e",
+					        "marker-symbol": "shop"
+					      },"geometry": {"coordinates": [ -111.761606,
+					          34.860807
+					        ],"type": "Point"
+					      },"id": 7583
+					    },{
+					      "type": "Feature",
+					      "properties": {
 					        "id": "marker-5425",
 					        "title": "Arizona Natural History Association",
 					        "description": "<a href=\"http://www.aznaturalhistory.org\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/anha-signature-logo_F3F94BEB-0236-4C0D-944F390A37D61EEF_009adf38-a83b-493b-a03d3f11ae136d43.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.aznaturalhistory.org\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -759,7 +773,7 @@
 					      "properties": {
 					        "id": "marker-3209",
 					        "title": "Joe Wilcox Indian Den",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.joewilcoxsedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.joewilcoxsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/INDIAN-DEN-LOGO_300_DPI_JPEG-f87b7e285056a36_f87b7f27-5056-a36f-236d56da133146a7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.joewilcoxsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "subcat": "284",
 					        "marker-size": "medium",
 					        "marker-color": "#C38D9e",
