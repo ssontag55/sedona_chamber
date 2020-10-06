@@ -430,19 +430,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-6272",
-					        "title": "Tachyon Wellness Sedona",
-					        "description": "<a href=\"https://tachyonwellnesssedona.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/DTR-Tachyon-Deep-pages-copy_A19B86AC-ADD7-4C3F-9142DB98199DCF97_27cb2285-61e2-4575-af913ecd68614e69.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://tachyonwellnesssedona.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#632063",
-					        "marker-symbol": "star"
-					      },"geometry": {"coordinates": [ -111.809557,
-					          34.862051
-					        ],"type": "Point"
-					      },"id": 6272
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-6528",
 					        "title": "White Light Crystals, Books and Angels, LLC",
 					        "description": "<a href=\"https://whitelightcrystals.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ReadingArea4_68A0ADEB-069A-4501-96D6A7D0E99D71E7_0364fce7-39c5-45ab-91b5d72b484a1dcc.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://whitelightcrystals.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -873,7 +860,7 @@
 					      "type": "Feature",
 					      "properties": {
 					        "id": "marker-3030",
-					        "title": "Sedona Mago Retreat",
+					        "title": "Sedona Mago Center for Well-Being & Retreat",
 					        "description": "<a href=\"http://www.sedonamagoretreat.org\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC_Ad_Photo0-da4ff7fa5056a36_da4ffa45-5056-a36f-238bfe85d794ca5a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonamagoretreat.org\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#632063",

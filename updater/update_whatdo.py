@@ -20,11 +20,9 @@ from xml.etree import ElementTree
 
 import os
 
-
-
 #open jsonfile
 #jsonfile = open('what2do.json', 'w')
-jsonfile = open('/home/ompi62ut5c1y/public_html/artwalk/restaurants/data/what2do.json', 'w');
+jsonfile = open('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
@@ -166,58 +164,57 @@ jsonfile.write("""],"id": "sedonachamber.restaurant"}""");
 import smtplib
 
 #seems like this doesn't always work
-#try:
+try:
 
-server = smtplib.SMTP_SSL('mail.mapdizzle.com', 465)
-#server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
+	server = smtplib.SMTP_SSL('mail.mapdizzle.com', 465)
+	# server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
+	# server = smtplib.SMTP('relay-hosting.secureserver.net')
 
-server = smtplib.SMTP('mail.mapdizzle.com')
-fromaddr = "sontag@mapdizzle.com";
-toaddr = ["sontag.stephen@gmail.com","stephen.sontag@rpsgroup.com"];
+	fromaddr = "Stephen Sontag<stephen@mapblender.org>";
 
+	server = smtplib.SMTP('mail.mapdizzle.com');
+	server.login("sontag@mapdizzle.com", "Imfromnh55#");
+	
+	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com"];
+	# toaddr = ["sontag.stephen@gmail.com","stephen.sontag@rpsgroup.com"];
 
-message = "Subject: Hi Mailtrap\nTo: ['sontag.stephen@gmail.com','stephen.sontag@rpsgroup.com']\nFrom: sontag@mapdizzle.com\n\nThis is my first message with Python.";
+	msg = string.join((
+	        "From: %s" % fromaddr,
+	        "To: %s" % toaddr,
+	        "Subject: %s" % "What to Do List Updated",
+	        "",
+	        "The following list has been processed\n"+companyList), "\r\n");
 
-server.sendmail('sontag@mapdizzle.com', 'sontag@mapdizzle.com', message)
+	server.sendmail(fromaddr, toaddr, msg)
+	server.quit()
 
-#server.connect()
-#server.login("sontag@mapdizzle.com", "Imfromnh55#")
+	print "Email Sent"
+except:
 
-server.sendmail("sontag@mapdizzle.com", ["stephen@mapblender.org"], "test")
-
-server = smtplib.SMTP('relay-hosting.secureserver.net')
-
-fromaddr = "stephen@mapblender.org";
-toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
-
-msg = string.join((
-        "From: %s" % fromaddr,
-        "To: %s" % toaddr,
-        "Subject: %s" % "What to Do List Updated",
-        "",
-        "The following list has been processed\n"+companyList), "\r\n");
-
-server.sendmail(fromaddr, toaddr, msg)
-server.quit()
-print "Email Sent"
-
-#except:
-
-	#print "Email server not working" 
-#print companyList
+	print "Email server not working"
 
 jsonfile.close()
 import shutil
 
-shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/restaurants/data/what2do.json', '/////home//ompi62ut5c1y//public_html//getaround//lodging//data//what2do.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '/////home//ompi62ut5c1y//public_html//artwalk//galleries//data//what2do.json')
 
-shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/restaurants/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//data//what2do.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '/////home//ompi62ut5c1y//public_html//artwalk//art//data//what2do.json')
 
-shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/restaurants/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//bike//data//what2do.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '/////home//ompi62ut5c1y//public_html//artwalk//parking//data//what2do.json')
 
-shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/restaurants/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//retail//data//what2do.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '/////home//ompi62ut5c1y//public_html//artwalk//restaurants//data//what2do.json')
 
-shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/restaurants/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//Secret7//data//what2do.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '/////home//ompi62ut5c1y//public_html//getaround//lodging//data//what2do.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//data//what2do.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//bike//data//what2do.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//what2do//data//what2do.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//retail//data//what2do.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/what2do.json', '////home//ompi62ut5c1y//public_html//getaround//Secret7//data//what2do.json')
 
 print "Files Copied"
 

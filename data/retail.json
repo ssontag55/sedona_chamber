@@ -127,20 +127,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-4072",
-					        "title": "Kealyn's Kloset",
-					        "description": "<a href=\"http://www.kealynskloset.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Kealyns-Kloset-Interior-800x600-12a797755056a36_12a79a90-5056-a36f-23dcf939e44213ee.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.kealynskloset.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "subcat": "276",
-					        "marker-size": "medium",
-					        "marker-color": "#C38D9e",
-					        "marker-symbol": "shop"
-					      },"geometry": {"coordinates": [ -111.794753,
-					          34.864907
-					        ],"type": "Point"
-					      },"id": 4072
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-3416",
 					        "title": "Kokopelli Dreams",
 					        "description": "<a href=\"www.KokopelliDreams-Sedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/kokopelli-full-color-logo-with-music-2c4bc5585056a36_2c4bc662-5056-a36f-234f9cfb5ea87345.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"www.KokopelliDreams-Sedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",

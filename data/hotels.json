@@ -133,7 +133,7 @@
 					      "properties": {
 					        "id": "marker-1709",
 					        "title": "The Sedona Dream Maker Bed & Breakfast",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.sedonadreammaker.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.sedonadreammaker.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Deck2Resize_A4C8841D-9EA5-45A5-9EF0C7D60F4F5CE9_36b18129-fec4-44ef-bb9b08ee02f05d7b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonadreammaker.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#0066ff",
 					        "marker-symbol": "lodging"
@@ -328,7 +328,7 @@
 					      "properties": {
 					        "id": "marker-725",
 					        "title": "Arroyo Pinion Sedona Hotel LLC",
-					        "description": "<a href=\"http://www.arroyohotel.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AZ021exterior1_3433127E-40A3-4CB5-A60AD5B27E357DD9_7d3fd81c-af6b-4d26-b5b5f40931aba00a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arroyohotel.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"http://www.arroyopinion.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AZ021exterior1_3433127E-40A3-4CB5-A60AD5B27E357DD9_7d3fd81c-af6b-4d26-b5b5f40931aba00a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arroyopinion.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#0066ff",
 					        "marker-symbol": "lodging"
@@ -432,7 +432,7 @@
 					      "properties": {
 					        "id": "marker-7315",
 					        "title": "Element by Westin",
-					        "description": "<a href=\"https://www.marriott.com/hotels/travel/flgel-element-sedona/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Element-Hotel-Stock-Image-f0426fe15056a36_f04271e1-5056-a36f-23e00b1199625c75.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.marriott.com/hotels/travel/flgel-element-sedona/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.marriott.com/hotels/travel/flgel-element-sedona/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ELM_FLGEL_EXT_DAY_E3E038A5-8C51-464B-B556B5BF4A5AD0AC_d071ecde-3366-41c0-917dcb8ed32193d1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.marriott.com/hotels/travel/flgel-element-sedona/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#0066ff",
 					        "marker-symbol": "lodging"
@@ -458,7 +458,7 @@
 					      "properties": {
 					        "id": "marker-975",
 					        "title": "GreenTree Inn Sedona",
-					        "description": "<a href=\"https://www.greentreeinn.com/hotels/az/sedona/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/greentree-1-a43cfdbf5056a36_a43cfeba-5056-a36f-23d49d5d794a97fa.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.greentreeinn.com/hotels/az/sedona/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.greentreesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/greentree-1-a43cfdbf5056a36_a43cfeba-5056-a36f-23d49d5d794a97fa.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.greentreesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#0066ff",
 					        "marker-symbol": "lodging"
@@ -1116,6 +1116,19 @@
 					          34.861695
 					        ],"type": "Point"
 					      },"id": 7337
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7798",
+					        "title": "Seven Canyons",
+					        "description": "<a href=\"https://stay.sevencanyons.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC3_DE566A7D-1173-4BFA-9DA5C1A61FA6F8F7_7c5f00c3-3b1a-42ab-bd5b344f36c1b3ce.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://stay.sevencanyons.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#0066ff",
+					        "marker-symbol": "lodging"
+					      },"geometry": {"coordinates": [ -111.822566,
+					          34.914968
+					        ],"type": "Point"
+					      },"id": 7798
 					    },{
 					      "type": "Feature",
 					      "properties": {

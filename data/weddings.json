@@ -79,19 +79,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-2002",
-					        "title": "A Sunset Chateau",
-					        "description": "<a href=\"https://asunsetchateau.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sunset-chateaux-0f2220a05056a36_0f2221ba-5056-a36f-232ba9dd136b200e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://asunsetchateau.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#fcb2a9",
-					        "marker-symbol": "garden"
-					      },"geometry": {"coordinates": [ -111.796057,
-					          34.854459
-					        ],"type": "Point"
-					      },"id": 2002
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-7197",
 					        "title": "Alcantara Vineyards",
 					        "description": "<a href=\"https://alcantaravineyard.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/alcantara0_0d21355f-5056-a36f-23cac2d60d0e2dc5.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://alcantaravineyard.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -406,7 +393,7 @@
 					      "properties": {
 					        "id": "marker-7476",
 					        "title": "Seven Canyons",
-					        "description": "<a href=\"https://www.sevencanyons.com/residences/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC3_DE566A7D-1173-4BFA-9DA5C1A61FA6F8F7_7c5f00c3-3b1a-42ab-bd5b344f36c1b3ce.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sevencanyons.com/residences/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://sevencanyons.com/weddings/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC3_DE566A7D-1173-4BFA-9DA5C1A61FA6F8F7_7c5f00c3-3b1a-42ab-bd5b344f36c1b3ce.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://sevencanyons.com/weddings/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#fcb2a9",
 					        "marker-symbol": "garden"

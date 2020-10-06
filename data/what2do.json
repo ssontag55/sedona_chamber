@@ -677,19 +677,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-3684",
-					        "title": "Sedona Segway Tours",
-					        "description": "<a href=\"https://www.sedonasegway.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/segway-tours_0d6ebc15-5056-a36f-235d88462dcf3f10.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sedonasegway.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#E44100",
-					        "marker-symbol": "school"
-					      },"geometry": {"coordinates": [ -111.763322,
-					          34.868435
-					        ],"type": "Point"
-					      },"id": 3684
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-897",
 					        "title": "Arizona Snowbowl",
 					        "description": "<a href=\"https://www.snowbowl.ski/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/untitled-7875_954FA36A-53E5-4582-A9D093FED904C265_e804a8d5-9729-4474-84cc55524bbc5f29.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.snowbowl.ski/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -757,7 +744,7 @@
 					      "properties": {
 					        "id": "marker-3605",
 					        "title": "Seven Canyons",
-					        "description": "<a href=\"https://www.sevencanyons.com/residences/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC3_DE566A7D-1173-4BFA-9DA5C1A61FA6F8F7_7c5f00c3-3b1a-42ab-bd5b344f36c1b3ce.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sevencanyons.com/residences/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "description": "<a href=\"https://www.sevencanyons.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC3_DE566A7D-1173-4BFA-9DA5C1A61FA6F8F7_7c5f00c3-3b1a-42ab-bd5b344f36c1b3ce.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sevencanyons.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
 					        "marker-size": "medium",
 					        "marker-color": "#E44100",
 					        "marker-symbol": "school"

@@ -26,8 +26,8 @@ import os
 
 
 #open jsonfile
-jsonfile = open('trans.json', 'w')
-# jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', 'w');
+# jsonfile = open('trans.json', 'w')
+jsonfile = open('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
@@ -132,20 +132,22 @@ import smtplib
 #seems like this doesn't always work
 try:
 
-	#server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
-	#server.connect()
-	#server.login("stephen@mapblender.org", "Imfromnh55")
-	
-	server = smtplib.SMTP('relay-hosting.secureserver.net')
+	server = smtplib.SMTP_SSL('mail.mapdizzle.com', 465)
+	# server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
+	# server = smtplib.SMTP('relay-hosting.secureserver.net')
 
-	fromaddr = "stephen@mapblender.org";
-	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
-	#toaddr = ["sontag.stephen@gmail.com","scurtis@sedonachamber.com","stephen.sontag@rpsgroup.com"];
+	fromaddr = "Stephen Sontag<stephen@mapblender.org>";
+
+	server = smtplib.SMTP('mail.mapdizzle.com');
+	server.login("sontag@mapdizzle.com", "Imfromnh55#");
+	
+	# toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com"];
+	toaddr = ["sontag.stephen@gmail.com","stephen.sontag@rpsgroup.com"];
 
 	msg = string.join((
 	        "From: %s" % fromaddr,
 	        "To: %s" % toaddr,
-	        "Subject: %s" % "Where to Stay List Updated",
+	        "Subject: %s" % "Transporation List Updated",
 	        "",
 	        "The following list has been processed\n"+companyList), "\r\n");
 
@@ -161,11 +163,26 @@ except:
 jsonfile.close()
 import shutil
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//hotels.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//data//hotels.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '/////home//ompi62ut5c1y//public_html//artwalk//galleries//data//trans.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/hotels.json', '////var//chroot//home//content//19//12215219//html//getaround//bike//data//hotels.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '/////home//ompi62ut5c1y//public_html//artwalk//art//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '/////home//ompi62ut5c1y//public_html//artwalk//parking//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '/////home//ompi62ut5c1y//public_html//artwalk//restaurants//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '/////home//ompi62ut5c1y//public_html//getaround//lodging//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '////home//ompi62ut5c1y//public_html//getaround//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '////home//ompi62ut5c1y//public_html//getaround//bike//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '////home//ompi62ut5c1y//public_html//getaround//what2do//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '////home//ompi62ut5c1y//public_html//getaround//retail//data//trans.json')
+
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/trans.json', '////home//ompi62ut5c1y//public_html//getaround//Secret7//data//trans.json')
 
 print "Files Copied"
 

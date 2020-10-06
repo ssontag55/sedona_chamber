@@ -14,19 +14,6 @@
 					    },{
 					      "type": "Feature",
 					      "properties": {
-					        "id": "marker-3897",
-					        "title": "ALT Gallery",
-					        "description": "<br><div id=\"linksite\"><a href=\"http://www.altgallerysedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.800156,
-					          34.862926
-					        ],"type": "Point"
-					      },"id": 3897
-					    },{
-					      "type": "Feature",
-					      "properties": {
 					        "id": "marker-4913",
 					        "title": "Bearcloud Gallery",
 					        "description": "<a href=\"http://www.bearcloudgallery.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Bearcloud-Painting-800x600_0d6e0007-5056-a36f-23df3561f83d4343.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.bearcloudgallery.com\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
@@ -271,17 +258,4 @@
 					          34.862246
 					        ],"type": "Point"
 					      },"id": 2142
-					    },{
-					      "type": "Feature",
-					      "properties": {
-					        "id": "marker-6680",
-					        "title": "Vibrant Life Gallery",
-					        "description": "<a href=\"http://www.vibrantlifegallery.org\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/VLG_5C551587-45FA-4F87-8691BEF613F6FFDE_4582428c-0f3c-4051-91d550dfff375630.jpg\" height=\"160\" width=\"160\"></a><br><div id=\"linksite\"><a href=\"http://www.vibrantlifegallery.org\" target=\"_blank\">Visit Site for More Info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
-					        "marker-size": "medium",
-					        "marker-color": "#1087bf",
-					        "marker-symbol": "art-gallery"
-					      },"geometry": {"coordinates": [ -111.795712,
-					          34.865101
-					        ],"type": "Point"
-					      },"id": 6680
 					    }],"id": "sedonachamber.gallery"}

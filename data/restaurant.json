@@ -202,8 +202,8 @@
 					        "marker-size": "medium",
 					        "marker-color": "#006666",
 					        "marker-symbol": "restaurant"
-					      },"geometry": {"coordinates": [ -111.763369,
-					          34.856883
+					      },"geometry": {"coordinates": [ -111.760882,
+					          34.872234
 					        ],"type": "Point"
 					      },"id": 2707
 					    },{
@@ -557,6 +557,19 @@
 					          34.863413
 					        ],"type": "Point"
 					      },"id": 4186
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7797",
+					        "title": "Seven Canyons",
+					        "description": "<a href=\"https://sevencanyons.com/dine/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SCC3_DE566A7D-1173-4BFA-9DA5C1A61FA6F8F7_7c5f00c3-3b1a-42ab-bd5b344f36c1b3ce.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://sevencanyons.com/dine/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#006666",
+					        "marker-symbol": "restaurant"
+					      },"geometry": {"coordinates": [ -111.822566,
+					          34.914968
+					        ],"type": "Point"
+					      },"id": 7797
 					    },{
 					      "type": "Feature",
 					      "properties": {

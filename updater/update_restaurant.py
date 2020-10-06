@@ -26,8 +26,9 @@ import os
 
 
 #open jsonfile
-#jsonfile = open('restaurant.json', 'w')
-jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
+# jsonfile = open('restaurant.json', 'w')
+# jsonfile = open('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', 'w');
+jsonfile = open('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', 'w');
 jsonfile.write("""{"type": "FeatureCollection","features": [""");
 
 companyList = "";
@@ -130,14 +131,17 @@ import smtplib
 #seems like this doesn't always work
 try:
 
-	#server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
-	#server.connect()
-	#server.login("stephen@mapblender.org", "Imfromnh55")
-	
-	server = smtplib.SMTP('relay-hosting.secureserver.net')
+	server = smtplib.SMTP_SSL('mail.mapdizzle.com', 465)
+	# server = smtplib.SMTP_SSL('smtpout.secureserver.net', 465)
+	# server = smtplib.SMTP('relay-hosting.secureserver.net')
 
-	fromaddr = "stephen@mapblender.org";
-	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com","stephen.sontag@rpsgroup.com"];
+	fromaddr = "Stephen Sontag<stephen@mapblender.org>";
+
+	server = smtplib.SMTP('mail.mapdizzle.com');
+	server.login("sontag@mapdizzle.com", "Imfromnh55#");
+	
+	toaddr = ["sontag.stephen@gmail.com","sc.sedonachamber@gmail.com"];
+	# toaddr = ["sontag.stephen@gmail.com","stephen.sontag@rpsgroup.com"];
 
 	msg = string.join((
 	        "From: %s" % fromaddr,
@@ -156,26 +160,26 @@ except:
 jsonfile.close()
 import shutil
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//publicart//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//green//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '/////home//ompi62ut5c1y//public_html//artwalk//galleries//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//galleries//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '/////home//ompi62ut5c1y//public_html//artwalk//art//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//art//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '/////home//ompi62ut5c1y//public_html//artwalk//parking//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '/////home//ompi62ut5c1y//public_html//artwalk//restaurants//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//parks//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '/////home//ompi62ut5c1y//public_html//getaround//lodging//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//artwalk//traffic//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '////home//ompi62ut5c1y//public_html//getaround//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//getaround//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '////home//ompi62ut5c1y//public_html//getaround//bike//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//getaround//lodging//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '////home//ompi62ut5c1y//public_html//getaround//what2do//data//restaurant.json')
 
-shutil.copy('/var/chroot/home/content/19/12215219/html/artwalk/restaurants/data/restaurant.json', '////var//chroot//home//content//19//12215219//html//getaround//retail//data//restaurant.json')
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '////home//ompi62ut5c1y//public_html//getaround//retail//data//restaurant.json')
 
+shutil.copy('/home/ompi62ut5c1y/public_html/artwalk/data/restaurant.json', '////home//ompi62ut5c1y//public_html//getaround//Secret7//data//restaurant.json')
 
 print "Files Copied"
 
