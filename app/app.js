@@ -1,4 +1,4 @@
-/*
+197/*
 Main App for Sedona Chambers Map App
 Mapblender
 2019
@@ -870,7 +870,7 @@ function startup(){
   //turn dark if at night
   if(d.getHours()>19||d.getHours()<7){
     L.control.layers({
-        'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
+        'Streets': L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'),//L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
         'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
         //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
         //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
@@ -881,8 +881,8 @@ function startup(){
   }
   else{
     L.control.layers({
-        'Streets': L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
-        'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}),
+        'Streets': L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'),//L.mapbox.tileLayer('mapbox.streets',{maxZoom:20}),
+        'Earth': L.mapbox.tileLayer('mapbox.satellite', {maxZoom:22}), //L.mapbox.styleLayer('mapbox://styles/mapbox/satellite-v9'),//
         //'Simple Streets': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin2opt8d00b9abnq6trki27e/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
         //'Trails': L.mapbox.tileLayer('mapbox.run-bike-hike'),
         //'Sedona': L.tileLayer('https://api.mapbox.com/styles/v1/sedonachamber/cin7oyyjz000waamcx7v412nr/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2Vkb25hY2hhbWJlciIsImEiOiJjaW13Zmp3cGswMzd0d2tsdXBnYmVjNmRjIn0.PlcjviLrxQht-_tBEbQQeg', {maxZoom:20}),
