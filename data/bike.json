@@ -90,6 +90,40 @@
           34.89003200285198
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-4064",
+        "title": "Bike Fix-it Station",
+        "description": "<br><div id=\"linksite\"><a href=\"https://visitsedona.com/outdoor-adventure/biking/bike-fix-it-stations/\" target=\"_blank\">See more information!</a></div>",
+        "marker-color": "#007780",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.79621499052867,34.87453987247333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "marker-4064",
+        "title": "Bike Fix-it Station",
+        "description": "<br><div id=\"linksite\"><a href=\"https://visitsedona.com/outdoor-adventure/biking/bike-fix-it-stations/\" target=\"_blank\">See more information!</a></div>",
+        "marker-color": "#007780",
+        "marker-size": "medium",
+        "marker-symbol": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.857399,34.901559
+        ]
+      }
     }
   ]
 }
