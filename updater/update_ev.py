@@ -82,9 +82,11 @@ for subcatid in subcat:
 					# print(itemNode.find('NAME').text.find('EV'))
 					if itemNode.find('NAME').text == 'EV Charging Station':
 					 	evLocation= itemNode.find('VALUE').text;
-					 	total = total+1;
-						print(total);
-						evStation = True
+					 	if evLocation != '0' and evLocation != None:
+						 	print(evLocation)
+						 	total = total+1;
+							#print(total);
+							evStation = True
 
 				for itemNode in listingXML[0].find('ADDITIONALINFORMATION'):
 					if(itemNode.find('NAME').text == 'Tourism Bureau'):

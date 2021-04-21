@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <LISTINGSUBCATEGORIES>
+        <SUBCATEGORY>
+            <SUBCATID>123</SUBCATID>
+            <SUBCATNAME>Art / Cultural Centers</SUBCATNAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <LISTINGTYPENAME>Website</LISTINGTYPENAME>
+            <CATID>23</CATID>
+        </SUBCATEGORY>
+        <SUBCATEGORY>
+            <SUBCATID>124</SUBCATID>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <LISTINGTYPENAME>Website</LISTINGTYPENAME>
+            <CATID>23</CATID>
+        </SUBCATEGORY>
+        <SUBCATEGORY>
+            <SUBCATID>125</SUBCATID>
+            <SUBCATNAME>Artists</SUBCATNAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <LISTINGTYPENAME>Website</LISTINGTYPENAME>
+            <CATID>23</CATID>
+        </SUBCATEGORY>
+        <SUBCATEGORY>
+            <SUBCATID>126</SUBCATID>
+            <SUBCATNAME>Education / Teachers</SUBCATNAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <LISTINGTYPENAME>Website</LISTINGTYPENAME>
+            <CATID>23</CATID>
+        </SUBCATEGORY>
+        <SUBCATEGORY>
+            <SUBCATID>129</SUBCATID>
+            <SUBCATNAME>Performing Arts / Performers</SUBCATNAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <LISTINGTYPENAME>Website</LISTINGTYPENAME>
+            <CATID>23</CATID>
+        </SUBCATEGORY>
+        <SUBCATEGORY>
+            <SUBCATID>130</SUBCATID>
+            <SUBCATNAME>Visual Arts</SUBCATNAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <LISTINGTYPENAME>Website</LISTINGTYPENAME>
+            <CATID>23</CATID>
+        </SUBCATEGORY>
+    </LISTINGSUBCATEGORIES>
+    <REQUESTSTATUS>
+        <RESULTS>6</RESULTS>
+        <ERRORS></ERRORS>
+        <HASERRORS>0</HASERRORS>
+    </REQUESTSTATUS>
+</response>

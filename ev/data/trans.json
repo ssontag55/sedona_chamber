@@ -1,0 +1,261 @@
+{"type": "FeatureCollection","features": [{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3519",
+					        "title": "Cottonwood Chamber of Commerce",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.cottonwoodchamberaz.org\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -112.002930,
+					          34.721523
+					        ],"type": "Point"
+					      },"id": 3519
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5166",
+					        "title": "Grand Canyon Chamber of Commerce and Visitors Bureau",
+					        "description": "<br><div id=\"linksite\"><a href=\"www.grandcanyoncvb.org\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -112.125065,
+					          35.976419
+					        ],"type": "Point"
+					      },"id": 5166
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4459",
+					        "title": "Jerome Chamber of Commerce",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.jeromechamber.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -112.115177,
+					          34.751038
+					        ],"type": "Point"
+					      },"id": 4459
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3476",
+					        "title": "Prescott Valley Chamber of Commerce",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.pvchamber.org\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -112.337195,
+					          34.586407
+					        ],"type": "Point"
+					      },"id": 3476
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2888",
+					        "title": "Scottsdale Convention & Visitors Bureau",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.scottsdalecvb.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.925320,
+					          33.500222
+					        ],"type": "Point"
+					      },"id": 2888
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-440",
+					        "title": "Sedona Chamber of Commerce & Tourism Bureau",
+					        "description": "<a href=\"http://www.sedonachamber.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Chamber-of-Commerce-and-Toursim-Bureau-Logo_0d4f3c13-5056-a36f-230ffa69d9247310.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonachamber.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.795721,
+					          34.863038
+					        ],"type": "Point"
+					      },"id": 440
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4758",
+					        "title": "Sedona Verde Valley Tourism Council",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.sedona-verdevalley.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.761621,
+					          34.868652
+					        ],"type": "Point"
+					      },"id": 4758
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1770",
+					        "title": "Visit Phoenix",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.visitphoenix.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -112.068605,
+					          33.451857
+					        ],"type": "Point"
+					      },"id": 1770
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3200",
+					        "title": "Arizona Pride Guide",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.gayarizona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -112.046430,
+					          33.527892
+					        ],"type": "Point"
+					      },"id": 3200
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-960",
+					        "title": "Arizona Tourism Center",
+					        "description": "<a href=\"http://www.arizonatourismcenter.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/12584_Brown_ATC_by_DRI_Logo_Final0_0d5cbe2a-5056-a36f-23a019b3ea1c9ee3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arizonatourismcenter.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.795877,
+					          34.864664
+					        ],"type": "Point"
+					      },"id": 960
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4453",
+					        "title": "Hyatt Pinon Pointe",
+					        "description": "<a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/hyatt0-aaa112be5056a36_aaa11421-5056-a36f-23d615cf141de8f8.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://hyattpinonpointe.hyatt.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.763598,
+					          34.867314
+					        ],"type": "Point"
+					      },"id": 4453
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4416",
+					        "title": "Sedona Chamber of Commerce Visitor Center",
+					        "description": "<a href=\"http://www.visitsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/VC1_2018_Kelli_Klymenko_640x3600-703919625056a36_70391ab8-5056-a36f-236a9af913a9fe09.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.visitsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.761743,
+					          34.868655
+					        ],"type": "Point"
+					      },"id": 4416
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5785",
+					        "title": "Sedona Ticket Station",
+					        "description": "<a href=\"https://www.SedonaTicketStation.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sedona-ticket-station_red-rock-view_concierge_433x2600-bf84f3115056a36_bf84f3df-5056-a36f-23b6486a20cb5e39.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.SedonaTicketStation.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.763648,
+					          34.855885
+					        ],"type": "Point"
+					      },"id": 5785
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4291",
+					        "title": "America Travel Factory LLC",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.america-travel-factory.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.798596,
+					          34.860017
+					        ],"type": "Point"
+					      },"id": 4291
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3695",
+					        "title": "Cobalt Escapes",
+					        "description": "<a href=\"http://www.cesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/cobalt-escapes_0d5f6a6f-5056-a36f-2389ba998a7e5eed.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.804448,
+					          34.863186
+					        ],"type": "Point"
+					      },"id": 3695
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6657",
+					        "title": "Jet Limousines Sedona",
+					        "description": "<a href=\"http://jetlimosedona.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/jetCapture0-413d0a915056a36_413d0b8a-5056-a36f-23847e57d239e946.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://jetlimosedona.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.814506,
+					          34.862885
+					        ],"type": "Point"
+					      },"id": 6657
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4556",
+					        "title": "Westwind Air Service",
+					        "description": "<a href=\"http://www.westwindairservice.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Birds-Eye-View_3963470E-5043-4945-BCD4064ED7BFFB8B_3ef12efe-8141-4e32-be49480c692cd64f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.westwindairservice.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.789254,
+					          34.849777
+					        ],"type": "Point"
+					      },"id": 4556
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6656",
+					        "title": "Jet Limousines Sedona",
+					        "description": "<a href=\"http://jetlimosedona.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/jetCapture0-413d0a915056a36_413d0b8a-5056-a36f-23847e57d239e946.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://jetlimosedona.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.814506,
+					          34.862885
+					        ],"type": "Point"
+					      },"id": 6656
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1985",
+					        "title": "Sedona Trolley",
+					        "description": "<a href=\"http://www.sedonatrolley.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Sedona-Trolley-Logo-2019-48dadbbb5056a36_48dadcc5-5056-a36f-239fba8ec2256293.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonatrolley.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.752302,
+					          34.877872
+					        ],"type": "Point"
+					      },"id": 1985
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1618",
+					        "title": "Barlow Jeep Rentals",
+					        "description": "<a href=\"http://www.barlows.us\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Barlow-jeep_0d4a089e-5056-a36f-23542e2bf4adbcb1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.barlows.us\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#E4A300",
+					        "marker-symbol": "rail-metro"
+					      },"geometry": {"coordinates": [ -111.812522,
+					          34.861558
+					        ],"type": "Point"
+					      },"id": 1618
+					    }],"id": "sedonachamber.restaurant"}

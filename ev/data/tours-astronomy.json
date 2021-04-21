@@ -1,0 +1,42 @@
+{"type": "FeatureCollection","features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4077",
+      "title": "Lowell Observatory",
+      "description": "<a href=\"http://www.lowell.edu\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/2019-lowell_sedonachamber-ed6567195056a36_ed656857-5056-a36f-237fead0c86c9f4a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.lowell.edu\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "388",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.664672,
+        35.202914
+      ],
+      "type": "Point"
+    },
+    "id": 4077
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "marker-4689",
+      "title": "Meteor Crater",
+      "description": "<br><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+      "subcat": "388",
+      "marker-size": "medium",
+      "marker-color": "#666699",
+      "marker-symbol": "land-use"
+    },
+    "geometry": {
+      "coordinates": [
+        -111.025177,
+        35.03013
+      ],
+      "type": "Point"
+    },
+    "id": 4689
+  }
+],"id": "sedonachamber.restaurant"}

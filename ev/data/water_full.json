@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Sunset Park",
+        "description": "Water Fill-up Station!",
+        "marker-color": "#ff0080",
+        "marker-size": "medium",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.79724711479767,
+          34.85487267687911
+        ]
+      },
+    "id": 5059
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "title": "Posse Grounds Park",
+      "description": "Water Fill-up Station!",
+        "marker-color": "#ff0080",
+        "marker-size": "medium",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.78738058655335,
+          34.86896577407447
+        ]
+      },
+    "id": 5059
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "title": "Sedona Community Pool",
+      "description": "Water Fill-up Station!",
+        "marker-color": "#ff0080",
+        "marker-size": "medium",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.78525658271492,
+          34.87257254231049
+        ]
+      },
+    "id": 5059
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "title": "Sedona Hub",
+      "description": "Water Fill-up Station!",
+        "marker-color": "#ff0080",
+        "marker-size": "medium",
+        "marker-symbol": "water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.78519155741718,
+          34.86994785866381
+        ]
+      },
+    "id": 5059
+    }
+  ]
+}

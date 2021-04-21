@@ -1,0 +1,40 @@
+{"type": "FeatureCollection","features": [{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-43",
+					        "title": "Chapel of the Holy Cross",
+					        "description": "<a href=\"http://www.chapeloftheholycross.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ChapeloftheHolyCross0_0d6f06c1-5056-a36f-2359a49479665bf3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.chapeloftheholycross.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#708090",
+					        "marker-symbol": "town-hall"
+					      },"geometry": {"coordinates": [ -111.766740,
+					          34.832021
+					        ],"type": "Point"
+					      },"id": 43
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1520",
+					        "title": "KPC - Amitabha Stupa & Peace Park",
+					        "description": "<a href=\"http://www.tara.org/stupas/sedona-arizona\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Stupa-Buddha-snow-800x600-432df9865056a36_432e0252-5056-a36f-23adc4697aeb8ac3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.tara.org/stupas/sedona-arizona\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#708090",
+					        "marker-symbol": "town-hall"
+					      },"geometry": {"coordinates": [ -111.806715,
+					          34.874044
+					        ],"type": "Point"
+					      },"id": 1520
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-261",
+					        "title": "Unity of Sedona",
+					        "description": "<a href=\"http://www.unityofsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Unity-of-Sedona-1_5A3C0735-8B06-4ED7-994628A21B4432BE_59b3451d-77c5-432e-a56399508effdcc4.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.unityofsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#708090",
+					        "marker-symbol": "town-hall"
+					      },"geometry": {"coordinates": [ -111.811612,
+					          34.860984
+					        ],"type": "Point"
+					      },"id": 261
+					    }],"id": "sedonachamber.restaurant"}

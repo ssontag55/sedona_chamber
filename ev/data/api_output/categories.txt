@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+    <LISTINGCATEGORIES>
+        <LISTINGCATEGORY>
+            <NAME>Real Estate</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>1</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Retail Shopping</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>14</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Medical / Healthcare</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>16</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Transportation</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>19</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Arts &amp; Culture</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>23</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Associate Members</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>24</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Associations &amp; Organizations</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>25</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Attractions &amp; Entertainment</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>26</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Churches &amp; Places of Worship</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>28</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Travel Services</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>29</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Construction Services</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>30</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Business &amp; Financial Services</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>31</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Personal &amp; Spiritual Enrichment</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>35</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Marketing / Media Services</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>36</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Outdoor Recreation</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>37</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Restaurants Food &amp; Beverage</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>39</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Tours &amp; Sightseeing</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>40</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Wedding / Meeting Services</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>41</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Community &amp; Professional Services</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>42</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>Accommodations</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>45</CATID>
+        </LISTINGCATEGORY>
+        <LISTINGCATEGORY>
+            <NAME>default</NAME>
+            <LISTINGTYPEID>1</LISTINGTYPEID>
+            <LISTINGTYPE>Website</LISTINGTYPE>
+            <CATID>46</CATID>
+        </LISTINGCATEGORY>
+    </LISTINGCATEGORIES>
+    <REQUESTSTATUS>
+        <RESULTS>21</RESULTS>
+        <ERRORS></ERRORS>
+        <HASERRORS>0</HASERRORS>
+    </REQUESTSTATUS>
+</response>

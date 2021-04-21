@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESPONSE>
+    <LISTINGS>
+        <LISTING>
+            <SORTCOMPANY>ALT Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>3897</LISTINGID>
+            <LOGOFILE/>
+            <ROW>1</ROW>
+            <WEBURL>http://www.altgallerysedona.com</WEBURL>
+            <PRIMARYCONTACTTITLE>Owner</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 554-7840</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>671 State Route 179 AST5</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>altgallerysedona@gmail.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>ALT Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>ALT Gallery features the finest Secondary Market art in Northern Arizona. Also rare books, antiques.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-03-08 15:29:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>art, antique, vintage, antique, estate, rare book</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Mark Schrader</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>11826</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Andrea Smith Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>1530</LISTINGID>
+            <LOGOFILE/>
+            <ROW>2</ROW>
+            <WEBURL>http://www.andreasmithgallery.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 203-9002</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Tlaquepaque Arts &amp; Crafts Village</ADDR2>
+            <ADDR1>336 State Route 179 Ste D102</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>fineart@andreasmithgallery.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 203-9026</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Andrea Smith Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Original paintings, limited edition prints by World Peace Artist, Andrea Smith, and an extensive collection of sacred art.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE>(888) 644-5444</TOLLFREE>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-03-17 11:00:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>Andrea Smith Gallery</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Gary Smith</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>3150</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Arcosanti/The Cosanti Foundation</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>2091</LISTINGID>
+            <LOGOFILE/>
+            <ROW>3</ROW>
+            <WEBURL>http://www.arcosanti.org</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE>34.3949419000</LATITUDE>
+            <PHONE>(928) 632-6225</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>13555 S Cross L Rd</ADDR2>
+            <ADDR1>I17 @ State Route 69 Exit 263</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86333</ZIP>
+            <ADDR3>Cordes Junction</ADDR3>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>pr@arcosanti.org</EMAIL>
+            <REGION>Outside Sedona Verde Valley</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX>(928) 632-6229</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Arcosanti/The Cosanti Foundation</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Arcosanti a lean, living urban laboratory designed by Paolo Soleri.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-03-25 09:05:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Mayer</CITY>
+            <LONGITUDE>-112.2229560000</LONGITUDE>
+            <ACCTID>8150</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>67</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Carre D'Artistes</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4625</LISTINGID>
+            <LOGOFILE/>
+            <ROW>4</ROW>
+            <WEBURL>http://www.carredartistesaz.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-8704</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>336 State Route 179 Ste B 121</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>sedona@carredartistes.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Carre D'Artistes</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>15 contemporary artists from all over the world exhibit original paintings in square format</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2014-10-03 12:34:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-01-19 14:55:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>12996</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Esteban's</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4614</LISTINGID>
+            <LOGOFILE/>
+            <ROW>5</ROW>
+            <WEBURL>http://www.estebanssedona.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-4686</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Tlaquepaque Arts &amp; Crafts Village</ADDR2>
+            <ADDR1>336 State Route 179  Ste B103</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>estebans_pottery@msn.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 282-2377</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Esteban's</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Esteban's features decorative and functional pottery by area artists.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2014-09-23 08:34:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-08-24 13:21:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Nancy Scagnelli</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>704</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Exposures International Gallery of Fine Art</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>817</LISTINGID>
+            <LOGOFILE/>
+            <ROW>6</ROW>
+            <WEBURL>http://www.exposuresfineart.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-1125</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>561 State Route 179</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>martii@exposuresfineart.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 282-7856</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Exposures International Gallery of Fine Art</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Largest Fine Art Gallery in Arizona &amp; "One of the most unique galleries in the world."  Representing top artists from the Southwest and around the world: Amanda Dunbar, Bill Worrell, Yuroz, Rosin Glass, Gene &amp; Rebecca Tobey, Volkov, Suzanne Vertel, Barbara Westwood and more.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE>(800) 526-7668</TOLLFREE>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-11-09 16:20:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Marty Herman</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>2123</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Gallery 465</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>1816</LISTINGID>
+            <LOGOFILE/>
+            <ROW>7</ROW>
+            <WEBURL>http://www.eidefineart.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-4328</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>2893 W Sullivan Ranch Rd</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86324</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>eideart@msn.com</EMAIL>
+            <REGION>Verde Valley</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX>(928) 649-8328</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Gallery 465</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>GALLERY 465 is a contemporary fine gallery that emphasizes national &amp; international ceramics, sculpture &amp; paintings.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-04-04 11:29:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Joel Eide</PRIMARYCONTACTFULLNAME>
+            <CITY>Clarkdale</CITY>
+            <LONGITUDE/>
+            <ACCTID>3467</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>68</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Gallery of Modern Masters</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>2647</LISTINGID>
+            <LOGOFILE/>
+            <ROW>8</ROW>
+            <WEBURL>http://www.galleryofmodernmasters.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-3313</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Hillside Sedona</ADDR2>
+            <ADDR1>671 State Route 179  Ste AST3 &amp; 4</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>zach@galleryofmodernmasters.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 282-4544</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Gallery of Modern Masters</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>One of the finest galleries in the Southwest, boasting the largest collection of glass art in Arizona. We offer to the serious collector and casual admirer a unique selection of oils, original lithographs, sculptures, ceramics, glass and photography by local, regional and international artists including masters from Picasso and  Chagall to Ries and Perry.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE>(888) 282-3313</TOLLFREE>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-12-17 12:00:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Zach  Richardson</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>9351</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Goldenstein Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>1728</LISTINGID>
+            <LOGOFILE/>
+            <ROW>9</ROW>
+            <WEBURL>http://www.goldensteinart.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE>34.8623760000</LATITUDE>
+            <PHONE>(928) 204-1765</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>70 Dry Creek Rd</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>info@goldensteinart.com</EMAIL>
+            <REGION>West Sedona &amp; Loop Rd within City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Goldenstein Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>A lush gallery setting showcasing internationally recognized local and regional artists from many traditions including Native American. Discover eclectic and contemporary art in all media: paintings, sculpture, furniture, kaleidoscopes, folk art. Changing Exhibitions. Sculpture Garden.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE>(928) 593-0073</ALTPHONE>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-12-18 13:27:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Linda Goldenstein</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE>-111.8156920000</LONGITUDE>
+            <ACCTID>3371</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>5</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Greg Lawson Galleries</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>3878</LISTINGID>
+            <LOGOFILE/>
+            <ROW>10</ROW>
+            <WEBURL>http://www.greglawsongalleries.com</WEBURL>
+            <PRIMARYCONTACTTITLE>Gallery Director</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 204-4744</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>2679 W State Route 89A</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>passionforplace@gmail.com</EMAIL>
+            <REGION>West Sedona &amp; Loop Rd within City Limits</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Greg Lawson Galleries</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>An exclusive gallery featuring natural world photographer Greg Lawson in books and framed art.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-10-14 13:05:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>Passion for Place, Greg Lawson, Lawson, Greg Lawson galleries, photography, photographer, photograph, phot, gallery, nature photography gallery, wildlife, place, earth, image, images, imagery, Sedona, Sedona gallery, Hillside, Hillside Plaza, Hillside Sedona, Sedona Arizona, books, art, gifts, Hillside Art Gallery</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Kristina Lawson</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>11780</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>5</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Hillside Sedona</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>2018</LISTINGID>
+            <LOGOFILE/>
+            <ROW>11</ROW>
+            <WEBURL>http://www.hillsidesedona.net</WEBURL>
+            <PRIMARYCONTACTTITLE>General Manager</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-4500</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>671 State Route 179 EST5</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>kdventureproperties@gmail.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 203-9100</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Hillside Sedona</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>A feast for your senses surrounds you at Hillside Sedona! You’ll find some of the most prestigious art galleries in the Southwest, award-winning dining, quality high fashion clothing, unique specialty shops, wine tasting from around the world, and distinguishing home decor.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-11-12 10:03:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Karen Reynolds Dilks</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>229</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Honshin Fine Art Gallery of the Ascending Spirit</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4881</LISTINGID>
+            <LOGOFILE/>
+            <ROW>12</ROW>
+            <WEBURL>http://www.honshinfineart.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-0709</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Tlaquepaque Arts &amp; Crafts Village</ADDR2>
+            <ADDR1>336 State Route 179, Ste C205</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>hfa@mindspring.com</EMAIL>
+            <REGION>Uptown &amp; State Route 179</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Honshin Fine Art Gallery of the Ascending Spirit</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Art: Paintings, Jewelry, Pottery, Poetry, Origami, featuring 5 local artist. Located in Tlaquepaque.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2016-01-27 09:47:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE>(206) 282-5269</ALTPHONE>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-01-27 09:47:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>11448</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>1</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Honshin Fine Art Gallery of Wholeness, Harmony &amp; Radiance</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4819</LISTINGID>
+            <LOGOFILE/>
+            <ROW>13</ROW>
+            <WEBURL>http://www.honshinfineart.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-5269</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Tlaquepaque Arts &amp; Crafts Village</ADDR2>
+            <ADDR1>336 State Route 179, Ste A117</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>glgsedona@mindspring.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX>(928) 282-5269</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Honshin Fine Art Gallery of Wholeness, Harmony &amp; Radiance</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>The beauty of nature in a fusion of Eastern &amp; Western perennial spiritual tradition. Local artists.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2015-10-05 19:39:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE>(206) 795-1617</ALTPHONE>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-02-25 13:25:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>9981</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>James Ratliff Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>408</LISTINGID>
+            <LOGOFILE/>
+            <ROW>14</ROW>
+            <WEBURL>http://www.jamesratliffgallery.com</WEBURL>
+            <PRIMARYCONTACTTITLE>Owner</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-1404</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>671 State Route 179 AST1 &amp; AST2</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>fineart@jamesratliffgallery.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 282-1403</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>James Ratliff Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>James Ratliff Gallery specializes in one of a kind contemporary fine art; paintings, sculpture, ceramics and jewelry. We offer excellent personal service as well as extensive service via our website.   James Ratliff Gallery is celebrating 50+ years in the art business....30+ years in Sedona.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-03-17 11:51:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>James Ratliff</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>994</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Kuivato Glass Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>987</LISTINGID>
+            <LOGOFILE/>
+            <ROW>15</ROW>
+            <WEBURL>http://www.kuivato.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-1212</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Tlaquepaque Arts &amp; Crafts Village</ADDR2>
+            <ADDR1>336 State Route 179 Ste B125</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>kuivato@esedona.net</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 282-5860</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Kuivato Glass Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Kuivato Glass Gallery is one of the most visually exciting galleries in the country. The exceptional collection includes art glass, jewelry, and light sculptures by owner, Deanne Sabeck.  Kuivato offers both the seasoned and beginning collector the chance to find something spectacular.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE>(800) 282-4312</TOLLFREE>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-09-29 16:46:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Nicole Brundage</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>2466</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Lanning Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>131</LISTINGID>
+            <LOGOFILE/>
+            <ROW>16</ROW>
+            <WEBURL>http://www.lanninggallery.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-6865</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Hozho</ADDR2>
+            <ADDR1>431 State Route 179 Ste A1-2</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>mail@lanninggallery.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 282-3982</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Lanning Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Lanning Gallery is Sedona, Arizona's major Classic and Contemporary Fine Art gallery. It's unique atmosphere features original oils, acrylics, exceptional sculpture, handmade hand-painted furniture and distinctive jewelry, all by world-renowned and cutting-edge emerging artists. Excellent service!</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-05-28 13:29:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Peggy Lanning-Eiseler</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>293</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Love Africa Decor &amp; Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4834</LISTINGID>
+            <LOGOFILE/>
+            <ROW>17</ROW>
+            <WEBURL>http://www.loveafricadecor.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-8473</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>150 State Route 179 Ste 8 &amp; 9</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>info@loveafricadecor.com</EMAIL>
+            <REGION>Uptown &amp; State Route 179</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Love Africa Decor &amp; Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Love Africa Décor &amp; Gallery proudly presents a selection of Colorful, Contemporary, Conversational and Collectable home wares, décor and gallery pieces sourced from Africa. We support artists, craftsmen and small businesses and our products are natural materials, by-products or recycled materials.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2015-10-30 10:55:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-03-16 11:59:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>Africa, décor, gallery, shona sculptures, south africa</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Ian Juul</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>13138</ACCTID>
+            <PHOTOFILE>Master.RS.10-800x600.jpg</PHOTOFILE>
+            <REGIONID>1</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Mountain Trails Galleries</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>2265</LISTINGID>
+            <LOGOFILE/>
+            <ROW>18</ROW>
+            <WEBURL>http://www.mountaintrails.com</WEBURL>
+            <PRIMARYCONTACTTITLE>Accountant</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-3225</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Tlaquepaque Arts &amp; Crafts Village</ADDR2>
+            <ADDR1>336 State Route 179  Ste A201</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>fineart@mountaintrails.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX>(928) 282-7994</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Mountain Trails Galleries</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Over 25 years exhibiting award winning Western and Southwestern painting and sculpture.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE>(800) 527-6556</TOLLFREE>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-07-17 11:01:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>Mountain Trails Gallery</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Andrew Schaad</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>329</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Raku Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4184</LISTINGID>
+            <LOGOFILE/>
+            <ROW>19</ROW>
+            <WEBURL>http://www.rakugallery.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 639-0239</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>250 Hull Ave</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86331</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>art@rakugallery.com</EMAIL>
+            <REGION>Verde Valley</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 649-2562</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Raku Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Gallery represents over 200 artists predominately from the Southwest.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE>(928) 649-2631</ALTPHONE>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-01-12 14:41:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>Raku Gallery, Jerome, Jerome Arizona, Jerome AZ, Jerome art gallery, art, gallery, art gallery, Raku,</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Lynette Ammann</PRIMARYCONTACTFULLNAME>
+            <CITY>Jerome</CITY>
+            <LONGITUDE/>
+            <ACCTID>12521</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>68</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Renee Taylor Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>3110</LISTINGID>
+            <LOGOFILE/>
+            <ROW>20</ROW>
+            <WEBURL>http://www.reneetaylorgallery.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-7130</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2>Tlaquepaque Arts &amp; Crafts Village</ADDR2>
+            <ADDR1>336 State Route 179 Ste B124</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>info@reneetaylorgallery.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX>(520) 844-1077</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Renee Taylor Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>The region's largest selection of contemporary fine art in metal, canvas, and multimedia formats.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-06-22 14:39:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Renee Taylor</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>10279</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Rowe Fine Art Gallery</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>3527</LISTINGID>
+            <LOGOFILE/>
+            <ROW>21</ROW>
+            <WEBURL>http://www.rowegallery.com</WEBURL>
+            <PRIMARYCONTACTTITLE>Owner</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-8877</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>336 State Route 179 Ste A102</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>kenrowe@rowegallery.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX>(928) 282-8878</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Rowe Fine Art Gallery</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>With a cozy atmosphere and frequent artist’s demonstrations, Rowe Fine Art Gallery is a Tlaquepaque art destination.  Award-winning sculptor Ken Rowe, who has been sculpting lifelike bronze wildlife imagery for 23 years, owns the gallery along with his wife, Monica.  Rowe Fine Art emphasizes contemporary and traditional southwestern paintings and bronze sculptures.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-04-04 13:17:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>ken rowe, rowe gallery, bronze sculptures, art gallery, wildlife and western</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Monica Rowe</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>11100</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Sedona Arts Center</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>3078</LISTINGID>
+            <LOGOFILE/>
+            <ROW>22</ROW>
+            <WEBURL>http://www.sedonaartscenter.org</WEBURL>
+            <PRIMARYCONTACTTITLE>Executive Director</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-3809</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>15 Art Barn Rd</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>eric@sedonaartscenter.org</EMAIL>
+            <REGION>Uptown &amp; State Route 179</REGION>
+            <RANKNAME>500 Character Description</RANKNAME>
+            <FAX>(928) 282-1516</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Sedona Arts Center</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>Sedona’s best kept secret! The Members Fine Art Gallery - where the locals go for art. Enjoy a new themed exhibit every month featuring the best representation of Sedona artists - emerging and professional – with a wide selection of fine art in all styles and mediums. Purchases are tax-free. Become a member and receive an additional 10% discount.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE>(888) 954-4442</TOLLFREE>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>3</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-02-26 13:15:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Eric Holowacz</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>443</ACCTID>
+            <PHOTOFILE>SAC20.png</PHOTOFILE>
+            <REGIONID>1</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Soderberg Bronze</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4493</LISTINGID>
+            <LOGOFILE/>
+            <ROW>23</ROW>
+            <WEBURL>http://www.johnsoderberg.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 300-6572</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>3058 W State Route 89A</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>john@johnsoderberg.com</EMAIL>
+            <REGION>West Sedona &amp; Loop Rd within City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Soderberg Bronze</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>John M. Soderberg, Ph.D., grew up in Asia and circled the world 8 times before graduating high school in Bangkok. He was exposed to the world’s great art from the time he could walk and has produced art from age 4. He has sculpted professionally in bronze, from miniature to monumental, for 40 years.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2014-03-14 15:38:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-04-04 13:36:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>Gallery, Sculpture, Art Studio</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>12920</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>5</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Son Silver West Galleries Inc</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4546</LISTINGID>
+            <LOGOFILE/>
+            <ROW>24</ROW>
+            <WEBURL>http://www.sonsilverwest.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-3580</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>1476 State Route 179</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>sales@sonsilverwest.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>100 Character Description</RANKNAME>
+            <FAX>(928) 282-5497</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Son Silver West Galleries Inc</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>The Finest Western and Traditional Art</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE>(800) 877-7949</TOLLFREE>
+            <CREATED>2014-06-18 14:29:00.0</CREATED>
+            <RANKID>1</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2016-03-24 10:32:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>12948</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>The Melting Point</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4611</LISTINGID>
+            <LOGOFILE/>
+            <ROW>25</ROW>
+            <WEBURL>http://www.the-melting-point.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 554-4754</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>1449 W State Route 89A Ste 1</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>info@the-melting-point.com</EMAIL>
+            <REGION>West Sedona &amp; Loop Rd within City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>The Melting Point</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>The Melting Point is a new, state-of-the-art glass studio featuring a fine art gallery, a lampworking studio and a fully equipped hot shop, making The Melting Point the premier destination for glass art and glass education.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2014-09-19 14:30:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-12-17 12:09:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS>glassblowing, glass bead making, classes</LISTINGKEYWORDS>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>12989</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>5</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Tlaquepaque Arts &amp; Crafts Village</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>2142</LISTINGID>
+            <LOGOFILE/>
+            <ROW>26</ROW>
+            <WEBURL>http://www.tlaq.com</WEBURL>
+            <PRIMARYCONTACTTITLE>General Manager &amp; Resident Partner</PRIMARYCONTACTTITLE>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 282-4838</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>336 State Route 179</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86336</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>tlaqinfo@gmail.com</EMAIL>
+            <REGION>State Route 179 Inside City Limits</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX>(928) 282-4805</FAX>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Tlaquepaque Arts &amp; Crafts Village</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>A Sedona landmark since 1970's, Tlaquepaque treats visitors to an excellent collection of over 40 galleries and shops bordered by four superb restaurants.  Modeled after Guadalajara, Tlaquepaque offers outdoor dining as well as events, private parties and weddings. Open daily. Variety of shops &amp; galleries.</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2013-05-29 22:24:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE/>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-12-30 13:46:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME>Wendy Lippman</PRIMARYCONTACTFULLNAME>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>570</ACCTID>
+            <PHOTOFILE>tlaq0.jpg</PHOTOFILE>
+            <REGIONID>66</REGIONID>
+        </LISTING>
+        <LISTING>
+            <SORTCOMPANY>Village Gallery of Local Artists</SORTCOMPANY>
+            <TYPENAME>Website</TYPENAME>
+            <STATE>AZ</STATE>
+            <LISTINGID>4850</LISTINGID>
+            <LOGOFILE/>
+            <ROW>27</ROW>
+            <WEBURL>http://www.sedonalocalartists.com</WEBURL>
+            <PRIMARYCONTACTTITLE/>
+            <IMGPATH>http://Sedona.simpleviewcrm.com/images//listings/</IMGPATH>
+            <LATITUDE/>
+            <PHONE>(928) 284-1416</PHONE>
+            <CATDESCRIPTION>Art, Culture, arts, galleries, cultural activities, activity, art gallery, gallery, artist, artists, museum, museums, muesums, muesum, eduation, performing, visual art, visual, photographer, photography, murals, performers,  festival, events</CATDESCRIPTION>
+            <ADDR2/>
+            <ADDR1>6500 State Route 179 Ste 1</ADDR1>
+            <ADDITIONALSUBCATS/>
+            <ZIP>86351</ZIP>
+            <ADDR3/>
+            <CATNAME>Arts &amp; Culture</CATNAME>
+            <EMAIL>suzenvoc@yahoo.com</EMAIL>
+            <REGION>Village of Oakcreek</REGION>
+            <RANKNAME>300 Character Description</RANKNAME>
+            <FAX/>
+            <TYPEID>1</TYPEID>
+            <ACCTSTATUS>Active</ACCTSTATUS>
+            <COMPANY>Village Gallery of Local Artists</COMPANY>
+            <SUBCATID>124</SUBCATID>
+            <DESCRIPTION>We are a cooperative of forty local artists, offering the best local art available across a variety of media. From jewelry to oil paintings, from wearable art to photography, from Native American crafts to sculpture, we offer an eclectic mix of art that is truly locally created, Red Rock inspired!</DESCRIPTION>
+            <SOCIALMEDIA></SOCIALMEDIA>
+            <TOLLFREE/>
+            <CREATED>2015-11-09 18:21:00.0</CREATED>
+            <RANKID>2</RANKID>
+            <CATID>23</CATID>
+            <ALTPHONE>(928) 282-8980</ALTPHONE>
+            <DISPLAYWEBSITELINK>1</DISPLAYWEBSITELINK>
+            <LASTUPDATED>2015-11-09 18:21:00.0</LASTUPDATED>
+            <SUBCATDESCRIPTION>gallery, galleries, art gallery, art shop, art shoppes, artist, artists,</SUBCATDESCRIPTION>
+            <LISTINGKEYWORDS/>
+            <SUBCATNAME>Art Galleries</SUBCATNAME>
+            <ACCOUNTKEYWORDS/>
+            <PRIMARYCONTACTFULLNAME/>
+            <CITY>Sedona</CITY>
+            <LONGITUDE/>
+            <ACCTID>10790</ACCTID>
+            <PHOTOFILE/>
+            <REGIONID>6</REGIONID>
+        </LISTING>
+    </LISTINGS>
+    <REQUESTSTATUS>
+        <PAGESIZE>1000</PAGESIZE>
+        <PAGENUM>1</PAGENUM>
+        <RESULTS>27</RESULTS>
+        <ERRORS></ERRORS>
+        <HASERRORS>0</HASERRORS>
+    </REQUESTSTATUS>
+</RESPONSE>
