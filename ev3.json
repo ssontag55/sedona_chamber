@@ -1,0 +1,833 @@
+{"type": "FeatureCollection","features": [{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-163",
+					        "title": "89Agave",
+					        "description": "<a href=\"http://www.89agave.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/89010_0d51a84e-5056-a36f-23bdd1718ecf2b44.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.89agave.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.760607,
+					          34.869739
+					        ],"type": "Point"
+					      },"id": 163
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5111",
+					        "title": "A Sedona Vacation Villa",
+					        "description": "<a href=\"http://www.sedonavacationvillas.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/A-Sedona-Vacation-Villas---View-800x600-e55892105056a36_e55897f0-5056-a36f-23af944bfc3d125e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonavacationvillas.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.760593,
+					          34.878707
+					        ],"type": "Point"
+					      },"id": 5111
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2943",
+					        "title": "A Spa for You Sedona Day Spa",
+					        "description": "<a href=\"http://www.aspaforyou.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/New-The-Object-of-Desire-for-brochure-card-top_BA2C6B93-ED4F-4EED-B763B047DAC86A09_4fd04e5e-f365-4827-b2db759971cc5fef.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.aspaforyou.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.810319,
+					          34.864807
+					        ],"type": "Point"
+					      },"id": 2943
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1658",
+					        "title": "A Sunset Chateau",
+					        "description": "<a href=\"https://asunsetchateau.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/sunset-chateaux-0f2220a05056a36_0f2221ba-5056-a36f-232ba9dd136b200e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://asunsetchateau.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.796057,
+					          34.854459
+					        ],"type": "Point"
+					      },"id": 1658
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1617",
+					        "title": "Absolute Bikes",
+					        "description": "<a href=\"http://www.absolutebikes.net\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Capture0-cad5d9fc5056a36_cad5db49-5056-a36f-23e5deda885ef14c.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.absolutebikes.net\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.762531,
+					          34.787899
+					        ],"type": "Point"
+					      },"id": 1617
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1496",
+					        "title": "Accurate Psychic Readings by Nirup",
+					        "description": "<a href=\"https://psychicnirup.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/New-Nirup-Horizontal-8bed8ee05056a36_8bed9020-5056-a36f-23d20305c52cba31.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://psychicnirup.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.808460,
+					          34.863049
+					        ],"type": "Point"
+					      },"id": 1496
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4565",
+					        "title": "Adobe Village Inn",
+					        "description": "<a href=\"http://www.adobevillageinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/adobe-village-inn-0dbdc0445056a36_0dbdc1ba-5056-a36f-230c8929a0056cb8.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.adobevillageinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.765416,
+					          34.789267
+					        ],"type": "Point"
+					      },"id": 4565
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3812",
+					        "title": "Adventure Jeep Tours",
+					        "description": "<a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Jeep-1-800x6000_0d674360-5056-a36f-235ab182ea8154f1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonaoffroadadventures.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.759413,
+					          34.871102
+					        ],"type": "Point"
+					      },"id": 3812
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2846",
+					        "title": "Alcantara Vineyards",
+					        "description": "<a href=\"https://alcantaravineyard.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/alcantara0_0d21355f-5056-a36f-23cac2d60d0e2dc5.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://alcantaravineyard.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.945443,
+					          34.675191
+					        ],"type": "Point"
+					      },"id": 2846
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5125",
+					        "title": "Alejandro Gutierrez - Russ Lyon Sotheby's International Realty",
+					        "description": "<a href=\"http://www.ag4re.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AG-Photo_1_800x600_66336B35-F547-43B8-AAA42BE51ABB1E6E_6eada086-22be-44af-8d8801ba7cddca2e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.ag4re.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.813654,
+					          34.862233
+					        ],"type": "Point"
+					      },"id": 5125
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-922",
+					        "title": "Alma de Sedona Inn",
+					        "description": "<a href=\"http://www.almadesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AlmaDeSedona-800x600010_0d3c8143-5056-a36f-236504ad972b2dd1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.almadesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.811438,
+					          34.864919
+					        ],"type": "Point"
+					      },"id": 922
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7770",
+					        "title": "Always on Vacay",
+					        "description": "<a href=\"https://shopinspiredcollections.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Vacay-Logo_6AF1F6F9-920A-455C-BC5D0A0245F947C9_810bd427-9afa-4f2e-b89da3bcf68bb568.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://shopinspiredcollections.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.762269,
+					          34.867502
+					        ],"type": "Point"
+					      },"id": 7770
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1715",
+					        "title": "Amara Resort & Spa",
+					        "description": "<a href=\"http://www.amararesort.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Amara-Resort-Spa10_0d3416a0-5056-a36f-23cea7b178295aec.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.amararesort.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.758278,
+					          34.869435
+					        ],"type": "Point"
+					      },"id": 1715
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3077",
+					        "title": "Amazing Acupuncture & Asian Medicine, PLLC, Precision Functional Health",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.acupuncturesedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.798330,
+					          34.863247
+					        ],"type": "Point"
+					      },"id": 3077
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3325",
+					        "title": "Ambaya Gold",
+					        "description": "<a href=\"http://www.ambayagold.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Capture0-37af9f795056a36_37afa04e-5056-a36f-23194365f606c83a.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.ambayagold.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.809458,
+					          34.865565
+					        ],"type": "Point"
+					      },"id": 3325
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7386",
+					        "title": "Ambiente, A Landscape Hotel",
+					        "description": "<a href=\"http://www.ambientesedona.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/FINAL_Ambiente-a-Landscape-Hotel-in-Sedona-Ariz-96f46f575056a36_96f4707d-5056-a36f-23107ade67defa86.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.ambientesedona.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.776525,
+					          34.865391
+					        ],"type": "Point"
+					      },"id": 7386
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-8011",
+					        "title": "Angel Kitchen",
+					        "description": "<a href=\"https://www.sedona-angelkitchen.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Capture0-6696b2685056a36_6696b361-5056-a36f-2314003bee34ebee.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sedona-angelkitchen.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.788301,
+					          34.863860
+					        ],"type": "Point"
+					      },"id": 8011
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-854",
+					        "title": "Angel Valley Sedona",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.angelvalleysedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.876936,
+					          34.802171
+					        ],"type": "Point"
+					      },"id": 854
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2193",
+					        "title": "Antelope Canyon Navajo Tours",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.navajotours.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.429402,
+					          36.965216
+					        ],"type": "Point"
+					      },"id": 2193
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7583",
+					        "title": "Appaloosa Trading Company",
+					        "description": "<a href=\"https://www.appaloosatradingco.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Captura-de-Pantalla-2021-02-05-a-la-s-15.46.02_53C931AD-6DC2-40D8-9478D0BEF1957E29_7ddeacf4-1d90-44f6-80c19fc1d2c3dc99.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.appaloosatradingco.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.761606,
+					          34.860807
+					        ],"type": "Point"
+					      },"id": 7583
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2090",
+					        "title": "Arcosanti / The Cosanti Foundation",
+					        "description": "<a href=\"http://www.arcosanti.org\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Arcosanti-Jessica-Jameson_5ED0803A-25E1-48AB-90160E8871A83832_9dcd1a85-457d-4e5d-848f5c286d3b772b.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arcosanti.org\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -112.100724,
+					          34.342857
+					        ],"type": "Point"
+					      },"id": 2090
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1513",
+					        "title": "Arizona Natural History Association",
+					        "description": "<a href=\"http://www.aznaturalhistory.org\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/anha-signature-logo_F3F94BEB-0236-4C0D-944F390A37D61EEF_009adf38-a83b-493b-a03d3f11ae136d43.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.aznaturalhistory.org\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.764331,
+					          34.757286
+					        ],"type": "Point"
+					      },"id": 1513
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3199",
+					        "title": "Arizona Pride Guide",
+					        "description": "<a href=\"http://www.gayarizona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/2020_PrideGuide_Cover0-85eb9cb25056a36_85eb9e2e-5056-a36f-23d42e03156f0e4f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.gayarizona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -112.046430,
+					          33.527892
+					        ],"type": "Point"
+					      },"id": 3199
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-11",
+					        "title": "Arizona Public Service Company",
+					        "description": "<br><div id=\"linksite\"><a href=\"https://www.aps.com/business\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -112.013435,
+					          34.729140
+					        ],"type": "Point"
+					      },"id": 11
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1784",
+					        "title": "Arizona Safari Jeep Tours",
+					        "description": "<a href=\"http://www.safarijeeptours.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/arizona-safari-jeep-tours---logo-800x600-1fc37f625056a36_1fc3816f-5056-a36f-23ef575663c996b9.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.safarijeeptours.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.761486,
+					          34.871250
+					        ],"type": "Point"
+					      },"id": 1784
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-897",
+					        "title": "Arizona Snowbowl",
+					        "description": "<a href=\"https://www.snowbowl.ski/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/untitled-7875_954FA36A-53E5-4582-A9D093FED904C265_e804a8d5-9729-4474-84cc55524bbc5f29.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.snowbowl.ski/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.710321,
+					          35.330917
+					        ],"type": "Point"
+					      },"id": 897
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3520",
+					        "title": "Arizona Stronghold Vineyards",
+					        "description": "<a href=\"http://www.azstronghold.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ASVlogo2014_4B225868-553E-4749-BC2135E06487D8E3_1c92fdc0-1b1b-4c39-8ae5494871a4e9dd.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.azstronghold.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -112.027099,
+					          34.748567
+					        ],"type": "Point"
+					      },"id": 3520
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-960",
+					        "title": "Arizona Tourism Center",
+					        "description": "<a href=\"http://www.arizonatourismcenter.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/12584_Brown_ATC_by_DRI_Logo_Final0_0d5cbe2a-5056-a36f-23a019b3ea1c9ee3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arizonatourismcenter.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.795877,
+					          34.864664
+					        ],"type": "Point"
+					      },"id": 960
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-575",
+					        "title": "Arizona Weddings in Sedona",
+					        "description": "<a href=\"http://www.weddingsinsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/DCV.1_E6CF647F-7AF0-43E4-9C32806BE7B8EB6B_5c64f9fa-b0d3-4276-9c62c272643dee16\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.weddingsinsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.809681,
+					          34.864931
+					        ],"type": "Point"
+					      },"id": 575
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-725",
+					        "title": "Arroyo Pinion Sedona Hotel LLC",
+					        "description": "<a href=\"http://www.arroyopinion.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AZ021exterior1_3433127E-40A3-4CB5-A60AD5B27E357DD9_7d3fd81c-af6b-4d26-b5b5f40931aba00a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.arroyopinion.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.814865,
+					          34.861138
+					        ],"type": "Point"
+					      },"id": 725
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1160",
+					        "title": "Art Scene",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.redrocknews.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.761727,
+					          34.870414
+					        ],"type": "Point"
+					      },"id": 1160
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-5902",
+					        "title": "Art Source Media",
+					        "description": "<a href=\"http://sedonaartsource.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SAS-Facebook-cover-4mags-Sedona-Chamber_30CC28FF-3CEA-4F54-85ED9AB7C33C6E3C_f8cdcae8-9fbd-4fef-ae0236599c06d54a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://sedonaartsource.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.806762,
+					          34.862100
+					        ],"type": "Point"
+					      },"id": 5902
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4952",
+					        "title": "Aumbase Sedona",
+					        "description": "<a href=\"http://www.aumbasesedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AumbaseSedonaLogo-800x600_0d6a1f1f-5056-a36f-2308950cab50e4bb.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.aumbasesedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.782156,
+					          34.862491
+					        ],"type": "Point"
+					      },"id": 4952
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1025",
+					        "title": "Azadi Fine Rugs",
+					        "description": "<a href=\"http://www.azadifinerugs.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/AZADI-LOGO-VERT-VECTOR-2016-800x600_0d62f9f5-5056-a36f-239033f7402b1d73.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.azadifinerugs.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.763363,
+					          34.862134
+					        ],"type": "Point"
+					      },"id": 1025
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2262",
+					        "title": "Baby Quail Inn",
+					        "description": "<a href=\"http://www.babyquailinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/baby-quail-inn-sign-pic10_0d1dbe9b-5056-a36f-234aeb8b4e22960c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.babyquailinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.785776,
+					          34.862212
+					        ],"type": "Point"
+					      },"id": 2262
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4919",
+					        "title": "Barbara Baker Realty",
+					        "description": "<a href=\"http://barbarabakerrealty.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/barbara-baker-realty-800x600_0d5c600e-5056-a36f-239413953a4bb539.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://barbarabakerrealty.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.780918,
+					          34.862633
+					        ],"type": "Point"
+					      },"id": 4919
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1618",
+					        "title": "Barlow Jeep Rentals",
+					        "description": "<a href=\"http://www.barlows.us\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Barlow-jeep_0d4a089e-5056-a36f-23542e2bf4adbcb1.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.barlows.us\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.812522,
+					          34.861558
+					        ],"type": "Point"
+					      },"id": 1618
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4913",
+					        "title": "Bearcloud Gallery",
+					        "description": "<a href=\"http://www.bearcloudgallery.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Bearcloud-Painting-800x600_0d6e0007-5056-a36f-23df3561f83d4343.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.bearcloudgallery.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.764372,
+					          34.774118
+					        ],"type": "Point"
+					      },"id": 4913
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3541",
+					        "title": "Bearizona Wildlife Park",
+					        "description": "<a href=\"http://www.bearizona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Baby-cub-at-Bearizona0-a816be2e5056a36_a816bf48-5056-a36f-235baf221702386c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.bearizona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -112.153855,
+					          35.256106
+					        ],"type": "Point"
+					      },"id": 3541
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-25",
+					        "title": "Bell Rock Inn",
+					        "description": "<a href=\"https://www.sedonahotelsandresorts.com/bellrockinnandsuites/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/exterior-2_bell-rock-inn_sedona-arizona-800x6000_0d63c2f5-5056-a36f-23fc64521943e01c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.sedonahotelsandresorts.com/bellrockinnandsuites/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.763615,
+					          34.786052
+					        ],"type": "Point"
+					      },"id": 25
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6443",
+					        "title": "Bennali's on Main",
+					        "description": "<a href=\"https://bennali.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/bennali-Capture-c77618a55056a36_c77619ab-5056-a36f-2313e68bdac5341d.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://bennali.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.760158,
+					          34.870602
+					        ],"type": "Point"
+					      },"id": 6443
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-13",
+					        "title": "BEST WESTERN PLUS Arroyo Roble Hotel & Creekside Villas",
+					        "description": "<a href=\"www.bestwestern.com/PlusArroyoRobleHotelandCreeksideVillas\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/BWAR-exterior-2017_2C74A972-C87D-42D9-B68CDCF1B8A7347F_ec9cb1a2-d54e-47a6-9e0ade64f950640a.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"www.bestwestern.com/PlusArroyoRobleHotelandCreeksideVillas\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.758164,
+					          34.871877
+					        ],"type": "Point"
+					      },"id": 13
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2686",
+					        "title": "Body Bliss Factory Direct",
+					        "description": "<a href=\"http://www.bodyblissfactorydirect.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/BODY-BLISS010_0d588e1c-5056-a36f-2333635269eaa96e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.bodyblissfactorydirect.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.758395,
+					          34.871039
+					        ],"type": "Point"
+					      },"id": 2686
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-33",
+					        "title": "Briar Patch Inn on Oak Creek",
+					        "description": "<a href=\"http://www.briarpatchinn.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Briar-Patch-Inn10_0d251605-5056-a36f-233dd701f32038af.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.briarpatchinn.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.730956,
+					          34.899422
+					        ],"type": "Point"
+					      },"id": 33
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4350",
+					        "title": "Burning Tree Cellars",
+					        "description": "<a href=\"http://www.burningtreecellars.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/burning_tree_logo010_0d3eeb31-5056-a36f-23485742a30a38d7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.burningtreecellars.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -112.029864,
+					          34.750165
+					        ],"type": "Point"
+					      },"id": 4350
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-7232",
+					        "title": "Butterfly Burger",
+					        "description": "<a href=\"https://www.butterflyburger.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Butterfly-Burger-c139add45056a36_c139aeec-5056-a36f-23f127063474081e.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.butterflyburger.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.762311,
+					          34.777827
+					        ],"type": "Point"
+					      },"id": 7232
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-8005",
+					        "title": "C. Francis White, LLC",
+					        "description": "<a href=\"None\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Head-Shot---Francis-White-f45014d05056a36_f4501668-5056-a36f-23c614323977b36c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"None\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.763086,
+					          34.865410
+					        ],"type": "Point"
+					      },"id": 8005
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-4852",
+					        "title": "Cactus Carlos LLC",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.cactuscarlosaz.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.760059,
+					          34.871502
+					        ],"type": "Point"
+					      },"id": 4852
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3639",
+					        "title": "Cafe Jose",
+					        "description": "<a href=\"http://www.sedonacafejose.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cafe-Jose10_0d3df87f-5056-a36f-237686f480ed907e.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.sedonacafejose.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.801675,
+					          34.863446
+					        ],"type": "Point"
+					      },"id": 3639
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1275",
+					        "title": "Canyon Breeze Restaurant & Bar",
+					        "description": "<a href=\"http://www.canyon-breeze.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/CB-Bar-View-1-LR-sgp-55839c835056a36_55839d9a-5056-a36f-2398abd8ca992ca7.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyon-breeze.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.759675,
+					          34.870721
+					        ],"type": "Point"
+					      },"id": 1275
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1026",
+					        "title": "Canyon Mesa Country Club",
+					        "description": "<a href=\"http://www.canyonmesacountryclub.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Canyon-Mesa-Counrty-Club-Golf-Course-0030_0d3a5d40-5056-a36f-2383fbbf3d7ebc3c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyonmesacountryclub.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.750989,
+					          34.779753
+					        ],"type": "Point"
+					      },"id": 1026
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-514",
+					        "title": "Canyon Outfitters",
+					        "description": "<a href=\"http://www.canyonoutfitterssedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/IMG_1579010_0d5f9f59-5056-a36f-23a255c77a37449c.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyonoutfitterssedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.806507,
+					          34.862644
+					        ],"type": "Point"
+					      },"id": 514
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-383",
+					        "title": "Canyon Villa Bed & Breakfast Inn of Sedona",
+					        "description": "<a href=\"http://www.canyonvilla.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/canyonvilla20-0e18b95c5056a36_0e18babd-5056-a36f-232bf28a9c6ea7ca.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.canyonvilla.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.763947,
+					          34.790139
+					        ],"type": "Point"
+					      },"id": 383
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-384",
+					        "title": "Casa Sedona Inn",
+					        "description": "<a href=\"http://www.casasedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/18589028_1292254167548695_7242308482114427740_o_19392439-895B-4FCC-BC0A44E8E29A9B87_d9ec12a2-581e-4742-b4d6ff0eaec93c98.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.casasedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.812161,
+					          34.864681
+					        ],"type": "Point"
+					      },"id": 384
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6648",
+					        "title": "Casago",
+					        "description": "<a href=\"https://casago.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/CASAGO1transparent_CCEF6CC6-DA8B-4BF3-9E36AE7F467DF694_e532c528-04c4-4ee7-bb483c789f9c3645.png\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://casago.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.781946,
+					          34.862743
+					        ],"type": "Point"
+					      },"id": 6648
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-6215",
+					        "title": "CBD Sedona",
+					        "description": "<a href=\"http://cbdsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/CBDS---Storefront-Photo-Chamber_8D9208EE-0EB4-4858-ABC10B118D6BF74D_d4caca29-0195-4f9c-9084902d1a98ae2f.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://cbdsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.796970,
+					          34.863029
+					        ],"type": "Point"
+					      },"id": 6215
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2881",
+					        "title": "CC Trading Company, LLC",
+					        "description": "<a href=\"http://www.clearcreektrading.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/cct-sw-corner-800x600_0d3f8591-5056-a36f-234d2b6f308b70fd.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.clearcreektrading.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.757605,
+					          34.872624
+					        ],"type": "Point"
+					      },"id": 2881
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-3824",
+					        "title": "Cedic Plaza LLC",
+					        "description": "<a href=\"http://www.cedicplazasedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Cedic-Market-LLC-Photo-800x600_0d6998b4-5056-a36f-23509e966eb765ec.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cedicplazasedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.761465,
+					          34.870257
+					        ],"type": "Point"
+					      },"id": 3824
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2513",
+					        "title": "Center for the New Age",
+					        "description": "<a href=\"http://sedonanewagestore.com/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/SedonaNewAge_Store010_0d38ded3-5056-a36f-236a1b8b4bdcfec8.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://sedonanewagestore.com/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.762577,
+					          34.863047
+					        ],"type": "Point"
+					      },"id": 2513
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-43",
+					        "title": "Chapel of the Holy Cross",
+					        "description": "<a href=\"http://www.chapeloftheholycross.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/ChapeloftheHolyCross0_0d6f06c1-5056-a36f-2359a49479665bf3.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.chapeloftheholycross.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.766740,
+					          34.832021
+					        ],"type": "Point"
+					      },"id": 43
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-72",
+					        "title": "Che Ah Chi",
+					        "description": "<a href=\"https://www.enchantmentresort.com/che_ah_chi_dining/\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/chi-ah-chi-cb4568d05056a36_cb4569c6-5056-a36f-231a68db04008d04.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"https://www.enchantmentresort.com/che_ah_chi_dining/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.853928,
+					          34.914222
+					        ],"type": "Point"
+					      },"id": 72
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-44",
+					        "title": "Cheers",
+					        "description": "<a href=\"http://www.cheersofsedona.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/cheers2-600x360-5671d4335056a36_5671d64b-5056-a36f-23b3377901f9d260.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.cheersofsedona.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.761521,
+					          34.869004
+					        ],"type": "Point"
+					      },"id": 44
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-1255",
+					        "title": "Cheers Again",
+					        "description": "<br><div id=\"linksite\"><a href=\"http://www.cheersofsedona.com\" target=\"_blank\">Visit website for more info!</a></div><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.760849,
+					          34.869804
+					        ],"type": "Point"
+					      },"id": 1255
+					    },{
+					      "type": "Feature",
+					      "properties": {
+					        "id": "marker-2714",
+					        "title": "ChocolaTree Organic Oasis",
+					        "description": "<a href=\"http://www.chocolatree.com\" target=\"_blank\"><img src=\"http://assets.simpleviewinc.com/simpleview/image/upload/c_fit,w_800,h_600/crm/sedona/Avocado-Herb-Sandwich-0f7aa6985056a36_0f7aa78f-5056-a36f-2353f0f2ca1e8a68.jpg\" height=\"160\" width=\"160\"></a><br></div><div id=\"linksite\"><a href=\"http://www.chocolatree.com\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+					        "marker-size": "medium",
+					        "marker-color": "#66f5ff",
+					        "marker-symbol": "fuel"
+					      },"geometry": {"coordinates": [ -111.788374,
+					          34.862972
+					        ],"type": "Point"
+					      },"id": 2714
+					    }],"id": "sedonachamber.ev"}
