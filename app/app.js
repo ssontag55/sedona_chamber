@@ -457,7 +457,7 @@ function startup(){
     var selectedValue = $(this).data('value');
     
     // determine newSelectValue and select/deselect
-    const newSelectValue = selectedLayers.indexOf(selectedValue) == -1;
+    var newSelectValue = selectedLayers.indexOf(selectedValue) == -1;
     selectDeselect($(this), selectedValue, newSelectValue);
 
     // if item has children, select/deselect them all
