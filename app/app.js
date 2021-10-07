@@ -1074,7 +1074,7 @@ function startup(){
 	vex.dialog.buttons.NO.text = 'Browse Map';
 
 	//don't need to show data:
-	todayDateString = "Walk Sedona shows Sedona Attractions and potential walkable locations.<br><br>Press 'Start Here' to find closest location.<br><br>Use the drop down list <span class='caret'></span> at the <b>top</b> of the page to search more categories.<br><br>Use the <span class='fa fa-map-marker'></span> to the <b>left</b> to find yourself on the map.";
+	todayDateString = "SedonaSecret7 map to lesser-known locations to enjoy.<br><br>Press 'Start Here' to find closest location.<br><br>Use the drop down list <span class='caret'></span> at the <b>top</b> of the page to search more categories.<br><br>Use the <span class='fa fa-map-marker'></span> to the <b>left</b> to find yourself on the map.";
 
   /// disable 
 	/*if(d.getDay() == 5&&d.getDate()<7){
@@ -1087,7 +1087,7 @@ function startup(){
 	  todayDateString= todayDateString+'<br><br><i>Galleries may be closed in the evening.</i>'
 	}*/
 
-  todayDateString= todayDateString+'<br><br><i>Check Location Website for up-to-date hours of operations.</i>'
+  // todayDateString= todayDateString+'<br><br><i>Check Location Website for up-to-date hours of operations.</i>'
 
 	vex.dialog.confirm({
 	  message: "<br><a target='_blank' href='http://visitsedona.com/'><img src='assets/big_sedona.png' style='padding-left:70px;padding-bottom:5px !important;padding-right:32px !important;'></></a><br><br>"+todayDateString,
