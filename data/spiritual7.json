@@ -1,1 +1,124 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"title":"Spiritual","description":"Rachels Knoll<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/spiritual/rachels-knoll/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","marker-color":"#fb8072","marker-size":"large","marker-symbol":"s"},"geometry":{"type":"Point","coordinates":[-111.82546511431057,34.91858365232796]}},{"type":"Feature","properties":{"title":"Spiritual","description":"BALDWIN TRAIL TO RED ROCK CROSSING<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/spiritual/baldwin-trail-to-red-rock-crossing/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","marker-color":"#fb8072","marker-size":"large","marker-symbol":"s"},"geometry":{"type":"Point","coordinates":[-111.808198,34.821789]}},{"type":"Feature","properties":{"title":"Spiritual","description":"CHAPEL OF THE HOLY CROSS<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/spiritual/chapel-of-the-holy-cross/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","marker-color":"#fb8072","marker-size":"large","marker-symbol":"s"},"geometry":{"type":"Point","coordinates":[-111.766755,34.832026]}},{"type":"Feature","properties":{"title":"Spiritual","description":"PYRAMID MOUNTAIN TRAIL<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/spiritual/pyramid-mountain/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","marker-color":"#fb8072","marker-size":"large","marker-symbol":"s"},"geometry":{"type":"Point","coordinates":[ -111.8133923644986,34.83296457942102]}},{"type":"Feature","properties":{"title":"Spiritual","description":"LITTLE HORSE TRAIL<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/spiritual/little-horse-trail/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","marker-color":"#fb8072","marker-size":"large","marker-symbol":"s"},"geometry":{"type":"Point","coordinates":[-111.776173,34.824561]}},{"type":"Feature","properties":{"title":"Spiritual","description":"THUNDER MOUNTAIN TRAILHEAD<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/spiritual/thunder-mountain-trailhead/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","marker-color":"#fb8072","marker-size":"large","marker-symbol":"s"},"geometry":{"type":"Point","coordinates":[-111.812304,34.872021]}},{"type":"Feature","properties":{"title":"Spiritual","description":"WEDDING TREE AT RED ROCK STATE PARK<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/spiritual/wedding-tree-at-red-rock-state-park/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>","marker-color":"#fb8072","marker-size":"large","marker-symbol":"s"},"geometry":{"type":"Point","coordinates":[-111.828594,34.811508]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ancient Trails",
+        "description": "Montezuma Castle National Monument<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/ancient-trails/montezuma-castle-national-monument/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+        "marker-color": "#fb8072",
+        "marker-size": "large",
+        "marker-symbol": "t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.836007,
+           34.611328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ancient Trails",
+        "description": "The Crane Petroglyph and Historic V Bar V Ranch<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/ancient-trails/the-crane-petroglyph-and-historic-v-bar-v-ranch/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+        "marker-color": "#fb8072",
+        "marker-size": "large",
+        "marker-symbol": "t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.71609081343273,
+          34.66576116218782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ancient Trails",
+        "description": "Honanki Heritage Site<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/ancient-trails/honanki-heritage-site/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+        "marker-color": "#fb8072",
+        "marker-size": "large",
+        "marker-symbol": "t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.934495,
+          34.936567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ancient Trails",
+        "description": "Tuzigoot National Monument<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/ancient-trails/tuzigoot-national-monument/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+        "marker-color": "#fb8072",
+        "marker-size": "large",
+        "marker-symbol": "t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.026887,
+          34.770293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ancient Trails",
+        "description": "Verde Valley Archaeology Center & Museum [VVAC]<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/ancient-trails/verde-valley-archaeology-center-museum/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+        "marker-color": "#fb8072",
+        "marker-size": "large",
+        "marker-symbol": "t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.862415,
+          34.566012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ancient Trails",
+        "description": "Palatki Heritage Site<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/ancient-trails/palatki-heritage-site/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+        "marker-color": "#fb8072",
+        "marker-size": "large",
+        "marker-symbol": "t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.902117,
+          34.915571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ancient Trails",
+        "description": "Montezuma Well Heritage Site<br><div id=\"linksite\"><a href=\"https://visitsedona.com/sedona-secret-7/ancient-trails/montezuma-well-heritage-site/\" target=\"_blank\">Visit Site for More Info!</a><div id=\"direc\"><a target=\"_blank\">Get Directions!</a></div>",
+        "marker-color": "#fb8072",
+        "marker-size": "large",
+        "marker-symbol": "t"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.754906,
+          34.648850
+        ]
+      }
+    }
+  ]
+}
